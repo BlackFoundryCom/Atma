@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u" format="1">
-  <advance width="428"/>
+  <advance width="488"/>
   <unicode hex="0075"/>
   <outline>
     <contour>
       <point x="-5" y="505"/>
       <point x="-31" y="385"/>
       <point x="-31" y="265" type="curve" smooth="yes"/>
-      <point x="-31" y="128"/>
-      <point x="23.8974358974" y="-10.0"/>
+      <point x="-31.0" y="128.0"/>
+      <point x="16.0769230769" y="-10.0"/>
       <point x="185" y="-10" type="curve" smooth="yes"/>
       <point x="411.85915493" y="-10.0"/>
       <point x="458.0" y="203.0"/>
@@ -34,8 +34,8 @@
       <point x="170.527179703" y="538.026007249"/>
       <point x="143.0" y="536.0"/>
       <point x="118" y="536" type="curve" smooth="yes"/>
-      <point x="64.0" y="536.0"/>
-      <point x="8" y="531"/>
+      <point x="58.6" y="536.0"/>
+      <point x="8.0" y="531.0"/>
       <point x="8" y="531" type="curve"/>
     </contour>
   </outline>
@@ -354,7 +354,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>428</integer>
+          <integer>488</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
