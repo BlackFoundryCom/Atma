@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bn_matra.e" format="1">
-  <advance width="358"/>
+  <advance width="388"/>
   <unicode hex="09C7"/>
   <outline>
     <contour>
@@ -28,8 +28,8 @@
       <point x="433" y="56" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="32" y="595"/>
-      <point x="113.186813187" y="600.0"/>
+      <point x="34.5801548856" y="595.451472824"/>
+      <point x="109.78021978" y="600.0"/>
       <point x="182" y="600" type="curve" smooth="yes"/>
       <point x="255.738636364" y="600.0"/>
       <point x="327.851328468" y="595.507283548"/>
@@ -43,8 +43,8 @@
       <point x="333.242652252" y="731.674783484"/>
       <point x="253.290322581" y="743.0"/>
       <point x="172" y="743" type="curve" smooth="yes"/>
-      <point x="106.139534884" y="743.0"/>
-      <point x="28" y="735"/>
+      <point x="102.709302326" y="743.0"/>
+      <point x="30.8728659707" y="736.416526742"/>
       <point x="-30" y="710" type="curve"/>
       <point x="-37" y="698"/>
       <point x="-40" y="683"/>
@@ -488,7 +488,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>358</integer>
+          <integer>388</integer>
         </dict>
       </dict>
     </dict>
