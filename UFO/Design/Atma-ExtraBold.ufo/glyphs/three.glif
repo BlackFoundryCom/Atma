@@ -18,7 +18,7 @@
       <point x="14" y="524"/>
     </contour>
     <contour>
-      <point x="188" y="316" type="line"/>
+      <point x="188" y="316" type="curve"/>
       <point x="287" y="270"/>
       <point x="310.0" y="172.0"/>
       <point x="310.0" y="117.0" type="curve" smooth="yes"/>
@@ -47,6 +47,8 @@
       <point x="329" y="529"/>
       <point x="267" y="465"/>
       <point x="190" y="417" type="curve"/>
+      <point x="179" y="385"/>
+      <point x="179" y="352"/>
     </contour>
   </outline>
   <lib>
