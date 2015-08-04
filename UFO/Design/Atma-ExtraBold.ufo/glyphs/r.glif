@@ -24,7 +24,7 @@
       <point x="184" y="517" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="548" y="343" type="line"/>
+      <point x="548" y="343" type="curve"/>
       <point x="548" y="492"/>
       <point x="487" y="543"/>
       <point x="406" y="543" type="curve" smooth="yes"/>
@@ -38,6 +38,8 @@
       <point x="341" y="392"/>
       <point x="350" y="372"/>
       <point x="350" y="337" type="curve"/>
+      <point x="419" y="330"/>
+      <point x="485" y="332"/>
     </contour>
   </outline>
 </glyph>
