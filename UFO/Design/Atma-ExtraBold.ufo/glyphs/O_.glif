@@ -4,32 +4,32 @@
   <unicode hex="004F"/>
   <outline>
     <contour>
-      <point x="323" y="733" type="curve" smooth="yes"/>
-      <point x="110.0" y="733.0"/>
-      <point x="-30" y="552"/>
-      <point x="-30" y="323" type="curve" smooth="yes"/>
-      <point x="-30" y="144"/>
-      <point x="41.1764705882" y="-20.0"/>
-      <point x="234" y="-20" type="curve" smooth="yes"/>
-      <point x="507.169491525" y="-20.0"/>
-      <point x="589" y="265"/>
-      <point x="589" y="432" type="curve" smooth="yes"/>
-      <point x="589" y="621"/>
-      <point x="490.0" y="733.0"/>
+      <point x="383" y="733" type="curve" smooth="yes"/>
+      <point x="170.0" y="733.0"/>
+      <point x="30.0" y="557.725"/>
+      <point x="30" y="323" type="curve" smooth="yes"/>
+      <point x="30.0" y="149.07082153"/>
+      <point x="101.176470588" y="-20.0"/>
+      <point x="294" y="-20" type="curve" smooth="yes"/>
+      <point x="567.169491525" y="-20.0"/>
+      <point x="649.0" y="268.614718615"/>
+      <point x="649" y="432" type="curve" smooth="yes"/>
+      <point x="649.0" y="627.494845361"/>
+      <point x="550.0" y="733.0"/>
     </contour>
     <contour>
-      <point x="280" y="613" type="curve" smooth="yes"/>
-      <point x="345.0" y="613.0"/>
-      <point x="380" y="540"/>
-      <point x="380" y="377" type="curve" smooth="yes"/>
-      <point x="380" y="260"/>
-      <point x="358.441860465" y="100.0"/>
-      <point x="277" y="100" type="curve" smooth="yes"/>
-      <point x="204.142857143" y="100.0"/>
-      <point x="175" y="238"/>
-      <point x="175" y="351" type="curve" smooth="yes"/>
-      <point x="175" y="502"/>
-      <point x="219.0" y="613.0"/>
+      <point x="340" y="613" type="curve" smooth="yes"/>
+      <point x="405.0" y="613.0"/>
+      <point x="440.0" y="547.212389381"/>
+      <point x="440" y="377" type="curve" smooth="yes"/>
+      <point x="440.0" y="264.076655052"/>
+      <point x="418.441860465" y="100.0"/>
+      <point x="337" y="100" type="curve" smooth="yes"/>
+      <point x="264.142857143" y="100.0"/>
+      <point x="235.0" y="242.329501916"/>
+      <point x="235" y="351" type="curve" smooth="yes"/>
+      <point x="235.0" y="507.992063492"/>
+      <point x="279.0" y="613.0"/>
     </contour>
   </outline>
   <lib>
@@ -55,7 +55,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>309</integer>
+                  <integer>369</integer>
                   <key>y</key>
                   <integer>553</integer>
                 </dict>
@@ -63,7 +63,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>181</integer>
+                  <integer>241</integer>
                   <key>y</key>
                   <integer>553</integer>
                 </dict>
@@ -71,7 +71,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>90</integer>
+                  <integer>150</integer>
                   <key>y</key>
                   <integer>416</integer>
                 </dict>
@@ -81,7 +81,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>90</integer>
+                  <integer>150</integer>
                   <key>y</key>
                   <integer>237</integer>
                 </dict>
@@ -89,7 +89,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>90</integer>
+                  <integer>150</integer>
                   <key>y</key>
                   <integer>128</integer>
                 </dict>
@@ -97,7 +97,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>124</integer>
+                  <integer>184</integer>
                   <key>y</key>
                   <integer>-10</integer>
                 </dict>
@@ -107,7 +107,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>259</integer>
+                  <integer>319</integer>
                   <key>y</key>
                   <integer>-10</integer>
                 </dict>
@@ -115,7 +115,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>416</integer>
+                  <integer>476</integer>
                   <key>y</key>
                   <integer>-10</integer>
                 </dict>
@@ -123,7 +123,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>469</integer>
+                  <integer>529</integer>
                   <key>y</key>
                   <integer>215</integer>
                 </dict>
@@ -133,7 +133,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>469</integer>
+                  <integer>529</integer>
                   <key>y</key>
                   <integer>349</integer>
                 </dict>
@@ -141,7 +141,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>469</integer>
+                  <integer>529</integer>
                   <key>y</key>
                   <integer>491</integer>
                 </dict>
@@ -149,7 +149,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>407</integer>
+                  <integer>467</integer>
                   <key>y</key>
                   <integer>553</integer>
                 </dict>
