@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="I" format="1">
-  <advance width="316"/>
+  <advance width="321"/>
   <unicode hex="0049"/>
   <outline>
     <contour>
       <point x="83" y="-32" type="curve"/>
-      <point x="140" y="-32"/>
-      <point x="226" y="-22"/>
+      <point x="141.666666667" y="-32.0"/>
+      <point x="225.115182674" y="-22.2681264623"/>
       <point x="259" y="-12" type="curve"/>
       <point x="273" y="136"/>
       <point x="281" y="355"/>
@@ -14,8 +14,8 @@
       <point x="281" y="583"/>
       <point x="280" y="635"/>
       <point x="278" y="677" type="curve"/>
-      <point x="245" y="686"/>
-      <point x="210" y="689"/>
+      <point x="243.414037169" y="686.432535318"/>
+      <point x="211.75257732" y="689.0"/>
       <point x="176" y="689" type="curve" smooth="yes"/>
       <point x="121" y="689"/>
       <point x="74" y="673"/>
@@ -209,7 +209,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>316</integer>
+          <integer>321</integer>
         </dict>
         <key>mask</key>
         <dict>
@@ -231,7 +231,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>316</integer>
+          <integer>321</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
