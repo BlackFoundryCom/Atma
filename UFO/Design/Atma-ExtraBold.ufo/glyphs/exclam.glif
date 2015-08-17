@@ -20,6 +20,26 @@
       <point x="181" y="703"/>
       <point x="153" y="685" type="curve"/>
     </contour>
+    <contour>
+      <point x="391" y="37"/>
+      <point x="398" y="104"/>
+      <point x="410" y="137" type="curve"/>
+      <point x="393" y="146"/>
+      <point x="361" y="151"/>
+      <point x="320" y="151" type="curve" smooth="yes"/>
+      <point x="278" y="151"/>
+      <point x="243" y="144"/>
+      <point x="215" y="131" type="curve"/>
+      <point x="210" y="114"/>
+      <point x="209" y="94"/>
+      <point x="209" y="76" type="curve" smooth="yes"/>
+      <point x="209" y="42"/>
+      <point x="215" y="10"/>
+      <point x="223" y="-16" type="curve"/>
+      <point x="298" y="-17"/>
+      <point x="350" y="-14"/>
+      <point x="389" y="-8" type="curve"/>
+    </contour>
     <component base="period" xOffset="200"/>
   </outline>
   <lib>
