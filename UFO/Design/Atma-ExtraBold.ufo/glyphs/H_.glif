@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="H" format="1">
-  <advance width="700"/>
+  <advance width="687"/>
   <unicode hex="0048"/>
   <outline>
     <contour>
@@ -39,12 +39,12 @@
     </contour>
     <contour>
       <point x="475" y="445" type="line"/>
-      <point x="379.545454545" y="445.0"/>
-      <point x="294.534191689" y="433.144845217"/>
+      <point x="380" y="445"/>
+      <point x="295" y="433"/>
       <point x="205" y="416" type="curve"/>
       <point x="217" y="269" type="line"/>
-      <point x="307.482556796" y="282.334271528"/>
-      <point x="400.880398671" y="287.0"/>
+      <point x="307" y="282"/>
+      <point x="401" y="287"/>
       <point x="491" y="287" type="curve"/>
     </contour>
   </outline>
@@ -419,7 +419,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>700</integer>
+          <integer>687</integer>
         </dict>
         <key>mask</key>
         <dict>
@@ -441,7 +441,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>700</integer>
+          <integer>687</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
