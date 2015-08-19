@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="B" format="1">
-  <advance width="648"/>
+  <advance width="643"/>
   <unicode hex="0042"/>
   <outline>
     <contour>
@@ -28,8 +28,8 @@
     </contour>
     <contour>
       <point x="129" y="574" type="curve"/>
-      <point x="166" y="599"/>
-      <point x="261" y="629"/>
+      <point x="165.243083306" y="598.488569801"/>
+      <point x="261.898203593" y="629.0"/>
       <point x="291" y="629" type="curve" smooth="yes"/>
       <point x="351" y="629"/>
       <point x="378" y="600"/>
@@ -44,8 +44,8 @@
       <point x="573" y="679"/>
       <point x="493" y="742"/>
       <point x="323" y="742" type="curve" smooth="yes"/>
-      <point x="237" y="742"/>
-      <point x="155.0" y="721.0"/>
+      <point x="238.740890688" y="742.0"/>
+      <point x="153.804085195" y="720.402042598"/>
       <point x="81" y="684" type="curve"/>
       <point x="86" y="647"/>
       <point x="105" y="612"/>
@@ -71,12 +71,12 @@
       <point x="421" y="167"/>
       <point x="378" y="100"/>
       <point x="321" y="100" type="curve" smooth="yes"/>
-      <point x="285" y="100"/>
-      <point x="262.0" y="118.0"/>
+      <point x="286.730769231" y="100.0"/>
+      <point x="260.689143898" y="118.884827869"/>
       <point x="222" y="145" type="curve"/>
       <point x="105" y="40" type="line"/>
-      <point x="169.0" y="1.0"/>
-      <point x="234" y="-20"/>
+      <point x="167.859998333" y="1.69468851572"/>
+      <point x="235.715686275" y="-20.0"/>
     </contour>
   </outline>
   <lib>
@@ -720,7 +720,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>648</integer>
+          <integer>643</integer>
         </dict>
         <key>mask</key>
         <dict>
@@ -742,7 +742,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>648</integer>
+          <integer>643</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
