@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="D" format="1">
-  <advance width="648"/>
+  <advance width="633"/>
   <unicode hex="0044"/>
   <outline>
     <contour>
@@ -28,24 +28,24 @@
     </contour>
     <contour>
       <point x="104" y="522" type="curve"/>
-      <point x="162.800096181" y="560.220062518"/>
-      <point x="220.315789474" y="599.0"/>
+      <point x="163" y="560"/>
+      <point x="220" y="599"/>
       <point x="274" y="599" type="curve" smooth="yes"/>
-      <point x="354.0" y="599.0"/>
+      <point x="354" y="599"/>
       <point x="408" y="537"/>
       <point x="408" y="439" type="curve" smooth="yes"/>
       <point x="408" y="277"/>
-      <point x="323.855509958" y="145.26011999"/>
+      <point x="324" y="145"/>
       <point x="157" y="106" type="curve"/>
       <point x="247" y="-9" type="line"/>
-      <point x="456.37615084" y="53.2202712403"/>
-      <point x="613.0" y="261.0"/>
+      <point x="456" y="53"/>
+      <point x="613" y="261"/>
       <point x="613" y="441" type="curve" smooth="yes"/>
       <point x="613" y="612"/>
       <point x="510" y="717"/>
       <point x="291" y="717" type="curve" smooth="yes"/>
-      <point x="203.224334601" y="717.0"/>
-      <point x="131.599598434" y="698.340987498"/>
+      <point x="203" y="717"/>
+      <point x="132" y="698"/>
       <point x="48" y="659" type="curve"/>
       <point x="54" y="613"/>
       <point x="74" y="568"/>
@@ -459,7 +459,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>648</integer>
+          <integer>633</integer>
         </dict>
         <key>mask</key>
         <dict>
@@ -481,7 +481,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>648</integer>
+          <integer>633</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
