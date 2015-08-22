@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="V" format="1">
+  <advance width="649"/>
+  <unicode hex="0056"/>
+  <outline>
+    <contour>
+      <point x="397" y="-76" type="curve"/>
+      <point x="516" y="154"/>
+      <point x="620" y="458"/>
+      <point x="659" y="730" type="curve"/>
+      <point x="604" y="752"/>
+      <point x="539" y="765"/>
+      <point x="478" y="769" type="curve"/>
+      <point x="450" y="553"/>
+      <point x="396" y="303"/>
+      <point x="333" y="120" type="curve"/>
+      <point x="283" y="269"/>
+      <point x="239" y="476"/>
+      <point x="217" y="640" type="curve"/>
+      <point x="137" y="639"/>
+      <point x="60" y="624"/>
+      <point x="0" y="597" type="curve"/>
+      <point x="50" y="353"/>
+      <point x="131" y="119"/>
+      <point x="217" y="-98" type="curve"/>
+      <point x="284" y="-98"/>
+      <point x="355" y="-93"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>10</integer>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
+        <real>0.7</real>
+      </array>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>
