@@ -1039,7 +1039,7 @@
 			<key>x</key>
 			<integer>675</integer>
 			<key>y</key>
-			<integer>691</integer>
+			<integer>669</integer>
 		</dict>
 		<dict>
 			<key>angle</key>
@@ -2155,6 +2155,10 @@
 		<string>bn_ya</string>
 		<string>bn_sha</string>
 		<string>bn_ssa</string>
+		<string>bn_d_dh_ba</string>
+		<string>bn_d_dha</string>
+		<string>bn_k_tt_ra</string>
+		<string>bn_k_tta</string>
 		<string>bn_rikaar</string>
 		<string>bn_ukaar</string>
 		<string>bn_uukaar</string>
@@ -2164,9 +2168,14 @@
 		<string>bn_ikaar</string>
 		<string>bn_okaar</string>
 		<string>bn_ekaar.init</string>
-		<string>bn_ta.001</string>
-		<string>bn_ekaar.001</string>
-		<string>bn_ekaar.init.001</string>
+		<string>bn_ta.BASE</string>
+		<string>bn_ba.BASE</string>
+		<string>bn_gha.BASE</string>
+		<string>bn_tha.BASE</string>
+		<string>bn_ya.BASE</string>
+		<string>bn_dda.BASE</string>
+		<string>bn_ekaar.BASE</string>
+		<string>bn_ka.BASE</string>
 	</array>
 </dict>
 </plist>
