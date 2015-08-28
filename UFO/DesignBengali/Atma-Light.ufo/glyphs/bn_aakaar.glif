@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bn_aakaar" format="1">
-  <advance width="235"/>
+  <advance width="236"/>
   <unicode hex="09BE"/>
   <outline>
     <contour>
-      <point x="136" y="110"/>
-      <point x="146" y="306"/>
-      <point x="146" y="509" type="curve"/>
+      <point x="138" y="110"/>
+      <point x="148" y="306"/>
+      <point x="148" y="509" type="curve"/>
       <point x="129" y="498" type="line"/>
       <point x="100" y="494" type="line"/>
       <point x="100" y="265"/>
       <point x="87" y="102"/>
       <point x="61" y="-42" type="curve"/>
       <point x="74" y="-47"/>
-      <point x="104" y="-51"/>
-      <point x="125" y="-51" type="curve"/>
+      <point x="105" y="-51"/>
+      <point x="127" y="-51" type="curve"/>
     </contour>
     <contour>
-      <point x="143" y="496" type="line"/>
-      <point x="118" y="540"/>
-      <point x="57" y="564"/>
-      <point x="0" y="580" type="curve"/>
-      <point x="-4" y="570"/>
+      <point x="144" y="497" type="line"/>
+      <point x="119" y="541"/>
+      <point x="57" y="565"/>
+      <point x="0" y="581" type="curve"/>
+      <point x="-4" y="571"/>
       <point x="-5" y="550"/>
-      <point x="0" y="536" type="curve"/>
-      <point x="60" y="517"/>
-      <point x="100" y="496"/>
-      <point x="100" y="454" type="curve"/>
+      <point x="0" y="535" type="curve"/>
+      <point x="61" y="517"/>
+      <point x="100" y="495"/>
+      <point x="100" y="453" type="curve"/>
     </contour>
     <contour>
-      <point x="150" y="505"/>
-      <point x="182" y="521"/>
-      <point x="235" y="536" type="curve"/>
-      <point x="239" y="548"/>
-      <point x="239" y="570"/>
-      <point x="235" y="580" type="curve"/>
-      <point x="174" y="564"/>
-      <point x="119" y="539"/>
+      <point x="151" y="504"/>
+      <point x="183" y="521"/>
+      <point x="236" y="535" type="curve"/>
+      <point x="240" y="548"/>
+      <point x="241" y="571"/>
+      <point x="236" y="581" type="curve"/>
+      <point x="175" y="565"/>
+      <point x="119" y="540"/>
       <point x="107" y="506" type="curve"/>
-      <point x="140" y="484" type="line"/>
+      <point x="141" y="483" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -356,7 +356,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>235</integer>
+          <integer>236</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

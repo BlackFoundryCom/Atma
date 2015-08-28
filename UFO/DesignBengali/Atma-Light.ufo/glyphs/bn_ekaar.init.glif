@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bn_ekaar.init" format="1">
-  <advance width="275"/>
+  <advance width="277"/>
   <outline>
     <contour>
-      <point x="215" y="-93"/>
-      <point x="249" y="-68"/>
-      <point x="269" y="-31" type="curve"/>
-      <point x="269" y="-13"/>
-      <point x="254" y="10"/>
-      <point x="236" y="21" type="curve"/>
-      <point x="210" y="-25"/>
-      <point x="191" y="-50"/>
-      <point x="172" y="-50" type="curve" smooth="yes"/>
-      <point x="139" y="-50"/>
-      <point x="111" y="34"/>
-      <point x="111" y="199" type="curve" smooth="yes"/>
-      <point x="111" y="390"/>
-      <point x="152" y="505"/>
-      <point x="275" y="536" type="curve"/>
-      <point x="277" y="542"/>
-      <point x="278" y="551"/>
-      <point x="278" y="559" type="curve" smooth="yes"/>
-      <point x="278" y="567"/>
-      <point x="277" y="575"/>
-      <point x="275" y="580" type="curve"/>
-      <point x="113" y="544"/>
-      <point x="56" y="414"/>
+      <point x="217" y="-94"/>
+      <point x="252" y="-69"/>
+      <point x="272" y="-31" type="curve"/>
+      <point x="272" y="-13"/>
+      <point x="256" y="11"/>
+      <point x="238" y="22" type="curve"/>
+      <point x="212" y="-24"/>
+      <point x="193" y="-50"/>
+      <point x="173" y="-50" type="curve" smooth="yes"/>
+      <point x="141" y="-50"/>
+      <point x="112" y="34"/>
+      <point x="112" y="199" type="curve" smooth="yes"/>
+      <point x="112" y="390"/>
+      <point x="154" y="505"/>
+      <point x="277" y="535" type="curve"/>
+      <point x="279" y="542"/>
+      <point x="280" y="551"/>
+      <point x="280" y="559" type="curve" smooth="yes"/>
+      <point x="280" y="568"/>
+      <point x="279" y="576"/>
+      <point x="277" y="581" type="curve"/>
+      <point x="114" y="545"/>
+      <point x="56" y="415"/>
       <point x="56" y="201" type="curve" smooth="yes"/>
       <point x="56" y="22"/>
-      <point x="111" y="-93"/>
-      <point x="181" y="-93" type="curve" smooth="yes"/>
+      <point x="112" y="-94"/>
+      <point x="183" y="-94" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>2</integer>
+      <integer>0</integer>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -167,9 +167,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>150</integer>
+                  <integer>152</integer>
                   <key>y</key>
-                  <integer>510</integer>
+                  <integer>505</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -237,53 +237,17 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>209</integer>
+                  <integer>113</integer>
                   <key>y</key>
-                  <integer>563</integer>
+                  <integer>544</integer>
                 </dict>
                 <dict>
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>154</integer>
+                  <integer>56</integer>
                   <key>y</key>
-                  <integer>536</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>curve</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>132</integer>
-                  <key>y</key>
-                  <integer>500</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>127</integer>
-                  <key>y</key>
-                  <integer>508</integer>
-                </dict>
-                <dict>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>85</integer>
-                  <key>y</key>
-                  <integer>454</integer>
-                </dict>
-                <dict>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>55</integer>
-                  <key>y</key>
-                  <integer>332</integer>
+                  <integer>414</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -291,7 +255,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>55</integer>
+                  <integer>56</integer>
                   <key>y</key>
                   <integer>201</integer>
                 </dict>
@@ -299,7 +263,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>55</integer>
+                  <integer>56</integer>
                   <key>y</key>
                   <integer>22</integer>
                 </dict>
@@ -333,7 +297,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>275</integer>
+          <integer>277</integer>
         </dict>
         <key>mask</key>
         <dict>
@@ -650,7 +614,7 @@
         </dict>
       </dict>
       <key>public.markColor</key>
-      <string>0.65,0.48,0.2,1</string>
+      <string>0.85,0.26,0.06,1</string>
     </dict>
   </lib>
 </glyph>

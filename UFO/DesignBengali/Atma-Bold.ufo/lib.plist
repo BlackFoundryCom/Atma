@@ -2,6 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>com.schriftgestaltung.fontMaster.userData</key>
+	<dict>
+		<key>GSOffsetHorizontal</key>
+		<integer>88</integer>
+		<key>GSOffsetProportional</key>
+		<integer>1</integer>
+		<key>GSOffsetVertical</key>
+		<integer>10</integer>
+	</dict>
 	<key>com.schriftgestaltung.fontMasterID</key>
 	<string>3B210C64-D12D-453C-BB15-E0A68E1A142F</string>
 	<key>com.schriftgestaltung.glyphOrder</key>
@@ -1050,6 +1059,26 @@
 			<integer>674</integer>
 			<key>y</key>
 			<integer>-37</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<true/>
+			<key>x</key>
+			<integer>81</integer>
+			<key>y</key>
+			<integer>48</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<true/>
+			<key>x</key>
+			<integer>81</integer>
+			<key>y</key>
+			<integer>301</integer>
 		</dict>
 	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
@@ -2138,33 +2167,58 @@
 		<string>y</string>
 		<string>z</string>
 		<string>bn_a</string>
+		<string>bn_aa</string>
+		<string>bn_i</string>
+		<string>bn_ii</string>
+		<string>bn_u</string>
+		<string>bn_uu</string>
 		<string>bn_e</string>
+		<string>bn_ai</string>
 		<string>bn_o</string>
+		<string>bn_au</string>
 		<string>bn_ka</string>
 		<string>bn_kha</string>
+		<string>bn_ga</string>
 		<string>bn_gha</string>
+		<string>bn_nga</string>
+		<string>bn_ca</string>
+		<string>bn_cha</string>
+		<string>bn_ja</string>
+		<string>bn_jha</string>
+		<string>bn_nya</string>
 		<string>bn_tta</string>
+		<string>bn_ttha</string>
 		<string>bn_dda</string>
 		<string>bn_nna</string>
 		<string>bn_ta</string>
 		<string>bn_tha</string>
 		<string>bn_da</string>
+		<string>bn_dha</string>
+		<string>bn_na</string>
 		<string>bn_pa</string>
 		<string>bn_pha</string>
 		<string>bn_ba</string>
+		<string>bn_bha</string>
+		<string>bn_ma</string>
 		<string>bn_ya</string>
+		<string>bn_la</string>
 		<string>bn_sha</string>
 		<string>bn_ssa</string>
+		<string>bn_sa</string>
+		<string>bn_d_ba</string>
 		<string>bn_d_dh_ba</string>
 		<string>bn_d_dha</string>
+		<string>bn_k_ssa</string>
 		<string>bn_k_tt_ra</string>
 		<string>bn_k_tta</string>
 		<string>bn_rikaar</string>
 		<string>bn_ukaar</string>
 		<string>bn_uukaar</string>
 		<string>bn_aakaar</string>
+		<string>bn_aikaar</string>
 		<string>bn_aumark</string>
 		<string>bn_ekaar</string>
+		<string>bn_iikaar</string>
 		<string>bn_ikaar</string>
 		<string>bn_okaar</string>
 		<string>bn_ekaar.init</string>
@@ -2176,6 +2230,9 @@
 		<string>bn_dda.BASE</string>
 		<string>bn_ekaar.BASE</string>
 		<string>bn_ka.BASE</string>
+		<string>bn_tta.001</string>
+		<string>bn_ka.BASE.001</string>
+		<string>bn_ba.BASE.001</string>
 	</array>
 </dict>
 </plist>
