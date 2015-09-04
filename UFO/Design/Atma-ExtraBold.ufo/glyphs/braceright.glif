@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0156" format="1">
-  <advance width="638"/>
+<glyph name="braceright" format="1">
+  <advance width="356.915133133"/>
+  <unicode hex="007D"/>
   <outline>
-    <component base="R"/>
+    <component base="braceleft" xScale="-1" yScale="-1" xOffset="357" yOffset="653"/>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -23,12 +27,12 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>uni0156</string>
+          <string>braceright</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <integer>638</integer>
+          <real>356.915133133308</real>
         </dict>
         <key>mask</key>
         <dict>
@@ -45,14 +49,21 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>uni0156</string>
+          <string>braceright</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <integer>638</integer>
+          <real>356.915133133308</real>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.9225</real>
+        <real>0.7552</real>
+        <real>0.2219</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>
