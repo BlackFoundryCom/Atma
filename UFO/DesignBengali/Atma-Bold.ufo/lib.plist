@@ -5,7 +5,7 @@
 	<key>com.schriftgestaltung.fontMaster.userData</key>
 	<dict>
 		<key>GSOffsetHorizontal</key>
-		<integer>88</integer>
+		<integer>-80</integer>
 		<key>GSOffsetProportional</key>
 		<integer>1</integer>
 		<key>GSOffsetVertical</key>
@@ -1046,9 +1046,9 @@
 			<key>isGlobal</key>
 			<true/>
 			<key>x</key>
-			<integer>675</integer>
+			<integer>813</integer>
 			<key>y</key>
-			<integer>669</integer>
+			<integer>639</integer>
 		</dict>
 		<dict>
 			<key>angle</key>
@@ -1059,26 +1059,6 @@
 			<integer>674</integer>
 			<key>y</key>
 			<integer>-37</integer>
-		</dict>
-		<dict>
-			<key>angle</key>
-			<integer>0</integer>
-			<key>isGlobal</key>
-			<true/>
-			<key>x</key>
-			<integer>81</integer>
-			<key>y</key>
-			<integer>48</integer>
-		</dict>
-		<dict>
-			<key>angle</key>
-			<integer>0</integer>
-			<key>isGlobal</key>
-			<true/>
-			<key>x</key>
-			<integer>81</integer>
-			<key>y</key>
-			<integer>301</integer>
 		</dict>
 	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
@@ -2189,6 +2169,9 @@
 		<string>bn_tta</string>
 		<string>bn_ttha</string>
 		<string>bn_dda</string>
+		<string>bn_rra</string>
+		<string>bn_ddha</string>
+		<string>bn_rha</string>
 		<string>bn_nna</string>
 		<string>bn_ta</string>
 		<string>bn_tha</string>
@@ -2201,38 +2184,54 @@
 		<string>bn_bha</string>
 		<string>bn_ma</string>
 		<string>bn_ya</string>
+		<string>bn_yya</string>
+		<string>bn_ra</string>
 		<string>bn_la</string>
 		<string>bn_sha</string>
 		<string>bn_ssa</string>
 		<string>bn_sa</string>
+		<string>bn_ha</string>
+		<string>bn_chandrabindu</string>
+		<string>bn_nukta</string>
 		<string>bn_d_ba</string>
 		<string>bn_d_dh_ba</string>
 		<string>bn_d_dha</string>
 		<string>bn_k_ssa</string>
 		<string>bn_k_tt_ra</string>
 		<string>bn_k_tta</string>
+		<string>asa_ba</string>
+		<string>asa_ra</string>
+		<string>bn_avagraha</string>
+		<string>bn_khanda_ta</string>
+		<string>bn_li</string>
+		<string>bn_lli</string>
+		<string>bn_ri</string>
+		<string>bn_rri</string>
+		<string>bn_likaar</string>
 		<string>bn_rikaar</string>
+		<string>bn_rrikaar</string>
 		<string>bn_ukaar</string>
 		<string>bn_uukaar</string>
 		<string>bn_aakaar</string>
 		<string>bn_aikaar</string>
+		<string>bn_anusvar</string>
 		<string>bn_aumark</string>
+		<string>bn_bisarga</string>
 		<string>bn_ekaar</string>
 		<string>bn_iikaar</string>
 		<string>bn_ikaar</string>
 		<string>bn_okaar</string>
 		<string>bn_ekaar.init</string>
-		<string>bn_ta.BASE</string>
-		<string>bn_ba.BASE</string>
-		<string>bn_gha.BASE</string>
-		<string>bn_tha.BASE</string>
-		<string>bn_ya.BASE</string>
-		<string>bn_dda.BASE</string>
-		<string>bn_ekaar.BASE</string>
-		<string>bn_ka.BASE</string>
-		<string>bn_tta.001</string>
-		<string>bn_ka.BASE.001</string>
-		<string>bn_ba.BASE.001</string>
+		<string>bn_ka.001</string>
+		<string>bn_gha.001</string>
+		<string>bn_dda.001</string>
+		<string>bn_ta.001</string>
+		<string>bn_tha.001</string>
+		<string>bn_ba.001</string>
+		<string>bn_ya.001</string>
+		<string>bn_ekaar.001</string>
+		<string>bn_ekaar.init.001</string>
+		<string>bn_ikaar_wi1</string>
 	</array>
 </dict>
 </plist>
