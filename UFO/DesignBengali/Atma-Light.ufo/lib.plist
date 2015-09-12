@@ -5,7 +5,7 @@
 	<key>com.schriftgestaltung.fontMaster.userData</key>
 	<dict>
 		<key>GSOffsetHorizontal</key>
-		<integer>-40</integer>
+		<integer>-22</integer>
 		<key>GSOffsetProportional</key>
 		<integer>1</integer>
 		<key>GSOffsetVertical</key>
@@ -1058,7 +1058,7 @@
 			<key>x</key>
 			<integer>0</integer>
 			<key>y</key>
-			<integer>625</integer>
+			<integer>581</integer>
 		</dict>
 	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
@@ -2084,6 +2084,19 @@
 	<key>public.glyphOrder</key>
 	<array>
 		<string>space</string>
+		<string>exclam</string>
+		<string>quotedbl</string>
+		<string>numbersign</string>
+		<string>dollar</string>
+		<string>ampersand</string>
+		<string>quotesingle</string>
+		<string>parenleft</string>
+		<string>parenright</string>
+		<string>asterisk</string>
+		<string>comma</string>
+		<string>hyphen</string>
+		<string>period</string>
+		<string>slash</string>
 		<string>zero</string>
 		<string>one</string>
 		<string>two</string>
@@ -2094,6 +2107,12 @@
 		<string>seven</string>
 		<string>eight</string>
 		<string>nine</string>
+		<string>colon</string>
+		<string>semicolon</string>
+		<string>less</string>
+		<string>greater</string>
+		<string>question</string>
+		<string>at</string>
 		<string>A</string>
 		<string>B</string>
 		<string>C</string>
@@ -2120,6 +2139,11 @@
 		<string>X</string>
 		<string>Y</string>
 		<string>Z</string>
+		<string>bracketleft</string>
+		<string>backslash</string>
+		<string>bracketright</string>
+		<string>underscore</string>
+		<string>grave</string>
 		<string>a</string>
 		<string>b</string>
 		<string>c</string>
@@ -2194,11 +2218,19 @@
 		<string>bn_chandrabindu</string>
 		<string>bn_nukta</string>
 		<string>bn_d_ba</string>
+		<string>bn_d_da</string>
 		<string>bn_d_dh_ba</string>
 		<string>bn_d_dha</string>
+		<string>bn_j_ja</string>
 		<string>bn_k_ssa</string>
 		<string>bn_k_tt_ra</string>
 		<string>bn_k_tta</string>
+		<string>bn_m_la</string>
+		<string>bn_m_pa</string>
+		<string>bn_n_dha</string>
+		<string>bn_ng_ka</string>
+		<string>bn_nn_dda</string>
+		<string>bn_p_ra</string>
 		<string>asa_ba</string>
 		<string>asa_ra</string>
 		<string>bn_avagraha</string>
@@ -2232,6 +2264,9 @@
 		<string>bn_ekaar.001</string>
 		<string>bn_ekaar.init.001</string>
 		<string>bn_ikaar_wi1</string>
+		<string>bn_aakaar.b</string>
+		<string>bn_ekaar.b</string>
+		<string>bn_ikaar.001</string>
 	</array>
 </dict>
 </plist>

@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bn_yya" format="1">
-  <advance width="515"/>
+  <advance width="490"/>
   <unicode hex="09DF"/>
   <outline>
+    <contour>
+      <point x="234" y="42"/>
+      <point x="217" y="62"/>
+      <point x="193" y="62" type="curve" smooth="yes"/>
+      <point x="173" y="62"/>
+      <point x="157" y="46"/>
+      <point x="157" y="26" type="curve" smooth="yes"/>
+      <point x="157" y="3"/>
+      <point x="173" y="-17"/>
+      <point x="198" y="-17" type="curve" smooth="yes"/>
+      <point x="219" y="-17"/>
+      <point x="234" y="-2"/>
+      <point x="234" y="18" type="curve" smooth="yes"/>
+    </contour>
+    <component base="bn_ya"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>2</integer>
+      <integer>9</integer>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

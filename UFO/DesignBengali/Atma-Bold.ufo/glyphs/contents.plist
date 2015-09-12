@@ -56,18 +56,28 @@
 	<string>Z_.glif</string>
 	<key>a</key>
 	<string>a.glif</string>
+	<key>ampersand</key>
+	<string>ampersand.glif</string>
 	<key>asa_ba</key>
 	<string>asa_ba.glif</string>
 	<key>asa_ra</key>
 	<string>asa_ra.glif</string>
+	<key>asterisk</key>
+	<string>asterisk.glif</string>
+	<key>at</key>
+	<string>at.glif</string>
 	<key>b</key>
 	<string>b.glif</string>
+	<key>backslash</key>
+	<string>backslash.glif</string>
 	<key>bn_a</key>
 	<string>bn_a.glif</string>
 	<key>bn_aa</key>
 	<string>bn_aa.glif</string>
 	<key>bn_aakaar</key>
 	<string>bn_aakaar.glif</string>
+	<key>bn_aakaar.b</key>
+	<string>bn_aakaar.b.glif</string>
 	<key>bn_ai</key>
 	<string>bn_ai.glif</string>
 	<key>bn_aikaar</key>
@@ -96,6 +106,8 @@
 	<string>bn_chandrabindu.glif</string>
 	<key>bn_d_ba</key>
 	<string>bn_d_ba.glif</string>
+	<key>bn_d_da</key>
+	<string>bn_d_da.glif</string>
 	<key>bn_d_dh_ba</key>
 	<string>bn_d_dh_ba.glif</string>
 	<key>bn_d_dha</key>
@@ -116,6 +128,8 @@
 	<string>bn_ekaar.glif</string>
 	<key>bn_ekaar.001</key>
 	<string>bn_ekaar.001.glif</string>
+	<key>bn_ekaar.b</key>
+	<string>bn_ekaar.b.glif</string>
 	<key>bn_ekaar.init</key>
 	<string>bn_ekaar.init.glif</string>
 	<key>bn_ekaar.init.001</key>
@@ -136,8 +150,12 @@
 	<string>bn_iikaar.glif</string>
 	<key>bn_ikaar</key>
 	<string>bn_ikaar.glif</string>
+	<key>bn_ikaar.001</key>
+	<string>bn_ikaar.001.glif</string>
 	<key>bn_ikaar_wi1</key>
 	<string>bn_ikaar_wi1.glif</string>
+	<key>bn_j_ja</key>
+	<string>bn_j_ja.glif</string>
 	<key>bn_ja</key>
 	<string>bn_ja.glif</string>
 	<key>bn_jha</key>
@@ -164,12 +182,22 @@
 	<string>bn_likaar.glif</string>
 	<key>bn_lli</key>
 	<string>bn_lli.glif</string>
+	<key>bn_m_la</key>
+	<string>bn_m_la.glif</string>
+	<key>bn_m_pa</key>
+	<string>bn_m_pa.glif</string>
 	<key>bn_ma</key>
 	<string>bn_ma.glif</string>
+	<key>bn_n_dha</key>
+	<string>bn_n_dha.glif</string>
 	<key>bn_na</key>
 	<string>bn_na.glif</string>
+	<key>bn_ng_ka</key>
+	<string>bn_ng_ka.glif</string>
 	<key>bn_nga</key>
 	<string>bn_nga.glif</string>
+	<key>bn_nn_dda</key>
+	<string>bn_nn_dda.glif</string>
 	<key>bn_nna</key>
 	<string>bn_nna.glif</string>
 	<key>bn_nukta</key>
@@ -180,6 +208,8 @@
 	<string>bn_o.glif</string>
 	<key>bn_okaar</key>
 	<string>bn_okaar.glif</string>
+	<key>bn_p_ra</key>
+	<string>bn_p_ra.glif</string>
 	<key>bn_pa</key>
 	<string>bn_pa.glif</string>
 	<key>bn_pha</key>
@@ -230,14 +260,26 @@
 	<string>bn_ya.001.glif</string>
 	<key>bn_yya</key>
 	<string>bn_yya.glif</string>
+	<key>bracketleft</key>
+	<string>bracketleft.glif</string>
+	<key>bracketright</key>
+	<string>bracketright.glif</string>
 	<key>c</key>
 	<string>c.glif</string>
+	<key>colon</key>
+	<string>colon.glif</string>
+	<key>comma</key>
+	<string>comma.glif</string>
 	<key>d</key>
 	<string>d.glif</string>
+	<key>dollar</key>
+	<string>dollar.glif</string>
 	<key>e</key>
 	<string>e.glif</string>
 	<key>eight</key>
 	<string>eight.glif</string>
+	<key>exclam</key>
+	<string>exclam.glif</string>
 	<key>f</key>
 	<string>f.glif</string>
 	<key>five</key>
@@ -246,8 +288,14 @@
 	<string>four.glif</string>
 	<key>g</key>
 	<string>g.glif</string>
+	<key>grave</key>
+	<string>grave.glif</string>
+	<key>greater</key>
+	<string>greater.glif</string>
 	<key>h</key>
 	<string>h.glif</string>
+	<key>hyphen</key>
+	<string>hyphen.glif</string>
 	<key>i</key>
 	<string>i.glif</string>
 	<key>j</key>
@@ -256,28 +304,48 @@
 	<string>k.glif</string>
 	<key>l</key>
 	<string>l.glif</string>
+	<key>less</key>
+	<string>less.glif</string>
 	<key>m</key>
 	<string>m.glif</string>
 	<key>n</key>
 	<string>n.glif</string>
 	<key>nine</key>
 	<string>nine.glif</string>
+	<key>numbersign</key>
+	<string>numbersign.glif</string>
 	<key>o</key>
 	<string>o.glif</string>
 	<key>one</key>
 	<string>one.glif</string>
 	<key>p</key>
 	<string>p.glif</string>
+	<key>parenleft</key>
+	<string>parenleft.glif</string>
+	<key>parenright</key>
+	<string>parenright.glif</string>
+	<key>period</key>
+	<string>period.glif</string>
 	<key>q</key>
 	<string>q.glif</string>
+	<key>question</key>
+	<string>question.glif</string>
+	<key>quotedbl</key>
+	<string>quotedbl.glif</string>
+	<key>quotesingle</key>
+	<string>quotesingle.glif</string>
 	<key>r</key>
 	<string>r.glif</string>
 	<key>s</key>
 	<string>s.glif</string>
+	<key>semicolon</key>
+	<string>semicolon.glif</string>
 	<key>seven</key>
 	<string>seven.glif</string>
 	<key>six</key>
 	<string>six.glif</string>
+	<key>slash</key>
+	<string>slash.glif</string>
 	<key>space</key>
 	<string>space.glif</string>
 	<key>t</key>
@@ -288,6 +356,8 @@
 	<string>two.glif</string>
 	<key>u</key>
 	<string>u.glif</string>
+	<key>underscore</key>
+	<string>underscore.glif</string>
 	<key>v</key>
 	<string>v.glif</string>
 	<key>w</key>

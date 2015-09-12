@@ -1,13 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="asa_ba" format="1">
-  <advance width="475"/>
+  <advance width="456"/>
   <unicode hex="09F1"/>
   <outline>
+    <contour>
+      <point x="31" y="162"/>
+      <point x="25" y="144"/>
+      <point x="24" y="126" type="curve"/>
+      <point x="104" y="110"/>
+      <point x="205" y="33"/>
+      <point x="259" y="-67" type="curve"/>
+      <point x="270" y="-62"/>
+      <point x="278" y="-56"/>
+      <point x="283" y="-48" type="curve"/>
+      <point x="234" y="62"/>
+      <point x="124" y="149"/>
+      <point x="40" y="176" type="curve"/>
+    </contour>
+    <component base="bn_ba"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>2</integer>
+      <integer>9</integer>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>301</integer>
+                  <key>y</key>
+                  <integer>-87</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>237</integer>
+                  <key>y</key>
+                  <integer>63</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>131</integer>
+                  <key>y</key>
+                  <integer>142</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>23</integer>
+                  <key>y</key>
+                  <integer>179</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>12</integer>
+                  <key>y</key>
+                  <integer>127</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>121</integer>
+                  <key>y</key>
+                  <integer>103</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>213</integer>
+                  <key>y</key>
+                  <integer>28</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>286</integer>
+                  <key>y</key>
+                  <integer>-116</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>asa_ba</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>456</integer>
+        </dict>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>
