@@ -4,7 +4,7 @@
   <unicode hex="016A"/>
   <outline>
     <component base="U"/>
-    <component base="macron" xOffset="167" yOffset="130"/>
+    <component base="macron" xOffset="143" yOffset="108"/>
   </outline>
   <lib>
     <dict>
@@ -57,10 +57,10 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
-        <integer>1</integer>
-        <real>0.5</real>
+        <real>0.2698</real>
+        <real>0.5368</real>
+        <real>1.0</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

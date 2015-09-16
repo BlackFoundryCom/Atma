@@ -3,7 +3,7 @@
   <advance width="581"/>
   <outline>
     <component base="T"/>
-    <component base="cedilla" xOffset="215" yOffset="60"/>
+    <component base="cedilla" xOffset="180" yOffset="44"/>
   </outline>
   <lib>
     <dict>
@@ -54,6 +54,13 @@
           <integer>581</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.2698</real>
+        <real>0.5368</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

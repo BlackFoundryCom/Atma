@@ -20,7 +20,7 @@
 		<real>0.7</real>
 	</array>
 	<key>com.typemytype.robofont.Previous.layerShow</key>
-	<false/>
+	<true/>
 	<key>com.typemytype.robofont.Previous.layerStrokeColor</key>
 	<array>
 		<real>0.0</real>
@@ -74,7 +74,7 @@
 			<key>name</key>
 			<string></string>
 			<key>x</key>
-			<integer>245</integer>
+			<integer>306</integer>
 			<key>y</key>
 			<integer>91</integer>
 		</dict>
@@ -97,8 +97,8 @@
 	<integer>0</integer>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
-		<string>background</string>
 		<string>Previous</string>
+		<string>background</string>
 		<string>mask</string>
 		<string>BOLD</string>
 	</array>

@@ -4,7 +4,7 @@
   <unicode hex="015E"/>
   <outline>
     <component base="S"/>
-    <component base="cedilla" xOffset="175"/>
+    <component base="cedilla" xOffset="161" yOffset="-18"/>
   </outline>
   <lib>
     <dict>
@@ -55,6 +55,13 @@
           <integer>560</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.2698</real>
+        <real>0.5368</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

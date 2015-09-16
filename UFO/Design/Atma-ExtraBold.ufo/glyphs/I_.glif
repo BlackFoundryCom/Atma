@@ -4,9 +4,6 @@
   <unicode hex="0049"/>
   <outline>
     <contour>
-      <point x="85" y="-32" type="curve"/>
-      <point x="144" y="-32"/>
-      <point x="217" y="-22"/>
       <point x="251" y="-12" type="curve"/>
       <point x="265" y="136"/>
       <point x="273" y="355"/>
@@ -22,10 +19,16 @@
       <point x="49" y="655" type="curve"/>
       <point x="78" y="436"/>
       <point x="85" y="183"/>
+      <point x="85" y="-32" type="curve"/>
+      <point x="144" y="-32"/>
+      <point x="217" y="-22"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -236,9 +239,9 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.2041</real>
-        <real>0.9476</real>
-        <real>0.8222</real>
+        <real>0.9225</real>
+        <real>0.7552</real>
+        <real>0.2219</real>
         <real>1.0</real>
       </array>
     </dict>

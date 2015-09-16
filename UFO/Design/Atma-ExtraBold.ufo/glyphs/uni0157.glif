@@ -2,6 +2,20 @@
 <glyph name="uni0157" format="1">
   <advance width="517"/>
   <outline>
+    <contour>
+      <point x="278" y="-48" type="curve"/>
+      <point x="231" y="-44"/>
+      <point x="204" y="-46"/>
+      <point x="148" y="-53" type="curve"/>
+      <point x="149" y="-116"/>
+      <point x="145" y="-165"/>
+      <point x="125" y="-231" type="curve"/>
+      <point x="157" y="-241"/>
+      <point x="192" y="-243"/>
+      <point x="236" y="-242" type="curve"/>
+      <point x="263" y="-182"/>
+      <point x="275" y="-115"/>
+    </contour>
     <component base="r"/>
   </outline>
   <lib>
@@ -53,6 +67,13 @@
           <integer>517</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.2698</real>
+        <real>0.5368</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

@@ -3,78 +3,8 @@
   <advance width="526"/>
   <unicode hex="00E7"/>
   <outline>
-    <contour>
-      <point x="343" y="342" type="curve"/>
-      <point x="411" y="342"/>
-      <point x="469" y="349"/>
-      <point x="516" y="372" type="curve"/>
-      <point x="516.0" y="468.0"/>
-      <point x="454" y="543"/>
-      <point x="318" y="543" type="curve" smooth="yes"/>
-      <point x="132" y="543"/>
-      <point x="30" y="355"/>
-      <point x="30" y="203" type="curve" smooth="yes"/>
-      <point x="30" y="82"/>
-      <point x="97" y="-25"/>
-      <point x="251" y="-25" type="curve" smooth="yes"/>
-      <point x="420" y="-25"/>
-      <point x="494" y="79"/>
-      <point x="505" y="114" type="curve"/>
-      <point x="481" y="149"/>
-      <point x="439" y="176"/>
-      <point x="402" y="183" type="curve"/>
-      <point x="379" y="150"/>
-      <point x="337" y="86"/>
-      <point x="288" y="86" type="curve" smooth="yes"/>
-      <point x="247.442307692" y="86.0"/>
-      <point x="231" y="143"/>
-      <point x="231" y="210" type="curve" smooth="yes"/>
-      <point x="231" y="326"/>
-      <point x="264.279411765" y="446.0"/>
-      <point x="304" y="446" type="curve" smooth="yes"/>
-      <point x="334" y="446"/>
-      <point x="343" y="403"/>
-    </contour>
-    <contour>
-      <point x="253.5" y="-220" type="curve"/>
-      <point x="328.5" y="-220"/>
-      <point x="381.5" y="-179"/>
-      <point x="381.5" y="-117" type="curve" smooth="yes"/>
-      <point x="381.5" y="-77"/>
-      <point x="345.5" y="-50"/>
-      <point x="295.5" y="-50" type="curve" smooth="yes"/>
-      <point x="277.5" y="-50"/>
-      <point x="262.5" y="-53"/>
-      <point x="224.5" y="-62" type="curve"/>
-      <point x="244.5" y="-85" type="line"/>
-      <point x="256.5" y="-49"/>
-      <point x="263.5" y="-24"/>
-      <point x="264.5" y="-12" type="curve"/>
-      <point x="207.5" y="1" type="line"/>
-      <point x="205.5" y="-32"/>
-      <point x="199.5" y="-60"/>
-      <point x="189.5" y="-87" type="curve"/>
-      <point x="194.5" y="-95"/>
-      <point x="207.5" y="-107"/>
-      <point x="216.5" y="-114" type="curve"/>
-      <point x="228.5" y="-107"/>
-      <point x="239.5" y="-105"/>
-      <point x="250.5" y="-105" type="curve" smooth="yes"/>
-      <point x="269.5" y="-105"/>
-      <point x="282.5" y="-115"/>
-      <point x="282.5" y="-136" type="curve" smooth="yes"/>
-      <point x="282.5" y="-156"/>
-      <point x="270.5" y="-167"/>
-      <point x="251.5" y="-167" type="curve" smooth="yes"/>
-      <point x="229.5" y="-167"/>
-      <point x="211.5" y="-150"/>
-      <point x="203.5" y="-125" type="curve"/>
-      <point x="184.5" y="-133"/>
-      <point x="170.5" y="-140"/>
-      <point x="144.5" y="-156" type="curve"/>
-      <point x="159.5" y="-195"/>
-      <point x="202.5" y="-220"/>
-    </contour>
+    <component base="c"/>
+    <component base="cedilla" xOffset="130" yOffset="-7"/>
   </outline>
   <lib>
     <dict>
@@ -127,10 +57,10 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
-        <integer>0</integer>
-        <real>0.5</real>
+        <real>0.2698</real>
+        <real>0.5368</real>
+        <real>1.0</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>
