@@ -4,6 +4,13 @@
   <unicode hex="0072"/>
   <outline>
     <contour>
+      <point x="300" y="-1" type="curve"/>
+      <point x="247" y="217"/>
+      <point x="237" y="430"/>
+      <point x="250" y="523" type="curve"/>
+      <point x="227" y="529"/>
+      <point x="200" y="533"/>
+      <point x="179" y="533" type="curve" smooth="yes"/>
       <point x="107" y="533"/>
       <point x="64" y="526"/>
       <point x="32" y="510" type="curve"/>
@@ -15,13 +22,6 @@
       <point x="177" y="-23" type="curve" smooth="yes"/>
       <point x="232" y="-23"/>
       <point x="272" y="-14"/>
-      <point x="300" y="-1" type="curve"/>
-      <point x="247" y="217"/>
-      <point x="237" y="430"/>
-      <point x="250" y="523" type="curve"/>
-      <point x="227" y="529"/>
-      <point x="200" y="533"/>
-      <point x="179" y="533" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="507" y="375" type="curve"/>
@@ -402,10 +402,10 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
+        <real>0.9225</real>
+        <real>0.7552</real>
+        <real>0.2219</real>
         <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.7</real>
       </array>
     </dict>
   </lib>

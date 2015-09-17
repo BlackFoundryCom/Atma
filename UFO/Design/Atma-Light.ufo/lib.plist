@@ -2,11 +2,45 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>com.typemytype.robofont.background.layerStrokeColor</key>
+	<key>com.typemytype.robofont.BOLD.layerShow</key>
+	<true/>
+	<key>com.typemytype.robofont.BOLD.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.BOLD.layerShowFill</key>
+	<false/>
+	<key>com.typemytype.robofont.BOLD.layerShowPoints</key>
+	<true/>
+	<key>com.typemytype.robofont.BOLD.layerShowStroke</key>
+	<true/>
+	<key>com.typemytype.robofont.BOLD.layerStrokeColor</key>
+	<array>
+		<real>0.268</real>
+		<real>0.7149</real>
+		<real>0.6472</real>
+		<real>0.7</real>
+	</array>
+	<key>com.typemytype.robofont.Previous.layerStrokeColor</key>
 	<array>
 		<real>0.0</real>
-		<real>0.8</real>
-		<real>0.2</real>
+		<real>1.0</real>
+		<real>1.0</real>
+		<real>0.7</real>
+	</array>
+	<key>com.typemytype.robofont.background.layerShow</key>
+	<true/>
+	<key>com.typemytype.robofont.background.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.background.layerShowFill</key>
+	<false/>
+	<key>com.typemytype.robofont.background.layerShowPoints</key>
+	<false/>
+	<key>com.typemytype.robofont.background.layerShowStroke</key>
+	<true/>
+	<key>com.typemytype.robofont.background.layerStrokeColor</key>
+	<array>
+		<real>0.2704</real>
+		<real>0.7377</real>
+		<real>0.1759</real>
 		<real>0.7</real>
 	</array>
 	<key>com.typemytype.robofont.compileSettings.autohint</key>
@@ -38,7 +72,7 @@
 			<key>name</key>
 			<string></string>
 			<key>x</key>
-			<integer>361</integer>
+			<integer>245</integer>
 			<key>y</key>
 			<integer>91</integer>
 		</dict>
@@ -52,9 +86,9 @@
 			<key>name</key>
 			<string></string>
 			<key>x</key>
-			<integer>0</integer>
+			<integer>-304</integer>
 			<key>y</key>
-			<integer>710</integer>
+			<integer>707</integer>
 		</dict>
 	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
@@ -62,7 +96,9 @@
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
 		<string>background</string>
+		<string>Previous</string>
 		<string>mask</string>
+		<string>BOLD</string>
 	</array>
 	<key>com.typemytype.robofont.mask.layerStrokeColor</key>
 	<array>
@@ -778,6 +814,14 @@
 				<string>bn_ya_phala</string>
 				<string>bn_ra_phala</string>
 				<string>uni25CC</string>
+				<string>bn_aulengthmark</string>
+				<string>bn_matra.uu</string>
+				<string>bn_matra.vocalicR</string>
+				<string>bn_matra.e</string>
+				<string>bn_matra.o</string>
+				<string>bn_matra.i</string>
+				<string>bn_matra.u</string>
+				<string>bn_matra.e.init</string>
 			</array>
 			<key>type</key>
 			<string>glyphList</string>
