@@ -2,12 +2,114 @@
 <glyph name="uni0146" format="1">
   <advance width="598"/>
   <outline>
+    <contour>
+      <point x="373" y="-96" type="curve"/>
+      <point x="331" y="-87"/>
+      <point x="277" y="-84"/>
+      <point x="224" y="-87" type="curve"/>
+      <point x="229" y="-159"/>
+      <point x="221" y="-225"/>
+      <point x="205" y="-298" type="curve"/>
+      <point x="237" y="-304"/>
+      <point x="278" y="-308"/>
+      <point x="319" y="-309" type="curve"/>
+      <point x="352" y="-252"/>
+      <point x="371" y="-164"/>
+    </contour>
     <component base="n"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>BOLD</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>uni0146</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>598</integer>
+        </dict>
+        <key>Light</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>uni0146</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>598</integer>
+        </dict>
+        <key>Previous</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>uni0146</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>598</integer>
+        </dict>
+        <key>Ref</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>uni0146</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>598</integer>
+        </dict>
         <key>background</key>
         <dict>
           <key>anchors</key>
@@ -52,11 +154,33 @@
           <key>width</key>
           <integer>598</integer>
         </dict>
+        <key>test1</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>uni0146</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>598</integer>
+        </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.2698</real>
-        <real>0.5368</real>
+        <real>0.4782</real>
+        <real>0.151</real>
         <real>1.0</real>
         <real>1.0</real>
       </array>

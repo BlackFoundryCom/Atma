@@ -282,6 +282,36 @@
 			</array>
 		</dict>
 	</dict>
+	<key>com.typemytype.robofont.BOLD.layerStrokeColor</key>
+	<array>
+		<real>0.5</real>
+		<real>1.0</real>
+		<real>0.0</real>
+		<real>0.7</real>
+	</array>
+	<key>com.typemytype.robofont.Light.layerStrokeColor</key>
+	<array>
+		<real>0.0</real>
+		<real>0.25</real>
+		<real>1.0</real>
+		<real>0.7</real>
+	</array>
+	<key>com.typemytype.robofont.Previous.layerStrokeColor</key>
+	<array>
+		<real>0.0</real>
+		<real>1.0</real>
+		<real>0.25</real>
+		<real>0.7</real>
+	</array>
+	<key>com.typemytype.robofont.Ref.layerStrokeColor</key>
+	<array>
+		<real>0.5</real>
+		<real>0.0</real>
+		<real>1.0</real>
+		<real>0.7</real>
+	</array>
+	<key>com.typemytype.robofont.background.layerShow</key>
+	<true/>
 	<key>com.typemytype.robofont.background.layerShowCoordinates</key>
 	<false/>
 	<key>com.typemytype.robofont.background.layerShowFill</key>
@@ -292,9 +322,9 @@
 	<true/>
 	<key>com.typemytype.robofont.background.layerStrokeColor</key>
 	<array>
-		<real>0.3084</real>
+		<real>0.2042</real>
+		<real>0.7935</real>
 		<real>0.8</real>
-		<real>0.4676</real>
 		<real>0.7</real>
 	</array>
 	<key>com.typemytype.robofont.compileSettings.autohint</key>
@@ -326,9 +356,9 @@
 			<key>name</key>
 			<string></string>
 			<key>x</key>
-			<integer>739</integer>
+			<integer>315</integer>
 			<key>y</key>
-			<integer>711</integer>
+			<integer>755</integer>
 		</dict>
 		<dict>
 			<key>angle</key>
@@ -354,9 +384,9 @@
 			<key>name</key>
 			<string>Fig</string>
 			<key>x</key>
-			<integer>742</integer>
+			<integer>315</integer>
 			<key>y</key>
-			<integer>104</integer>
+			<integer>99</integer>
 		</dict>
 		<dict>
 			<key>angle</key>
@@ -372,6 +402,20 @@
 			<key>y</key>
 			<integer>565</integer>
 		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string></string>
+			<key>x</key>
+			<integer>352</integer>
+			<key>y</key>
+			<integer>784</integer>
+		</dict>
 	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
@@ -379,6 +423,11 @@
 	<array>
 		<string>background</string>
 		<string>mask</string>
+		<string>BOLD</string>
+		<string>Previous</string>
+		<string>test1</string>
+		<string>Light</string>
+		<string>Ref</string>
 	</array>
 	<key>com.typemytype.robofont.mask.layerStrokeColor</key>
 	<array>
@@ -1107,6 +1156,16 @@
 			<string>glyphList</string>
 		</dict>
 	</array>
+	<key>com.typemytype.robofont.test1.layerStrokeColor</key>
+	<array>
+		<real>0.0</real>
+		<real>1.0</real>
+		<real>1.0</real>
+		<real>0.7</real>
+	</array>
+	<key>com.typesupply.MetricsMachine4.groupColors</key>
+	<dict>
+	</dict>
 	<key>public.glyphOrder</key>
 	<array>
 		<string>.notdef</string>

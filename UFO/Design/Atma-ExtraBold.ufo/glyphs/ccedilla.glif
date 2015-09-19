@@ -1,15 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ccedilla" format="1">
-  <advance width="526"/>
+  <advance width="521"/>
   <unicode hex="00E7"/>
   <outline>
-    <component base="c"/>
-    <component base="cedilla" xOffset="130" yOffset="-7"/>
+    <contour>
+      <point x="338" y="342" type="curve"/>
+      <point x="406" y="342"/>
+      <point x="464" y="349"/>
+      <point x="511" y="372" type="curve"/>
+      <point x="511" y="468"/>
+      <point x="449" y="543"/>
+      <point x="313" y="543" type="curve" smooth="yes"/>
+      <point x="127" y="543"/>
+      <point x="25" y="355"/>
+      <point x="25" y="203" type="curve" smooth="yes"/>
+      <point x="25" y="82"/>
+      <point x="92" y="-25"/>
+      <point x="246" y="-25" type="curve" smooth="yes"/>
+      <point x="415" y="-25"/>
+      <point x="489" y="79"/>
+      <point x="500" y="114" type="curve"/>
+      <point x="476" y="149"/>
+      <point x="434" y="176"/>
+      <point x="397" y="183" type="curve"/>
+      <point x="374" y="150"/>
+      <point x="332" y="86"/>
+      <point x="283" y="86" type="curve" smooth="yes"/>
+      <point x="242" y="86"/>
+      <point x="226" y="143"/>
+      <point x="226" y="210" type="curve" smooth="yes"/>
+      <point x="226" y="326"/>
+      <point x="259" y="446"/>
+      <point x="299" y="446" type="curve" smooth="yes"/>
+      <point x="329" y="446"/>
+      <point x="338" y="403"/>
+    </contour>
+    <contour>
+      <point x="246" y="-237" type="curve" smooth="yes"/>
+      <point x="332" y="-237"/>
+      <point x="385" y="-193"/>
+      <point x="385" y="-131" type="curve" smooth="yes"/>
+      <point x="385" y="-81"/>
+      <point x="346" y="-49"/>
+      <point x="293" y="-49" type="curve" smooth="yes"/>
+      <point x="264" y="-49"/>
+      <point x="247" y="-56"/>
+      <point x="222" y="-68" type="curve"/>
+      <point x="246" y="-92" type="line"/>
+      <point x="261" y="-58"/>
+      <point x="268" y="-29"/>
+      <point x="270" y="-5" type="curve"/>
+      <point x="213" y="8" type="line"/>
+      <point x="214" y="-25"/>
+      <point x="203" y="-70"/>
+      <point x="187" y="-98" type="curve"/>
+      <point x="192" y="-106"/>
+      <point x="200" y="-114"/>
+      <point x="209" y="-121" type="curve"/>
+      <point x="221" y="-115"/>
+      <point x="232" y="-112"/>
+      <point x="243" y="-112" type="curve" smooth="yes"/>
+      <point x="263" y="-112"/>
+      <point x="275" y="-123"/>
+      <point x="275" y="-142" type="curve" smooth="yes"/>
+      <point x="275" y="-162"/>
+      <point x="263" y="-174"/>
+      <point x="244" y="-174" type="curve" smooth="yes"/>
+      <point x="222" y="-174"/>
+      <point x="204" y="-157"/>
+      <point x="196" y="-132" type="curve"/>
+      <point x="177" y="-140"/>
+      <point x="157" y="-150"/>
+      <point x="131" y="-166" type="curve"/>
+      <point x="149" y="-215"/>
+      <point x="196" y="-237"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>BOLD</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>ccedilla</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>521</integer>
+        </dict>
+        <key>Light</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>ccedilla</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>521</integer>
+        </dict>
+        <key>Previous</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>ccedilla</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>521</integer>
+        </dict>
+        <key>Ref</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>ccedilla</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>521</integer>
+        </dict>
         <key>background</key>
         <dict>
           <key>anchors</key>
@@ -30,7 +188,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>526</integer>
+          <integer>521</integer>
         </dict>
         <key>mask</key>
         <dict>
@@ -52,14 +210,36 @@
           <array>
           </array>
           <key>width</key>
-          <integer>526</integer>
+          <integer>521</integer>
+        </dict>
+        <key>test1</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>ccedilla</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>521</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.2698</real>
-        <real>0.5368</real>
-        <real>1.0</real>
+        <real>0.9225</real>
+        <real>0.7552</real>
+        <real>0.2219</real>
         <real>1.0</real>
       </array>
     </dict>

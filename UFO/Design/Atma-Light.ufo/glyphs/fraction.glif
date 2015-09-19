@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fraction" format="1">
+  <advance width="345"/>
+  <unicode hex="2044"/>
+  <outline>
+    <contour>
+      <point x="160.538448341" y="263.033820815"/>
+      <point x="261.740017666" y="472.346593073"/>
+      <point x="375" y="757" type="curve"/>
+      <point x="358" y="769"/>
+      <point x="345" y="775"/>
+      <point x="330" y="781" type="curve"/>
+      <point x="205" y="477"/>
+      <point x="119" y="286"/>
+      <point x="-30" y="-1" type="curve"/>
+      <point x="-18.0371984107" y="-10.2021550687"/>
+      <point x="-8.55298955829" y="-19.8156701472"/>
+      <point x="10" y="-26" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>BOLD</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>fraction</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>345</integer>
+        </dict>
+        <key>Previous</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>fraction</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>345</integer>
+        </dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>fraction</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>345</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>fraction</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>345</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

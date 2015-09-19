@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dcaron" format="1">
+  <advance width="428"/>
+  <unicode hex="010F"/>
+  <outline>
+    <contour>
+      <point x="452" y="470" type="curve"/>
+      <point x="488" y="539"/>
+      <point x="502" y="604"/>
+      <point x="510" y="679" type="curve"/>
+      <point x="494" y="683"/>
+      <point x="467" y="684"/>
+      <point x="448" y="682" type="curve"/>
+      <point x="445" y="606"/>
+      <point x="433" y="540"/>
+      <point x="411" y="477" type="curve"/>
+      <point x="425" y="473"/>
+      <point x="437" y="471"/>
+    </contour>
+    <component base="d" xOffset="1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>BOLD</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>dcaron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>428</integer>
+        </dict>
+        <key>Previous</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>dcaron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>428</integer>
+        </dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>dcaron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>428</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>dcaron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>428</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.4267</real>
+        <real>0.3359</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

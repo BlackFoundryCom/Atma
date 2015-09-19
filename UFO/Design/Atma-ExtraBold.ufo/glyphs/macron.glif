@@ -7,7 +7,7 @@
       <point x="4" y="698"/>
       <point x="4" y="648"/>
       <point x="7" y="623" type="curve"/>
-      <point x="34" y="604"/>
+      <point x="44" y="604"/>
       <point x="137" y="598"/>
       <point x="253" y="618" type="curve"/>
       <point x="256" y="650"/>
@@ -25,6 +25,94 @@
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>BOLD</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>macron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <real>259.893390928</real>
+        </dict>
+        <key>Light</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>macron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <real>259.893390928</real>
+        </dict>
+        <key>Previous</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>macron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <real>259.893390928</real>
+        </dict>
+        <key>Ref</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>macron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <real>259.893390928</real>
+        </dict>
         <key>background</key>
         <dict>
           <key>anchors</key>
@@ -69,7 +157,36 @@
           <key>width</key>
           <real>259.893390928</real>
         </dict>
+        <key>test1</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>macron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <real>259.893390928</real>
+        </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.9225</real>
+        <real>0.7552</real>
+        <real>0.2219</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

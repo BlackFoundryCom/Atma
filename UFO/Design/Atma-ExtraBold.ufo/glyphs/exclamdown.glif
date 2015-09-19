@@ -1,14 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="exclamdown" format="1">
-  <advance width="283"/>
+  <advance width="324"/>
   <unicode hex="00A1"/>
   <outline>
-    <component base="exclam" xScale="-1" yScale="-1" xOffset="294" yOffset="541"/>
+    <contour>
+      <point x="258" y="-145"/>
+      <point x="259" y="-126"/>
+      <point x="259" y="-107" type="curve" smooth="yes"/>
+      <point x="259" y="19"/>
+      <point x="255" y="142"/>
+      <point x="236" y="291" type="curve"/>
+      <point x="207" y="297"/>
+      <point x="172" y="301"/>
+      <point x="139" y="301" type="curve" smooth="yes"/>
+      <point x="115" y="301"/>
+      <point x="97" y="300"/>
+      <point x="83" y="296" type="curve"/>
+      <point x="87" y="164"/>
+      <point x="69" y="-52"/>
+      <point x="40" y="-182" type="curve"/>
+      <point x="64" y="-191"/>
+      <point x="92" y="-196"/>
+      <point x="124" y="-196" type="curve"/>
+      <point x="175" y="-196"/>
+      <point x="218" y="-184"/>
+      <point x="257" y="-164" type="curve"/>
+    </contour>
+    <contour>
+      <point x="246" y="438"/>
+      <point x="247" y="489"/>
+      <point x="243" y="551" type="curve"/>
+      <point x="221" y="562"/>
+      <point x="183" y="571"/>
+      <point x="142" y="571" type="curve" smooth="yes"/>
+      <point x="111" y="571"/>
+      <point x="87" y="569"/>
+      <point x="53" y="562" type="curve"/>
+      <point x="59" y="504"/>
+      <point x="62" y="456"/>
+      <point x="65" y="394" type="curve"/>
+      <point x="127" y="392"/>
+      <point x="172" y="389"/>
+      <point x="243" y="388" type="curve"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>BOLD</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>exclamdown</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>324</integer>
+        </dict>
+        <key>Light</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>exclamdown</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>324</integer>
+        </dict>
+        <key>Previous</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>exclamdown</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>324</integer>
+        </dict>
+        <key>Ref</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>exclamdown</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>324</integer>
+        </dict>
         <key>background</key>
         <dict>
           <key>anchors</key>
@@ -29,7 +156,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>283</integer>
+          <integer>324</integer>
         </dict>
         <key>mask</key>
         <dict>
@@ -51,7 +178,29 @@
           <array>
           </array>
           <key>width</key>
-          <integer>283</integer>
+          <integer>324</integer>
+        </dict>
+        <key>test1</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>exclamdown</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>324</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>

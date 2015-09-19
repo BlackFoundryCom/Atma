@@ -4,6 +4,21 @@
   <unicode hex="2039"/>
   <outline>
     <contour>
+      <point x="204" y="24" type="curve"/>
+      <point x="257" y="46"/>
+      <point x="290" y="75"/>
+      <point x="320" y="126" type="curve"/>
+      <point x="225" y="189"/>
+      <point x="172" y="244"/>
+      <point x="116" y="321" type="curve"/>
+      <point x="6" y="267" type="line"/>
+      <point x="53" y="168"/>
+      <point x="123" y="93"/>
+    </contour>
+    <contour>
+      <point x="323" y="406" type="curve"/>
+      <point x="300" y="441"/>
+      <point x="249" y="479"/>
       <point x="205" y="499" type="curve"/>
       <point x="150" y="400"/>
       <point x="91" y="335"/>
@@ -11,27 +26,100 @@
       <point x="85" y="211" type="line"/>
       <point x="191" y="269"/>
       <point x="252" y="327"/>
-      <point x="323" y="406" type="curve"/>
-      <point x="300" y="441"/>
-      <point x="249" y="479"/>
-    </contour>
-    <contour>
-      <point x="116" y="321" type="curve"/>
-      <point x="6" y="267" type="line"/>
-      <point x="53" y="168"/>
-      <point x="123" y="93"/>
-      <point x="204" y="24" type="curve"/>
-      <point x="257" y="46"/>
-      <point x="290" y="75"/>
-      <point x="320" y="126" type="curve"/>
-      <point x="225" y="189"/>
-      <point x="172" y="244"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>BOLD</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>guilsinglleft</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>330</integer>
+        </dict>
+        <key>Light</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>guilsinglleft</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>330</integer>
+        </dict>
+        <key>Previous</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>guilsinglleft</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>330</integer>
+        </dict>
+        <key>Ref</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>guilsinglleft</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>330</integer>
+        </dict>
         <key>background</key>
         <dict>
           <key>anchors</key>
@@ -76,7 +164,36 @@
           <key>width</key>
           <integer>330</integer>
         </dict>
+        <key>test1</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>guilsinglleft</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>330</integer>
+        </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.9225</real>
+        <real>0.7552</real>
+        <real>0.2219</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

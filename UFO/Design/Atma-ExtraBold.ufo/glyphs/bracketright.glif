@@ -4,9 +4,6 @@
   <unicode hex="005D"/>
   <outline>
     <contour>
-      <point x="338" y="804" type="curve"/>
-      <point x="230" y="804"/>
-      <point x="119.940808292" y="797.867601037"/>
       <point x="17" y="785" type="curve"/>
       <point x="17" y="745"/>
       <point x="27" y="681"/>
@@ -22,6 +19,9 @@
       <point x="351" y="-86" type="curve"/>
       <point x="368" y="205"/>
       <point x="372" y="595"/>
+      <point x="338" y="804" type="curve"/>
+      <point x="230" y="804"/>
+      <point x="119.940808292" y="797.867601037"/>
     </contour>
     <contour>
       <point x="43" y="-124" type="curve"/>
@@ -59,6 +59,94 @@
       </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>BOLD</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bracketright</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>435</integer>
+        </dict>
+        <key>Light</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bracketright</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>435</integer>
+        </dict>
+        <key>Previous</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bracketright</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>435</integer>
+        </dict>
+        <key>Ref</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bracketright</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>435</integer>
+        </dict>
         <key>background</key>
         <dict>
           <key>anchors</key>
@@ -373,7 +461,36 @@
           <key>width</key>
           <integer>435</integer>
         </dict>
+        <key>test1</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bracketright</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>435</integer>
+        </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.9225</real>
+        <real>0.7552</real>
+        <real>0.2219</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

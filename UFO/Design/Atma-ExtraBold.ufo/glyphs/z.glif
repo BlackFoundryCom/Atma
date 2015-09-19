@@ -4,6 +4,9 @@
   <unicode hex="007A"/>
   <outline>
     <contour>
+      <point x="454" y="-47" type="curve"/>
+      <point x="473" y="-1"/>
+      <point x="483" y="58"/>
       <point x="483" y="120" type="curve"/>
       <point x="382.729674522" y="95.4239398339"/>
       <point x="310.167067727" y="91.9460902273"/>
@@ -31,9 +34,6 @@
       <point x="8" y="25" type="curve"/>
       <point x="116.949271366" y="-22.1131984285"/>
       <point x="312.585287895" y="-46.0110859293"/>
-      <point x="454" y="-47" type="curve"/>
-      <point x="473" y="-1"/>
-      <point x="483" y="58"/>
     </contour>
     <contour>
       <point x="302" y="560" type="move" name="top"/>
@@ -43,6 +43,94 @@
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>BOLD</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>z</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>551</integer>
+        </dict>
+        <key>Light</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>z</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>551</integer>
+        </dict>
+        <key>Previous</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>z</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>551</integer>
+        </dict>
+        <key>Ref</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>z</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>551</integer>
+        </dict>
         <key>background</key>
         <dict>
           <key>anchors</key>
@@ -331,6 +419,28 @@
           <integer>551</integer>
         </dict>
         <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>z</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>551</integer>
+        </dict>
+        <key>test1</key>
         <dict>
           <key>anchors</key>
           <array>

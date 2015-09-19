@@ -1,27 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="comma" format="1">
-  <advance width="250"/>
+  <advance width="284"/>
   <unicode hex="002C"/>
   <outline>
     <contour>
-      <point x="230" y="134" type="curve"/>
-      <point x="178" y="150"/>
-      <point x="110" y="155"/>
-      <point x="44" y="150" type="curve"/>
-      <point x="46" y="25"/>
-      <point x="31" y="-95"/>
-      <point x="1" y="-212" type="curve"/>
-      <point x="41" y="-223"/>
-      <point x="86" y="-229"/>
-      <point x="138" y="-232" type="curve"/>
-      <point x="192" y="-116"/>
-      <point x="222" y="7"/>
+      <point x="264" y="129" type="curve"/>
+      <point x="212" y="145"/>
+      <point x="144" y="150"/>
+      <point x="78" y="145" type="curve"/>
+      <point x="80" y="20"/>
+      <point x="65" y="-100"/>
+      <point x="35" y="-217" type="curve"/>
+      <point x="75" y="-228"/>
+      <point x="120" y="-234"/>
+      <point x="172" y="-237" type="curve"/>
+      <point x="226" y="-121"/>
+      <point x="256" y="2"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>BOLD</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>comma</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>284</integer>
+        </dict>
+        <key>Light</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>comma</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>284</integer>
+        </dict>
+        <key>Previous</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>comma</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>284</integer>
+        </dict>
+        <key>Ref</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>comma</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>284</integer>
+        </dict>
         <key>background</key>
         <dict>
           <key>anchors</key>
@@ -42,7 +130,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>250</integer>
+          <integer>284</integer>
         </dict>
         <key>mask</key>
         <dict>
@@ -64,9 +152,38 @@
           <array>
           </array>
           <key>width</key>
-          <integer>250</integer>
+          <integer>284</integer>
+        </dict>
+        <key>test1</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>comma</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>284</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.9225</real>
+        <real>0.7552</real>
+        <real>0.2219</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

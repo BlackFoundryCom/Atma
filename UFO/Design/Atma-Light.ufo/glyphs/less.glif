@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less" format="1">
+  <advance width="340"/>
+  <unicode hex="003C"/>
+  <outline>
+    <contour>
+      <point x="56" y="321" type="line"/>
+      <point x="129" y="373"/>
+      <point x="203" y="415"/>
+      <point x="311" y="461" type="curve"/>
+      <point x="308" y="474"/>
+      <point x="304" y="481"/>
+      <point x="298" y="498" type="curve"/>
+      <point x="194" y="455"/>
+      <point x="117" y="416"/>
+      <point x="34" y="357" type="curve"/>
+      <point x="31" y="322" type="line"/>
+      <point x="105" y="265"/>
+      <point x="189" y="222"/>
+      <point x="295" y="181" type="curve"/>
+      <point x="302" y="193"/>
+      <point x="307" y="205"/>
+      <point x="308" y="218" type="curve"/>
+      <point x="200" y="264"/>
+      <point x="115" y="307"/>
+      <point x="53" y="358" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>BOLD</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>less</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>340</integer>
+        </dict>
+        <key>Previous</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>less</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>340</integer>
+        </dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>less</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>340</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>less</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>340</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

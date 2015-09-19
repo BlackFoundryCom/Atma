@@ -1,8 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ordfeminine" format="1">
-  <advance width="500"/>
+  <advance width="237"/>
   <unicode hex="00AA"/>
   <outline>
+    <contour>
+      <point x="178" y="431" type="curve"/>
+      <point x="165" y="431"/>
+      <point x="150" y="434"/>
+      <point x="137" y="438" type="curve"/>
+      <point x="156" y="522"/>
+      <point x="161" y="556"/>
+      <point x="161" y="623" type="curve" smooth="yes"/>
+      <point x="161" y="682"/>
+      <point x="148" y="706"/>
+      <point x="118" y="706" type="curve" smooth="yes"/>
+      <point x="88" y="706"/>
+      <point x="65" y="676"/>
+      <point x="64" y="632" type="curve"/>
+      <point x="41" y="634"/>
+      <point x="26" y="642"/>
+      <point x="19" y="656" type="curve"/>
+      <point x="27" y="699"/>
+      <point x="69" y="739"/>
+      <point x="124" y="739" type="curve" smooth="yes"/>
+      <point x="194" y="739"/>
+      <point x="211" y="686"/>
+      <point x="211" y="633" type="curve" smooth="yes"/>
+      <point x="211" y="581"/>
+      <point x="194" y="489"/>
+    </contour>
+    <contour>
+      <point x="166" y="571" type="line"/>
+      <point x="78" y="577"/>
+      <point x="56" y="552"/>
+      <point x="56" y="524" type="curve" smooth="yes"/>
+      <point x="56" y="499"/>
+      <point x="74" y="484"/>
+      <point x="100" y="484" type="curve" smooth="yes"/>
+      <point x="124" y="484"/>
+      <point x="145" y="493"/>
+      <point x="161" y="509" type="curve"/>
+      <point x="158" y="482" type="line"/>
+      <point x="144" y="465"/>
+      <point x="119" y="454"/>
+      <point x="89" y="454" type="curve" smooth="yes"/>
+      <point x="39" y="454"/>
+      <point x="5" y="482"/>
+      <point x="5" y="526" type="curve" smooth="yes"/>
+      <point x="5" y="570"/>
+      <point x="41" y="598"/>
+      <point x="122" y="598" type="curve" smooth="yes"/>
+      <point x="143" y="598"/>
+      <point x="154" y="597"/>
+      <point x="167" y="596" type="curve"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -28,7 +79,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>500</integer>
+          <integer>237</integer>
         </dict>
         <key>Previous</key>
         <dict>
@@ -50,7 +101,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>500</integer>
+          <integer>237</integer>
         </dict>
         <key>background</key>
         <dict>
@@ -72,7 +123,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>500</integer>
+          <integer>237</integer>
         </dict>
         <key>mask</key>
         <dict>
@@ -94,16 +145,9 @@
           <array>
           </array>
           <key>width</key>
-          <integer>500</integer>
+          <integer>237</integer>
         </dict>
       </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
     </dict>
   </lib>
 </glyph>

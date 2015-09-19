@@ -4,9 +4,6 @@
   <unicode hex="0141"/>
   <outline>
     <contour>
-      <point x="123" y="-106" type="curve"/>
-      <point x="279" y="-84"/>
-      <point x="388" y="-73"/>
       <point x="538" y="-73" type="curve"/>
       <point x="538" y="-25"/>
       <point x="525" y="50"/>
@@ -28,8 +25,12 @@
       <point x="62" y="652" type="curve"/>
       <point x="62" y="434"/>
       <point x="94" y="77"/>
+      <point x="123" y="-106" type="curve"/>
+      <point x="279" y="-84"/>
+      <point x="388" y="-73"/>
     </contour>
     <contour>
+      <point x="18" y="45" type="curve"/>
       <point x="494" y="367" type="line"/>
       <point x="480" y="412"/>
       <point x="451" y="461"/>
@@ -37,13 +38,100 @@
       <point x="-51" y="150" type="line"/>
       <point x="-35" y="104"/>
       <point x="-18" y="78"/>
-      <point x="18" y="45" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>BOLD</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Lslash</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>533</integer>
+        </dict>
+        <key>Light</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Lslash</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>533</integer>
+        </dict>
+        <key>Previous</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Lslash</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>533</integer>
+        </dict>
+        <key>Ref</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Lslash</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>533</integer>
+        </dict>
         <key>background</key>
         <dict>
           <key>anchors</key>
@@ -165,12 +253,34 @@
           <key>width</key>
           <integer>533</integer>
         </dict>
+        <key>test1</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Lslash</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>533</integer>
+        </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.2698</real>
-        <real>0.5368</real>
-        <real>1.0</real>
+        <real>0.9225</real>
+        <real>0.7552</real>
+        <real>0.2219</real>
         <real>1.0</real>
       </array>
     </dict>

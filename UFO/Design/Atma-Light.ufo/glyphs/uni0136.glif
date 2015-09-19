@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0136" format="1">
-  <advance width="1"/>
+  <advance width="531"/>
   <unicode hex="0136"/>
   <outline>
+    <contour>
+      <point x="304" y="-65" type="curve"/>
+      <point x="287" y="-64"/>
+      <point x="271" y="-65"/>
+      <point x="252" y="-69" type="curve"/>
+      <point x="255" y="-128"/>
+      <point x="249" y="-181"/>
+      <point x="229" y="-247" type="curve"/>
+      <point x="241" y="-253"/>
+      <point x="253" y="-256"/>
+      <point x="269" y="-257" type="curve"/>
+      <point x="299" y="-185"/>
+      <point x="309" y="-120"/>
+    </contour>
+    <component base="K"/>
   </outline>
   <lib>
     <dict>
@@ -150,7 +165,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1</integer>
+          <integer>531</integer>
         </dict>
         <key>Previous</key>
         <dict>
@@ -172,7 +187,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1</integer>
+          <integer>531</integer>
         </dict>
         <key>background</key>
         <dict>
@@ -194,7 +209,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1</integer>
+          <integer>531</integer>
         </dict>
         <key>mask</key>
         <dict>
@@ -216,14 +231,14 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1</integer>
+          <integer>531</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.9225</real>
-        <real>0.7552</real>
-        <real>0.2219</real>
+        <real>1.0</real>
+        <real>0.4267</real>
+        <real>0.3359</real>
         <real>1.0</real>
       </array>
     </dict>

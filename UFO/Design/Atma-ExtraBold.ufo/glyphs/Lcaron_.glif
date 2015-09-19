@@ -4,6 +4,9 @@
   <unicode hex="013D"/>
   <outline>
     <contour>
+      <point x="480" y="425" type="curve"/>
+      <point x="515" y="521"/>
+      <point x="530" y="582"/>
       <point x="535" y="665" type="curve"/>
       <point x="489" y="679"/>
       <point x="428" y="684"/>
@@ -13,9 +16,6 @@
       <point x="353" y="444" type="curve"/>
       <point x="390" y="434"/>
       <point x="432" y="428"/>
-      <point x="480" y="425" type="curve"/>
-      <point x="515" y="521"/>
-      <point x="530" y="582"/>
     </contour>
     <component base="L"/>
   </outline>
@@ -23,6 +23,94 @@
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>BOLD</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Lcaron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>533</integer>
+        </dict>
+        <key>Light</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Lcaron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>533</integer>
+        </dict>
+        <key>Previous</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Lcaron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>533</integer>
+        </dict>
+        <key>Ref</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Lcaron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>533</integer>
+        </dict>
         <key>background</key>
         <dict>
           <key>anchors</key>
@@ -176,12 +264,34 @@
           <key>width</key>
           <integer>533</integer>
         </dict>
+        <key>test1</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Lcaron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>533</integer>
+        </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.2698</real>
-        <real>0.5368</real>
-        <real>1.0</real>
+        <real>0.9225</real>
+        <real>0.7552</real>
+        <real>0.2219</real>
         <real>1.0</real>
       </array>
     </dict>

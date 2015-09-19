@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lcaron" format="1">
+  <advance width="166"/>
+  <unicode hex="013E"/>
+  <outline>
+    <contour>
+      <point x="182" y="470" type="curve"/>
+      <point x="218" y="539"/>
+      <point x="232" y="604"/>
+      <point x="240" y="679" type="curve"/>
+      <point x="224" y="683"/>
+      <point x="197" y="684"/>
+      <point x="178" y="682" type="curve"/>
+      <point x="175" y="606"/>
+      <point x="163" y="540"/>
+      <point x="141" y="477" type="curve"/>
+      <point x="155" y="473"/>
+      <point x="167" y="471"/>
+    </contour>
+    <component base="l"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>BOLD</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>lcaron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>166</integer>
+        </dict>
+        <key>Previous</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>lcaron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>166</integer>
+        </dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>lcaron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>166</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>lcaron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>166</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.4267</real>
+        <real>0.3359</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
