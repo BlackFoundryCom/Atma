@@ -31,29 +31,29 @@
     </contour>
     <contour>
       <point x="202" y="515" type="curve" smooth="yes"/>
-      <point x="300" y="515"/>
-      <point x="338" y="447"/>
-      <point x="399" y="379" type="curve" smooth="yes"/>
-      <point x="437" y="336"/>
-      <point x="470" y="270"/>
-      <point x="534" y="270" type="curve"/>
-      <point x="570" y="270"/>
-      <point x="596" y="294"/>
-      <point x="596" y="331" type="curve" smooth="yes"/>
-      <point x="596" y="368"/>
-      <point x="570" y="392"/>
-      <point x="536" y="392" type="curve" smooth="yes"/>
-      <point x="470" y="392"/>
-      <point x="460" y="311"/>
-      <point x="403" y="254" type="curve" smooth="yes"/>
-      <point x="346" y="197"/>
-      <point x="300" y="137"/>
-      <point x="202" y="137" type="curve" smooth="yes"/>
-      <point x="99" y="137"/>
-      <point x="30" y="216"/>
-      <point x="30" y="322" type="curve" smooth="yes"/>
-      <point x="30" y="434"/>
       <point x="99" y="515"/>
+      <point x="30" y="434"/>
+      <point x="30" y="322" type="curve" smooth="yes"/>
+      <point x="30" y="216"/>
+      <point x="99" y="137"/>
+      <point x="202" y="137" type="curve" smooth="yes"/>
+      <point x="300" y="137"/>
+      <point x="346" y="197"/>
+      <point x="403" y="254" type="curve" smooth="yes"/>
+      <point x="460" y="311"/>
+      <point x="470" y="392"/>
+      <point x="536" y="392" type="curve" smooth="yes"/>
+      <point x="570" y="392"/>
+      <point x="596" y="368"/>
+      <point x="596" y="331" type="curve" smooth="yes"/>
+      <point x="596" y="294"/>
+      <point x="570" y="270"/>
+      <point x="534" y="270" type="curve"/>
+      <point x="470" y="270"/>
+      <point x="437" y="336"/>
+      <point x="399" y="379" type="curve" smooth="yes"/>
+      <point x="338" y="447"/>
+      <point x="300" y="515"/>
     </contour>
   </outline>
   <lib>
@@ -77,94 +77,6 @@
       </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
-        <key>BOLD</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>infinity</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>716</integer>
-        </dict>
-        <key>Light</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>infinity</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>716</integer>
-        </dict>
-        <key>Previous</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>infinity</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>716</integer>
-        </dict>
-        <key>Ref</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>infinity</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>716</integer>
-        </dict>
         <key>background</key>
         <dict>
           <key>anchors</key>
@@ -653,58 +565,7 @@
           <key>width</key>
           <integer>716</integer>
         </dict>
-        <key>mask</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>infinity</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>716</integer>
-        </dict>
-        <key>test1</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>infinity</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>716</integer>
-        </dict>
       </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
     </dict>
   </lib>
 </glyph>
