@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="AE" format="1">
-  <advance width="796.0"/>
+  <advance width="804.313708499"/>
   <unicode hex="00C6"/>
   <outline>
     <contour>
@@ -73,4 +73,33 @@
       <point x="427" y="209" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>AE</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <real>804.313708499</real>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

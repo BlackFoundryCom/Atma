@@ -1,22 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tcaron" format="1">
-  <advance width="340"/>
+  <advance width="356"/>
   <unicode hex="0165"/>
   <outline>
-    <contour>
-      <point x="267" y="535" type="curve"/>
-      <point x="303" y="604"/>
-      <point x="317" y="669"/>
-      <point x="325" y="744" type="curve"/>
-      <point x="309" y="748"/>
-      <point x="282" y="749"/>
-      <point x="263" y="747" type="curve"/>
-      <point x="260" y="671"/>
-      <point x="248" y="605"/>
-      <point x="226" y="542" type="curve"/>
-      <point x="240" y="538"/>
-      <point x="252" y="536"/>
-    </contour>
     <component base="t"/>
+    <component base="caron.alt" xOffset="135"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>257</integer>
+                  <key>y</key>
+                  <integer>570</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>293</integer>
+                  <key>y</key>
+                  <integer>639</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>307</integer>
+                  <key>y</key>
+                  <integer>704</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>315</integer>
+                  <key>y</key>
+                  <integer>779</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>299</integer>
+                  <key>y</key>
+                  <integer>783</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>272</integer>
+                  <key>y</key>
+                  <integer>784</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>253</integer>
+                  <key>y</key>
+                  <integer>782</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>250</integer>
+                  <key>y</key>
+                  <integer>706</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>238</integer>
+                  <key>y</key>
+                  <integer>640</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>216</integer>
+                  <key>y</key>
+                  <integer>577</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>230</integer>
+                  <key>y</key>
+                  <integer>573</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>242</integer>
+                  <key>y</key>
+                  <integer>571</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>tcaron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>356</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

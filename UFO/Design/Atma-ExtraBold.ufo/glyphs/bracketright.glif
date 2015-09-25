@@ -14,9 +14,7 @@
       <point x="222" y="451"/>
       <point x="232" y="219"/>
       <point x="206" y="-73" type="curve"/>
-      <point x="264" y="-73"/>
-      <point x="307" y="-88"/>
-      <point x="351" y="-86" type="curve"/>
+      <point x="351" y="-86" type="line"/>
       <point x="368" y="205"/>
       <point x="372" y="595"/>
       <point x="338" y="804" type="curve"/>
@@ -28,9 +26,7 @@
       <point x="160.071375279" y="-118.097241583"/>
       <point x="249.585117442" y="-105.692210205"/>
       <point x="351" y="-86" type="curve"/>
-      <point x="351.0" y="-51.0"/>
-      <point x="342.282686859" y="-15.7269090647"/>
-      <point x="328" y="21" type="curve"/>
+      <point x="328" y="21" type="line"/>
       <point x="237.407137644" y="7.50744603207"/>
       <point x="144" y="3"/>
       <point x="53" y="3" type="curve"/>
@@ -57,6 +53,31 @@
           <integer>210</integer>
         </dict>
       </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bracketright</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>435</integer>
+        </dict>
+      </dict>
     </dict>
   </lib>
 </glyph>

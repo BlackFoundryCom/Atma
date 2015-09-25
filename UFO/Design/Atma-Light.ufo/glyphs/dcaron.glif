@@ -1,22 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dcaron" format="1">
-  <advance width="428"/>
+  <advance width="437"/>
   <unicode hex="010F"/>
   <outline>
-    <contour>
-      <point x="452" y="470" type="curve"/>
-      <point x="488" y="539"/>
-      <point x="502" y="604"/>
-      <point x="510" y="679" type="curve"/>
-      <point x="494" y="683"/>
-      <point x="467" y="684"/>
-      <point x="448" y="682" type="curve"/>
-      <point x="445" y="606"/>
-      <point x="433" y="540"/>
-      <point x="411" y="477" type="curve"/>
-      <point x="425" y="473"/>
-      <point x="437" y="471"/>
-    </contour>
-    <component base="d" xOffset="1"/>
+    <component base="d"/>
+    <component base="caron.alt" xOffset="330" yOffset="-100"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>452</integer>
+                  <key>y</key>
+                  <integer>470</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>488</integer>
+                  <key>y</key>
+                  <integer>539</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>502</integer>
+                  <key>y</key>
+                  <integer>604</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>510</integer>
+                  <key>y</key>
+                  <integer>679</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>494</integer>
+                  <key>y</key>
+                  <integer>683</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>467</integer>
+                  <key>y</key>
+                  <integer>684</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>448</integer>
+                  <key>y</key>
+                  <integer>682</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>445</integer>
+                  <key>y</key>
+                  <integer>606</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>433</integer>
+                  <key>y</key>
+                  <integer>540</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>411</integer>
+                  <key>y</key>
+                  <integer>477</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>425</integer>
+                  <key>y</key>
+                  <integer>473</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>437</integer>
+                  <key>y</key>
+                  <integer>471</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>dcaron</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>437</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.2041</real>
+        <real>0.9476</real>
+        <real>0.8222</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threequarters" format="1">
+  <advance width="863"/>
+  <unicode hex="00BE"/>
+  <outline>
+    <component base="fraction" xOffset="231" yOffset="-3"/>
+    <component base="threesuperior" xOffset="7" yOffset="52"/>
+    <component base="foursuperior" xOffset="469" yOffset="-237"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.2041</real>
+        <real>0.9476</real>
+        <real>0.8222</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

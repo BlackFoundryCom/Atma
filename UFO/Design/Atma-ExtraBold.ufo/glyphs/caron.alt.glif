@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron.alt" format="1">
+  <advance width="260"/>
+  <unicode hex="E189"/>
+  <outline>
+    <contour>
+      <point x="166" y="425" type="curve"/>
+      <point x="201" y="521"/>
+      <point x="216" y="582"/>
+      <point x="221" y="665" type="curve"/>
+      <point x="175" y="679"/>
+      <point x="114" y="684"/>
+      <point x="55" y="680" type="curve"/>
+      <point x="56" y="599"/>
+      <point x="53" y="546"/>
+      <point x="39" y="444" type="curve"/>
+      <point x="76" y="434"/>
+      <point x="118" y="428"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>caron.alt</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>260</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.2041</real>
+        <real>0.9476</real>
+        <real>0.8222</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

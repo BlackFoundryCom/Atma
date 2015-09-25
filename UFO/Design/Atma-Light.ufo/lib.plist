@@ -5,6 +5,13 @@
 	<key>GlyphSets</key>
 	<dict>
 	</dict>
+	<key>com.typemytype.robofont.background.layerStrokeColor</key>
+	<array>
+		<real>0.2095</real>
+		<real>1.0</real>
+		<real>0.9764</real>
+		<real>0.7</real>
+	</array>
 	<key>com.typemytype.robofont.compileSettings.autohint</key>
 	<true/>
 	<key>com.typemytype.robofont.compileSettings.checkOutlines</key>
@@ -34,7 +41,7 @@
 			<key>name</key>
 			<string></string>
 			<key>x</key>
-			<integer>448</integer>
+			<integer>279</integer>
 			<key>y</key>
 			<integer>91</integer>
 		</dict>
@@ -48,15 +55,16 @@
 			<key>name</key>
 			<string></string>
 			<key>x</key>
-			<integer>255</integer>
+			<integer>-73</integer>
 			<key>y</key>
-			<integer>556</integer>
+			<integer>559</integer>
 		</dict>
 	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
+		<string>background</string>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>curve</string>
@@ -401,6 +409,10 @@
 				<string>lozenge</string>
 				<string>fi</string>
 				<string>fl</string>
+				<string>revcommaaccent</string>
+				<string>foursuperior</string>
+				<string>commaaccent</string>
+				<string>caron.alt</string>
 			</array>
 			<key>type</key>
 			<string>glyphList</string>
@@ -1403,6 +1415,10 @@
 		<string>lozenge</string>
 		<string>fi</string>
 		<string>fl</string>
+		<string>revcommaaccent</string>
+		<string>foursuperior</string>
+		<string>commaaccent</string>
+		<string>caron.alt</string>
 	</array>
 </dict>
 </plist>

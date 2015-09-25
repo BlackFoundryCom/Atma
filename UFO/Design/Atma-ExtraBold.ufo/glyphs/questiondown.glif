@@ -28,18 +28,16 @@
       <point x="393" y="144" type="curve"/>
     </contour>
     <contour>
-      <point x="393" y="144" type="curve"/>
+      <point x="393" y="144" type="line"/>
       <point x="391" y="192"/>
       <point x="381" y="256"/>
       <point x="369" y="313" type="curve"/>
       <point x="318" y="313"/>
       <point x="258" y="308"/>
       <point x="223" y="298" type="curve"/>
-      <point x="221" y="233"/>
-      <point x="218" y="159"/>
-      <point x="215" y="117" type="curve"/>
-      <point x="292" y="136"/>
-      <point x="340" y="141"/>
+      <point x="221.122042014" y="236.966365465"/>
+      <point x="221" y="167"/>
+      <point x="218" y="128" type="curve"/>
     </contour>
     <contour>
       <point x="188" y="564" type="curve"/>
@@ -59,4 +57,33 @@
       <point x="222" y="572"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>questiondown</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>513</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

@@ -9,7 +9,7 @@
       <point x="81" y="-67"/>
       <point x="103" y="-74" type="curve"/>
       <point x="250" y="201"/>
-      <point x="378" y="458"/>
+      <point x="380" y="458"/>
       <point x="514" y="769" type="curve"/>
       <point x="499" y="781"/>
       <point x="488" y="788"/>
@@ -46,4 +46,33 @@
       <point x="412" y="27"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Oslash</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>575</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

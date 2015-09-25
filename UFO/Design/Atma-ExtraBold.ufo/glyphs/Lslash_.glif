@@ -31,13 +31,46 @@
     </contour>
     <contour>
       <point x="18" y="45" type="curve"/>
-      <point x="494" y="367" type="line"/>
+      <point x="184" y="146"/>
+      <point x="342" y="254"/>
+      <point x="494" y="367" type="curve"/>
       <point x="480" y="412"/>
       <point x="451" y="461"/>
       <point x="420" y="486" type="curve"/>
-      <point x="-51" y="150" type="line"/>
+      <point x="267" y="366"/>
+      <point x="110" y="254"/>
+      <point x="-51" y="150" type="curve"/>
       <point x="-35" y="104"/>
       <point x="-18" y="78"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Lslash</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>533</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

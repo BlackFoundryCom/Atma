@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni015E" format="1">
-  <advance width="445"/>
+  <advance width="461"/>
   <unicode hex="015E"/>
   <outline>
     <component base="S"/>
     <component base="cedilla" xOffset="118" yOffset="-19"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>uni015E</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>461</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

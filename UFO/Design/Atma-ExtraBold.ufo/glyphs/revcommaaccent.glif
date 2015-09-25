@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="revcommaaccent" format="1">
+  <advance width="260"/>
+  <unicode hex="E18A"/>
+  <outline>
+    <contour>
+      <point x="46" y="607" type="curve"/>
+      <point x="88" y="598"/>
+      <point x="142" y="595"/>
+      <point x="195" y="598" type="curve"/>
+      <point x="190" y="670"/>
+      <point x="198" y="736"/>
+      <point x="214" y="809" type="curve"/>
+      <point x="182" y="815"/>
+      <point x="141" y="819"/>
+      <point x="100" y="820" type="curve"/>
+      <point x="67" y="763"/>
+      <point x="48" y="675"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>revcommaaccent</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>260</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.2041</real>
+        <real>0.9476</real>
+        <real>0.8222</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

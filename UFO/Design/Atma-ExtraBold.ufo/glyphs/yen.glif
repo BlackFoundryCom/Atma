@@ -61,9 +61,7 @@
     </contour>
     <contour>
       <point x="206" y="247" type="curve"/>
-      <point x="253" y="266"/>
-      <point x="299" y="308"/>
-      <point x="322" y="326" type="curve"/>
+      <point x="322" y="326" type="line"/>
       <point x="289.067790589" y="472.698023742"/>
       <point x="235.173627893" y="606.640342223"/>
       <point x="193" y="694" type="curve"/>
@@ -89,4 +87,33 @@
       <point x="483" y="686"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>yen</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>601</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

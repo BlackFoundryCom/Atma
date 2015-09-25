@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="thorn" format="1">
-  <advance width="417"/>
+  <advance width="424"/>
   <unicode hex="00FE"/>
   <outline>
     <contour>
@@ -42,11 +42,40 @@
       <point x="136" y="747"/>
       <point x="131" y="748"/>
       <point x="120" y="748" type="curve" smooth="yes"/>
-      <point x="104.108695652" y="748.0"/>
-      <point x="91.2441711328" y="744.596891271"/>
+      <point x="104" y="748"/>
+      <point x="91" y="745"/>
       <point x="77" y="737" type="curve"/>
       <point x="25" y="463"/>
-      <point x="60.8883216028" y="14.4225386143"/>
+      <point x="61" y="14"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>thorn</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>424</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>
