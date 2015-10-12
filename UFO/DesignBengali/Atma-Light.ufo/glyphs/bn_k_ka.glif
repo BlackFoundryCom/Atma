@@ -85,7 +85,7 @@
       <point x="309" y="-86" type="curve"/>
     </contour>
     <contour>
-      <point x="545" y="189"/>
+      <point x="541.093701666" y="186.621147823"/>
       <point x="569.0" y="244.52866242"/>
       <point x="569" y="303" type="curve" smooth="yes"/>
       <point x="569" y="390"/>
@@ -96,7 +96,7 @@
       <point x="533" y="379"/>
       <point x="533" y="303" type="curve" smooth="yes"/>
       <point x="533.0" y="261.306306306"/>
-      <point x="513" y="232"/>
+      <point x="507.83421581" y="230.150605961"/>
       <point x="465" y="214" type="curve"/>
       <point x="474" y="189"/>
       <point x="491" y="172"/>
@@ -842,6 +842,13 @@
           <integer>596</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
       <key>public.markColor</key>
       <string>0.85,0.26,0.06,1</string>
     </dict>
