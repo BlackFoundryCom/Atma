@@ -33,11 +33,11 @@
       <point x="649" y="80" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="83.3862637042" y="520.677252741"/>
-      <point x="231" y="535"/>
+      <point x="81.3284169971" y="520.265683399"/>
+      <point x="235.059952038" y="535.0"/>
       <point x="377" y="535" type="curve" smooth="yes"/>
-      <point x="519" y="535"/>
-      <point x="697.067693548" y="520.202494551"/>
+      <point x="522.555555556" y="535.0"/>
+      <point x="695.086637126" y="520.604060042"/>
       <point x="777" y="504" type="curve"/>
       <point x="782" y="520"/>
       <point x="787" y="551"/>
@@ -45,11 +45,11 @@
       <point x="787" y="600"/>
       <point x="783" y="625"/>
       <point x="777" y="639" type="curve"/>
-      <point x="705.809248731" y="658.415659437"/>
-      <point x="525" y="674"/>
+      <point x="704.073366437" y="658.889081881"/>
+      <point x="528.943820225" y="674.0"/>
       <point x="381" y="674" type="curve" smooth="yes"/>
-      <point x="234" y="674"/>
-      <point x="80.9443679504" y="658.958885248"/>
+      <point x="238.011876485" y="674.0"/>
+      <point x="79.0121610578" y="658.482450672"/>
       <point x="0" y="639" type="curve"/>
       <point x="-8" y="625"/>
       <point x="-11" y="598"/>
@@ -57,6 +57,76 @@
       <point x="-11" y="551"/>
       <point x="-6" y="521"/>
       <point x="0" y="504" type="curve"/>
+    </contour>
+    <contour>
+      <point x="427" y="-99"/>
+      <point x="473" y="-92"/>
+      <point x="510" y="-80" type="curve"/>
+      <point x="524" y="43"/>
+      <point x="531" y="170"/>
+      <point x="531" y="335" type="curve"/>
+      <point x="532" y="366"/>
+      <point x="523" y="396"/>
+      <point x="502" y="422" type="curve"/>
+      <point x="470" y="453"/>
+      <point x="425" y="487"/>
+      <point x="389" y="507" type="curve"/>
+      <point x="325" y="398"/>
+      <point x="262" y="334"/>
+      <point x="223" y="334" type="curve" smooth="yes"/>
+      <point x="209" y="334"/>
+      <point x="201" y="342"/>
+      <point x="201" y="353" type="curve" smooth="yes"/>
+      <point x="201" y="382"/>
+      <point x="257" y="417"/>
+      <point x="308" y="426" type="curve"/>
+      <point x="289" y="466"/>
+      <point x="232" y="501"/>
+      <point x="187" y="507" type="curve"/>
+      <point x="146" y="490"/>
+      <point x="103" y="446"/>
+      <point x="103" y="377" type="curve" smooth="yes"/>
+      <point x="103" y="286"/>
+      <point x="179" y="214"/>
+      <point x="264" y="214" type="curve" smooth="yes"/>
+      <point x="335" y="214"/>
+      <point x="397" y="275"/>
+      <point x="446" y="384" type="curve"/>
+      <point x="378" y="363" type="line"/>
+      <point x="396" y="354"/>
+      <point x="399" y="335"/>
+      <point x="399" y="319" type="curve" smooth="yes"/>
+      <point x="399" y="247"/>
+      <point x="388" y="94"/>
+      <point x="362" y="-4" type="curve"/>
+      <point x="398" y="-55" type="line"/>
+      <point x="373" y="69"/>
+      <point x="346" y="122"/>
+      <point x="291" y="122" type="curve" smooth="yes"/>
+      <point x="254" y="122"/>
+      <point x="206" y="99"/>
+      <point x="177" y="99" type="curve" smooth="yes"/>
+      <point x="159" y="99"/>
+      <point x="147" y="109"/>
+      <point x="147" y="134" type="curve" smooth="yes"/>
+      <point x="147" y="153"/>
+      <point x="153" y="180"/>
+      <point x="166" y="209" type="curve"/>
+      <point x="140" y="218"/>
+      <point x="104" y="223"/>
+      <point x="59" y="224" type="curve"/>
+      <point x="40" y="178"/>
+      <point x="26" y="123"/>
+      <point x="26" y="75" type="curve" smooth="yes"/>
+      <point x="26" y="-13"/>
+      <point x="73" y="-66"/>
+      <point x="147" y="-66" type="curve" smooth="yes"/>
+      <point x="205" y="-66"/>
+      <point x="263" y="-33"/>
+      <point x="312" y="-33" type="curve" smooth="yes"/>
+      <point x="362" y="-33"/>
+      <point x="372" y="-69"/>
+      <point x="389" y="-99" type="curve"/>
     </contour>
     <component base="bn_bh_ra"/>
   </outline>
