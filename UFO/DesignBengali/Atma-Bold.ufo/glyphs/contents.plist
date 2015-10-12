@@ -2,12 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>.null</key>
+	<string>_null.glif</string>
 	<key>A</key>
 	<string>A_.glif</string>
 	<key>B</key>
 	<string>B_.glif</string>
 	<key>C</key>
 	<string>C_.glif</string>
+	<key>CR</key>
+	<string>CR_.glif</string>
 	<key>D</key>
 	<string>D_.glif</string>
 	<key>E</key>
@@ -106,6 +110,18 @@
 	<string>bn_cha.glif</string>
 	<key>bn_chandrabindu</key>
 	<string>bn_chandrabindu.glif</string>
+	<key>bn_currency1</key>
+	<string>bn_currency1.glif</string>
+	<key>bn_currency16</key>
+	<string>bn_currency16.glif</string>
+	<key>bn_currency2</key>
+	<string>bn_currency2.glif</string>
+	<key>bn_currency3</key>
+	<string>bn_currency3.glif</string>
+	<key>bn_currency4</key>
+	<string>bn_currency4.glif</string>
+	<key>bn_currencyless</key>
+	<string>bn_currencyless.glif</string>
 	<key>bn_d_ba</key>
 	<string>bn_d_ba.glif</string>
 	<key>bn_d_da</key>
@@ -116,12 +132,16 @@
 	<string>bn_d_dha.glif</string>
 	<key>bn_da</key>
 	<string>bn_da.glif</string>
+	<key>bn_danda</key>
+	<string>bn_danda.glif</string>
 	<key>bn_dda</key>
 	<string>bn_dda.glif</string>
 	<key>bn_ddha</key>
 	<string>bn_ddha.glif</string>
 	<key>bn_dha</key>
 	<string>bn_dha.glif</string>
+	<key>bn_doubledanda</key>
+	<string>bn_doubledanda.glif</string>
 	<key>bn_e</key>
 	<string>bn_e.glif</string>
 	<key>bn_eight</key>
@@ -182,6 +202,8 @@
 	<string>bn_ikaar_wi2.glif</string>
 	<key>bn_ikaar_wi2.b</key>
 	<string>bn_ikaar_wi2.b.glif</string>
+	<key>bn_isshar</key>
+	<string>bn_isshar.glif</string>
 	<key>bn_j_ja</key>
 	<string>bn_j_ja.glif</string>
 	<key>bn_ja</key>
@@ -270,6 +292,10 @@
 	<string>bn_rri.glif</string>
 	<key>bn_rrikaar</key>
 	<string>bn_rrikaar.glif</string>
+	<key>bn_rupeemark</key>
+	<string>bn_rupeemark.glif</string>
+	<key>bn_rupeesign</key>
+	<string>bn_rupeesign.glif</string>
 	<key>bn_s_ka</key>
 	<string>bn_s_ka.glif</string>
 	<key>bn_s_kha</key>
@@ -354,8 +380,12 @@
 	<string>exclam.glif</string>
 	<key>f</key>
 	<string>f.glif</string>
+	<key>fi</key>
+	<string>fi.glif</string>
 	<key>five</key>
 	<string>five.glif</string>
+	<key>fl</key>
+	<string>fl.glif</string>
 	<key>four</key>
 	<string>four.glif</string>
 	<key>g</key>
@@ -390,6 +420,8 @@
 	<string>o.glif</string>
 	<key>one</key>
 	<string>one.glif</string>
+	<key>onesuperior</key>
+	<string>onesuperior.glif</string>
 	<key>p</key>
 	<string>p.glif</string>
 	<key>parenleft</key>
@@ -424,12 +456,50 @@
 	<string>t.glif</string>
 	<key>three</key>
 	<string>three.glif</string>
+	<key>threesuperior</key>
+	<string>threesuperior.glif</string>
 	<key>two</key>
 	<string>two.glif</string>
+	<key>twosuperior</key>
+	<string>twosuperior.glif</string>
 	<key>u</key>
 	<string>u.glif</string>
 	<key>underscore</key>
 	<string>underscore.glif</string>
+	<key>uni0122</key>
+	<string>uni0122.glif</string>
+	<key>uni0123</key>
+	<string>uni0123.glif</string>
+	<key>uni0136</key>
+	<string>uni0136.glif</string>
+	<key>uni0137</key>
+	<string>uni0137.glif</string>
+	<key>uni0145</key>
+	<string>uni0145.glif</string>
+	<key>uni0146</key>
+	<string>uni0146.glif</string>
+	<key>uni0156</key>
+	<string>uni0156.glif</string>
+	<key>uni0157</key>
+	<string>uni0157.glif</string>
+	<key>uni0162</key>
+	<string>uni0162.glif</string>
+	<key>uni0163</key>
+	<string>uni0163.glif</string>
+	<key>uni0218</key>
+	<string>uni0218.glif</string>
+	<key>uni0219</key>
+	<string>uni0219.glif</string>
+	<key>uni2113</key>
+	<string>uni2113.glif</string>
+	<key>uni2126</key>
+	<string>uni2126.glif</string>
+	<key>uni2206</key>
+	<string>uni2206.glif</string>
+	<key>uni2215</key>
+	<string>uni2215.glif</string>
+	<key>uni2219</key>
+	<string>uni2219.glif</string>
 	<key>v</key>
 	<string>v.glif</string>
 	<key>w</key>
