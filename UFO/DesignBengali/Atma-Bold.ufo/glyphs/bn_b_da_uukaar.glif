@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bn_b_da_uukaar" format="1">
+  <advance width="707"/>
+  <outline>
+    <contour>
+      <point x="75" y="519"/>
+      <point x="216" y="535"/>
+      <point x="347" y="535" type="curve" smooth="yes"/>
+      <point x="478" y="535"/>
+      <point x="633" y="519"/>
+      <point x="707" y="504" type="curve"/>
+      <point x="712" y="520"/>
+      <point x="717" y="551"/>
+      <point x="717" y="577" type="curve" smooth="yes"/>
+      <point x="717" y="600"/>
+      <point x="713" y="625"/>
+      <point x="707" y="639" type="curve"/>
+      <point x="641" y="657"/>
+      <point x="484" y="674"/>
+      <point x="351" y="674" type="curve" smooth="yes"/>
+      <point x="219" y="674"/>
+      <point x="73" y="657"/>
+      <point x="0" y="639" type="curve"/>
+      <point x="-8" y="625"/>
+      <point x="-11" y="598"/>
+      <point x="-11" y="577" type="curve" smooth="yes"/>
+      <point x="-11" y="551"/>
+      <point x="-6" y="521"/>
+      <point x="0" y="504" type="curve"/>
+    </contour>
+    <contour>
+      <point x="343" y="29" type="line"/>
+      <point x="314" y="124"/>
+      <point x="231" y="200"/>
+      <point x="149" y="248" type="curve"/>
+      <point x="136" y="191" type="line"/>
+      <point x="204" y="259"/>
+      <point x="304" y="317"/>
+      <point x="386" y="343" type="curve"/>
+      <point x="354" y="516" type="line"/>
+      <point x="202" y="462"/>
+      <point x="97" y="396"/>
+      <point x="19" y="315" type="curve"/>
+      <point x="23" y="250"/>
+      <point x="44" y="196"/>
+      <point x="84" y="135" type="curve"/>
+      <point x="176" y="116"/>
+      <point x="257" y="65"/>
+      <point x="317" y="-37" type="curve"/>
+    </contour>
+    <contour>
+      <point x="369" y="-37"/>
+      <point x="439" y="-28"/>
+      <point x="484" y="-4" type="curve"/>
+      <point x="464" y="68"/>
+      <point x="456" y="170"/>
+      <point x="456" y="303" type="curve" smooth="yes"/>
+      <point x="456" y="379"/>
+      <point x="461" y="455"/>
+      <point x="467" y="530" type="curve"/>
+      <point x="359" y="560" type="line"/>
+      <point x="322" y="392"/>
+      <point x="310" y="282"/>
+      <point x="310" y="107" type="curve" smooth="yes"/>
+      <point x="310" y="50"/>
+      <point x="311" y="-4"/>
+      <point x="317" y="-37" type="curve"/>
+    </contour>
+    <contour>
+      <point x="604" y="61"/>
+      <point x="654" y="69"/>
+      <point x="687" y="80" type="curve"/>
+      <point x="661" y="141"/>
+      <point x="653" y="197"/>
+      <point x="653" y="268" type="curve" smooth="yes"/>
+      <point x="653" y="292"/>
+      <point x="659" y="316"/>
+      <point x="662" y="344" type="curve"/>
+      <point x="576" y="453" type="line"/>
+      <point x="532.018275592" y="439.805482678"/>
+      <point x="494.335806236" y="418.734322494"/>
+      <point x="450" y="401" type="curve"/>
+      <point x="442" y="251" type="line"/>
+      <point x="495.341629775" y="271.683489096"/>
+      <point x="547.435128484" y="296.049367596"/>
+      <point x="596" y="309" type="curve"/>
+      <point x="549" y="356" type="line"/>
+      <point x="545" y="311"/>
+      <point x="537" y="268"/>
+      <point x="537" y="228" type="curve" smooth="yes"/>
+      <point x="537" y="169"/>
+      <point x="539" y="116"/>
+      <point x="552" y="61" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_b_da_uukaar</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>707</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_b_da_uukaar</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>707</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.9294</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
