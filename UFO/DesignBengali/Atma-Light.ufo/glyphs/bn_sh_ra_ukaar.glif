@@ -119,6 +119,34 @@
       <point x="203" y="507"/>
       <point x="203" y="456" type="curve"/>
     </contour>
+    <contour>
+      <point x="336" y="290"/>
+      <point x="361" y="325"/>
+      <point x="361" y="377" type="curve" smooth="yes"/>
+      <point x="361" y="452"/>
+      <point x="309" y="515"/>
+      <point x="250" y="525" type="curve"/>
+      <point x="219" y="496" type="line"/>
+      <point x="276" y="496"/>
+      <point x="324" y="445"/>
+      <point x="324" y="379" type="curve" smooth="yes"/>
+      <point x="324" y="348"/>
+      <point x="314" y="333"/>
+      <point x="294" y="333" type="curve" smooth="yes"/>
+      <point x="260" y="333"/>
+      <point x="241" y="379"/>
+      <point x="241" y="432" type="curve" smooth="yes"/>
+      <point x="241" y="462"/>
+      <point x="248" y="490"/>
+      <point x="259" y="511" type="curve"/>
+      <point x="224" y="531" type="line"/>
+      <point x="210" y="504"/>
+      <point x="201" y="468"/>
+      <point x="201" y="427" type="curve" smooth="yes"/>
+      <point x="201" y="348"/>
+      <point x="233" y="290"/>
+      <point x="291" y="290" type="curve" smooth="yes"/>
+    </contour>
     <component base="bn_sh_ra"/>
   </outline>
   <lib>
