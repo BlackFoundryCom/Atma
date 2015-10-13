@@ -179,6 +179,7 @@
       <point x="865" y="94" type="curve"/>
     </contour>
     <contour>
+      <point x="529" y="-266" type="move"/>
       <point x="570" y="-264"/>
       <point x="615" y="-258"/>
       <point x="653" y="-244" type="curve"/>
@@ -190,6 +191,9 @@
       <point x="524" y="-133"/>
       <point x="516" y="-190" type="curve"/>
       <point x="569" y="-235" type="line"/>
+    </contour>
+    <contour>
+      <point x="569" y="-235" type="move"/>
       <point x="515" y="-138"/>
       <point x="475" y="-81"/>
       <point x="406" y="-81" type="curve" smooth="yes"/>
