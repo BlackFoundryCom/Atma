@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="bn_s_ra" format="1">
+<glyph name="bn_s_na" format="1">
   <advance width="700"/>
   <outline>
+    <contour>
+      <point x="461" y="-84"/>
+      <point x="517" y="-79"/>
+      <point x="556" y="-67" type="curve"/>
+      <point x="540" y="8"/>
+      <point x="531" y="120"/>
+      <point x="531" y="243" type="curve" smooth="yes"/>
+      <point x="531" y="272"/>
+      <point x="531" y="300"/>
+      <point x="532" y="326" type="curve"/>
+      <point x="403" y="296" type="line"/>
+      <point x="399" y="222"/>
+      <point x="397" y="139"/>
+      <point x="397" y="83" type="curve" smooth="yes"/>
+      <point x="397" y="-5"/>
+      <point x="402" y="-27"/>
+      <point x="403" y="-84" type="curve"/>
+    </contour>
+    <contour>
+      <point x="255" y="9"/>
+      <point x="222" y="1"/>
+      <point x="198" y="1" type="curve" smooth="yes"/>
+      <point x="162" y="1"/>
+      <point x="144" y="14"/>
+      <point x="144" y="38" type="curve"/>
+      <point x="144" y="63"/>
+      <point x="161" y="81"/>
+      <point x="208" y="81" type="curve"/>
+      <point x="296" y="81"/>
+      <point x="352" y="37"/>
+      <point x="403" y="-84" type="curve"/>
+      <point x="434" y="-38" type="line"/>
+      <point x="374" y="136"/>
+      <point x="309" y="206"/>
+      <point x="202" y="206" type="curve" smooth="yes"/>
+      <point x="122" y="206"/>
+      <point x="59" y="143"/>
+      <point x="59" y="56" type="curve" smooth="yes"/>
+      <point x="59" y="-42"/>
+      <point x="132" y="-122"/>
+      <point x="217" y="-122" type="curve" smooth="yes"/>
+      <point x="243" y="-122"/>
+      <point x="274" y="-113"/>
+      <point x="279" y="-109" type="curve"/>
+      <point x="287" y="-73"/>
+      <point x="286" y="-18"/>
+      <point x="280" y="24" type="curve"/>
+    </contour>
     <contour>
       <point x="79" y="521"/>
       <point x="207" y="536"/>
@@ -66,46 +114,6 @@
       <point x="322" y="240"/>
       <point x="446" y="240" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="470" y="-34"/>
-      <point x="515" y="-28"/>
-      <point x="553" y="-14" type="curve"/>
-      <point x="558.940123487" y="91.7341980641"/>
-      <point x="561.0" y="205.266129032"/>
-      <point x="561" y="304" type="curve"/>
-      <point x="433" y="292" type="line"/>
-      <point x="430.211985277" y="197.207499432"/>
-      <point x="427.302605765" y="120.531066077"/>
-      <point x="416" y="40" type="curve"/>
-      <point x="469" y="-5" type="line"/>
-      <point x="415" y="92"/>
-      <point x="375" y="149"/>
-      <point x="306" y="149" type="curve" smooth="yes"/>
-      <point x="261.388489209" y="149.0"/>
-      <point x="182.460431655" y="111.0"/>
-      <point x="147" y="111" type="curve" smooth="yes"/>
-      <point x="120" y="111"/>
-      <point x="100" y="130"/>
-      <point x="100" y="160" type="curve" smooth="yes"/>
-      <point x="100" y="176"/>
-      <point x="105" y="194"/>
-      <point x="110" y="210" type="curve"/>
-      <point x="85" y="220"/>
-      <point x="48" y="227"/>
-      <point x="11" y="227" type="curve"/>
-      <point x="-6" y="193"/>
-      <point x="-18" y="152"/>
-      <point x="-18" y="108" type="curve" smooth="yes"/>
-      <point x="-18" y="25"/>
-      <point x="46" y="-30"/>
-      <point x="147" y="-30" type="curve" smooth="yes"/>
-      <point x="214.185628743" y="-30.0"/>
-      <point x="272.413173653" y="6.0"/>
-      <point x="334" y="6" type="curve" smooth="yes"/>
-      <point x="388" y="6"/>
-      <point x="406" y="-14"/>
-      <point x="429" y="-36" type="curve"/>
-    </contour>
   </outline>
   <lib>
     <dict>
@@ -126,7 +134,7 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>bn_s_ra</string>
+          <string>bn_s_na</string>
           <key>unicodes</key>
           <array>
           </array>
@@ -148,7 +156,7 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>bn_s_ra</string>
+          <string>bn_s_na</string>
           <key>unicodes</key>
           <array>
           </array>
