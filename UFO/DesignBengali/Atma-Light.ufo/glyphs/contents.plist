@@ -2,66 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>.null</key>
-	<string>_null.glif</string>
-	<key>A</key>
-	<string>A_.glif</string>
-	<key>B</key>
-	<string>B_.glif</string>
-	<key>C</key>
-	<string>C_.glif</string>
-	<key>CR</key>
-	<string>CR_.glif</string>
-	<key>D</key>
-	<string>D_.glif</string>
-	<key>E</key>
-	<string>E_.glif</string>
-	<key>F</key>
-	<string>F_.glif</string>
-	<key>G</key>
-	<string>G_.glif</string>
-	<key>H</key>
-	<string>H_.glif</string>
-	<key>I</key>
-	<string>I_.glif</string>
-	<key>J</key>
-	<string>J_.glif</string>
-	<key>K</key>
-	<string>K_.glif</string>
-	<key>L</key>
-	<string>L_.glif</string>
-	<key>M</key>
-	<string>M_.glif</string>
-	<key>N</key>
-	<string>N_.glif</string>
-	<key>O</key>
-	<string>O_.glif</string>
-	<key>P</key>
-	<string>P_.glif</string>
-	<key>Q</key>
-	<string>Q_.glif</string>
-	<key>R</key>
-	<string>R_.glif</string>
-	<key>S</key>
-	<string>S_.glif</string>
-	<key>T</key>
-	<string>T_.glif</string>
-	<key>U</key>
-	<string>U_.glif</string>
-	<key>V</key>
-	<string>V_.glif</string>
-	<key>W</key>
-	<string>W_.glif</string>
-	<key>X</key>
-	<string>X_.glif</string>
-	<key>Y</key>
-	<string>Y_.glif</string>
-	<key>Z</key>
-	<string>Z_.glif</string>
-	<key>a</key>
-	<string>a.glif</string>
-	<key>ampersand</key>
-	<string>ampersand.glif</string>
 	<key>asa_ba</key>
 	<string>asa_ba.glif</string>
 	<key>asa_ba_ukaar</key>
@@ -74,14 +14,6 @@
 	<string>asa_ra_ukaar.glif</string>
 	<key>asa_ra_uukaar</key>
 	<string>asa_ra_uukaar.glif</string>
-	<key>asterisk</key>
-	<string>asterisk.glif</string>
-	<key>at</key>
-	<string>at.glif</string>
-	<key>b</key>
-	<string>b.glif</string>
-	<key>backslash</key>
-	<string>backslash.glif</string>
 	<key>bn_a</key>
 	<string>bn_a.glif</string>
 	<key>bn_aa</key>
@@ -272,10 +204,10 @@
 	<string>bn_g_ra_ukaar.glif</string>
 	<key>bn_g_ra_uukaar</key>
 	<string>bn_g_ra_uukaar.glif</string>
-	<key>bn_g_ukaar</key>
-	<string>bn_g_ukaar.glif</string>
 	<key>bn_ga</key>
 	<string>bn_ga.glif</string>
+	<key>bn_ga_ukaar</key>
+	<string>bn_ga_ukaar.glif</string>
 	<key>bn_gh_ba</key>
 	<string>bn_gh_ba.glif</string>
 	<key>bn_gh_na</key>
@@ -458,12 +390,12 @@
 	<string>bn_m_ma.glif</string>
 	<key>bn_m_na</key>
 	<string>bn_m_na.glif</string>
+	<key>bn_m_p_ra</key>
+	<string>bn_m_p_ra.glif</string>
 	<key>bn_m_pa</key>
 	<string>bn_m_pa.glif</string>
 	<key>bn_m_pha</key>
 	<string>bn_m_pha.glif</string>
-	<key>bn_m_r_ra</key>
-	<string>bn_m_r_ra.glif</string>
 	<key>bn_m_ra</key>
 	<string>bn_m_ra.glif</string>
 	<key>bn_ma</key>
@@ -476,10 +408,10 @@
 	<string>bn_n_d_ra.glif</string>
 	<key>bn_n_da</key>
 	<string>bn_n_da.glif</string>
+	<key>bn_n_dd_ra</key>
+	<string>bn_n_dd_ra.glif</string>
 	<key>bn_n_dda</key>
 	<string>bn_n_dda.glif</string>
-	<key>bn_n_dda_ra</key>
-	<string>bn_n_dda_ra.glif</string>
 	<key>bn_n_dh_ba</key>
 	<string>bn_n_dh_ba.glif</string>
 	<key>bn_n_dh_ra</key>
@@ -488,6 +420,8 @@
 	<string>bn_n_dha.glif</string>
 	<key>bn_n_jha</key>
 	<string>bn_n_jha.glif</string>
+	<key>bn_n_k_ta</key>
+	<string>bn_n_k_ta.glif</string>
 	<key>bn_n_ma</key>
 	<string>bn_n_ma.glif</string>
 	<key>bn_n_na</key>
@@ -502,8 +436,6 @@
 	<string>bn_n_t_ra.glif</string>
 	<key>bn_n_ta</key>
 	<string>bn_n_ta.glif</string>
-	<key>bn_n_th_ta</key>
-	<string>bn_n_th_ta.glif</string>
 	<key>bn_n_tha</key>
 	<string>bn_n_tha.glif</string>
 	<key>bn_n_tt_ra</key>
@@ -826,159 +758,5 @@
 	<string>bn_zero.glif</string>
 	<key>bn_zero.pnum</key>
 	<string>bn_zero.pnum.glif</string>
-	<key>bracketleft</key>
-	<string>bracketleft.glif</string>
-	<key>bracketright</key>
-	<string>bracketright.glif</string>
-	<key>c</key>
-	<string>c.glif</string>
-	<key>colon</key>
-	<string>colon.glif</string>
-	<key>comma</key>
-	<string>comma.glif</string>
-	<key>d</key>
-	<string>d.glif</string>
-	<key>dollar</key>
-	<string>dollar.glif</string>
-	<key>e</key>
-	<string>e.glif</string>
-	<key>eight</key>
-	<string>eight.glif</string>
-	<key>exclam</key>
-	<string>exclam.glif</string>
-	<key>f</key>
-	<string>f.glif</string>
-	<key>fi</key>
-	<string>fi.glif</string>
-	<key>five</key>
-	<string>five.glif</string>
-	<key>fl</key>
-	<string>fl.glif</string>
-	<key>four</key>
-	<string>four.glif</string>
-	<key>g</key>
-	<string>g.glif</string>
-	<key>grave</key>
-	<string>grave.glif</string>
-	<key>greater</key>
-	<string>greater.glif</string>
-	<key>h</key>
-	<string>h.glif</string>
-	<key>hyphen</key>
-	<string>hyphen.glif</string>
-	<key>i</key>
-	<string>i.glif</string>
-	<key>j</key>
-	<string>j.glif</string>
-	<key>k</key>
-	<string>k.glif</string>
-	<key>l</key>
-	<string>l.glif</string>
-	<key>less</key>
-	<string>less.glif</string>
-	<key>m</key>
-	<string>m.glif</string>
-	<key>n</key>
-	<string>n.glif</string>
-	<key>nine</key>
-	<string>nine.glif</string>
-	<key>numbersign</key>
-	<string>numbersign.glif</string>
-	<key>o</key>
-	<string>o.glif</string>
-	<key>one</key>
-	<string>one.glif</string>
-	<key>onesuperior</key>
-	<string>onesuperior.glif</string>
-	<key>p</key>
-	<string>p.glif</string>
-	<key>parenleft</key>
-	<string>parenleft.glif</string>
-	<key>parenright</key>
-	<string>parenright.glif</string>
-	<key>period</key>
-	<string>period.glif</string>
-	<key>q</key>
-	<string>q.glif</string>
-	<key>question</key>
-	<string>question.glif</string>
-	<key>quotedbl</key>
-	<string>quotedbl.glif</string>
-	<key>quotesingle</key>
-	<string>quotesingle.glif</string>
-	<key>r</key>
-	<string>r.glif</string>
-	<key>s</key>
-	<string>s.glif</string>
-	<key>semicolon</key>
-	<string>semicolon.glif</string>
-	<key>seven</key>
-	<string>seven.glif</string>
-	<key>six</key>
-	<string>six.glif</string>
-	<key>slash</key>
-	<string>slash.glif</string>
-	<key>space</key>
-	<string>space.glif</string>
-	<key>t</key>
-	<string>t.glif</string>
-	<key>three</key>
-	<string>three.glif</string>
-	<key>threesuperior</key>
-	<string>threesuperior.glif</string>
-	<key>two</key>
-	<string>two.glif</string>
-	<key>twosuperior</key>
-	<string>twosuperior.glif</string>
-	<key>u</key>
-	<string>u.glif</string>
-	<key>underscore</key>
-	<string>underscore.glif</string>
-	<key>uni0122</key>
-	<string>uni0122.glif</string>
-	<key>uni0123</key>
-	<string>uni0123.glif</string>
-	<key>uni0136</key>
-	<string>uni0136.glif</string>
-	<key>uni0137</key>
-	<string>uni0137.glif</string>
-	<key>uni0145</key>
-	<string>uni0145.glif</string>
-	<key>uni0146</key>
-	<string>uni0146.glif</string>
-	<key>uni0156</key>
-	<string>uni0156.glif</string>
-	<key>uni0157</key>
-	<string>uni0157.glif</string>
-	<key>uni0162</key>
-	<string>uni0162.glif</string>
-	<key>uni0163</key>
-	<string>uni0163.glif</string>
-	<key>uni0218</key>
-	<string>uni0218.glif</string>
-	<key>uni0219</key>
-	<string>uni0219.glif</string>
-	<key>uni2113</key>
-	<string>uni2113.glif</string>
-	<key>uni2126</key>
-	<string>uni2126.glif</string>
-	<key>uni2206</key>
-	<string>uni2206.glif</string>
-	<key>uni2215</key>
-	<string>uni2215.glif</string>
-	<key>uni2219</key>
-	<string>uni2219.glif</string>
-	<key>v</key>
-	<string>v.glif</string>
-	<key>w</key>
-	<string>w.glif</string>
-	<key>x</key>
-	<string>x.glif</string>
-	<key>y</key>
-	<string>y.glif</string>
-	<key>z</key>
-	<string>z.glif</string>
-	<key>zero</key>
-	<string>zero.glif</string>
 </dict>
 </plist>
