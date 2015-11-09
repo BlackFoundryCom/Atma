@@ -4,6 +4,10 @@
   <unicode hex="09F1"/>
   <outline>
     <contour>
+      <point x="27" y="20" type="curve"/>
+      <point x="101" y="9"/>
+      <point x="209" y="-57"/>
+      <point x="249" y="-130" type="curve"/>
       <point x="271" y="-118"/>
       <point x="289" y="-96"/>
       <point x="297" y="-74" type="curve"/>
@@ -12,10 +16,6 @@
       <point x="79" y="108" type="curve"/>
       <point x="56" y="85"/>
       <point x="39" y="55"/>
-      <point x="27" y="20" type="curve"/>
-      <point x="101" y="9"/>
-      <point x="209" y="-57"/>
-      <point x="249" y="-130" type="curve"/>
     </contour>
     <component base="bn_ba"/>
   </outline>
@@ -157,6 +157,28 @@
                 </dict>
               </array>
             </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>asa_ba</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>525</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
           </array>
           <key>lib</key>
           <dict>

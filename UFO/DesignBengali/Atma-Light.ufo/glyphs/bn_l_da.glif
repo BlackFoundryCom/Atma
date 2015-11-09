@@ -121,8 +121,8 @@
       <point x="272" y="414"/>
       <point x="303" y="414" type="curve" smooth="yes"/>
       <point x="332" y="414"/>
-      <point x="370" y="366"/>
-      <point x="355" y="295" type="curve"/>
+      <point x="373" y="366"/>
+      <point x="358" y="295" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -388,6 +388,28 @@
                 </dict>
               </array>
             </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_l_da</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>632</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
           </array>
           <key>lib</key>
           <dict>

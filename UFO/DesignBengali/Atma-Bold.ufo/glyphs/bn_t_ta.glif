@@ -3,8 +3,6 @@
   <advance width="780"/>
   <outline>
     <contour>
-      <point x="667" y="-84"/>
-      <point x="746" y="-14"/>
       <point x="746" y="75" type="curve" smooth="yes"/>
       <point x="746" y="129"/>
       <point x="715" y="189"/>
@@ -25,10 +23,10 @@
       <point x="85" y="199"/>
       <point x="213" y="-84"/>
       <point x="516" y="-84" type="curve" smooth="yes"/>
+      <point x="667" y="-84"/>
+      <point x="746" y="-14"/>
     </contour>
     <contour>
-      <point x="601" y="109"/>
-      <point x="642" y="146"/>
       <point x="655" y="202" type="curve"/>
       <point x="576" y="251" type="line"/>
       <point x="564" y="227"/>
@@ -53,16 +51,36 @@
       <point x="436" y="145"/>
       <point x="485" y="109"/>
       <point x="542" y="109" type="curve" smooth="yes"/>
+      <point x="601" y="109"/>
+      <point x="642" y="146"/>
     </contour>
     <contour>
-      <point x="616" y="344" type="curve" smooth="yes"/>
-      <point x="616.0" y="311.851851852"/>
-      <point x="607" y="282"/>
-      <point x="576" y="260" type="curve"/>
-      <point x="606" y="211" type="line"/>
-      <point x="651" y="176" type="line"/>
-      <point x="703" y="209"/>
-      <point x="735" y="267"/>
+      <point x="387" y="535" type="curve" smooth="yes"/>
+      <point x="530.35235732" y="535.0"/>
+      <point x="699.403319272" y="520.119336146"/>
+      <point x="780" y="504" type="curve"/>
+      <point x="785" y="520"/>
+      <point x="790" y="551"/>
+      <point x="790" y="577" type="curve" smooth="yes"/>
+      <point x="790" y="600"/>
+      <point x="786" y="625"/>
+      <point x="780" y="639" type="curve"/>
+      <point x="708.47747911" y="658.139829534"/>
+      <point x="536.26566416" y="674.0"/>
+      <point x="391" y="674" type="curve" smooth="yes"/>
+      <point x="243.220472441" y="674.0"/>
+      <point x="80.9614839987" y="658.471749316"/>
+      <point x="0" y="639" type="curve"/>
+      <point x="-8" y="625"/>
+      <point x="-11" y="598"/>
+      <point x="-11" y="577" type="curve" smooth="yes"/>
+      <point x="-11" y="551"/>
+      <point x="-6" y="521"/>
+      <point x="0" y="504" type="curve"/>
+      <point x="83.0688608293" y="520.408663868"/>
+      <point x="240.206896552" y="535.0"/>
+    </contour>
+    <contour>
       <point x="735" y="335" type="curve" smooth="yes"/>
       <point x="735" y="452"/>
       <point x="592" y="497"/>
@@ -87,32 +105,14 @@
       <point x="510" y="412" type="curve"/>
       <point x="582.685714286" y="412.0"/>
       <point x="616" y="382"/>
-    </contour>
-    <contour>
-      <point x="83.0688608293" y="520.408663868"/>
-      <point x="240.206896552" y="535.0"/>
-      <point x="387" y="535" type="curve" smooth="yes"/>
-      <point x="530.35235732" y="535.0"/>
-      <point x="699.403319272" y="520.119336146"/>
-      <point x="780" y="504" type="curve"/>
-      <point x="785" y="520"/>
-      <point x="790" y="551"/>
-      <point x="790" y="577" type="curve" smooth="yes"/>
-      <point x="790" y="600"/>
-      <point x="786" y="625"/>
-      <point x="780" y="639" type="curve"/>
-      <point x="708.47747911" y="658.139829534"/>
-      <point x="536.26566416" y="674.0"/>
-      <point x="391" y="674" type="curve" smooth="yes"/>
-      <point x="243.220472441" y="674.0"/>
-      <point x="80.9614839987" y="658.471749316"/>
-      <point x="0" y="639" type="curve"/>
-      <point x="-8" y="625"/>
-      <point x="-11" y="598"/>
-      <point x="-11" y="577" type="curve" smooth="yes"/>
-      <point x="-11" y="551"/>
-      <point x="-6" y="521"/>
-      <point x="0" y="504" type="curve"/>
+      <point x="616" y="344" type="curve" smooth="yes"/>
+      <point x="616.0" y="311.851851852"/>
+      <point x="607" y="282"/>
+      <point x="576" y="260" type="curve"/>
+      <point x="606" y="211" type="line"/>
+      <point x="651" y="176" type="line"/>
+      <point x="703" y="209"/>
+      <point x="735" y="267"/>
     </contour>
   </outline>
   <lib>
@@ -865,6 +865,28 @@
                 </dict>
               </array>
             </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_t_ta</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>780</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
           </array>
           <key>lib</key>
           <dict>

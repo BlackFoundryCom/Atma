@@ -23,6 +23,7 @@
       <point x="278" y="-105" type="curve"/>
     </contour>
     <contour>
+      <point x="331" y="-113" type="curve"/>
       <point x="368" y="-13"/>
       <point x="386" y="222"/>
       <point x="386" y="362" type="curve" smooth="yes"/>
@@ -38,7 +39,6 @@
       <point x="278" y="-105" type="curve"/>
       <point x="292" y="-109"/>
       <point x="312" y="-113"/>
-      <point x="331" y="-113" type="curve"/>
     </contour>
     <contour>
       <point x="68" y="550"/>
@@ -385,6 +385,28 @@
                 </dict>
               </array>
             </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_l_ba</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>501</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
           </array>
           <key>lib</key>
           <dict>

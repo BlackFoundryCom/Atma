@@ -3,8 +3,6 @@
   <advance width="595"/>
   <outline>
     <contour>
-      <point x="495" y="-260"/>
-      <point x="571" y="-188"/>
       <point x="571" y="-75" type="curve" smooth="yes"/>
       <point x="571" y="-24"/>
       <point x="556" y="31"/>
@@ -49,10 +47,10 @@
       <point x="78" y="-68"/>
       <point x="173" y="-260"/>
       <point x="373" y="-260" type="curve" smooth="yes"/>
+      <point x="495" y="-260"/>
+      <point x="571" y="-188"/>
     </contour>
     <contour>
-      <point x="73" y="549"/>
-      <point x="167" y="562"/>
       <point x="297" y="562" type="curve" smooth="yes"/>
       <point x="426" y="562"/>
       <point x="521" y="549"/>
@@ -75,6 +73,8 @@
       <point x="-5" y="549"/>
       <point x="-3" y="540"/>
       <point x="-1" y="535" type="curve"/>
+      <point x="73" y="549"/>
+      <point x="167" y="562"/>
     </contour>
     <contour>
       <point x="442" y="104" type="line"/>
@@ -97,8 +97,6 @@
       <point x="427" y="75" type="curve"/>
     </contour>
     <contour>
-      <point x="447" y="25"/>
-      <point x="467" y="28"/>
       <point x="481" y="37" type="curve"/>
       <point x="461.540793029" y="105.530250636"/>
       <point x="464.0" y="220.396610169"/>
@@ -113,6 +111,8 @@
       <point x="417.0" y="96.2186046512"/>
       <point x="419.068881774" y="55.1382492572"/>
       <point x="427" y="25" type="curve"/>
+      <point x="447" y="25"/>
+      <point x="467" y="28"/>
     </contour>
   </outline>
   <lib>
@@ -476,6 +476,28 @@
                 </dict>
               </array>
             </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_b_bha</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>595</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
           </array>
           <key>lib</key>
           <dict>

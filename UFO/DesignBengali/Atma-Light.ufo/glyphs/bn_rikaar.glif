@@ -4,8 +4,6 @@
   <unicode hex="09C3"/>
   <outline>
     <contour>
-      <point x="231" y="-271"/>
-      <point x="240" y="-257"/>
       <point x="246" y="-243" type="curve"/>
       <point x="99" y="-140" type="line"/>
       <point x="88" y="-157" type="line"/>
@@ -16,6 +14,8 @@
       <point x="44" y="-133" type="line"/>
       <point x="44" y="-148" type="line"/>
       <point x="218" y="-282" type="line"/>
+      <point x="231" y="-271"/>
+      <point x="240" y="-257"/>
     </contour>
   </outline>
   <lib>
@@ -155,6 +155,28 @@
                 </dict>
               </array>
             </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_rikaar</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>300</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
           </array>
           <key>lib</key>
           <dict>

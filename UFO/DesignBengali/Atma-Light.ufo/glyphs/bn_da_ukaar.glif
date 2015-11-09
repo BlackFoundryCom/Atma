@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bn_da_ukaar" format="1">
+  <advance width="469"/>
+  <outline>
+    <contour>
+      <point x="439" y="-243" type="curve"/>
+      <point x="271" y="-124" type="line"/>
+      <point x="264" y="-170" type="line"/>
+      <point x="411" y="-282" type="line"/>
+      <point x="424" y="-271"/>
+      <point x="433" y="-257"/>
+    </contour>
+    <contour>
+      <point x="240" y="562" type="curve" smooth="yes"/>
+      <point x="330" y="562"/>
+      <point x="422" y="549"/>
+      <point x="469" y="535" type="curve"/>
+      <point x="471" y="541"/>
+      <point x="472" y="552"/>
+      <point x="472" y="562" type="curve" smooth="yes"/>
+      <point x="472" y="569"/>
+      <point x="471" y="576"/>
+      <point x="469" y="581" type="curve"/>
+      <point x="425" y="598"/>
+      <point x="331" y="612"/>
+      <point x="245" y="612" type="curve" smooth="yes"/>
+      <point x="155" y="612"/>
+      <point x="57" y="598"/>
+      <point x="0" y="581" type="curve"/>
+      <point x="-3" y="576"/>
+      <point x="-5" y="569"/>
+      <point x="-5" y="561" type="curve" smooth="yes"/>
+      <point x="-5" y="552"/>
+      <point x="-3" y="541"/>
+      <point x="0" y="535" type="curve"/>
+      <point x="58" y="549"/>
+      <point x="152" y="562"/>
+    </contour>
+    <contour>
+      <point x="413" y="422" type="curve"/>
+      <point x="402" y="441"/>
+      <point x="389" y="455"/>
+      <point x="369" y="465" type="curve"/>
+      <point x="272" y="405"/>
+      <point x="168" y="311"/>
+      <point x="79" y="179" type="curve"/>
+      <point x="104" y="184" type="line"/>
+      <point x="136" y="282"/>
+      <point x="151" y="422"/>
+      <point x="151" y="532" type="curve" smooth="yes"/>
+      <point x="151" y="550"/>
+      <point x="151" y="568"/>
+      <point x="150" y="584" type="curve"/>
+      <point x="116" y="578" type="line"/>
+      <point x="114" y="445"/>
+      <point x="88" y="284"/>
+      <point x="47" y="145" type="curve"/>
+      <point x="59.3816267036" y="131.492770869"/>
+      <point x="80.7341916367" y="123.046907358"/>
+      <point x="98" y="120" type="curve"/>
+      <point x="160.108404978" y="226.185337544"/>
+      <point x="274.800492991" y="345.876231763"/>
+      <point x="383" y="413" type="curve"/>
+      <point x="366" y="424" type="line"/>
+      <point x="278.729249225" y="259.155248536"/>
+      <point x="368.598802395" y="-209.0"/>
+      <point x="149" y="-209" type="curve" smooth="yes"/>
+      <point x="115" y="-209"/>
+      <point x="93" y="-189"/>
+      <point x="93" y="-160" type="curve" smooth="yes"/>
+      <point x="93" y="-129"/>
+      <point x="116" y="-110"/>
+      <point x="149" y="-110" type="curve" smooth="yes"/>
+      <point x="196" y="-110"/>
+      <point x="231" y="-146"/>
+      <point x="253" y="-176" type="curve"/>
+      <point x="271" y="-132" type="line"/>
+      <point x="238" y="-95"/>
+      <point x="196" y="-61"/>
+      <point x="144" y="-61" type="curve" smooth="yes"/>
+      <point x="91" y="-61"/>
+      <point x="47" y="-97"/>
+      <point x="47" y="-162" type="curve" smooth="yes"/>
+      <point x="47" y="-223"/>
+      <point x="91" y="-256"/>
+      <point x="149" y="-256" type="curve" smooth="yes"/>
+      <point x="426.570093458" y="-256.0"/>
+      <point x="322.782381618" y="231.074342494"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_da_ukaar</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>469</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_da_ukaar</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>469</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

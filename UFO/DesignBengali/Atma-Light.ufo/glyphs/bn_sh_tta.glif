@@ -121,18 +121,6 @@
       <point x="418" y="311" type="line"/>
     </contour>
     <contour>
-      <point x="580" y="552" type="curve" smooth="yes"/>
-      <point x="653" y="552"/>
-      <point x="711.20637756" y="545.398582764"/>
-      <point x="758" y="535" type="curve"/>
-      <point x="760" y="542"/>
-      <point x="761" y="550"/>
-      <point x="761" y="559" type="curve" smooth="yes"/>
-      <point x="761" y="568"/>
-      <point x="760" y="575"/>
-      <point x="758" y="581" type="curve"/>
-      <point x="711.834081981" y="594.403008457"/>
-      <point x="650" y="602"/>
       <point x="578" y="602" type="curve" smooth="yes"/>
       <point x="479" y="602"/>
       <point x="413.153581966" y="562.612610643"/>
@@ -177,6 +165,18 @@
       <point x="447" y="449" type="curve" smooth="yes"/>
       <point x="457.994483066" y="540.953858368"/>
       <point x="492.297101449" y="552.0"/>
+      <point x="580" y="552" type="curve" smooth="yes"/>
+      <point x="653" y="552"/>
+      <point x="711.20637756" y="545.398582764"/>
+      <point x="758" y="535" type="curve"/>
+      <point x="760" y="542"/>
+      <point x="761" y="550"/>
+      <point x="761" y="559" type="curve" smooth="yes"/>
+      <point x="761" y="568"/>
+      <point x="760" y="575"/>
+      <point x="758" y="581" type="curve"/>
+      <point x="711.834081981" y="594.403008457"/>
+      <point x="650" y="602"/>
     </contour>
   </outline>
   <lib>
@@ -406,6 +406,28 @@
                 </dict>
               </array>
             </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_sh_tta</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>758</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
           </array>
           <key>lib</key>
           <dict>

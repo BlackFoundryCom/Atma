@@ -3,8 +3,6 @@
   <advance width="732"/>
   <outline>
     <contour>
-      <point x="460" y="-37"/>
-      <point x="478" y="-32"/>
       <point x="498" y="-14" type="curve"/>
       <point x="483" y="36"/>
       <point x="473" y="155"/>
@@ -70,6 +68,8 @@
       <point x="396" y="22"/>
       <point x="418" y="-13"/>
       <point x="441" y="-37" type="curve"/>
+      <point x="460" y="-37"/>
+      <point x="478" y="-32"/>
     </contour>
     <contour>
       <point x="427" y="318" type="curve"/>
@@ -116,8 +116,6 @@
       <point x="427" y="486"/>
     </contour>
     <contour>
-      <point x="636" y="22"/>
-      <point x="659" y="24"/>
       <point x="672" y="33" type="curve"/>
       <point x="646" y="94"/>
       <point x="635" y="158"/>
@@ -140,6 +138,8 @@
       <point x="591" y="144"/>
       <point x="601" y="80"/>
       <point x="618" y="22" type="curve"/>
+      <point x="636" y="22"/>
+      <point x="659" y="24"/>
     </contour>
   </outline>
   <lib>
@@ -1356,6 +1356,28 @@
                 </dict>
               </array>
             </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_g_ra_uukaar</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>732</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
           </array>
           <key>lib</key>
           <dict>

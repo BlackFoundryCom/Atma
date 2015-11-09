@@ -46,11 +46,8 @@
     </contour>
     <contour>
       <point x="420" y="509" type="curve" smooth="yes"/>
-      <point x="420" y="476"/>
-      <point x="426" y="449"/>
-      <point x="425" y="392" type="curve" smooth="yes"/>
-      <point x="422" y="140"/>
-      <point x="388" y="80"/>
+      <point x="420" y="312"/>
+      <point x="398.405625673" y="115.062434333"/>
       <point x="342" y="-75" type="curve"/>
       <point x="368" y="-105" type="line"/>
       <point x="341.488373489" y="26.6112887486"/>
@@ -623,6 +620,28 @@
                 </dict>
               </array>
             </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_th_ra_uukaar</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>807</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
           </array>
           <key>lib</key>
           <dict>

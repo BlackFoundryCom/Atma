@@ -3,8 +3,6 @@
   <advance width="695"/>
   <outline>
     <contour>
-      <point x="56" y="549"/>
-      <point x="146" y="562"/>
       <point x="247" y="562" type="curve" smooth="yes"/>
       <point x="341" y="562"/>
       <point x="416" y="549"/>
@@ -27,10 +25,10 @@
       <point x="-5" y="551"/>
       <point x="-3" y="543"/>
       <point x="0" y="535" type="curve"/>
+      <point x="56" y="549"/>
+      <point x="146" y="562"/>
     </contour>
     <contour>
-      <point x="386" y="-16"/>
-      <point x="405" y="-14"/>
       <point x="420" y="-5" type="curve"/>
       <point x="395.556834031" y="79.0606439437"/>
       <point x="395.0" y="210.550209205"/>
@@ -45,6 +43,8 @@
       <point x="346.0" y="69.8252427184"/>
       <point x="360.644476024" y="23.0953250213"/>
       <point x="366" y="-16" type="curve"/>
+      <point x="386" y="-16"/>
+      <point x="405" y="-14"/>
     </contour>
     <contour>
       <point x="381" y="13" type="line"/>
@@ -75,8 +75,6 @@
       <point x="361" y="323" type="line"/>
     </contour>
     <contour>
-      <point x="637" y="290"/>
-      <point x="657" y="336"/>
       <point x="657" y="385" type="curve" smooth="yes"/>
       <point x="657" y="453"/>
       <point x="604" y="490"/>
@@ -95,10 +93,10 @@
       <point x="601" y="331"/>
       <point x="581" y="302" type="curve"/>
       <point x="605" y="257" type="line"/>
+      <point x="637" y="290"/>
+      <point x="657" y="336"/>
     </contour>
     <contour>
-      <point x="618" y="83"/>
-      <point x="663" y="125"/>
       <point x="663" y="190" type="curve" smooth="yes"/>
       <point x="663" y="234"/>
       <point x="644" y="270"/>
@@ -117,10 +115,10 @@
       <point x="394" y="153"/>
       <point x="472" y="83"/>
       <point x="554" y="83" type="curve" smooth="yes"/>
+      <point x="618" y="83"/>
+      <point x="663" y="125"/>
     </contour>
     <contour>
-      <point x="565" y="202"/>
-      <point x="602" y="238"/>
       <point x="625" y="288" type="curve"/>
       <point x="588" y="314" type="line"/>
       <point x="562" y="265"/>
@@ -145,6 +143,8 @@
       <point x="445" y="235"/>
       <point x="478" y="202"/>
       <point x="522" y="202" type="curve" smooth="yes"/>
+      <point x="565" y="202"/>
+      <point x="602" y="238"/>
     </contour>
   </outline>
   <lib>
@@ -526,6 +526,28 @@
                 </dict>
               </array>
             </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_ss_nna</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>695</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
           </array>
           <key>lib</key>
           <dict>

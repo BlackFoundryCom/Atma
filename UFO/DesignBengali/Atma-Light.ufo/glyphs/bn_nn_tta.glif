@@ -27,18 +27,6 @@
       <point x="660" y="574" type="curve"/>
     </contour>
     <contour>
-      <point x="516" y="552" type="curve" smooth="yes"/>
-      <point x="589" y="552"/>
-      <point x="647" y="545"/>
-      <point x="694" y="535" type="curve"/>
-      <point x="696" y="542"/>
-      <point x="697" y="550"/>
-      <point x="697" y="559" type="curve" smooth="yes"/>
-      <point x="697" y="568"/>
-      <point x="696" y="575"/>
-      <point x="694" y="581" type="curve"/>
-      <point x="648" y="594"/>
-      <point x="586" y="602"/>
       <point x="514" y="602" type="curve" smooth="yes"/>
       <point x="415" y="602"/>
       <point x="349" y="563"/>
@@ -83,6 +71,18 @@
       <point x="383" y="449" type="curve" smooth="yes"/>
       <point x="394" y="541"/>
       <point x="428" y="552"/>
+      <point x="516" y="552" type="curve" smooth="yes"/>
+      <point x="589" y="552"/>
+      <point x="647" y="545"/>
+      <point x="694" y="535" type="curve"/>
+      <point x="696" y="542"/>
+      <point x="697" y="550"/>
+      <point x="697" y="559" type="curve" smooth="yes"/>
+      <point x="697" y="568"/>
+      <point x="696" y="575"/>
+      <point x="694" y="581" type="curve"/>
+      <point x="648" y="594"/>
+      <point x="586" y="602"/>
     </contour>
     <contour>
       <point x="361" y="278" type="line"/>
@@ -713,6 +713,28 @@
                 </dict>
               </array>
             </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_nn_tta</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>694</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
           </array>
           <key>lib</key>
           <dict>

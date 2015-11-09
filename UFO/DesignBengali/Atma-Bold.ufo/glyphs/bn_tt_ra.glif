@@ -3,22 +3,16 @@
   <advance width="522"/>
   <outline>
     <contour>
-      <point x="274" y="-261"/>
-      <point x="337" y="-257"/>
       <point x="379" y="-238" type="curve"/>
-      <point x="368" y="-206"/>
-      <point x="362" y="-167"/>
-      <point x="362" y="-115" type="curve" smooth="yes"/>
-      <point x="362" y="-67"/>
-      <point x="375" y="4"/>
+      <point x="357.846153846" y="-176.461538462"/>
+      <point x="363.083333333" y="-56.6666666667"/>
       <point x="386" y="60" type="curve"/>
       <point x="267" y="12" type="line"/>
-      <point x="244" y="-61"/>
-      <point x="225" y="-150"/>
-      <point x="225" y="-222" type="curve" smooth="yes"/>
-      <point x="225" y="-236"/>
-      <point x="226" y="-249"/>
+      <point x="239.527777778" y="-75.1944444444"/>
+      <point x="215.714285714" y="-197.571428571"/>
       <point x="228" y="-259" type="curve"/>
+      <point x="274" y="-261"/>
+      <point x="337" y="-257"/>
     </contour>
     <contour>
       <point x="252" y="-216" type="line"/>
@@ -142,6 +136,53 @@
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_tt_ra</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>522</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_tt_ra</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>522</integer>
+        </dict>
+      </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

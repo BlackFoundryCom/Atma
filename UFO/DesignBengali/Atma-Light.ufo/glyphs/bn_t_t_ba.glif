@@ -3,8 +3,6 @@
   <advance width="668"/>
   <outline>
     <contour>
-      <point x="564" y="6"/>
-      <point x="630" y="64"/>
       <point x="630" y="139" type="curve" smooth="yes"/>
       <point x="630" y="181"/>
       <point x="603" y="219"/>
@@ -25,10 +23,10 @@
       <point x="85" y="218"/>
       <point x="188" y="6"/>
       <point x="436" y="6" type="curve" smooth="yes"/>
+      <point x="564" y="6"/>
+      <point x="630" y="64"/>
     </contour>
     <contour>
-      <point x="500" y="171"/>
-      <point x="536" y="193"/>
       <point x="563" y="227" type="curve"/>
       <point x="526" y="253" type="line"/>
       <point x="502" y="223"/>
@@ -53,10 +51,10 @@
       <point x="373" y="197"/>
       <point x="412" y="171"/>
       <point x="458" y="171" type="curve" smooth="yes"/>
+      <point x="500" y="171"/>
+      <point x="536" y="193"/>
     </contour>
     <contour>
-      <point x="84.7123957173" y="555.522686299"/>
-      <point x="193.285714286" y="566.0"/>
       <point x="339" y="566" type="curve" smooth="yes"/>
       <point x="475.167095116" y="566.0"/>
       <point x="584" y="556"/>
@@ -79,6 +77,8 @@
       <point x="-5" y="551"/>
       <point x="-4" y="543"/>
       <point x="-1" y="535" type="curve"/>
+      <point x="84.7123957173" y="555.522686299"/>
+      <point x="193.285714286" y="566.0"/>
     </contour>
     <contour>
       <point x="619" y="357" type="curve"/>
@@ -135,8 +135,6 @@
       <point x="405" y="-250" type="curve"/>
     </contour>
     <contour>
-      <point x="425" y="-251"/>
-      <point x="447" y="-251"/>
       <point x="462" y="-243" type="curve"/>
       <point x="450" y="-210"/>
       <point x="447" y="-164"/>
@@ -151,6 +149,8 @@
       <point x="397" y="-210"/>
       <point x="401" y="-233"/>
       <point x="405" y="-250" type="curve"/>
+      <point x="425" y="-251"/>
+      <point x="447" y="-251"/>
     </contour>
   </outline>
   <lib>
@@ -903,6 +903,28 @@
                 </dict>
               </array>
             </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_t_t_ba</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>668</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
           </array>
           <key>lib</key>
           <dict>

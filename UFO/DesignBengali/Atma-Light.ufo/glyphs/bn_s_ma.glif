@@ -3,8 +3,6 @@
   <advance width="842"/>
   <outline>
     <contour>
-      <point x="674" y="-16"/>
-      <point x="693" y="-14"/>
       <point x="708" y="-5" type="curve"/>
       <point x="692" y="72"/>
       <point x="678" y="161"/>
@@ -19,10 +17,10 @@
       <point x="634" y="82"/>
       <point x="648" y="29"/>
       <point x="654" y="-16" type="curve"/>
+      <point x="674" y="-16"/>
+      <point x="693" y="-14"/>
     </contour>
     <contour>
-      <point x="430" y="46"/>
-      <point x="471" y="104"/>
       <point x="476" y="171" type="curve"/>
       <point x="425" y="197" type="line"/>
       <point x="422" y="129"/>
@@ -47,20 +45,20 @@
       <point x="261" y="90"/>
       <point x="306" y="46"/>
       <point x="364" y="46" type="curve" smooth="yes"/>
+      <point x="430" y="46"/>
+      <point x="471" y="104"/>
     </contour>
     <contour>
       <point x="665" y="13" type="line"/>
-      <point x="632" y="134"/>
-      <point x="477" y="221"/>
-      <point x="417" y="253" type="curve"/>
-      <point x="400" y="204" type="line"/>
-      <point x="513" y="145"/>
-      <point x="592" y="103"/>
+      <point x="635.247327451" y="122.09313268"/>
+      <point x="503.692133723" y="202.162646335"/>
+      <point x="451" y="230" type="curve"/>
+      <point x="434" y="181" type="line"/>
+      <point x="532.374652861" y="129.328465164"/>
+      <point x="598.830298167" y="89.890234163"/>
       <point x="654" y="-16" type="curve"/>
     </contour>
     <contour>
-      <point x="88" y="555"/>
-      <point x="229" y="574"/>
       <point x="430" y="574" type="curve" smooth="yes"/>
       <point x="622" y="574"/>
       <point x="751" y="554"/>
@@ -83,6 +81,8 @@
       <point x="-5" y="552"/>
       <point x="-3" y="543"/>
       <point x="0" y="535" type="curve"/>
+      <point x="88" y="555"/>
+      <point x="229" y="574"/>
     </contour>
     <contour>
       <point x="473" y="199" type="line"/>
@@ -95,8 +95,6 @@
       <point x="423" y="208" type="curve"/>
     </contour>
     <contour>
-      <point x="188" y="447"/>
-      <point x="156" y="385"/>
       <point x="93" y="385" type="curve" smooth="yes"/>
       <point x="71" y="385"/>
       <point x="44" y="393"/>
@@ -109,10 +107,10 @@
       <point x="228" y="410"/>
       <point x="231" y="580" type="curve"/>
       <point x="191" y="586" type="line"/>
+      <point x="188" y="447"/>
+      <point x="156" y="385"/>
     </contour>
     <contour>
-      <point x="456" y="331"/>
-      <point x="513" y="382"/>
       <point x="513" y="458" type="curve" smooth="yes"/>
       <point x="513" y="527"/>
       <point x="466" y="572"/>
@@ -131,10 +129,59 @@
       <point x="205" y="414"/>
       <point x="290" y="331"/>
       <point x="383" y="331" type="curve" smooth="yes"/>
+      <point x="456" y="331"/>
+      <point x="513" y="382"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_s_ma</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>842</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_s_ma</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>842</integer>
+        </dict>
+      </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

@@ -3,8 +3,6 @@
   <advance width="979"/>
   <outline>
     <contour>
-      <point x="640" y="-250"/>
-      <point x="711" y="-240"/>
       <point x="756" y="-217" type="curve"/>
       <point x="733" y="-144"/>
       <point x="724" y="-41"/>
@@ -34,16 +32,19 @@
       <point x="578" y="-156"/>
       <point x="576" y="-207"/>
       <point x="588" y="-250" type="curve"/>
+      <point x="640" y="-250"/>
+      <point x="711" y="-240"/>
     </contour>
     <contour>
-      <point x="113" y="521"/>
-      <point x="271" y="531"/>
       <point x="482" y="531" type="curve" smooth="yes"/>
       <point x="664" y="531"/>
       <point x="868" y="524"/>
       <point x="979" y="504" type="curve"/>
-      <point x="988" y="539"/>
-      <point x="992" y="602"/>
+      <point x="984" y="523"/>
+      <point x="987" y="550"/>
+      <point x="987" y="577" type="curve" smooth="yes"/>
+      <point x="987" y="600"/>
+      <point x="985" y="622"/>
       <point x="979" y="639" type="curve"/>
       <point x="881" y="663"/>
       <point x="673" y="670"/>
@@ -51,13 +52,16 @@
       <point x="274" y="670"/>
       <point x="110" y="659"/>
       <point x="0" y="639" type="curve"/>
-      <point x="-16" y="611"/>
-      <point x="-11" y="539"/>
+      <point x="-7" y="626"/>
+      <point x="-10" y="604"/>
+      <point x="-10" y="581" type="curve" smooth="yes"/>
+      <point x="-10" y="553"/>
+      <point x="-6" y="523"/>
       <point x="0" y="504" type="curve"/>
+      <point x="113" y="521"/>
+      <point x="271" y="531"/>
     </contour>
     <contour>
-      <point x="229" y="180"/>
-      <point x="245" y="240"/>
       <point x="245" y="289" type="curve"/>
       <point x="232" y="284"/>
       <point x="216" y="281"/>
@@ -81,18 +85,20 @@
       <point x="33" y="217"/>
       <point x="103" y="152"/>
       <point x="203" y="143" type="curve"/>
+      <point x="229" y="180"/>
+      <point x="245" y="240"/>
     </contour>
     <contour>
-      <point x="328" y="268"/>
-      <point x="354" y="277"/>
       <point x="374" y="285" type="curve"/>
       <point x="296" y="418" type="line"/>
       <point x="222" y="361" type="line"/>
       <point x="294" y="261" type="line"/>
+      <point x="328" y="268"/>
+      <point x="354" y="277"/>
     </contour>
     <contour>
-      <point x="455" y="295" type="line"/>
-      <point x="448" y="402"/>
+      <point x="461" y="295" type="line"/>
+      <point x="454" y="402"/>
       <point x="405" y="477"/>
       <point x="349" y="477" type="curve" smooth="yes"/>
       <point x="308" y="477"/>
@@ -107,10 +113,13 @@
       <point x="359" y="350"/>
       <point x="370" y="350" type="curve" smooth="yes"/>
       <point x="403" y="350"/>
-      <point x="425" y="302"/>
-      <point x="425" y="243" type="curve"/>
+      <point x="431" y="302"/>
+      <point x="431" y="243" type="curve"/>
     </contour>
     <contour>
+      <point x="570" y="149" type="line"/>
+      <point x="556" y="174"/>
+      <point x="541" y="206"/>
       <point x="530" y="229" type="curve"/>
       <point x="540" y="329"/>
       <point x="550" y="439"/>
@@ -131,13 +140,57 @@
       <point x="514" y="-20"/>
       <point x="424" y="26" type="curve"/>
       <point x="405" y="-53" type="line"/>
-      <point x="570" y="149" type="line"/>
-      <point x="556.126723219" y="173.971898207"/>
-      <point x="541" y="206"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_l_pha</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>979</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_l_pha</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>979</integer>
+        </dict>
+      </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

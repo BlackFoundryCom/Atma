@@ -119,8 +119,6 @@
       <point x="379" y="414"/>
     </contour>
     <contour>
-      <point x="540" y="12"/>
-      <point x="563" y="14"/>
       <point x="576" y="23" type="curve"/>
       <point x="550" y="84"/>
       <point x="539" y="148"/>
@@ -143,6 +141,8 @@
       <point x="495" y="134"/>
       <point x="505" y="70"/>
       <point x="522" y="12" type="curve"/>
+      <point x="540" y="12"/>
+      <point x="563" y="14"/>
     </contour>
   </outline>
   <lib>
@@ -840,6 +840,28 @@
                 </dict>
               </array>
             </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_dh_ra_uukaar</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>633</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
           </array>
           <key>lib</key>
           <dict>

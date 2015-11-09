@@ -3,8 +3,6 @@
   <advance width="496"/>
   <outline>
     <contour>
-      <point x="518" y="-253"/>
-      <point x="529" y="-240"/>
       <point x="538" y="-225" type="curve"/>
       <point x="435" y="-120"/>
       <point x="325" y="-44"/>
@@ -47,10 +45,10 @@
       <point x="267" y="-54"/>
       <point x="387" y="-133"/>
       <point x="506" y="-266" type="curve"/>
+      <point x="518" y="-253"/>
+      <point x="529" y="-240"/>
     </contour>
     <contour>
-      <point x="80" y="550"/>
-      <point x="144" y="564"/>
       <point x="246" y="564" type="curve" smooth="yes"/>
       <point x="347" y="564"/>
       <point x="417" y="550"/>
@@ -73,10 +71,10 @@
       <point x="-5" y="552"/>
       <point x="-3" y="543"/>
       <point x="0" y="535" type="curve"/>
+      <point x="80" y="550"/>
+      <point x="144" y="564"/>
     </contour>
     <contour>
-      <point x="149.29876297" y="450.842684259"/>
-      <point x="127.714285714" y="395.0"/>
       <point x="84" y="395" type="curve" smooth="yes"/>
       <point x="62" y="395"/>
       <point x="35" y="403"/>
@@ -89,10 +87,10 @@
       <point x="189.249088178" y="414.11499676"/>
       <point x="192" y="570" type="curve"/>
       <point x="152" y="576" type="line"/>
+      <point x="149.29876297" y="450.842684259"/>
+      <point x="127.714285714" y="395.0"/>
     </contour>
     <contour>
-      <point x="417" y="321"/>
-      <point x="474" y="372"/>
       <point x="474" y="448" type="curve" smooth="yes"/>
       <point x="474" y="517"/>
       <point x="427" y="562"/>
@@ -111,6 +109,8 @@
       <point x="166" y="404"/>
       <point x="251" y="321"/>
       <point x="344" y="321" type="curve" smooth="yes"/>
+      <point x="417" y="321"/>
+      <point x="474" y="372"/>
     </contour>
   </outline>
   <lib>
@@ -480,6 +480,28 @@
                 </dict>
               </array>
             </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_s_tha</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>496</integer>
+        </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
           </array>
           <key>lib</key>
           <dict>
