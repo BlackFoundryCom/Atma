@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bn_currency3" format="1">
+  <advance width="598"/>
+  <unicode hex="09F6"/>
+  <outline>
+    <contour>
+      <point x="186" y="443" type="curve"/>
+      <point x="210.265306122" y="443.0"/>
+      <point x="227" y="424"/>
+      <point x="227" y="403" type="curve" smooth="yes"/>
+      <point x="227" y="296"/>
+      <point x="-3.0" y="274.439114391"/>
+      <point x="-3" y="135" type="curve"/>
+      <point x="-3" y="64"/>
+      <point x="82.4009433962" y="-15.0"/>
+      <point x="210" y="-15" type="curve"/>
+      <point x="399" y="-15"/>
+      <point x="558" y="139"/>
+      <point x="595" y="576" type="curve"/>
+      <point x="561" y="589"/>
+      <point x="525" y="598"/>
+      <point x="489" y="605" type="curve"/>
+      <point x="464.182922332" y="304.217018664"/>
+      <point x="306" y="87"/>
+      <point x="193" y="87" type="curve" smooth="yes"/>
+      <point x="170.263157895" y="87.0"/>
+      <point x="157.0" y="98.0"/>
+      <point x="157" y="117" type="curve"/>
+      <point x="157.0" y="178.0"/>
+      <point x="360.0" y="208.384615385"/>
+      <point x="360" y="369" type="curve" smooth="yes"/>
+      <point x="360" y="461"/>
+      <point x="274.436548223" y="528.0"/>
+      <point x="164" y="528" type="curve"/>
+      <point x="83.0674157303" y="528.0"/>
+      <point x="17.0" y="464.62585034"/>
+      <point x="17" y="391" type="curve" smooth="yes"/>
+      <point x="17" y="369"/>
+      <point x="24" y="343"/>
+      <point x="27" y="339" type="curve"/>
+      <point x="63" y="331"/>
+      <point x="118" y="332"/>
+      <point x="160" y="338" type="curve"/>
+      <point x="148.935855423" y="356.723936976"/>
+      <point x="142" y="381"/>
+      <point x="142" y="398" type="curve" smooth="yes"/>
+      <point x="142" y="426"/>
+      <point x="157.304347826" y="443.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>163</integer>
+                  <key>y</key>
+                  <integer>-54</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>370</integer>
+                  <key>y</key>
+                  <integer>113</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>514</integer>
+                  <key>y</key>
+                  <integer>323</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>595</integer>
+                  <key>y</key>
+                  <integer>576</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>561</integer>
+                  <key>y</key>
+                  <integer>589</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>525</integer>
+                  <key>y</key>
+                  <integer>598</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>489</integer>
+                  <key>y</key>
+                  <integer>605</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>368</integer>
+                  <key>y</key>
+                  <integer>342</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>221</integer>
+                  <key>y</key>
+                  <integer>177</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>50</integer>
+                  <key>y</key>
+                  <integer>112</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_currency3</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>598</integer>
+        </dict>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

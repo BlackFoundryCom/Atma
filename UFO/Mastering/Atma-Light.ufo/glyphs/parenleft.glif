@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenleft" format="1">
+  <advance width="331"/>
+  <unicode hex="0028"/>
+  <outline>
+    <contour>
+      <point x="80" y="315" type="curve" smooth="yes"/>
+      <point x="80.0" y="480.0"/>
+      <point x="140.698338608" y="650.651442208"/>
+      <point x="321" y="761" type="curve"/>
+      <point x="307.672662189" y="775.279290511"/>
+      <point x="295.485888447" y="788.757055777"/>
+      <point x="279" y="797" type="curve"/>
+      <point x="109" y="684"/>
+      <point x="25" y="515"/>
+      <point x="25" y="309" type="curve" smooth="yes"/>
+      <point x="25" y="105"/>
+      <point x="117" y="-50"/>
+      <point x="275" y="-160" type="curve"/>
+      <point x="291.485888447" y="-151.757055777"/>
+      <point x="303.672662189" y="-138.279290511"/>
+      <point x="317" y="-124" type="curve"/>
+      <point x="163.317646996" y="-28.4411010164"/>
+      <point x="80.0" y="122.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>376</integer>
+          <key>y</key>
+          <integer>493</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

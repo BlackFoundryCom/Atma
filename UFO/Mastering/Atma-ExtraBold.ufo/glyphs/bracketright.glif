@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketright" format="1">
+  <advance width="435"/>
+  <unicode hex="005D"/>
+  <outline>
+    <contour>
+      <point x="17" y="785" type="curve"/>
+      <point x="17" y="745"/>
+      <point x="27" y="681"/>
+      <point x="36" y="655" type="curve"/>
+      <point x="77" y="663"/>
+      <point x="135" y="669"/>
+      <point x="183" y="669" type="curve"/>
+      <point x="222" y="451"/>
+      <point x="232" y="219"/>
+      <point x="206" y="-73" type="curve"/>
+      <point x="351" y="-86" type="line"/>
+      <point x="368" y="205"/>
+      <point x="372" y="595"/>
+      <point x="338" y="804" type="curve"/>
+      <point x="230" y="804"/>
+      <point x="119.940808292" y="797.867601037"/>
+    </contour>
+    <contour>
+      <point x="43" y="-124" type="curve"/>
+      <point x="160.071375279" y="-118.097241583"/>
+      <point x="249.585117442" y="-105.692210205"/>
+      <point x="351" y="-86" type="curve"/>
+      <point x="328" y="21" type="line"/>
+      <point x="237.407137644" y="7.50744603207"/>
+      <point x="144" y="3"/>
+      <point x="53" y="3" type="curve"/>
+      <point x="46" y="-30"/>
+      <point x="43" y="-76"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>457</integer>
+          <key>y</key>
+          <integer>210</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
