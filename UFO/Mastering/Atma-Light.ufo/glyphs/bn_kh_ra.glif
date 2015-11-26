@@ -115,5 +115,28 @@
       <point x="273.096643349" y="-138.785055045"/>
       <point x="266" y="-228" type="curve"/>
     </contour>
+    <contour>
+      <point x="292" y="-221" type="move" name="blwm"/>
+    </contour>
+    <contour>
+      <point x="183" y="-221" type="move" name="haln"/>
+    </contour>
+    <contour>
+      <point x="458" y="690" type="move" name="reph"/>
+    </contour>
+    <contour>
+      <point x="458" y="690" type="move" name="chandrabindu"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.502</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.63</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

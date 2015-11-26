@@ -1,38 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bn_ukaar.alt" format="1">
-  <advance width="300"/>
+  <advance width="0"/>
   <outline>
     <contour>
-      <point x="196.0" y="-123.0" type="line"/>
-      <point x="184.0" y="-164.0"/>
-      <point x="151.0" y="-209.0"/>
-      <point x="99.0" y="-209.0" type="curve" smooth="yes"/>
-      <point x="65.0" y="-209.0"/>
-      <point x="43.0" y="-189.0"/>
-      <point x="43.0" y="-160.0" type="curve" smooth="yes"/>
-      <point x="43.0" y="-129.0"/>
-      <point x="66.0" y="-110.0"/>
-      <point x="99.0" y="-110.0" type="curve" smooth="yes"/>
-      <point x="146.0" y="-110.0"/>
-      <point x="207.0" y="-151.0"/>
-      <point x="259.0" y="-197.0" type="curve" smooth="yes"/>
-      <point x="361.0" y="-282.0" type="line"/>
-      <point x="374.0" y="-271.0"/>
-      <point x="383.0" y="-257.0"/>
-      <point x="389.0" y="-243.0" type="curve"/>
-      <point x="287.0" y="-164.0" type="line" smooth="yes"/>
-      <point x="219.0" y="-108.0"/>
-      <point x="164.0" y="-61.0"/>
-      <point x="94.0" y="-61.0" type="curve" smooth="yes"/>
-      <point x="41.0" y="-61.0"/>
-      <point x="-3.0" y="-97.0"/>
-      <point x="-3.0" y="-162.0" type="curve" smooth="yes"/>
-      <point x="-3.0" y="-223.0"/>
-      <point x="41.0" y="-256.0"/>
-      <point x="99.0" y="-256.0" type="curve" smooth="yes"/>
-      <point x="173.0" y="-256.0"/>
-      <point x="216.0" y="-202.0"/>
-      <point x="234.0" y="-150.0" type="curve"/>
+      <point x="76" y="-143" type="line"/>
+      <point x="64" y="-184"/>
+      <point x="31" y="-229"/>
+      <point x="-21" y="-229" type="curve" smooth="yes"/>
+      <point x="-55" y="-229"/>
+      <point x="-77" y="-209"/>
+      <point x="-77" y="-180" type="curve" smooth="yes"/>
+      <point x="-77" y="-149"/>
+      <point x="-54" y="-130"/>
+      <point x="-21" y="-130" type="curve" smooth="yes"/>
+      <point x="26" y="-130"/>
+      <point x="87" y="-171"/>
+      <point x="139" y="-217" type="curve" smooth="yes"/>
+      <point x="241" y="-302" type="line"/>
+      <point x="254" y="-291"/>
+      <point x="263" y="-277"/>
+      <point x="269" y="-263" type="curve"/>
+      <point x="167" y="-184" type="line" smooth="yes"/>
+      <point x="99" y="-128"/>
+      <point x="44" y="-81"/>
+      <point x="-26" y="-81" type="curve" smooth="yes"/>
+      <point x="-79" y="-81"/>
+      <point x="-123" y="-117"/>
+      <point x="-123" y="-182" type="curve" smooth="yes"/>
+      <point x="-123" y="-243"/>
+      <point x="-79" y="-276"/>
+      <point x="-21" y="-276" type="curve" smooth="yes"/>
+      <point x="53" y="-276"/>
+      <point x="96" y="-222"/>
+      <point x="114" y="-170" type="curve"/>
+    </contour>
+    <contour>
+      <point x="0" y="-20" type="move" name="_blwm"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.502</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

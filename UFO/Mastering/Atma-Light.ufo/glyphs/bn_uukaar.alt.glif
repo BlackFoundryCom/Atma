@@ -1,35 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bn_uukaar.alt" format="1">
-  <advance width="300"/>
+  <advance width="0"/>
   <outline>
     <contour>
-      <point x="374" y="-271"/>
-      <point x="383" y="-257"/>
-      <point x="389" y="-243" type="curve"/>
-      <point x="231" y="-131" type="line"/>
-      <point x="188" y="-174"/>
-      <point x="155" y="-195"/>
-      <point x="122" y="-195" type="curve" smooth="yes"/>
-      <point x="95" y="-195"/>
-      <point x="71" y="-180"/>
-      <point x="71" y="-149" type="curve" smooth="yes"/>
-      <point x="71" y="-105"/>
-      <point x="117" y="-56"/>
-      <point x="194" y="-33" type="curve" smooth="yes"/>
-      <point x="225" y="-24" type="line"/>
-      <point x="206" y="0" type="line"/>
-      <point x="171" y="8" type="line"/>
-      <point x="62" y="-33"/>
-      <point x="25" y="-90"/>
-      <point x="25" y="-148" type="curve" smooth="yes"/>
-      <point x="25" y="-208"/>
-      <point x="68" y="-240"/>
-      <point x="127" y="-240" type="curve" smooth="yes"/>
-      <point x="181" y="-240"/>
-      <point x="227" y="-212"/>
-      <point x="263" y="-164" type="curve"/>
-      <point x="222" y="-176" type="line"/>
-      <point x="361" y="-282" type="line"/>
+      <point x="234" y="-306"/>
+      <point x="243" y="-292"/>
+      <point x="249" y="-278" type="curve"/>
+      <point x="91" y="-166" type="line"/>
+      <point x="48" y="-209"/>
+      <point x="15" y="-230"/>
+      <point x="-18" y="-230" type="curve" smooth="yes"/>
+      <point x="-45" y="-230"/>
+      <point x="-69" y="-215"/>
+      <point x="-69" y="-187" type="curve" smooth="yes"/>
+      <point x="-69" y="-142"/>
+      <point x="-27" y="-115"/>
+      <point x="85" y="-109" type="curve"/>
+      <point x="85" y="-96"/>
+      <point x="83" y="-79"/>
+      <point x="79" y="-68" type="curve"/>
+      <point x="-64" y="-76"/>
+      <point x="-115" y="-125"/>
+      <point x="-115" y="-183" type="curve" smooth="yes"/>
+      <point x="-115" y="-243"/>
+      <point x="-72" y="-275"/>
+      <point x="-13" y="-275" type="curve" smooth="yes"/>
+      <point x="41" y="-275"/>
+      <point x="87" y="-247"/>
+      <point x="123" y="-199" type="curve"/>
+      <point x="82" y="-211" type="line"/>
+      <point x="221" y="-317" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="-20" type="move" name="_blwm"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.502</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

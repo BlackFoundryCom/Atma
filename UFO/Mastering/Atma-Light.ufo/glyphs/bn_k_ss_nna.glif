@@ -137,8 +137,8 @@
       <point x="247" y="441"/>
     </contour>
     <contour>
-      <point x="626" y="-199" type="curve"/>
-      <point x="596.592761935" y="-59.5527743351"/>
+      <point x="629" y="-199" type="curve"/>
+      <point x="599.929676553" y="-59.6629324441"/>
       <point x="573.0" y="162.106824926"/>
       <point x="573" y="282" type="curve" smooth="yes"/>
       <point x="573" y="437"/>
@@ -151,8 +151,8 @@
       <point x="524.0" y="-49.2066420664"/>
       <point x="560.707445982" y="-136.59839888"/>
       <point x="572" y="-210" type="curve"/>
-      <point x="592" y="-210"/>
-      <point x="611" y="-208"/>
+      <point x="593.111111111" y="-210.0"/>
+      <point x="613.382926847" y="-208.370243892"/>
     </contour>
     <contour>
       <point x="544" y="474" type="line"/>
@@ -208,11 +208,30 @@
       <point x="749" y="164"/>
       <point x="795" y="229"/>
     </contour>
+    <contour>
+      <point x="592" y="-198" type="move" name="blwm"/>
+    </contour>
+    <contour>
+      <point x="470" y="-196" type="move" name="haln"/>
+    </contour>
+    <contour>
+      <point x="558" y="690" type="move" name="reph"/>
+    </contour>
+    <contour>
+      <point x="558" y="690" type="move" name="chandrabindu"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>9</integer>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.502</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.63</real>
+      </array>
       <key>public.markColor</key>
       <string>0.98,0.36,0.67,1</string>
     </dict>

@@ -234,11 +234,30 @@
       <point x="103.58448125" y="558.42982314"/>
       <point x="271.170731707" y="574.0"/>
     </contour>
+    <contour>
+      <point x="818" y="-196" type="move" name="blwm"/>
+    </contour>
+    <contour>
+      <point x="716" y="-197" type="move" name="haln"/>
+    </contour>
+    <contour>
+      <point x="794" y="690" type="move" name="reph"/>
+    </contour>
+    <contour>
+      <point x="794" y="690" type="move" name="chandrabindu"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>9</integer>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.502</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.63</real>
+      </array>
       <key>public.markColor</key>
       <string>0.98,0.36,0.67,1</string>
     </dict>

@@ -18,6 +18,15 @@
       <point x="207" y="18" type="curve" smooth="yes"/>
     </contour>
     <component base="bn_ba"/>
+    <contour>
+      <point x="348" y="0" type="move" name="blwm"/>
+    </contour>
+    <contour>
+      <point x="370" y="690" type="move" name="reph"/>
+    </contour>
+    <contour>
+      <point x="238" y="0" type="move" name="haln"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -170,6 +179,13 @@
           <integer>456</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.502</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.63</real>
+      </array>
       <key>public.markColor</key>
       <string>0.85,0.26,0.06,1</string>
     </dict>
