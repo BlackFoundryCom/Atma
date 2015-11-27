@@ -91,5 +91,25 @@
       <point x="327" y="105"/>
       <point x="295" y="-46" type="curve"/>
     </contour>
+    <contour>
+      <point x="256" y="690" type="move" name="reph"/>
+    </contour>
+    <contour>
+      <point x="256" y="690" type="move" name="chandrabindu"/>
+    </contour>
+    <contour>
+      <point x="154" y="-250" type="move" name="haln"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.502</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.63</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
