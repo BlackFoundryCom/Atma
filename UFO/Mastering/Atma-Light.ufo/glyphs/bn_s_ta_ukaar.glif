@@ -146,13 +146,10 @@
       <point x="548" y="107" type="line"/>
     </contour>
     <contour>
-      <point x="425.0" y="750.0" type="move" name="reph"/>
+      <point x="310.0" y="690.0" type="move" name="chandrabindu"/>
     </contour>
     <contour>
-      <point x="425.0" y="750.0" type="move" name="chandrabindu"/>
-    </contour>
-    <contour>
-      <point x="388" y="-188" type="move" name="haln"/>
+      <point x="310.0" y="690.0" type="move" name="reph"/>
     </contour>
   </outline>
   <lib>
@@ -1174,6 +1171,13 @@
           <integer>656</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
       <key>public.markColor</key>
       <string>0.98,0.36,0.67,1</string>
     </dict>

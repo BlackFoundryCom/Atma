@@ -159,16 +159,27 @@
       <point x="830" y="-16"/>
     </contour>
     <contour>
-      <point x="603" y="750" type="move" name="reph"/>
+      <point x="452" y="690" type="move" name="reph"/>
     </contour>
     <contour>
-      <point x="603" y="750" type="move" name="chandrabindu"/>
+      <point x="452" y="690" type="move" name="chandrabindu"/>
     </contour>
     <contour>
-      <point x="449" y="-73" type="move" name="blwm"/>
+      <point x="644" y="-197" type="move" name="blwm"/>
     </contour>
     <contour>
-      <point x="409" y="-73" type="move" name="haln"/>
+      <point x="429" y="-197" type="move" name="haln"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
