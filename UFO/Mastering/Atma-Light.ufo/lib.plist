@@ -696,6 +696,7 @@
 				<string>bn_m_p_ra</string>
 				<string>bn_m_pha</string>
 				<string>bn_m_ba</string>
+				<string>bn_m_b_ra</string>
 				<string>bn_m_bha</string>
 				<string>bn_m_bh_ra</string>
 				<string>bn_m_ma</string>
@@ -778,7 +779,6 @@
 				<string>asa_ba_ukaar</string>
 				<string>asa_ba_uukaar</string>
 				<string>bn_reph</string>
-				<string>bn_reph.alt</string>
 				<string>bn_iikaar_reph</string>
 				<string>bn_aumark_reph</string>
 				<string>bn_ba_phala</string>
@@ -788,10 +788,10 @@
 				<string>uni200C</string>
 				<string>uni200D</string>
 				<string>uni20B9.rupee</string>
-				<string>bn_ikaar.fl.wi2</string>
-				<string>bn_ikaar.fl.wi2.b</string>
-				<string>bn_ikaar.fl.wi1</string>
-				<string>bn_ikaar.fl.wi1.b</string>
+				<string>bn_ikaar.wi2</string>
+				<string>bn_ikaar.wi2.b</string>
+				<string>bn_ikaar.wi1</string>
+				<string>bn_ikaar.wi1.b</string>
 				<string>bn_ikaar.fl</string>
 				<string>bn_ikaar.fl.b</string>
 				<string>bn_ikaar.b</string>
@@ -802,8 +802,6 @@
 				<string>bn_iikaar.fl</string>
 				<string>bn_iikaar.fl.b</string>
 				<string>bn_iikaar.b</string>
-				<string>bn_iikaar.alt</string>
-				<string>bn_iikaar.alt2</string>
 				<string>bn_aakaar.b</string>
 				<string>bn_ekaar.b</string>
 				<string>bn_ka.half</string>
@@ -2126,6 +2124,7 @@
 		<string>bn_m_p_ra</string>
 		<string>bn_m_pha</string>
 		<string>bn_m_ba</string>
+		<string>bn_m_b_ra</string>
 		<string>bn_m_bha</string>
 		<string>bn_m_bh_ra</string>
 		<string>bn_m_ma</string>
@@ -2208,7 +2207,6 @@
 		<string>asa_ba_ukaar</string>
 		<string>asa_ba_uukaar</string>
 		<string>bn_reph</string>
-		<string>bn_reph.alt</string>
 		<string>bn_iikaar_reph</string>
 		<string>bn_aumark_reph</string>
 		<string>bn_ba_phala</string>
@@ -2218,10 +2216,10 @@
 		<string>uni200C</string>
 		<string>uni200D</string>
 		<string>uni20B9.rupee</string>
-		<string>bn_ikaar.fl.wi2</string>
-		<string>bn_ikaar.fl.wi2.b</string>
-		<string>bn_ikaar.fl.wi1</string>
-		<string>bn_ikaar.fl.wi1.b</string>
+		<string>bn_ikaar.wi2</string>
+		<string>bn_ikaar.wi2.b</string>
+		<string>bn_ikaar.wi1</string>
+		<string>bn_ikaar.wi1.b</string>
 		<string>bn_ikaar.fl</string>
 		<string>bn_ikaar.fl.b</string>
 		<string>bn_ikaar.b</string>
@@ -2232,8 +2230,6 @@
 		<string>bn_iikaar.fl</string>
 		<string>bn_iikaar.fl.b</string>
 		<string>bn_iikaar.b</string>
-		<string>bn_iikaar.alt</string>
-		<string>bn_iikaar.alt2</string>
 		<string>bn_aakaar.b</string>
 		<string>bn_ekaar.b</string>
 		<string>bn_ka.half</string>

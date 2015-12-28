@@ -158,12 +158,34 @@
           <key>width</key>
           <integer>0</integer>
         </dict>
+        <key>mask</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>bn_nukta</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>0</integer>
+        </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.0</real>
-        <real>0.502</real>
         <real>1.0</real>
+        <real>0.3205</real>
+        <real>0.3073</real>
         <real>1.0</real>
       </array>
       <key>public.markColor</key>
