@@ -381,6 +381,34 @@
 			<key>y</key>
 			<integer>784</integer>
 		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string>Anchors</string>
+			<key>x</key>
+			<integer>364</integer>
+			<key>y</key>
+			<integer>690</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string></string>
+			<key>x</key>
+			<integer>73</integer>
+			<key>y</key>
+			<integer>-338</integer>
+		</dict>
 	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
@@ -1165,24 +1193,6 @@
 				<string>asa_ba.half</string>
 				<string>bn_k_ssa.half</string>
 				<string>bn_j_nya.half</string>
-				<string>bn_eight.pnum</string>
-				<string>bn_five.pnum</string>
-				<string>bn_four.pnum</string>
-				<string>bn_iikaar_wi1</string>
-				<string>bn_iikaar_wi1.b</string>
-				<string>bn_iikaar_wi2</string>
-				<string>bn_iikaar_wi2.b</string>
-				<string>bn_ikaar_wi1</string>
-				<string>bn_ikaar_wi1.b</string>
-				<string>bn_ikaar_wi2</string>
-				<string>bn_ikaar_wi2.b</string>
-				<string>bn_nine.pnum</string>
-				<string>bn_one.pnum</string>
-				<string>bn_seven.pnum</string>
-				<string>bn_six.pnum</string>
-				<string>bn_three.pnum</string>
-				<string>bn_two.pnum</string>
-				<string>bn_zero.pnum</string>
 			</array>
 			<key>type</key>
 			<string>glyphList</string>

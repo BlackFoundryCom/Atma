@@ -6,13 +6,13 @@
     <component base="bn_ri"/>
     <component base="bn_rikaar" xOffset="96" yOffset="190"/>
     <contour>
-      <point x="551" y="690" type="move" name="chandrabindu"/>
+      <point x="681" y="690" type="move" name="chandrabindu"/>
     </contour>
     <contour>
-      <point x="551" y="690" type="move" name="reph"/>
+      <point x="681" y="690" type="move" name="reph"/>
     </contour>
     <contour>
-      <point x="585" y="0" type="move" name="blwm"/>
+      <point x="681" y="0" type="move" name="blwm"/>
     </contour>
     <contour>
       <point x="468" y="1" type="move" name="haln"/>
@@ -57,28 +57,6 @@
                 <integer>190</integer>
               </array>
             </dict>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>bn_rri</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>800</integer>
-        </dict>
-        <key>mask</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
           </array>
           <key>contours</key>
           <array>

@@ -77,10 +77,10 @@
     </contour>
     <component base="bn_e"/>
     <contour>
-      <point x="440" y="0" type="move" name="blwm"/>
+      <point x="485" y="0" type="move" name="blwm"/>
     </contour>
     <contour>
-      <point x="267" y="-49" type="move" name="nukt"/>
+      <point x="337" y="-79" type="move" name="nukt"/>
     </contour>
     <contour>
       <point x="414" y="690" type="move" name="reph"/>
@@ -89,7 +89,7 @@
       <point x="491" y="690" type="move" name="chandrabindu"/>
     </contour>
     <contour>
-      <point x="370" y="0" type="move" name="haln"/>
+      <point x="390" y="0" type="move" name="haln"/>
     </contour>
   </outline>
   <lib>
@@ -520,28 +520,6 @@
                 </dict>
               </array>
             </dict>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>bn_nya</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>907</integer>
-        </dict>
-        <key>mask</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
           </array>
           <key>lib</key>
           <dict>

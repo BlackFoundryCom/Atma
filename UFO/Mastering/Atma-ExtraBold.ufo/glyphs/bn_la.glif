@@ -103,19 +103,19 @@
       <point x="0" y="504" type="curve"/>
     </contour>
     <contour>
-      <point x="436" y="0" type="move" name="blwm"/>
+      <point x="506.0" y="0.0" type="move" name="blwm"/>
     </contour>
     <contour>
-      <point x="274" y="0" type="move" name="nukt"/>
+      <point x="294.0" y="0.0" type="move" name="nukt"/>
     </contour>
     <contour>
-      <point x="451" y="690" type="move" name="reph"/>
+      <point x="546" y="690" type="move" name="reph"/>
     </contour>
     <contour>
-      <point x="451" y="690" type="move" name="chandrabindu"/>
+      <point x="546" y="690" type="move" name="chandrabindu"/>
     </contour>
     <contour>
-      <point x="356" y="0" type="move" name="haln"/>
+      <point x="376.0" y="0.0" type="move" name="haln"/>
     </contour>
   </outline>
   <lib>
@@ -941,28 +941,6 @@
                 </dict>
               </array>
             </dict>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>bn_la</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>656</integer>
-        </dict>
-        <key>mask</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
           </array>
           <key>lib</key>
           <dict>
