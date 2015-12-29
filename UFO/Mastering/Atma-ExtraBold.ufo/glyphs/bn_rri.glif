@@ -5,6 +5,18 @@
   <outline>
     <component base="bn_ri"/>
     <component base="bn_rikaar" xOffset="96" yOffset="190"/>
+    <contour>
+      <point x="551" y="690" type="move" name="chandrabindu"/>
+    </contour>
+    <contour>
+      <point x="551" y="690" type="move" name="reph"/>
+    </contour>
+    <contour>
+      <point x="585" y="0" type="move" name="blwm"/>
+    </contour>
+    <contour>
+      <point x="468" y="1" type="move" name="haln"/>
+    </contour>
   </outline>
   <lib>
     <dict>

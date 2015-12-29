@@ -76,6 +76,21 @@
       <point x="730" y="239" type="curve" smooth="yes"/>
     </contour>
     <component base="bn_e"/>
+    <contour>
+      <point x="440" y="0" type="move" name="blwm"/>
+    </contour>
+    <contour>
+      <point x="267" y="-49" type="move" name="nukt"/>
+    </contour>
+    <contour>
+      <point x="414" y="690" type="move" name="reph"/>
+    </contour>
+    <contour>
+      <point x="491" y="690" type="move" name="chandrabindu"/>
+    </contour>
+    <contour>
+      <point x="370" y="0" type="move" name="haln"/>
+    </contour>
   </outline>
   <lib>
     <dict>
