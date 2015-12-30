@@ -99,7 +99,7 @@
       <point x="171" y="531"/>
     </contour>
     <contour>
-      <point x="413" y="-70" type="move" name="blwm"/>
+      <point x="437" y="-70" type="move" name="blwm"/>
     </contour>
     <contour>
       <point x="257" y="-70" type="move" name="haln"/>
@@ -115,6 +115,9 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>9</integer>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
