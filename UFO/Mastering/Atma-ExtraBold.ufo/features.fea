@@ -1205,8 +1205,8 @@ lookup pres_reorder {
 		sub bn_p_ta bn_ra_phala by bn_p_t_ra;
 		sub bn_m_pa bn_ra_phala by bn_m_p_ra;
 		sub bn_m_bha bn_ra_phala by bn_m_bh_ra;
-		# sub bn_m_ba bn_ra_phala by bn_m_b_ra;
-		# sub bn_ma.half bn_ba bn_ra_phala by bn_m_b_ra; # Core Text bug
+		sub bn_m_ba bn_ra_phala by bn_m_b_ra;
+		sub bn_ma.half bn_ba bn_ra_phala by bn_m_b_ra; # Core Text bug
 		sub bn_ss_ka bn_ra_phala by bn_ss_k_ra;
 		sub bn_ss_tta bn_ra_phala by bn_ss_tt_ra;
 		sub bn_ss_pa bn_ra_phala by bn_ss_p_ra;
