@@ -47,7 +47,7 @@
     <contour>
       <point x="420" y="509" type="curve" smooth="yes"/>
       <point x="420" y="312"/>
-      <point x="398.405625673" y="115.062434333"/>
+      <point x="398" y="115"/>
       <point x="342" y="-75" type="curve"/>
       <point x="368" y="-105" type="line"/>
       <point x="341.488373489" y="26.6112887486"/>
@@ -134,16 +134,16 @@
       <point x="642" y="31" type="curve"/>
     </contour>
     <contour>
-      <point x="435" y="690" type="move" name="reph"/>
+      <point x="495" y="690" type="move" name="reph"/>
     </contour>
     <contour>
-      <point x="435" y="690" type="move" name="chandrabindu"/>
+      <point x="495" y="690" type="move" name="chandrabindu"/>
     </contour>
     <contour>
-      <point x="343" y="-67" type="move" name="blwm"/>
+      <point x="389" y="-123" type="move" name="blwm"/>
     </contour>
     <contour>
-      <point x="258" y="-70" type="move" name="haln"/>
+      <point x="258" y="-122" type="move" name="haln"/>
     </contour>
   </outline>
   <lib>
