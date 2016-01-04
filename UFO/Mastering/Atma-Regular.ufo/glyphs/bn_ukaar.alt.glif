@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bn_ukaar.alt" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="71" y="-146" type="line"/>
+      <point x="59" y="-188"/>
+      <point x="27" y="-233"/>
+      <point x="-24" y="-233" type="curve" smooth="yes"/>
+      <point x="-57" y="-233"/>
+      <point x="-78" y="-214"/>
+      <point x="-78" y="-186" type="curve" smooth="yes"/>
+      <point x="-78" y="-157"/>
+      <point x="-56" y="-139"/>
+      <point x="-24" y="-139" type="curve" smooth="yes"/>
+      <point x="20" y="-139"/>
+      <point x="78" y="-177"/>
+      <point x="129" y="-221" type="curve" smooth="yes"/>
+      <point x="239" y="-311" type="line"/>
+      <point x="254" y="-298"/>
+      <point x="265" y="-281"/>
+      <point x="273" y="-265" type="curve"/>
+      <point x="174" y="-188" type="line" smooth="yes"/>
+      <point x="97" y="-125"/>
+      <point x="41" y="-80"/>
+      <point x="-27" y="-80" type="curve" smooth="yes"/>
+      <point x="-83" y="-80"/>
+      <point x="-129" y="-120"/>
+      <point x="-129" y="-187" type="curve" smooth="yes"/>
+      <point x="-129" y="-252"/>
+      <point x="-83" y="-289"/>
+      <point x="-20" y="-289" type="curve" smooth="yes"/>
+      <point x="55" y="-289"/>
+      <point x="99" y="-233"/>
+      <point x="118" y="-179" type="curve"/>
+    </contour>
+    <contour>
+      <point x="0" y="-20" type="move" name="_blwm"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.3205</real>
+        <real>0.3073</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

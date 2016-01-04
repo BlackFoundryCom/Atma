@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketleft" format="1">
+  <advance width="373"/>
+  <unicode hex="005B"/>
+  <outline>
+    <contour>
+      <point x="362" y="-128" type="curve"/>
+      <point x="362" y="-106"/>
+      <point x="358" y="-72"/>
+      <point x="353" y="-54" type="curve"/>
+      <point x="305" y="-62"/>
+      <point x="243" y="-68"/>
+      <point x="198" y="-68" type="curve"/>
+      <point x="154" y="279"/>
+      <point x="149" y="508"/>
+      <point x="164" y="753" type="curve"/>
+      <point x="61" y="754" type="line"/>
+      <point x="62" y="465"/>
+      <point x="84" y="140"/>
+      <point x="127" y="-142" type="curve"/>
+      <point x="211" y="-143"/>
+      <point x="291" y="-138"/>
+    </contour>
+    <contour>
+      <point x="306" y="788" type="curve"/>
+      <point x="222" y="784"/>
+      <point x="146" y="773"/>
+      <point x="61" y="754" type="curve"/>
+      <point x="103" y="697" type="line"/>
+      <point x="164" y="708"/>
+      <point x="236" y="713"/>
+      <point x="302" y="715" type="curve"/>
+      <point x="305" y="737"/>
+      <point x="306" y="763"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+      </array>
+    </dict>
+  </lib>
+</glyph>

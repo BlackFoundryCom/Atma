@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bn_ra" format="1">
+  <advance width="480"/>
+  <outline>
+    <contour>
+      <point x="219" y="32"/>
+      <point x="195" y="60"/>
+      <point x="160" y="60" type="curve" smooth="yes"/>
+      <point x="131" y="60"/>
+      <point x="109" y="37"/>
+      <point x="109" y="8" type="curve" smooth="yes"/>
+      <point x="109" y="-23"/>
+      <point x="132" y="-52"/>
+      <point x="168" y="-52" type="curve" smooth="yes"/>
+      <point x="197" y="-52"/>
+      <point x="219" y="-30"/>
+      <point x="219" y="0" type="curve" smooth="yes"/>
+    </contour>
+    <component base="bn_ba"/>
+    <contour>
+      <point x="369" y="-3" type="move" name="blwm"/>
+    </contour>
+    <contour>
+      <point x="370" y="690" type="move" name="reph"/>
+    </contour>
+    <contour>
+      <point x="238" y="0" type="move" name="haln"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.502</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.63</real>
+      </array>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

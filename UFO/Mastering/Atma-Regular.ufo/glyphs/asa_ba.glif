@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asa_ba" format="1">
+  <advance width="466"/>
+  <outline>
+    <contour>
+      <point x="24" y="110" type="curve"/>
+      <point x="84" y="98"/>
+      <point x="163" y="56"/>
+      <point x="202" y="-2" type="curve"/>
+      <point x="215" y="3"/>
+      <point x="225" y="11"/>
+      <point x="230" y="21" type="curve"/>
+      <point x="195" y="91"/>
+      <point x="108" y="145"/>
+      <point x="45" y="165" type="curve"/>
+      <point x="34" y="150"/>
+      <point x="27" y="130"/>
+    </contour>
+    <component base="bn_ba"/>
+    <contour>
+      <point x="354" y="0" type="move" name="blwm"/>
+    </contour>
+    <contour>
+      <point x="250" y="0" type="move" name="haln"/>
+    </contour>
+    <contour>
+      <point x="361" y="690" type="move" name="chandrabindu"/>
+    </contour>
+    <contour>
+      <point x="361" y="690" type="move" name="reph"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.502</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.63</real>
+      </array>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

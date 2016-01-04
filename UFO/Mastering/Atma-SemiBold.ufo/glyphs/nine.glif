@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nine" format="1">
+  <advance width="564"/>
+  <unicode hex="0039"/>
+  <outline>
+    <contour>
+      <point x="226" y="81" type="curve"/>
+      <point x="317" y="81"/>
+      <point x="381" y="195"/>
+      <point x="381" y="392" type="curve" smooth="yes"/>
+      <point x="381" y="551"/>
+      <point x="340" y="611"/>
+      <point x="284" y="611" type="curve" smooth="yes"/>
+      <point x="228" y="611"/>
+      <point x="192" y="551"/>
+      <point x="192" y="476" type="curve" smooth="yes"/>
+      <point x="192" y="394"/>
+      <point x="232" y="350"/>
+      <point x="286" y="350" type="curve" smooth="yes"/>
+      <point x="332" y="350"/>
+      <point x="369" y="386"/>
+      <point x="384" y="471" type="curve"/>
+      <point x="419" y="372" type="line"/>
+      <point x="376" y="284"/>
+      <point x="315" y="250"/>
+      <point x="242" y="250" type="curve" smooth="yes"/>
+      <point x="120" y="250"/>
+      <point x="37" y="333"/>
+      <point x="37" y="456" type="curve" smooth="yes"/>
+      <point x="37" y="589"/>
+      <point x="126" y="711"/>
+      <point x="286" y="711" type="curve" smooth="yes"/>
+      <point x="445" y="711"/>
+      <point x="534" y="583"/>
+      <point x="534" y="400" type="curve" smooth="yes"/>
+      <point x="534" y="151"/>
+      <point x="400" y="-30"/>
+      <point x="209" y="-30" type="curve" smooth="yes"/>
+      <point x="125" y="-30"/>
+      <point x="69" y="1"/>
+      <point x="29" y="40" type="curve"/>
+      <point x="49" y="82"/>
+      <point x="72" y="117"/>
+      <point x="106" y="146" type="curve"/>
+      <point x="128" y="108"/>
+      <point x="175" y="81"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>126</integer>
+          <key>y</key>
+          <integer>331</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bn_g_da" format="1">
+  <advance width="811"/>
+  <outline>
+    <contour>
+      <point x="427" y="340" type="curve"/>
+      <point x="458" y="296" type="line"/>
+      <point x="463" y="480"/>
+      <point x="390" y="619"/>
+      <point x="259" y="619" type="curve" smooth="yes"/>
+      <point x="165" y="619"/>
+      <point x="105" y="553"/>
+      <point x="105" y="473" type="curve" smooth="yes"/>
+      <point x="105" y="453"/>
+      <point x="107" y="436"/>
+      <point x="111" y="420" type="curve"/>
+      <point x="141" y="385" type="line"/>
+      <point x="181" y="412"/>
+      <point x="225" y="427"/>
+      <point x="258" y="427" type="curve" smooth="yes"/>
+      <point x="287" y="427"/>
+      <point x="303" y="415"/>
+      <point x="303" y="390" type="curve" smooth="yes"/>
+      <point x="303" y="352"/>
+      <point x="248" y="295"/>
+      <point x="170" y="236" type="curve"/>
+      <point x="182" y="217"/>
+      <point x="201" y="198"/>
+      <point x="224" y="186" type="curve"/>
+      <point x="275" y="231"/>
+      <point x="350" y="314"/>
+      <point x="350" y="380" type="curve" smooth="yes"/>
+      <point x="350" y="434"/>
+      <point x="306" y="480"/>
+      <point x="248" y="480" type="curve" smooth="yes"/>
+      <point x="212" y="480"/>
+      <point x="168" y="463"/>
+      <point x="132" y="438" type="curve"/>
+      <point x="173" y="432" type="line"/>
+      <point x="166" y="443"/>
+      <point x="162" y="458"/>
+      <point x="162" y="473" type="curve" smooth="yes"/>
+      <point x="162" y="527"/>
+      <point x="203" y="555"/>
+      <point x="260" y="555" type="curve" smooth="yes"/>
+      <point x="337" y="555"/>
+      <point x="427" y="489"/>
+    </contour>
+    <contour>
+      <point x="438" y="492" type="curve" smooth="yes"/>
+      <point x="426" y="385"/>
+      <point x="409" y="259"/>
+      <point x="377" y="146" type="curve"/>
+      <point x="391" y="132"/>
+      <point x="422" y="121"/>
+      <point x="445" y="117" type="curve"/>
+      <point x="506" y="221"/>
+      <point x="618" y="338"/>
+      <point x="724" y="404" type="curve"/>
+      <point x="702" y="414" type="line"/>
+      <point x="680" y="348"/>
+      <point x="667" y="261"/>
+      <point x="667" y="170" type="curve" smooth="yes"/>
+      <point x="667" y="107"/>
+      <point x="671" y="41"/>
+      <point x="686" y="-19" type="curve"/>
+      <point x="707" y="-15"/>
+      <point x="732" y="-8"/>
+      <point x="750" y="0" type="curve"/>
+      <point x="734" y="70"/>
+      <point x="727" y="137"/>
+      <point x="727" y="199" type="curve" smooth="yes"/>
+      <point x="727" y="276"/>
+      <point x="738" y="349"/>
+      <point x="759" y="415" type="curve"/>
+      <point x="743" y="440"/>
+      <point x="725" y="457"/>
+      <point x="699" y="469" type="curve"/>
+      <point x="601" y="409"/>
+      <point x="498" y="313"/>
+      <point x="407" y="177" type="curve"/>
+      <point x="453" y="193" type="line"/>
+      <point x="476" y="277"/>
+      <point x="482" y="381"/>
+      <point x="496" y="466" type="curve" smooth="yes"/>
+      <point x="505" y="529"/>
+      <point x="547" y="549"/>
+      <point x="648" y="549" type="curve" smooth="yes"/>
+      <point x="710" y="549"/>
+      <point x="772" y="541"/>
+      <point x="811" y="530" type="curve"/>
+      <point x="814" y="538"/>
+      <point x="815" y="552"/>
+      <point x="815" y="565" type="curve" smooth="yes"/>
+      <point x="815" y="574"/>
+      <point x="814" y="583"/>
+      <point x="811" y="589" type="curve"/>
+      <point x="776" y="602"/>
+      <point x="716" y="612"/>
+      <point x="651" y="612" type="curve" smooth="yes"/>
+      <point x="545" y="612"/>
+      <point x="450" y="579"/>
+    </contour>
+    <contour>
+      <point x="518" y="690" type="move" name="reph"/>
+    </contour>
+    <contour>
+      <point x="518" y="690" type="move" name="chandrabindu"/>
+    </contour>
+    <contour>
+      <point x="709" y="0" type="move" name="blwm"/>
+    </contour>
+    <contour>
+      <point x="595" y="0" type="move" name="haln"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>9</integer>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.502</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.63</real>
+      </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

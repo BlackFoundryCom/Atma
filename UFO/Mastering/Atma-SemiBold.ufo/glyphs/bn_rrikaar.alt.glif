@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bn_rrikaar.alt" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="140" y="-304" type="curve"/>
+      <point x="-41" y="-190" type="line"/>
+      <point x="-33" y="-251" type="line"/>
+      <point x="112" y="-145" type="line"/>
+      <point x="96" y="-117"/>
+      <point x="79" y="-93"/>
+      <point x="58" y="-73" type="curve"/>
+      <point x="-116" y="-208" type="line"/>
+      <point x="-116" y="-232" type="line"/>
+      <point x="94" y="-378" type="line"/>
+      <point x="112" y="-357"/>
+      <point x="129" y="-329"/>
+    </contour>
+    <contour>
+      <point x="72" y="-414" type="curve"/>
+      <point x="-68" y="-321" type="line"/>
+      <point x="-60" y="-369" type="line"/>
+      <point x="38" y="-278" type="line"/>
+      <point x="-19" y="-226" type="line"/>
+      <point x="-138" y="-335" type="line"/>
+      <point x="-138" y="-360" type="line"/>
+      <point x="29" y="-479" type="line"/>
+      <point x="46" y="-461"/>
+      <point x="62" y="-437"/>
+    </contour>
+    <contour>
+      <point x="0" y="-20" type="move" name="_blwm"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>
