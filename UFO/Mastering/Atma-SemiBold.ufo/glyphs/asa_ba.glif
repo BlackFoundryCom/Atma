@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="asa_ba" format="1">
   <advance width="500"/>
+  <unicode hex="09F1"/>
   <outline>
     <contour>
       <point x="25" y="57" type="curve"/>
@@ -36,10 +37,10 @@
       <integer>0</integer>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.502</real>
+        <real>1.0</real>
+        <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>
-        <real>0.63</real>
       </array>
       <key>public.markColor</key>
       <string>0.85,0.26,0.06,1</string>

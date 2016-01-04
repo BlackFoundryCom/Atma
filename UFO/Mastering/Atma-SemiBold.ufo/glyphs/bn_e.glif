@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bn_e" format="1">
   <advance width="632"/>
+  <unicode hex="098F"/>
   <note>
     uni098F
   </note>
@@ -84,10 +85,10 @@
       <integer>0</integer>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.4</real>
-        <real>0.8</real>
         <real>1.0</real>
-        <real>0.5</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
       </array>
       <key>public.markColor</key>
       <string>0.85,0.26,0.06,1</string>

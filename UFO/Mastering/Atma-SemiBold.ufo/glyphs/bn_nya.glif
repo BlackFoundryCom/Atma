@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bn_nya" format="1">
   <advance width="868"/>
+  <unicode hex="099E"/>
   <outline>
     <contour>
       <point x="805" y="313"/>
@@ -97,10 +98,10 @@
       <integer>9</integer>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.502</real>
+        <real>1.0</real>
+        <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>
-        <real>0.63</real>
       </array>
       <key>public.markColor</key>
       <string>0.98,0.36,0.67,1</string>
