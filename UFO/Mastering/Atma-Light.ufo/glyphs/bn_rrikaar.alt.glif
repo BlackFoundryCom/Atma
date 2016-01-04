@@ -3,8 +3,6 @@
   <advance width="0"/>
   <outline>
     <contour>
-      <point x="81" y="-321"/>
-      <point x="90" y="-307"/>
       <point x="96" y="-293" type="curve"/>
       <point x="-51" y="-190" type="line"/>
       <point x="-62" y="-207" type="line"/>
@@ -15,10 +13,10 @@
       <point x="-106" y="-183" type="line"/>
       <point x="-106" y="-198" type="line"/>
       <point x="68" y="-332" type="line"/>
+      <point x="81" y="-321"/>
+      <point x="90" y="-307"/>
     </contour>
     <contour>
-      <point x="21" y="-399"/>
-      <point x="29" y="-385"/>
       <point x="34" y="-372" type="curve"/>
       <point x="-88" y="-286" type="line"/>
       <point x="-93" y="-303" type="line"/>
@@ -27,6 +25,8 @@
       <point x="-137" y="-282" type="line"/>
       <point x="-137" y="-297" type="line"/>
       <point x="8" y="-409" type="line"/>
+      <point x="21" y="-399"/>
+      <point x="29" y="-385"/>
     </contour>
     <contour>
       <point x="0" y="-20" type="move" name="_blwm"/>
