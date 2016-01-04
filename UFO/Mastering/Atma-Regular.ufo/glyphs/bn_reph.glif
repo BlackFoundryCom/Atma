@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bn_reph" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="166" y="978"/>
+      <point x="151" y="985"/>
+      <point x="138" y="990" type="curve"/>
+      <point x="90" y="873"/>
+      <point x="-51" y="728"/>
+      <point x="-165" y="673" type="curve"/>
+      <point x="-153" y="653"/>
+      <point x="-143" y="636"/>
+      <point x="-127" y="625" type="curve"/>
+      <point x="-24" y="689"/>
+      <point x="129" y="852"/>
+      <point x="172" y="969" type="curve"/>
+    </contour>
+    <contour>
+      <point x="0" y="678" type="move" name="_reph"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.46</real>
+        <real>0.5075</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

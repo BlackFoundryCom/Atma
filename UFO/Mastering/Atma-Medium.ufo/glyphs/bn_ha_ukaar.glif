@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bn_ha_ukaar" format="1">
+  <advance width="471"/>
+  <outline>
+    <contour>
+      <point x="237" y="550" type="curve" smooth="yes"/>
+      <point x="326" y="550"/>
+      <point x="419" y="537"/>
+      <point x="471" y="524" type="curve"/>
+      <point x="474" y="534"/>
+      <point x="476" y="551"/>
+      <point x="476" y="566" type="curve" smooth="yes"/>
+      <point x="476" y="580"/>
+      <point x="475" y="592"/>
+      <point x="471" y="601" type="curve"/>
+      <point x="423" y="617"/>
+      <point x="327" y="631"/>
+      <point x="239" y="631" type="curve" smooth="yes"/>
+      <point x="150" y="631"/>
+      <point x="58" y="617"/>
+      <point x="0" y="601" type="curve"/>
+      <point x="-5" y="593"/>
+      <point x="-7" y="581"/>
+      <point x="-7" y="567" type="curve" smooth="yes"/>
+      <point x="-7" y="552"/>
+      <point x="-4" y="536"/>
+      <point x="0" y="524" type="curve"/>
+      <point x="60" y="537"/>
+      <point x="150" y="550"/>
+    </contour>
+    <contour>
+      <point x="280" y="288" type="curve"/>
+      <point x="299" y="336"/>
+      <point x="320" y="395"/>
+      <point x="347" y="428" type="curve"/>
+      <point x="320" y="433" type="line"/>
+      <point x="320" y="368"/>
+      <point x="343" y="348"/>
+      <point x="343" y="306" type="curve"/>
+      <point x="343" y="262"/>
+      <point x="314" y="234"/>
+      <point x="241" y="192" type="curve" smooth="yes"/>
+      <point x="157" y="145" type="line"/>
+      <point x="160" y="111"/>
+      <point x="173" y="80"/>
+      <point x="193" y="52" type="curve"/>
+      <point x="288" y="31"/>
+      <point x="350" y="-33"/>
+      <point x="402" y="-152" type="curve"/>
+      <point x="440" y="-118" type="line"/>
+      <point x="402" y="-3"/>
+      <point x="329" y="92"/>
+      <point x="221" y="126" type="curve"/>
+      <point x="223" y="77" type="line"/>
+      <point x="286" y="115" type="line" smooth="yes"/>
+      <point x="365" y="162"/>
+      <point x="411" y="204"/>
+      <point x="411" y="271" type="curve"/>
+      <point x="411" y="344"/>
+      <point x="361" y="370"/>
+      <point x="361" y="469" type="curve"/>
+      <point x="334" y="484"/>
+      <point x="313" y="487"/>
+      <point x="287" y="486" type="curve"/>
+      <point x="262" y="456"/>
+      <point x="245" y="413"/>
+      <point x="225" y="364" type="curve"/>
+      <point x="250" y="328" type="line"/>
+      <point x="233" y="422"/>
+      <point x="197" y="488"/>
+      <point x="134" y="488" type="curve" smooth="yes"/>
+      <point x="66" y="488"/>
+      <point x="20" y="425"/>
+      <point x="20" y="348" type="curve" smooth="yes"/>
+      <point x="20" y="268"/>
+      <point x="65" y="212"/>
+      <point x="122" y="212" type="curve" smooth="yes"/>
+      <point x="168" y="212"/>
+      <point x="201" y="249"/>
+      <point x="201" y="299" type="curve" smooth="yes"/>
+      <point x="201" y="312"/>
+      <point x="200" y="323"/>
+      <point x="195" y="332" type="curve"/>
+      <point x="181" y="345"/>
+      <point x="156" y="356"/>
+      <point x="135" y="360" type="curve"/>
+      <point x="141" y="347"/>
+      <point x="148" y="330"/>
+      <point x="148" y="316" type="curve" smooth="yes"/>
+      <point x="148" y="293"/>
+      <point x="136" y="273"/>
+      <point x="114" y="273" type="curve" smooth="yes"/>
+      <point x="91" y="273"/>
+      <point x="71" y="293"/>
+      <point x="71" y="331" type="curve" smooth="yes"/>
+      <point x="71" y="374"/>
+      <point x="99" y="407"/>
+      <point x="141" y="407" type="curve" smooth="yes"/>
+      <point x="184" y="407"/>
+      <point x="221" y="366"/>
+      <point x="234" y="305" type="curve"/>
+      <point x="243" y="297"/>
+      <point x="263" y="292"/>
+    </contour>
+    <contour>
+      <point x="239" y="690" type="move" name="reph"/>
+    </contour>
+    <contour>
+      <point x="239" y="690" type="move" name="chandrabindu"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

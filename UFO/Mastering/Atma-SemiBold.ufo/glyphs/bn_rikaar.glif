@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bn_rikaar" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="82" y="-251" type="curve"/>
+      <point x="-96" y="-123" type="line"/>
+      <point x="-88" y="-183" type="line"/>
+      <point x="62" y="-25" type="line"/>
+      <point x="43" y="18" type="line"/>
+      <point x="-43" y="22" type="line"/>
+      <point x="-43" y="-7" type="line"/>
+      <point x="-171" y="-143" type="line"/>
+      <point x="-171" y="-167" type="line"/>
+      <point x="30" y="-322" type="line"/>
+      <point x="52" y="-301"/>
+      <point x="71" y="-275"/>
+    </contour>
+    <contour>
+      <point x="0" y="-20" type="move" name="_blwm"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.3205</real>
+        <real>0.3073</real>
+        <real>1.0</real>
+      </array>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>
