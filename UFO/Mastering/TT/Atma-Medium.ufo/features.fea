@@ -1,0 +1,1935 @@
+languagesystem DFLT dflt;
+languagesystem bng2 dflt;
+languagesystem beng dflt;
+
+lookup blwf_bng2 {
+	sub bn_halanth bn_ra by bn_ra_phala;
+    sub bn_halanth bn_ba by bn_ba_phala;
+    sub bn_halanth asa_ra by bn_ra_phala;
+    sub bn_halanth asa_ba by bn_ba_phala;
+} blwf_bng2;
+
+lookup blwf_beng {
+	sub bn_ra bn_halanth by bn_ra_phala;
+    sub bn_ba bn_halanth by bn_ba_phala;
+    sub asa_ra bn_halanth by bn_ra_phala;
+    sub asa_ba bn_halanth by bn_ba_phala;
+} blwf_beng;
+
+lookup psft_bng2 {
+	sub bn_halanth bn_ya by bn_ya_phala; 
+} psft_bng2;
+
+lookup psft_beng {
+	sub bn_ya bn_halanth by bn_ya_phala;
+} psft_beng;
+
+@below_base_c = [bn_ba_phala bn_ra_phala];
+@below_base_v = [bn_ukaar bn_uukaar bn_rikaar bn_rrikaar];
+
+lookup CONTEXTUAL_swap_A {
+  sub @below_base_v' bn_ba_phala by bn_ba_phala;
+  sub @below_base_v' bn_ra_phala by bn_ra_phala;
+} CONTEXTUAL_swap_A;
+
+lookup CONTEXTUAL_swap_B_ukaar {
+  sub @below_base_c by bn_ukaar;
+} CONTEXTUAL_swap_B_ukaar;
+
+lookup CONTEXTUAL_swap_B_uukaar {
+  sub @below_base_c by bn_uukaar;
+} CONTEXTUAL_swap_B_uukaar;
+
+lookup CONTEXTUAL_swap_B_rikaar {
+  sub @below_base_c by bn_rikaar;
+} CONTEXTUAL_swap_B_rikaar;
+
+lookup CONTEXTUAL_swap_B_rrikaar {
+  sub @below_base_c by bn_rrikaar;
+} CONTEXTUAL_swap_B_rrikaar;
+
+@COMBINING_MARKS = [
+bn_ukaar
+bn_uukaar
+bn_rikaar
+bn_rrikaar
+bn_ukaar.alt
+bn_uukaar.alt
+bn_rikaar.alt
+bn_rrikaar.alt
+bn_nukta
+bn_ra_phala
+bn_ba_phala
+bn_halanth
+bn_chandrabindu
+bn_reph
+];
+
+@CONSONANTS = [
+bn_a
+bn_aa
+bn_i
+bn_ii
+bn_u
+bn_uu
+bn_ri
+bn_li
+bn_e
+bn_ai
+bn_o
+bn_au
+bn_ka
+bn_kha
+bn_ga
+bn_gha
+bn_nga
+bn_ca
+bn_cha
+bn_ja
+bn_jha
+bn_nya
+bn_tta
+bn_ttha
+bn_dda
+bn_ddha
+bn_nna
+bn_ta
+bn_tha
+bn_da
+bn_dha
+bn_na
+bn_pa
+bn_pha
+bn_ba
+bn_bha
+bn_ma
+bn_ya
+bn_ra
+bn_la
+bn_sha
+bn_ssa
+bn_sa
+bn_ha
+bn_khanda_ta
+bn_rra
+bn_rha
+bn_yya
+bn_rri
+bn_lli
+asa_ra
+asa_ba
+
+bn_ka.half
+bn_kha.half
+bn_ga.half
+bn_gha.half
+bn_nga.half
+bn_ca.half
+bn_cha.half
+bn_ja.half
+bn_jha.half
+bn_nya.half
+bn_tta.half
+bn_ttha.half
+bn_dda.half
+bn_ddha.half
+bn_nna.half
+bn_ta.half
+bn_tha.half
+bn_da.half
+bn_dha.half
+bn_na.half
+bn_pa.half
+bn_pha.half
+bn_ba.half
+bn_bha.half
+bn_ma.half
+bn_ya.half
+bn_ra.half
+bn_la.half
+bn_sha.half
+bn_ssa.half
+bn_sa.half
+bn_ha.half
+bn_rra.half
+bn_rha.half
+bn_yya.half
+asa_ra.half
+asa_ba.half
+bn_k_ssa.half
+bn_j_nya.half
+];
+
+@LIGATURES = [
+bn_sh_ba
+];
+
+@JUNCTION_B = [
+bn_kha
+bn_ga
+bn_jha
+bn_nna
+bn_tha
+bn_dha
+bn_pa
+bn_sha
+bn_aakaar
+bn_aakaar.b
+bn_ekaar
+bn_ekaar.init
+bn_ekaar.b
+bn_aikaar
+bn_aikaar.init
+bn_aumark
+bn_kh_ba
+bn_kh_ra
+bn_g_ga
+bn_g_da
+bn_g_dha
+bn_g_dh_ba
+bn_g_dh_ra
+bn_g_na
+bn_g_ba
+bn_g_ra
+bn_g_ra_ukaar
+bn_g_ra_uukaar
+bn_g_la
+bn_ng_kha
+bn_jh_ra
+bn_nn_nna
+bn_nn_ba
+bn_nn_ra
+bn_t_tha
+bn_th_ba
+bn_th_ra
+bn_th_ra_ukaar
+bn_th_ra_uukaar
+bn_th_la
+bn_d_ga
+bn_dh_na
+bn_dh_ra
+bn_dh_ra_ukaar
+bn_dh_ra_uukaar
+bn_p_ta
+bn_p_t_ra
+bn_p_na
+bn_p_pa
+bn_p_ra
+bn_p_ra_ukaar
+bn_p_ra_uukaar
+bn_p_la
+bn_m_pa
+bn_m_p_ra
+bn_sh_na
+bn_sh_ba
+bn_sh_ra
+bn_sh_ra_iikaar
+bn_sh_ra_ukaar
+bn_sh_ra_uukaar
+bn_sh_la
+bn_ss_tta
+bn_ss_tt_ra
+bn_ss_pa
+bn_ss_p_ra
+bn_s_kha
+bn_s_pa
+bn_s_p_ra
+bn_s_p_la
+bn_rr_ga
+bn_kha.half
+bn_ga.half
+bn_jha.half
+bn_nna.half
+bn_tha.half
+bn_dha.half
+bn_pa.half
+bn_sha.half
+];
+
+@BASE_UKAAR_RIKAAR_ALT = [
+bn_nga
+bn_ca
+bn_cha
+bn_ja
+bn_tta
+bn_ttha
+bn_dda
+bn_ddha
+bn_ta
+bn_bha
+#bn_ha
+bn_rra
+bn_rha
+bn_g_ga
+bn_g_da
+bn_ng_ga
+bn_ng_g_ra
+bn_c_ca
+bn_c_cha
+bn_c_ch_ba
+bn_c_ra
+bn_ch_ba
+bn_ch_ra
+bn_j_ja
+bn_j_jha
+bn_j_nya
+bn_j_ba
+bn_j_ra
+bn_ny_cha
+bn_ny_ja
+bn_tt_tta
+bn_tt_ba
+bn_tt_ra
+bn_tth_ra
+bn_dd_dda
+bn_dd_ra
+bn_ddh_ra
+bn_nn_tta
+bn_nn_ttha
+bn_nn_dda
+bn_nn_dda.alt01
+bn_nn_dd_ra
+bn_nn_ddha
+bn_t_ta
+bn_t_t_ba
+bn_t_na
+bn_t_ba
+bn_t_ra.alt01
+bn_d_da
+bn_d_d_ba
+bn_d_dha
+bn_d_dh_ba
+bn_d_na
+bn_d_ba
+bn_d_bha
+bn_d_bh_ra
+bn_d_ra
+bn_d_ra_ukaar
+bn_d_ra_uukaar
+bn_n_k_ta
+bn_n_jha
+bn_n_tta
+bn_n_tt_ra
+bn_n_ttha
+bn_n_dda
+bn_n_dd_ra
+bn_n_ta
+bn_n_t_ba
+bn_n_tha
+bn_n_da
+bn_n_d_ba
+bn_n_d_ra
+bn_n_ra
+bn_p_tta
+bn_p_ta
+bn_ph_tta
+bn_b_ja
+bn_b_da
+bn_b_bha
+bn_m_bha
+bn_m_bh_ra
+bn_l_dda
+bn_l_da
+bn_sh_ca
+bn_sh_cha
+bn_sh_tta
+bn_ss_ka
+bn_ss_tta
+bn_ss_tt_ra
+bn_s_ka
+bn_s_k_ba
+bn_s_tta
+bn_s_tt_ra
+bn_s_ta
+bn_s_t_ba
+bn_s_tha
+bn_s_na
+bn_h_ba
+bn_h_ra
+bn_h_la
+bn_h_yya
+];
+
+@BASE_WI1=[
+bn_ja
+bn_nya
+bn_pha
+bn_la
+bn_rra
+bn_rri
+bn_lli
+bn_k_ra
+bn_k_ra.alt01
+bn_k_la
+bn_k_ta
+bn_k_t_ba
+bn_k_t_ra
+bn_kh_ba
+bn_kh_ra
+bn_ga_ukaar
+bn_g_ga
+bn_g_da
+bn_g_dha
+bn_g_dh_ba
+bn_g_dh_ra
+bn_g_ra_ukaar
+bn_g_ra_uukaar
+bn_ng_kha
+bn_ng_ga
+bn_ng_g_ra
+bn_c_ca
+bn_ny_ca
+bn_ny_jha
+bn_ny_ra
+bn_nn_dda
+bn_nn_dda.alt01
+bn_nn_dd_ra
+bn_nn_ddha
+bn_t_ta
+bn_t_t_ba
+bn_th_ra_ukaar
+bn_th_ra_uukaar
+bn_d_da
+bn_d_d_ba
+bn_d_dha
+bn_d_dh_ba
+bn_d_bha
+bn_d_bh_ra
+bn_d_ma
+bn_d_ra_ukaar
+bn_d_ra_uukaar
+bn_n_ta
+bn_n_t_ba
+bn_n_sa
+bn_p_ta
+bn_p_ra_ukaar
+bn_p_ra_uukaar
+bn_b_da
+bn_b_bha
+bn_m_bha
+bn_l_ka
+bn_l_dda
+bn_l_da
+bn_sha_ukaar
+bn_sh_ra_ukaar
+bn_sh_ra_uukaar
+bn_ss_k_ra
+bn_ss_nna
+bn_s_k_ra
+bn_s_kha
+bn_s_ta
+bn_s_ta_ukaar
+bn_s_t_ba
+bn_s_na
+bn_s_ra_ukaar
+bn_s_ra_uukaar
+bn_ha_rikaar
+bn_h_nna
+bn_h_yya
+];
+
+@BASE_WI2=[
+bn_k_ma
+bn_k_ssa
+bn_k_ss_nna
+bn_k_ss_ba
+bn_k_ss_ma
+bn_k_ss_ra
+bn_k_sa
+bn_g_ma
+bn_ng_k_ssa
+bn_ng_k_ss_ra
+bn_ng_gha
+bn_ng_gh_ra
+bn_ng_ma
+bn_c_cha
+bn_c_ch_ba
+bn_c_ch_ra
+bn_c_nya
+bn_j_ja
+bn_j_j_ba
+bn_j_jha
+bn_j_nya
+bn_j_ba
+bn_j_ra
+bn_dd_dda
+bn_nn_ma
+bn_t_ma
+bn_d_ga
+bn_d_gha
+bn_dh_ba
+bn_n_k_ta
+bn_n_jha
+bn_n_ma
+bn_p_sa
+bn_b_ja
+bn_b_ba
+bn_m_pa
+bn_m_p_ra
+bn_m_pha
+bn_m_ma
+bn_l_pha
+bn_l_ma
+bn_l_sa
+bn_sh_ca
+bn_sh_cha
+bn_sh_ma
+bn_ss_pa
+bn_ss_p_ra
+bn_ss_pha
+bn_ss_ma
+bn_s_pa
+bn_s_p_ra
+bn_s_p_la
+bn_s_pha
+bn_s_ma
+bn_h_ma
+bn_rr_ga
+];
+
+@BASE_IKAAR_FL = [
+bn_tta
+bn_tt_tta
+bn_tt_ba
+bn_tt_ra
+bn_ss_tta
+bn_ss_tt_ra
+bn_s_tta
+bn_s_tt_ra
+bn_k_tta
+bn_ttha
+bn_k_tt_ra
+bn_tth_ra
+bn_n_ttha
+bn_ss_ttha
+bn_nn_tta
+bn_nn_ttha
+bn_n_tta
+bn_n_tt_ra
+bn_p_tta
+bn_ph_tta
+bn_l_tta
+bn_sh_tta
+];
+
+@BASE_IIKAAR_WI1=[
+bn_ka
+bn_ja
+bn_jha
+bn_dda
+bn_ta
+bn_bha
+bn_la
+bn_rra
+bn_lli
+bn_k_ka
+bn_k_na
+bn_k_ba
+bn_k_ra
+bn_k_ra.alt01
+bn_k_la
+bn_ga_ukaar
+bn_g_dha
+bn_g_dh_ba
+bn_g_dh_ra
+bn_g_ra_ukaar
+bn_g_ra_uukaar
+bn_ng_ka
+bn_ng_k_ra
+bn_ng_ga
+bn_ng_g_ra
+bn_j_ba
+bn_j_ra
+bn_ny_ca
+bn_ny_cha
+bn_ny_ja
+bn_dd_ra
+bn_nn_dda
+bn_nn_ddha
+bn_t_ta
+bn_t_t_ba
+bn_t_t_ra
+bn_t_tha
+bn_t_na
+bn_t_ba
+bn_t_ra.alt01
+bn_d_da
+bn_d_d_ba
+bn_d_dha
+bn_d_dh_ba
+bn_dh_ra_ukaar
+bn_dh_ra_uukaar
+bn_n_ttha
+bn_n_dda
+bn_n_dd_ra
+bn_n_ta
+bn_n_t_ba
+bn_n_da
+bn_n_d_ba
+bn_n_d_ra
+bn_n_dha
+bn_n_dh_ba
+bn_n_dh_ra
+bn_n_ba
+bn_n_sa
+bn_p_ta
+bn_p_t_ra
+bn_b_da
+bn_b_dha
+bn_b_bha
+bn_m_na
+bn_m_ba
+bn_m_bha
+bn_m_ra
+bn_m_la
+bn_l_ga
+bn_l_pa
+bn_l_ra
+bn_l_la
+bn_ss_ka
+bn_ss_ttha
+bn_ss_ba
+bn_s_ta
+bn_s_t_ba
+bn_s_ra
+bn_ha_rikaar
+bn_h_nna
+bn_h_yya
+asa_ra_ukaar
+asa_ra_uukaar
+asa_ba_ukaar
+asa_ba_uukaar
+];
+
+@BASE_IIKAAR_WI2=[
+bn_pha
+bn_rri
+bn_k_ta
+bn_k_t_ba
+bn_k_t_ra
+bn_k_ma
+bn_k_ssa
+bn_k_ss_nna
+bn_k_ss_ba
+bn_k_ss_ma
+bn_k_ss_ra
+bn_k_sa
+bn_g_da
+bn_g_ma
+bn_ng_k_ssa
+bn_ng_k_ss_ra
+bn_ng_kha
+bn_ng_gha
+bn_ng_gh_ra
+bn_ng_ma
+bn_c_ca
+bn_c_cha
+bn_c_ch_ba
+bn_c_ch_ra
+bn_c_nya
+bn_j_ja
+bn_j_j_ba
+bn_j_jha
+bn_j_nya
+bn_ny_jha
+bn_ny_ra
+bn_dd_dda
+bn_nn_dda.alt01
+bn_nn_dd_ra
+bn_nn_ma
+bn_t_ma
+bn_t_ra_ukaar
+bn_t_ra_uukaar
+bn_th_ra_ukaar
+bn_th_ra_uukaar
+bn_d_ga
+bn_d_gha
+bn_d_ma
+bn_d_ra_ukaar
+bn_d_ra_uukaar
+bn_dh_ba
+bn_n_k_ta
+bn_n_jha
+bn_n_ma
+bn_p_ra_ukaar
+bn_p_ra_uukaar
+bn_p_sa
+bn_ph_ra
+bn_ph_la
+bn_b_ja
+bn_b_ba
+bn_b_ra_ukaar
+bn_b_ra_uukaar
+bn_b_da_ukaar
+bn_b_da_uukaar
+bn_bh_ra_ukaar
+bn_bh_ra_uukaar
+bn_m_pa
+bn_m_p_ra
+bn_m_pha
+bn_m_ma
+bn_ra_ukaar
+bn_ra_uukaar
+bn_l_ka
+bn_l_dda
+bn_l_da
+bn_l_pha
+bn_l_ma
+bn_l_sa
+bn_sha_ukaar
+bn_sh_ca
+bn_sh_cha
+bn_sh_ma
+bn_sh_ra_ukaar
+bn_sh_ra_uukaar
+bn_ss_k_ra
+bn_ss_nna
+bn_ss_pa
+bn_ss_p_ra
+bn_ss_pha
+bn_ss_ma
+bn_s_ka
+bn_s_k_ba
+bn_s_k_ra
+bn_s_kha
+bn_s_ta_ukaar
+bn_s_t_ra
+bn_s_na
+bn_s_pa
+bn_s_p_ra
+bn_s_p_la
+bn_s_pha
+bn_s_ma
+bn_s_ra_ukaar
+bn_s_ra_uukaar
+bn_h_ma
+bn_rr_ga
+];
+
+@BASE_IIKAAR_FL = [
+bn_tta
+bn_tt_tta
+bn_tt_ba
+bn_tt_ra
+bn_ss_tta
+bn_ss_tt_ra
+bn_s_tta
+bn_s_tt_ra
+bn_k_tta
+bn_ttha
+bn_k_tt_ra
+bn_tth_ra
+bn_n_ttha
+bn_ss_ttha
+bn_nn_tta
+bn_nn_ttha
+bn_n_tta
+bn_n_tt_ra
+bn_p_tta
+bn_ph_tta
+bn_l_tta
+bn_sh_tta
+];
+
+table GDEF {
+  GlyphClassDef @CONSONANTS, @LIGATURES, @COMBINING_MARKS, ;
+} GDEF;
+
+feature nukt {
+    sub bn_dda bn_nukta by bn_rra;
+    sub bn_ddha bn_nukta by bn_rha;
+    sub bn_ya bn_nukta by bn_yya;
+} nukt;
+	
+feature akhn{
+    sub bn_ka bn_halanth bn_ssa by bn_k_ssa;
+    sub bn_ja bn_halanth bn_nya by bn_j_nya;
+    sub bn_ta' bn_halanth' uni200D by bn_khanda_ta;
+}akhn;
+
+feature rphf{
+    sub bn_ra bn_halanth by bn_reph; 
+    sub asa_ra bn_halanth by bn_reph; 
+}rphf;
+
+feature blwf{
+	script DFLT;
+		lookup blwf_bng2;
+
+	script bng2;
+		lookup blwf_bng2;
+
+	script beng;
+		lookup blwf_beng;
+ 
+}blwf;
+
+feature pstf{
+
+	script DFLT;
+		lookup psft_bng2;
+
+	script bng2;
+		lookup psft_bng2;
+
+	script beng;
+		lookup psft_beng;
+
+}pstf;
+
+# Mandatory Presentation forms
+
+feature init{
+    sub bn_ekaar by bn_ekaar.init;
+    sub bn_aikaar by bn_aikaar.init;
+}init;
+
+feature half {
+
+	sub bn_ka bn_halanth by bn_ka.half;
+	sub bn_kha bn_halanth by bn_kha.half;
+	sub bn_ga bn_halanth by bn_ga.half;
+	sub bn_gha bn_halanth by bn_gha.half;
+	sub bn_nga bn_halanth by bn_nga.half;
+	sub bn_ca bn_halanth by bn_ca.half;
+	sub bn_cha bn_halanth by bn_cha.half;
+	sub bn_ja bn_halanth by bn_ja.half;
+	sub bn_jha bn_halanth by bn_jha.half;
+	sub bn_nya bn_halanth by bn_nya.half;
+	sub bn_tta bn_halanth by bn_tta.half;
+	sub bn_ttha bn_halanth by bn_ttha.half;
+	sub bn_dda bn_halanth by bn_dda.half;
+	sub bn_ddha bn_halanth by bn_ddha.half;
+	sub bn_nna bn_halanth by bn_nna.half;
+	sub bn_ta bn_halanth by bn_ta.half;
+	sub bn_tha bn_halanth by bn_tha.half;
+	sub bn_da bn_halanth by bn_da.half;
+	sub bn_dha bn_halanth by bn_dha.half;
+	sub bn_na bn_halanth by bn_na.half;
+	sub bn_pa bn_halanth by bn_pa.half;
+	sub bn_pha bn_halanth by bn_pha.half;
+	sub bn_ba bn_halanth by bn_ba.half;
+	sub bn_bha bn_halanth by bn_bha.half;
+	sub bn_ma bn_halanth by bn_ma.half;
+	sub bn_ya bn_halanth by bn_ya.half;
+	sub bn_ra bn_halanth by bn_ra.half;
+	sub bn_la bn_halanth by bn_la.half;
+	sub bn_sha bn_halanth by bn_sha.half;
+	sub bn_ssa bn_halanth by bn_ssa.half;
+	sub bn_sa bn_halanth by bn_sa.half;
+	sub bn_ha bn_halanth by bn_ha.half;
+
+	sub bn_rra bn_halanth by bn_rra.half;
+	sub bn_rha bn_halanth by bn_rha.half;
+	sub bn_yya bn_halanth by bn_yya.half;
+
+	sub asa_ra bn_halanth by asa_ra.half;
+	sub asa_ba bn_halanth by asa_ba.half;
+
+	sub bn_k_ssa bn_halanth by bn_k_ssa.half;
+	sub bn_j_nya bn_halanth by bn_j_nya.half;
+
+} half;
+
+feature pres {
+
+lookup pres_reorder {
+
+		sub
+		  bn_ukaar'      lookup CONTEXTUAL_swap_A
+		  @below_base_c' lookup CONTEXTUAL_swap_B_ukaar;
+
+		sub
+		  bn_uukaar'     lookup CONTEXTUAL_swap_A
+		  @below_base_c' lookup CONTEXTUAL_swap_B_uukaar;
+
+		sub
+		  bn_rikaar'     lookup CONTEXTUAL_swap_A
+		  @below_base_c' lookup CONTEXTUAL_swap_B_rikaar;
+
+		sub
+		  bn_rrikaar'    lookup CONTEXTUAL_swap_A
+		  @below_base_c' lookup CONTEXTUAL_swap_B_rrikaar;
+
+	} pres_reorder;
+
+	lookup deepconjuncts {
+
+		#sub bn_ka.half bn_tt_ra by bn_k_tt_ra;
+
+		#sub bn_ka.half bn_t_ba by bn_k_t_ba;
+		#sub bn_ka.half bn_t_ra by bn_k_t_ra;
+
+		#sub bn_ga.half bn_dh_ba by bn_g_dh_ba;
+		#sub bn_ga.half bn_dh_ra by bn_g_dh_ra;
+
+		#sub bn_nga.half bn_k_ra by bn_ng_k_ra;
+		#sub bn_nga.half bn_g_ra by bn_ng_g_ra;
+		#sub bn_nga.half bn_gh_ra by bn_ng_gh_ra;
+		#sub bn_nga.half bn_k_ss_ra by bn_ng_k_ss_ra;
+		sub bn_nga.half bn_k_ssa by bn_ng_k_ssa;
+
+		# sub bn_ca.half bn_ch_ba by bn_c_ch_ba;
+		# sub bn_ca.half bn_ch_ra by bn_c_ch_ra;
+
+		# sub bn_ja.half bn_j_ba by bn_j_j_ba;
+
+		# sub bn_nna.half bn_dd_ra by bn_nn_dd_ra;
+
+		# sub bn_ta.half bn_t_ba by bn_t_t_ba;
+		# sub bn_ta.half bn_t_ra by bn_t_t_ra;
+
+		#sub bn_da.half bn_d_ba by bn_d_d_ba;
+		
+		# sub bn_da.half bn_dh_ba by bn_d_dh_ba;
+		# sub bn_da.half bn_bh_ra by bn_d_bh_ra;
+
+		sub bn_na.half bn_k_ta by bn_n_k_ta;
+		# sub bn_na.half bn_tt_ra by bn_n_tt_ra;
+		# sub bn_na.half bn_dd_ra by bn_n_dd_ra;
+		# sub bn_na.half bn_t_ba by bn_n_t_ba;
+		# sub bn_na.half bn_t_ra by bn_n_t_ra;
+		# sub bn_na.half bn_d_ba by bn_n_d_ba;
+		# sub bn_na.half bn_d_ra by bn_n_d_ra;
+		# sub bn_na.half bn_dh_ba by bn_n_dh_ba;
+		# sub bn_na.half bn_dh_ra by bn_n_dh_ra;
+
+		# sub bn_pa.half bn_t_ra by bn_p_t_ra;
+
+		# sub bn_ma.half bn_p_ra by bn_m_p_ra;
+		# sub bn_ma.half bn_bh_ra by bn_m_bh_ra;
+
+		# sub bn_ma.half bn_b_ra by bn_m_b_ra;
+		# sub bn_ma.half bn_ba bn_ra_phala by bn_m_b_ra; # For Core Text's bug
+
+		# sub bn_ssa.half bn_k_ra by bn_ss_k_ra;
+		# sub bn_ssa.half bn_tt_ra by bn_ss_tt_ra;
+		# sub bn_ssa.half bn_p_ra by bn_ss_p_ra;
+
+		# sub bn_sa.half bn_k_ba by bn_s_k_ba;
+		# sub bn_sa.half bn_k_ra by bn_s_k_ra;
+		# sub bn_sa.half bn_tt_ra by bn_s_tt_ra;
+		# sub bn_sa.half bn_t_ba by bn_s_t_ba;
+		# sub bn_sa.half bn_t_ra by bn_s_t_ra;
+		#sub bn_sa.half bn_p_ra by bn_s_p_ra;
+		sub bn_sa.half bn_p_la by bn_s_p_la;
+
+		sub bn_k_ssa.half bn_nna by bn_k_ss_nna;
+		sub bn_k_ssa.half bn_ma by bn_k_ss_ma;
+
+	} deepconjuncts; 
+
+	lookup pres_conjuncts {
+		# _ka
+		sub bn_ka.half bn_ka by bn_k_ka;
+		sub bn_ka.half bn_tta by bn_k_tta;
+		sub bn_ka.half bn_ta by bn_k_ta;
+		sub bn_ka.half bn_na by bn_k_na;
+		sub bn_ka.half bn_ma by bn_k_ma;
+		sub bn_ka.half bn_la by bn_k_la;
+		sub bn_ka.half bn_sa by bn_k_sa;
+
+		# _ga
+		sub bn_ga.half bn_ga by bn_g_ga;
+		sub bn_ga.half bn_da by bn_g_da;
+		sub bn_ga.half bn_dha by bn_g_dha;
+		sub bn_ga.half bn_na by bn_g_na;
+		sub bn_ga.half bn_ma by bn_g_ma;
+		sub bn_ga.half bn_la by bn_g_la;
+
+		# _gha
+		sub bn_gha.half bn_na by bn_gh_na;
+
+		# _nga
+		sub bn_nga.half bn_ka by bn_ng_ka;
+		sub bn_nga.half bn_kha by bn_ng_kha;
+		sub bn_nga.half bn_ga by bn_ng_ga;
+		sub bn_nga.half bn_gha by bn_ng_gha;
+		sub bn_nga.half bn_ma by bn_ng_ma;
+
+		# _ca
+		sub bn_ca.half bn_ca by bn_c_ca;
+		sub bn_ca.half bn_cha by bn_c_cha;
+		sub bn_ca.half bn_nya by bn_c_nya;
+
+		# _ja
+		sub bn_ja.half bn_ja by bn_j_ja;
+		sub bn_ja.half bn_jha by bn_j_jha;
+
+		# _nya
+		sub bn_nya.half  bn_ca by bn_ny_ca;
+		sub bn_nya.half  bn_cha by bn_ny_cha;
+		sub bn_nya.half  bn_ja by bn_ny_ja;
+		sub bn_nya.half  bn_jha by bn_ny_jha;
+
+		# _tta
+		sub bn_tta.half bn_tta by bn_tt_tta;
+
+		# _dda
+		sub bn_dda.half bn_dda by bn_dd_dda;
+
+		# _nna
+		sub bn_nna.half bn_tta by bn_nn_tta;
+		sub bn_nna.half bn_ttha by bn_nn_ttha;
+		sub bn_nna.half bn_dda by bn_nn_dda;
+		sub bn_nna.half bn_ddha by bn_nn_ddha;
+		sub bn_nna.half bn_nna by bn_nn_nna;
+		sub bn_nna.half bn_ba by bn_nn_ba;
+		sub bn_nna.half bn_ma by bn_nn_ma;
+
+		# _ta
+		sub bn_ta.half bn_ta by bn_t_ta;
+		sub bn_ta.half bn_tha by bn_t_tha;
+		sub bn_ta.half bn_na by bn_t_na;
+		sub bn_ta.half bn_ma by bn_t_ma;
+
+		# _tha
+		sub bn_tha.half bn_la by bn_th_la;
+
+		# _da
+		sub bn_da.half bn_ga by bn_d_ga;
+		sub bn_da.half bn_gha by bn_d_gha;
+		sub bn_da.half bn_da by bn_d_da;
+		sub bn_da.half bn_dha by bn_d_dha;
+		sub bn_da.half bn_na by bn_d_na;
+		sub bn_da.half bn_bha by bn_d_bha;
+		sub bn_da.half bn_ma by bn_d_ma;
+
+		# _dha
+		sub bn_dha.half bn_na by bn_dh_na;
+		sub bn_dha.half bn_ba by bn_dh_ba;
+
+		# _na
+		sub bn_na.half bn_jha by bn_n_jha;
+		sub bn_na.half bn_tta by bn_n_tta;
+		sub bn_na.half bn_ttha by bn_n_ttha;
+		sub bn_na.half bn_dda by bn_n_dda;
+		sub bn_na.half bn_ta by bn_n_ta;
+		sub bn_na.half bn_tha by bn_n_tha;
+		sub bn_na.half bn_da by bn_n_da;
+		sub bn_na.half bn_dha by bn_n_dha;
+		sub bn_na.half bn_na by bn_n_na;
+		sub bn_na.half bn_ma by bn_n_ma;
+		sub bn_na.half bn_sa by bn_n_sa;
+
+		# _pa
+		sub bn_pa.half bn_tta by bn_p_tta;
+		sub bn_pa.half bn_ta by bn_p_ta;
+		sub bn_pa.half bn_na by bn_p_na;
+		sub bn_pa.half bn_pa by bn_p_pa;
+		sub bn_pa.half bn_ra by bn_p_ra;
+		sub bn_pa.half bn_la by bn_p_la;
+		sub bn_pa.half bn_sa by bn_p_sa;
+
+		# _pha
+		sub bn_pha.half bn_tta by bn_ph_tta;
+		sub bn_pha.half bn_la by bn_ph_la;
+
+		# _ba
+		sub bn_ba.half bn_ja by bn_b_ja;
+		sub bn_ba.half bn_da by bn_b_da;
+		sub bn_ba.half bn_dha by bn_b_dha;
+		sub bn_ba.half bn_ba by bn_b_ba;
+		sub bn_ba.half bn_bha by bn_b_bha;
+		sub bn_ba.half bn_la by bn_b_la;
+
+		# _bha
+		sub bn_bha.half bn_la by bn_b_la;
+
+		# _ma
+		sub bn_ma.half bn_na by bn_m_na;
+		sub bn_ma.half bn_pa by bn_m_pa;
+		sub bn_ma.half bn_pha by bn_m_pha;
+		sub bn_ma.half bn_bha by bn_m_bha;
+		sub bn_ma.half bn_ma by bn_m_ma;
+		sub bn_ma.half bn_la by bn_m_la;
+
+		# _la
+		sub bn_la.half bn_ka by bn_l_ka;
+		sub bn_la.half bn_ga by bn_l_ga;
+		sub bn_la.half bn_tta by bn_l_tta;
+		sub bn_la.half bn_dda by bn_l_dda;
+		sub bn_la.half bn_da by bn_l_da;
+		sub bn_la.half bn_pa by bn_l_pa;
+		sub bn_la.half bn_pha by bn_l_pha;
+		sub bn_la.half bn_ba by bn_l_ba;
+		sub bn_la.half bn_ma by bn_l_ma;
+		sub bn_la.half bn_la by bn_l_la;
+		sub bn_la.half bn_sa by bn_l_sa;
+
+		# _sha
+		sub bn_sha.half bn_ca by bn_sh_ca;
+		sub bn_sha.half bn_cha by bn_sh_cha;
+		sub bn_sha.half bn_tta by bn_sh_tta;
+		sub bn_sha.half bn_na by bn_sh_na;
+		sub bn_sha.half bn_ba by bn_sh_ba;
+		sub bn_sha.half bn_ma by bn_sh_ma;
+		sub bn_sha.half bn_ra by bn_sh_ra;
+		sub bn_sha.half bn_la by bn_sh_la;
+
+		# _ssa
+		sub bn_ssa.half bn_ka by bn_ss_ka;
+		sub bn_ssa.half bn_tta by bn_ss_tta;
+		sub bn_ssa.half bn_ttha by bn_ss_ttha;
+		sub bn_ssa.half bn_nna by bn_ss_nna;
+		sub bn_ssa.half bn_pa by bn_ss_pa;
+		sub bn_ssa.half bn_pha by bn_ss_pha;
+		sub bn_ssa.half bn_ma by bn_ss_ma;
+
+		# _sa
+		sub bn_sa.half bn_ka by bn_s_ka;
+		sub bn_sa.half bn_kha by bn_s_kha;
+		sub bn_sa.half bn_tta by bn_s_tta;
+		sub bn_sa.half bn_ta by bn_s_ta;
+		sub bn_sa.half bn_tha by bn_s_tha;
+		sub bn_sa.half bn_na by bn_s_na;
+		sub bn_sa.half bn_pa by bn_s_pa;
+		sub bn_sa.half bn_pha by bn_s_pha;
+		sub bn_sa.half bn_ba by bn_s_ba;
+		sub bn_sa.half bn_ma by bn_s_ma;
+		sub bn_sa.half bn_la by bn_s_la;
+
+		# _ha
+		sub bn_ha.half bn_nna by bn_h_nna;
+		sub bn_ha.half bn_na by bn_h_na;
+		sub bn_ha.half bn_ma by bn_h_ma;
+		sub bn_ha.half bn_la by bn_h_la;
+		sub bn_ha.half bn_yya by bn_h_yya;
+		
+	} pres_conjuncts; 
+
+	lookup pres_ba {
+		sub bn_ka bn_ba_phala by bn_k_ba;
+		sub bn_kha bn_ba_phala by bn_kh_ba;
+		sub bn_ga bn_ba_phala by bn_g_ba;
+		sub bn_gha bn_ba_phala by bn_gh_ba;
+		# sub bn_nga bn_ba_phala by bn_ng_ba;
+		# sub bn_ca bn_ba_phala by bn_c_ba;
+		sub bn_cha bn_ba_phala by bn_ch_ba;
+		sub bn_ja bn_ba_phala by bn_j_ba;
+		#sub bn_jha bn_ba_phala by bn_jh_ba;
+		#sub bn_nya bn_ba_phala by bn_ny_ba;
+		sub bn_tta bn_ba_phala by bn_tt_ba;
+		#sub bn_ttha bn_ba_phala by bn_tth_ba;
+		# sub bn_dda bn_ba_phala by bn_dd_ba;
+		# sub bn_ddha bn_ba_phala by bn_ddh_ba;
+		sub bn_nna bn_ba_phala by bn_nn_ba;
+		sub bn_ta bn_ba_phala by bn_t_ba;
+		sub bn_tha bn_ba_phala by bn_th_ba;
+		sub bn_da bn_ba_phala by bn_d_ba;
+		sub bn_dha bn_ba_phala by bn_dh_ba;
+		sub bn_na bn_ba_phala by bn_n_ba;
+		# sub bn_pa bn_ba_phala by bn_p_ba;
+		# sub bn_pha bn_ba_phala by bn_ph_ba;
+		sub bn_ba bn_ba_phala by bn_b_ba;
+		# sub bn_bha bn_ba_phala by bn_bh_ba;
+		sub bn_ma bn_ba_phala by bn_m_ba;
+		# sub bn_ya bn_ba_phala by bn_y_ba;
+		# sub bn_ra bn_ba_phala by bn_r_ba;
+		sub bn_la bn_ba_phala by bn_l_ba;
+		sub bn_sha bn_ba_phala by bn_sh_ba;
+		sub bn_ssa bn_ba_phala by bn_ss_ba;
+		sub bn_sa bn_ba_phala by bn_s_ba;
+		sub bn_ha bn_ba_phala by bn_h_ba;
+
+		sub bn_k_ssa bn_ba_phala by bn_k_ss_ba;
+
+		sub bn_k_ta bn_ba_phala by bn_k_t_ba;
+		sub bn_g_dha bn_ba_phala by bn_g_dh_ba;
+		sub bn_c_cha bn_ba_phala by bn_c_ch_ba;
+		sub bn_j_ja bn_ba_phala by bn_j_j_ba;
+		sub bn_t_ta bn_ba_phala by bn_t_t_ba;
+		sub bn_d_da bn_ba_phala by bn_d_d_ba;
+		sub bn_d_dha bn_ba_phala by bn_d_dh_ba;
+		sub bn_n_ta bn_ba_phala by bn_n_t_ba;
+		sub bn_n_da bn_ba_phala by bn_n_d_ba;
+		sub bn_n_dha bn_ba_phala by bn_n_dh_ba;
+		sub bn_s_ka bn_ba_phala by bn_s_k_ba;
+		sub bn_s_ta bn_ba_phala by bn_s_t_ba;
+		sub bn_s_ta bn_ra_phala by bn_s_t_ra;
+	} pres_ba;
+
+	lookup pres_ra {
+
+		sub bn_ka bn_ra_phala by bn_k_ra;
+		sub bn_kha bn_ra_phala by bn_kh_ra;
+		sub bn_ga bn_ra_phala by bn_g_ra;
+		sub bn_gha bn_ra_phala by bn_gh_ra;
+		sub bn_nga bn_ra_phala by bn_ng_ra;
+		sub bn_ca bn_ra_phala by bn_c_ra;
+		sub bn_cha bn_ra_phala by bn_ch_ra;
+		sub bn_ja bn_ra_phala by bn_j_ra;
+		sub bn_jha bn_ra_phala by bn_jh_ra;
+		sub bn_nya bn_ra_phala by bn_ny_ra;
+		sub bn_tta bn_ra_phala by bn_tt_ra;
+		sub bn_ttha bn_ra_phala by bn_tth_ra;
+		sub bn_dda bn_ra_phala by bn_dd_ra;
+		sub bn_ddha bn_ra_phala by bn_ddh_ra;
+		sub bn_nna bn_ra_phala by bn_nn_ra;
+		sub bn_ta bn_ra_phala by bn_t_ra;
+		sub bn_tha bn_ra_phala by bn_th_ra;
+		sub bn_da bn_ra_phala by bn_d_ra;
+		sub bn_dha bn_ra_phala by bn_dh_ra;
+		sub bn_na bn_ra_phala by bn_n_ra;
+		sub bn_pa bn_ra_phala by bn_p_ra;
+		sub bn_pha bn_ra_phala by bn_ph_ra;
+		sub bn_ba bn_ra_phala by bn_b_ra;
+		sub bn_bha bn_ra_phala by bn_bh_ra;
+		sub bn_ma bn_ra_phala by bn_m_ra;
+		sub bn_ya bn_ra_phala by bn_y_ra;
+		# sub bn_ra bn_ra_phala by bn_r_ra;
+		sub bn_la bn_ra_phala by bn_l_ra;
+		sub bn_sha bn_ra_phala by bn_sh_ra;
+		sub bn_ssa bn_ra_phala by bn_ss_ra;
+		sub bn_sa bn_ra_phala by bn_s_ra;
+		sub bn_ha bn_ra_phala by bn_h_ra;
+
+		sub bn_k_ssa bn_ra_phala by bn_k_ss_ra;
+
+		sub bn_k_tta bn_ra_phala by bn_k_tt_ra;
+		sub bn_k_ta bn_ra_phala by bn_k_t_ra;
+		sub bn_g_dha bn_ra_phala by bn_g_dh_ra;
+		sub bn_ng_ka bn_ra_phala by bn_ng_k_ra;
+		sub bn_ng_ga bn_ra_phala by bn_ng_g_ra;
+		sub bn_ng_gha bn_ra_phala by bn_ng_gh_ra;
+		sub bn_ng_k_ssa bn_ra_phala by bn_ng_k_ss_ra;
+		sub bn_c_cha bn_ra_phala by bn_c_ch_ra;
+		sub bn_nn_dda bn_ra_phala by bn_nn_dd_ra;
+		sub bn_t_ta bn_ra_phala by bn_t_t_ra;
+		sub bn_d_bha bn_ra_phala by bn_d_bh_ra;
+		sub bn_n_tta bn_ra_phala by bn_n_tt_ra;
+		sub bn_n_dda bn_ra_phala by bn_n_dd_ra;
+		sub bn_n_ta bn_ra_phala by bn_n_t_ra;
+		sub bn_n_da bn_ra_phala by bn_n_d_ra;
+		sub bn_n_dha bn_ra_phala by bn_n_dh_ra;
+		sub bn_p_ta bn_ra_phala by bn_p_t_ra;
+		sub bn_m_pa bn_ra_phala by bn_m_p_ra;
+		sub bn_m_bha bn_ra_phala by bn_m_bh_ra;
+		# sub bn_m_ba bn_ra_phala by bn_m_b_ra;
+		# sub bn_ma.half bn_ba bn_ra_phala by bn_m_b_ra; # Core Text bug
+		sub bn_ss_ka bn_ra_phala by bn_ss_k_ra;
+		sub bn_ss_tta bn_ra_phala by bn_ss_tt_ra;
+		sub bn_ss_pa bn_ra_phala by bn_ss_p_ra;
+		sub bn_s_pa bn_ra_phala by bn_s_p_ra;
+		sub bn_s_ka bn_ra_phala by bn_s_k_ra;
+		sub bn_s_tta bn_ra_phala by bn_s_tt_ra;
+	} pres_ra;
+
+	# _ukaar
+    sub bn_ga bn_ukaar bn_ra_phala by bn_g_ra_ukaar;
+    sub bn_ta bn_ukaar bn_ra_phala by bn_t_ra_ukaar;
+    sub bn_tha bn_ukaar bn_ra_phala by bn_th_ra_ukaar;
+    sub bn_da bn_ukaar bn_ra_phala by bn_d_ra_ukaar;
+    sub bn_dha bn_ukaar bn_ra_phala by bn_dh_ra_ukaar;
+    sub bn_pa bn_ukaar bn_ra_phala by bn_p_ra_ukaar;
+    sub bn_ba bn_ukaar bn_da by bn_b_da_ukaar;
+    sub bn_ba bn_ukaar bn_ra_phala by bn_b_ra_ukaar;
+    sub bn_bha bn_ukaar bn_ra_phala by bn_bh_ra_ukaar;
+    sub bn_la bn_ukaar bn_ga by bn_l_ga_ukaar;
+    sub bn_sha bn_ukaar bn_ra_phala by bn_sh_ra_ukaar;
+    sub bn_sa bn_ukaar bn_ta by bn_s_ta_ukaar;
+    sub bn_sa bn_ukaar bn_ra_phala by bn_s_ra_ukaar;
+    sub bn_da bn_ukaar by bn_da_ukaar;
+    sub bn_ra bn_ukaar by bn_ra_ukaar; 
+    sub bn_ga bn_ukaar by bn_ga_ukaar;
+
+    # _uukaar
+    sub bn_ga bn_uukaar bn_ra_phala by bn_g_ra_uukaar;
+    sub bn_ta bn_uukaar bn_ra_phala by bn_t_ra_uukaar;
+    sub bn_tha bn_uukaar bn_ra_phala by bn_th_ra_uukaar;
+    sub bn_da bn_uukaar bn_ra_phala by bn_d_ra_uukaar;
+    sub bn_dha bn_uukaar bn_ra_phala by bn_dh_ra_uukaar;
+    sub bn_pa bn_uukaar bn_ra_phala by bn_p_ra_uukaar;
+    sub bn_ba bn_uukaar bn_da by bn_b_da_uukaar;
+    sub bn_ba bn_uukaar bn_ra_phala by bn_b_ra_uukaar;
+    sub bn_bha bn_uukaar bn_ra_phala by bn_bh_ra_uukaar;
+    sub bn_sha bn_uukaar bn_ra_phala by bn_sh_ra_uukaar;
+    sub bn_sa bn_uukaar bn_ra_phala by bn_s_ra_uukaar;
+    sub bn_da bn_uukaar by bn_da_uukaar;
+
+    # _iikaar
+    sub bn_sh_ra bn_iikaar by bn_sh_ra_iikaar;
+    #sub bn_tta bn_iikaar' by bn_iikaar.alt2;
+    #sub bn_ttha bn_iikaar' by bn_iikaar.alt;
+    sub bn_reph bn_iikaar by bn_iikaar_reph;
+
+    # _aumark
+    sub bn_reph bn_aumark by bn_aumark_reph;
+
+    # _rikaar
+    sub bn_ha bn_rikaar by bn_ha_rikaar;
+
+	# _ukaar _uukaar alternative
+    sub @BASE_UKAAR_RIKAAR_ALT [bn_ukaar bn_uukaar]' by [bn_ukaar.alt bn_uukaar.alt];
+    sub @BASE_UKAAR_RIKAAR_ALT [bn_rikaar bn_rrikaar]' by [bn_rikaar.alt bn_rrikaar.alt];
+
+    # _reph alternative
+    #sub @CONSONANT_SPUR bn_reph' by bn_reph.alt;
+
+    # _ikaar.b alternative junction
+    sub @JUNCTION_B [bn_ikaar.wi2 bn_ikaar.wi1 bn_ikaar.fl bn_ikaar]' by [bn_ikaar.wi2.b bn_ikaar.wi1.b bn_ikaar.fl.b bn_ikaar.b];
+
+    # _iikaar.b alternative junction
+    sub @JUNCTION_B [bn_iikaar.wi1 bn_iikaar.wi2 bn_iikaar.fl bn_iikaar]' by [bn_iikaar.wi1.b bn_iikaar.wi2.b bn_iikaar.fl.b bn_iikaar.b];
+
+    # _aakaar.b alternative junction
+    sub bn_aakaar' @JUNCTION_B by bn_aakaar.b;
+
+    # _ekaar.b alternative junction
+    sub @JUNCTION_B bn_ekaar' by bn_ekaar.b;
+
+
+} pres;
+
+feature psts {
+	# _ikaar
+    sub bn_ikaar' @BASE_WI1 by bn_ikaar.wi1;
+    sub bn_ikaar' @BASE_WI2 by bn_ikaar.wi2;
+    sub bn_ikaar.b' @BASE_WI1 by bn_ikaar.wi1.b;
+    sub bn_ikaar.b' @BASE_WI2 by bn_ikaar.wi2.b;
+    sub bn_ikaar' @BASE_IKAAR_FL by bn_ikaar.fl;
+    sub bn_ikaar.b' @BASE_IKAAR_FL by bn_ikaar.fl.b;
+    
+    # _iikaar
+	sub @BASE_IIKAAR_WI1 bn_iikaar' by bn_iikaar.wi1;
+	sub @BASE_IIKAAR_WI2 bn_iikaar' by bn_iikaar.wi2;
+	sub @BASE_IIKAAR_WI1 bn_iikaar.b' by bn_iikaar.wi1.b;
+	sub @BASE_IIKAAR_WI2 bn_iikaar.b' by bn_iikaar.wi2.b;
+	sub @BASE_IIKAAR_FL bn_iikaar' by bn_iikaar.fl;
+    sub @BASE_IKAAR_FL bn_iikaar.b' by bn_iikaar.fl.b;
+
+} psts;
+
+feature ss01 {
+	sub bn_nn_dda by bn_nn_dda.alt01;
+	sub bn_t_ra by bn_t_ra.alt01;
+} ss01;
+
+feature abvm {
+	markClass [bn_chandrabindu] <anchor 0 665> @CHANDRABINDU_MARKS;
+	markClass [bn_reph] <anchor 0 678> @REPH_MARKS;
+
+	position base [bn_ddha] <anchor 224 690> mark @REPH_MARKS <anchor 224 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_ra_ukaar] <anchor 515 690> mark @REPH_MARKS <anchor 515 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_pa] <anchor 766 690> mark @REPH_MARKS <anchor 766 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_ma] <anchor 725 690> mark @REPH_MARKS <anchor 725 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_ta] <anchor 528 690> mark @REPH_MARKS <anchor 528 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_ra_uukaar] <anchor 370 690> mark @REPH_MARKS <anchor 370 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_d_ra] <anchor 365 690> mark @REPH_MARKS <anchor 365 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_ra_ukaar] <anchor 471 690> mark @REPH_MARKS <anchor 471 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ha] <anchor 233 690> mark @REPH_MARKS <anchor 233 690> mark @CHANDRABINDU_MARKS;
+	position base [asa_ba] <anchor 377 690> mark @REPH_MARKS <anchor 377 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sa] <anchor 426 690> mark @REPH_MARKS <anchor 426 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_ra] <anchor 362 690> mark @REPH_MARKS <anchor 362 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_ta] <anchor 416 690> mark @REPH_MARKS <anchor 416 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_j_ra] <anchor 429 690> mark @REPH_MARKS <anchor 429 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_p_ra] <anchor 973 690> mark @REPH_MARKS <anchor 973 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ttha] <anchor 254 681> mark @REPH_MARKS <anchor 404 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ssa] <anchor 411 690> mark @REPH_MARKS <anchor 411 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nga] <anchor 345 690> mark @REPH_MARKS <anchor 345 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_t_ra] <anchor 573 749> mark @REPH_MARKS <anchor 573 749> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_nna] <anchor 393 690> mark @REPH_MARKS <anchor 393 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_da] <anchor 376 690> mark @REPH_MARKS <anchor 376 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_kha] <anchor 572 690> mark @REPH_MARKS <anchor 572 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_dh_ba] <anchor 330 690> mark @REPH_MARKS <anchor 330 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ss_nna] <anchor 593 690> mark @REPH_MARKS <anchor 593 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_jha] <anchor 416 690> mark @REPH_MARKS <anchor 416 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_ma] <anchor 723 690> mark @REPH_MARKS <anchor 723 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_ba] <anchor 285 690> mark @REPH_MARKS <anchor 285 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_bh_ra] <anchor 446 690> mark @REPH_MARKS <anchor 446 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_ma] <anchor 636 690> mark @REPH_MARKS <anchor 636 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_ra] <anchor 413 690> mark @REPH_MARKS <anchor 413 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_k_ta] <anchor 478 690> mark @REPH_MARKS <anchor 478 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_ra_uukaar] <anchor 430 690> mark @REPH_MARKS <anchor 430 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_tt_ra] <anchor 293 690> mark @REPH_MARKS <anchor 350 800> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_t_ra] <anchor 405 690> mark @REPH_MARKS <anchor 405 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_dh_na] <anchor 389 690> mark @REPH_MARKS <anchor 389 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_dd_dda] <anchor 670 690> mark @REPH_MARKS <anchor 670 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_ba] <anchor 319 690> mark @REPH_MARKS <anchor 319 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_pa] <anchor 473 690> mark @REPH_MARKS <anchor 473 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_da_ukaar] <anchor 263 690> mark @REPH_MARKS <anchor 263 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_ba] <anchor 493 690> mark @REPH_MARKS <anchor 493 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_sa] <anchor 565 690> mark @REPH_MARKS <anchor 565 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_tha] <anchor 527 690> mark @REPH_MARKS <anchor 527 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ta] <anchor 407 690> mark @REPH_MARKS <anchor 407 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_tta] <anchor 87 686> mark @REPH_MARKS <anchor 138 799> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_ga] <anchor 348 690> mark @REPH_MARKS <anchor 348 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ii] <anchor 274 804> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_pa] <anchor 856 690> mark @REPH_MARKS <anchor 856 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_c_cha] <anchor 586 690> mark @REPH_MARKS <anchor 586 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ga_ukaar] <anchor 452 690> mark @REPH_MARKS <anchor 452 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_bha] <anchor 359 690> mark @REPH_MARKS <anchor 359 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ya] <anchor 399 690> mark @REPH_MARKS <anchor 399 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_ka] <anchor 350 690> mark @REPH_MARKS <anchor 350 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_dda] <anchor 401 690> mark @REPH_MARKS <anchor 401 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ddh_ra] <anchor 266 690> mark @REPH_MARKS <anchor 266 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_tta] <anchor 489 718> mark @REPH_MARKS <anchor 500 781> mark @CHANDRABINDU_MARKS;
+	position base [bn_c_ra] <anchor 294 690> mark @REPH_MARKS <anchor 294 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_au] <anchor 540 804> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_pha] <anchor 477 690> mark @REPH_MARKS <anchor 477 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_ba] <anchor 373 690> mark @REPH_MARKS <anchor 373 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ai] <anchor 469 804> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ra] <anchor 428 690> mark @REPH_MARKS <anchor 428 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_rra] <anchor 320 690> mark @REPH_MARKS <anchor 320 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_ma] <anchor 688 690> mark @REPH_MARKS <anchor 688 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_o] <anchor 381 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_g_ra] <anchor 350 690> mark @REPH_MARKS <anchor 350 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_aa] <anchor 474 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_rri] <anchor 596 690> mark @REPH_MARKS <anchor 596 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_dd_ra] <anchor 422 690> mark @REPH_MARKS <anchor 422 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_dd_ra] <anchor 341 690> mark @REPH_MARKS <anchor 341 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_na] <anchor 486 690> mark @REPH_MARKS <anchor 486 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_c_nya] <anchor 601 690> mark @REPH_MARKS <anchor 602 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_bha] <anchor 308 690> mark @REPH_MARKS <anchor 308 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ba] <anchor 363 690> mark @REPH_MARKS <anchor 363 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_pa] <anchor 845 690> mark @REPH_MARKS <anchor 845 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_dha] <anchor 407 690> mark @REPH_MARKS <anchor 407 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_tta] <anchor 306 690> mark @REPH_MARKS <anchor 362 806> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_bh_ra] <anchor 302 690> mark @REPH_MARKS <anchor 302 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_c_ch_ba] <anchor 664 690> mark @REPH_MARKS <anchor 664 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ny_ca] <anchor 363 690> mark @REPH_MARKS <anchor 363 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_d_ba] <anchor 357 690> mark @REPH_MARKS <anchor 357 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_j_jha] <anchor 1108 690> mark @REPH_MARKS <anchor 1108 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_ra] <anchor 395 750> mark @REPH_MARKS <anchor 395 750> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ss_ra] <anchor 617 690> mark @REPH_MARKS <anchor 617 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_uu] <anchor 315 804> mark @CHANDRABINDU_MARKS;
+	position base [bn_kha] <anchor 459 690> mark @REPH_MARKS <anchor 459 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_ga] <anchor 495 690> mark @REPH_MARKS <anchor 495 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_la] <anchor 500 690> mark @REPH_MARKS <anchor 500 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_t_ba] <anchor 396 690> mark @REPH_MARKS <anchor 396 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_jha] <anchor 407 690> mark @REPH_MARKS <anchor 407 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ja] <anchor 381 690> mark @REPH_MARKS <anchor 381 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_ba] <anchor 457 690> mark @REPH_MARKS <anchor 457 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_ra] <anchor 388 690> mark @REPH_MARKS <anchor 388 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ny_ra] <anchor 554 690> mark @REPH_MARKS <anchor 554 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_dh_ra] <anchor 501 690> mark @REPH_MARKS <anchor 501 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_la] <anchor 358 690> mark @REPH_MARKS <anchor 358 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sha_ukaar] <anchor 477 690> mark @REPH_MARKS <anchor 467 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_ra] <anchor 450 690> mark @REPH_MARKS <anchor 450 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_ba] <anchor 303 690> mark @REPH_MARKS <anchor 303 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_tha] <anchor 443 690> mark @REPH_MARKS <anchor 443 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_da] <anchor 365 690> mark @REPH_MARKS <anchor 365 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_th_ra] <anchor 453 690> mark @REPH_MARKS <anchor 453 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_ma] <anchor 523 690> mark @REPH_MARKS <anchor 523 690> mark @CHANDRABINDU_MARKS;
+	position base [asa_ba_uukaar] <anchor 354 690> mark @REPH_MARKS <anchor 354 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_ra] <anchor 470 690> mark @REPH_MARKS <anchor 470 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_pha] <anchor 620 690> mark @REPH_MARKS <anchor 620 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_dh_ba] <anchor 479 690> mark @REPH_MARKS <anchor 479 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_p_la] <anchor 859 690> mark @REPH_MARKS <anchor 859 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_gh_ra] <anchor 942 690> mark @REPH_MARKS <anchor 942 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_k_ra] <anchor 385 697> mark @REPH_MARKS <anchor 385 697> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_da_uukaar] <anchor 365 690> mark @REPH_MARKS <anchor 365 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_la] <anchor 480 690> mark @REPH_MARKS <anchor 480 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ra.alt01] <anchor 431 690> mark @REPH_MARKS <anchor 431 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_da] <anchor 363 690> mark @REPH_MARKS <anchor 363 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_cha] <anchor 244 690> mark @REPH_MARKS <anchor 244 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ra_uukaar] <anchor 370 690> mark @REPH_MARKS <anchor 370 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_kha] <anchor 798 690> mark @REPH_MARKS <anchor 798 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_ma] <anchor 702 690> mark @REPH_MARKS <anchor 702 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_t_ra] <anchor 320 690> mark @REPH_MARKS <anchor 320 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_bh_ra_uukaar] <anchor 525 750> mark @REPH_MARKS <anchor 525 750> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_ka] <anchor 476 690> mark @REPH_MARKS <anchor 476 690> mark @CHANDRABINDU_MARKS;
+	position base [asa_ra] <anchor 262 690> mark @REPH_MARKS <anchor 262 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ca] <anchor 213 690> mark @REPH_MARKS <anchor 213 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_th_ba] <anchor 441 690> mark @REPH_MARKS <anchor 441 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_k_ss_ra] <anchor 1149 690> mark @REPH_MARKS <anchor 1149 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_tta] <anchor 492 722> mark @REPH_MARKS <anchor 506 781> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_ra_uukaar] <anchor 496 690> mark @REPH_MARKS <anchor 496 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_dda] <anchor 388 690> mark @REPH_MARKS <anchor 388 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_t_ba] <anchor 403 690> mark @REPH_MARKS <anchor 403 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_yya] <anchor 286 690> mark @REPH_MARKS <anchor 286 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ra] <anchor 370 690> mark @REPH_MARKS;
+	position base [bn_k_ss_ma] <anchor 877 690> mark @REPH_MARKS <anchor 877 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_dha] <anchor 488 690> mark @REPH_MARKS <anchor 488 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_ra.alt01] <anchor 320 690> mark @REPH_MARKS <anchor 320 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ri] <anchor 394 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ssa] <anchor 607 690> mark @REPH_MARKS <anchor 607 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_tt_ra] <anchor 169 679> mark @REPH_MARKS <anchor 282 803> mark @CHANDRABINDU_MARKS;
+	position base [bn_ka] <anchor 349 690> mark @REPH_MARKS <anchor 349 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_tha] <anchor 273 690> mark @REPH_MARKS <anchor 273 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_dh_ra] <anchor 367 690> mark @REPH_MARKS <anchor 367 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_ra] <anchor 313 690> mark @REPH_MARKS <anchor 313 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_j_j_ba] <anchor 746 690> mark @REPH_MARKS <anchor 746 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_gh_na] <anchor 405 690> mark @REPH_MARKS <anchor 405 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_sa] <anchor 647 690> mark @REPH_MARKS <anchor 647 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ny_cha] <anchor 352 690> mark @REPH_MARKS <anchor 352 690> mark @CHANDRABINDU_MARKS;
+	position base [asa_ba_ukaar] <anchor 354 690> mark @REPH_MARKS <anchor 354 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_ma] <anchor 567 690> mark @REPH_MARKS <anchor 567 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_pha] <anchor 360 690> mark @REPH_MARKS <anchor 360 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_ba] <anchor 451 690> mark @REPH_MARKS <anchor 451 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_la] <anchor 478 690> mark @REPH_MARKS <anchor 478 690> mark @CHANDRABINDU_MARKS;
+	position base [asa_ra_ukaar] <anchor 351 690> mark @REPH_MARKS <anchor 351 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ph_tta] <anchor 405 683> mark @REPH_MARKS <anchor 454 789> mark @CHANDRABINDU_MARKS;
+	position base [bn_h_ra] <anchor 237 690> mark @REPH_MARKS <anchor 237 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nna] <anchor 384 690> mark @REPH_MARKS <anchor 387 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_ddha] <anchor 473 690> mark @REPH_MARKS <anchor 473 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_p_ra] <anchor 837 750> mark @REPH_MARKS <anchor 837 750> mark @CHANDRABINDU_MARKS;
+	position base [bn_nya] <anchor 414 690> mark @REPH_MARKS <anchor 491 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_ttha] <anchor 431 690> mark @REPH_MARKS <anchor 503 692> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_ba] <anchor 700 690> mark @REPH_MARKS <anchor 700 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ha_rikaar] <anchor 331 690> mark @REPH_MARKS <anchor 331 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_ma] <anchor 600 690> mark @REPH_MARKS <anchor 599 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_pa] <anchor 443 690> mark @REPH_MARKS <anchor 443 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_li] <anchor 258 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_ra] <anchor 465 690> mark @REPH_MARKS <anchor 465 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_j_nya] <anchor 475 690> mark @REPH_MARKS <anchor 475 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_ga] <anchor 471 690> mark @REPH_MARKS <anchor 471 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_tta] <anchor 515 683> mark @REPH_MARKS <anchor 526 780> mark @CHANDRABINDU_MARKS;
+	position base [bn_la] <anchor 484 690> mark @REPH_MARKS <anchor 484 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_ka] <anchor 351 690> mark @REPH_MARKS <anchor 351 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_tta] <anchor 233 686> mark @REPH_MARKS <anchor 285 816> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_ca] <anchor 458 690> mark @REPH_MARKS <anchor 458 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_dh_ra_uukaar] <anchor 404 690> mark @REPH_MARKS <anchor 404 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_h_ma] <anchor 490 690> mark @REPH_MARKS <anchor 490 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_gha] <anchor 291 690> mark @REPH_MARKS <anchor 291 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_ba] <anchor 409 690> mark @REPH_MARKS <anchor 409 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_dh_ba] <anchor 361 690> mark @REPH_MARKS <anchor 361 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_kh_ba] <anchor 486 690> mark @REPH_MARKS <anchor 486 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_dda.alt01] <anchor 445 690> mark @REPH_MARKS <anchor 445 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_ra] <anchor 400 700> mark @REPH_MARKS <anchor 400 700> mark @CHANDRABINDU_MARKS;
+	position base [bn_th_ra_uukaar] <anchor 456 690> mark @REPH_MARKS <anchor 456 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_ja] <anchor 326 690> mark @REPH_MARKS <anchor 326 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_la] <anchor 442 690> mark @REPH_MARKS <anchor 442 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_ba] <anchor 359 690> mark @REPH_MARKS <anchor 359 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_da] <anchor 261 690> mark @REPH_MARKS <anchor 258 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_na] <anchor 308 690> mark @REPH_MARKS <anchor 308 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_ga_ukaar] <anchor 418 690> mark @REPH_MARKS <anchor 418 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ch_ra] <anchor 311 690> mark @REPH_MARKS <anchor 311 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_ra_ukaar] <anchor 393 690> mark @REPH_MARKS <anchor 393 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_bha] <anchor 470 690> mark @REPH_MARKS <anchor 470 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_ra_uukaar] <anchor 470 690> mark @REPH_MARKS <anchor 470 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_gha] <anchor 944 690> mark @REPH_MARKS <anchor 944 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_cha] <anchor 460 690> mark @REPH_MARKS <anchor 460 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_j_ja] <anchor 712 690> mark @REPH_MARKS <anchor 712 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_tt_ra] <anchor 237 686> mark @REPH_MARKS <anchor 285 815> mark @CHANDRABINDU_MARKS;
+	position base [bn_tth_ra] <anchor 274 683> mark @REPH_MARKS <anchor 414 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ta] <anchor 292 690> mark @REPH_MARKS <anchor 292 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_t_ra] <anchor 323 690> mark @REPH_MARKS <anchor 323 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ch_ba] <anchor 310 690> mark @REPH_MARKS <anchor 310 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_ba] <anchor 323 690> mark @REPH_MARKS <anchor 323 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ma] <anchor 410 690> mark @REPH_MARKS <anchor 410 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_sa] <anchor 658 750> mark @REPH_MARKS <anchor 658 750> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_tta] <anchor 404 676> mark @REPH_MARKS <anchor 482 802> mark @CHANDRABINDU_MARKS;
+	position base [bn_dh_ba] <anchor 756 690> mark @REPH_MARKS <anchor 756 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_tt_ba] <anchor 183 679> mark @REPH_MARKS <anchor 277 806> mark @CHANDRABINDU_MARKS;
+	position base [bn_ny_ja] <anchor 436 690> mark @REPH_MARKS <anchor 436 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_pha] <anchor 533 690> mark @REPH_MARKS <anchor 533 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ny_jha] <anchor 538 690> mark @REPH_MARKS <anchor 538 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_la] <anchor 467 690> mark @REPH_MARKS <anchor 467 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_h_la] <anchor 255 690> mark @REPH_MARKS <anchor 255 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_ra_uukaar] <anchor 408 690> mark @REPH_MARKS <anchor 408 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_na] <anchor 471 690> mark @REPH_MARKS <anchor 471 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_na] <anchor 332 690> mark @REPH_MARKS <anchor 332 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_jh_ra] <anchor 532 690> mark @REPH_MARKS <anchor 532 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ma] <anchor 575 690> mark @REPH_MARKS <anchor 575 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_pha] <anchor 488 690> mark @REPH_MARKS <anchor 488 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_tt_tta] <anchor 197 679> mark @REPH_MARKS <anchor 268 801> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_ta] <anchor 389 690> mark @REPH_MARKS <anchor 389 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_j_ba] <anchor 428 690> mark @REPH_MARKS <anchor 428 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_b_ra] <anchor 455 690> mark @REPH_MARKS <anchor 455 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ph_ra] <anchor 394 690> mark @REPH_MARKS <anchor 394 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_na] <anchor 363 690> mark @REPH_MARKS <anchor 363 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_kh_ra] <anchor 496 690> mark @REPH_MARKS <anchor 496 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_ma] <anchor 708 690> mark @REPH_MARKS <anchor 708 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_h_nna] <anchor 331 690> mark @REPH_MARKS <anchor 331 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_na] <anchor 469 690> mark @REPH_MARKS <anchor 469 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_c_ch_ra] <anchor 620 690> mark @REPH_MARKS <anchor 620 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_ra_uukaar] <anchor 469 690> mark @REPH_MARKS <anchor 469 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_la] <anchor 452 690> mark @REPH_MARKS <anchor 452 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ss_ba] <anchor 605 690> mark @REPH_MARKS <anchor 605 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_ra] <anchor 465 690> mark @REPH_MARKS <anchor 465 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ba] <anchor 356 690> mark @REPH_MARKS <anchor 356 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_rr_ga] <anchor 893 690> mark @REPH_MARKS <anchor 893 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_k_ssa] <anchor 1132 690> mark @REPH_MARKS <anchor 1132 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_gha] <anchor 810 690> mark @REPH_MARKS <anchor 810 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_tha] <anchor 328 690> mark @REPH_MARKS <anchor 328 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_ra_ukaar] <anchor 425 690> mark @REPH_MARKS <anchor 425 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_dha] <anchor 344 690> mark @REPH_MARKS <anchor 344 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_da_ukaar] <anchor 369 690> mark @REPH_MARKS <anchor 369 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_dda] <anchor 452 690> mark @REPH_MARKS <anchor 452 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_ttha] <anchor 322 684> mark @REPH_MARKS <anchor 474 659> mark @CHANDRABINDU_MARKS;
+	position base [bn_c_ca] <anchor 410 690> mark @REPH_MARKS <anchor 410 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_ra] <anchor 496 690> mark @REPH_MARKS <anchor 496 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_ma] <anchor 670 690> mark @REPH_MARKS <anchor 670 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ha_ukaar] <anchor 239 690> mark @REPH_MARKS <anchor 239 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_pa] <anchor 467 690> mark @REPH_MARKS <anchor 467 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_t_ba] <anchor 333 690> mark @REPH_MARKS <anchor 333 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_h_na] <anchor 234 690> mark @REPH_MARKS <anchor 234 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_bh_la] <anchor 444 690> mark @REPH_MARKS <anchor 442 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_la] <anchor 410 690> mark @REPH_MARKS <anchor 410 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_na] <anchor 305 690> mark @REPH_MARKS <anchor 305 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_th_la] <anchor 456 690> mark @REPH_MARKS <anchor 456 690> mark @CHANDRABINDU_MARKS;
+	position base [asa_ra_uukaar] <anchor 358 690> mark @REPH_MARKS <anchor 358 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ga] <anchor 390 690> mark @REPH_MARKS <anchor 390 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_ttha] <anchor 347 681> mark @REPH_MARKS <anchor 465 691> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_ka] <anchor 415 697> mark @REPH_MARKS <anchor 415 697> mark @CHANDRABINDU_MARKS;
+	position base [bn_rha] <anchor 245 690> mark @REPH_MARKS <anchor 245 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_k_ba] <anchor 392 690> mark @REPH_MARKS <anchor 392 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_sa] <anchor 591 690> mark @REPH_MARKS <anchor 591 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_a] <anchor 341 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_e] <anchor 378 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_ra_ukaar] <anchor 481 690> mark @REPH_MARKS <anchor 481 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_i] <anchor 204 804> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_ra] <anchor 339 690> mark @REPH_MARKS <anchor 339 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_dh_ra_ukaar] <anchor 399 690> mark @REPH_MARKS <anchor 399 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_dha] <anchor 377 690> mark @REPH_MARKS <anchor 377 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_th_ra_ukaar] <anchor 460 690> mark @REPH_MARKS <anchor 460 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_gh_ra] <anchor 408 690> mark @REPH_MARKS <anchor 408 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_ta] <anchor 331 690> mark @REPH_MARKS <anchor 331 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_k_ra] <anchor 471 690> mark @REPH_MARKS <anchor 471 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_h_yya] <anchor 359 690> mark @REPH_MARKS <anchor 359 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_tta] <anchor 404 686> mark @REPH_MARKS <anchor 459 800> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_na] <anchor 456 690> mark @REPH_MARKS <anchor 456 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_na] <anchor 383 690> mark @REPH_MARKS <anchor 383 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_dd_ra] <anchor 413 690> mark @REPH_MARKS <anchor 413 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_na] <anchor 393 690> mark @REPH_MARKS <anchor 393 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_dha] <anchor 375 750> mark @REPH_MARKS <anchor 375 750> mark @CHANDRABINDU_MARKS;
+	position base [bn_tta] <anchor 181 683> mark @REPH_MARKS <anchor 220 811> mark @CHANDRABINDU_MARKS;
+	position base [bn_gh_ba] <anchor 410 690> mark @REPH_MARKS <anchor 410 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_y_ra] <anchor 390 690> mark @REPH_MARKS <anchor 390 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_ra_uukaar] <anchor 470 690> mark @REPH_MARKS <anchor 470 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_dh_ra] <anchor 390 690> mark @REPH_MARKS <anchor 390 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_d_ba] <anchor 364 690> mark @REPH_MARKS <anchor 364 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_k_ra] <anchor 488 690> mark @REPH_MARKS <anchor 488 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_u] <anchor 291 804> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_ra_ukaar] <anchor 473 690> mark @REPH_MARKS <anchor 473 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_da] <anchor 526 690> mark @REPH_MARKS <anchor 526 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_t_ra] <anchor 326 690> mark @REPH_MARKS <anchor 326 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_bh_ra_ukaar] <anchor 440 690> mark @REPH_MARKS <anchor 440 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_bha] <anchor 320 690> mark @REPH_MARKS <anchor 320 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_tt_ra] <anchor 120 683> mark @REPH_MARKS <anchor 160 804> mark @CHANDRABINDU_MARKS;
+	position base [bn_da_uukaar] <anchor 263 690> mark @REPH_MARKS <anchor 263 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ra_ukaar] <anchor 371 690> mark @REPH_MARKS <anchor 371 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_bh_ra] <anchor 440 690> mark @REPH_MARKS <anchor 440 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ka] <anchor 364 690> mark @REPH_MARKS <anchor 364 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_h_ba] <anchor 234 690> mark @REPH_MARKS <anchor 234 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_tt_ra] <anchor 388 686> mark @REPH_MARKS <anchor 451 802> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_ma] <anchor 538 690> mark @REPH_MARKS <anchor 538 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_ga] <anchor 825 690> mark @REPH_MARKS <anchor 825 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_t_ba] <anchor 405 690> mark @REPH_MARKS <anchor 405 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_nna] <anchor 393 690> mark @REPH_MARKS <anchor 393 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_ra] <anchor 369 690> mark @REPH_MARKS <anchor 369 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_ta_ukaar] <anchor 338 690> mark @REPH_MARKS <anchor 338 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_da] <anchor 406 690> mark @REPH_MARKS <anchor 406 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sha] <anchor 487 690> mark @REPH_MARKS <anchor 487 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_dda] <anchor 319 690> mark @REPH_MARKS <anchor 319 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ph_la] <anchor 393 690> mark @REPH_MARKS <anchor 393 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_p_ra] <anchor 866 690> mark @REPH_MARKS <anchor 866 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_ra_ukaar] <anchor 366 690> mark @REPH_MARKS <anchor 366 690> mark @CHANDRABINDU_MARKS;
+} abvm;
+
+feature blwm {
+	markClass [bn_rikaar bn_rrikaar bn_uukaar.alt bn_ukaar.alt bn_uukaar bn_ukaar bn_rrikaar.alt bn_rikaar.alt] <anchor 0 -20> @BLWM_MARKS;
+	markClass [bn_ba_phala bn_ra_phala] <anchor 0 0> @BLWM_MARKS;
+	markClass [bn_halanth] <anchor 0 -20> @HALN_MARKS;
+	markClass [bn_nukta] <anchor 0 -28> @NUKT_MARKS;
+
+	position base [bn_ddha] <anchor 224 690> mark @REPH_MARKS <anchor 188 -120> mark @NUKT_MARKS <anchor 105 0> mark @HALN_MARKS <anchor 211 -3> mark @BLWM_MARKS <anchor 224 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_ra_ukaar] <anchor 515 690> mark @REPH_MARKS <anchor 362 -25> mark @HALN_MARKS <anchor 471 -23> mark @BLWM_MARKS <anchor 515 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_pa] <anchor 766 690> mark @REPH_MARKS <anchor 621 -4> mark @HALN_MARKS <anchor 768 -7> mark @BLWM_MARKS <anchor 766 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_ma] <anchor 725 690> mark @REPH_MARKS <anchor 581 -200> mark @HALN_MARKS <anchor 750 -201> mark @BLWM_MARKS <anchor 725 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_ta] <anchor 528 690> mark @REPH_MARKS <anchor 330 -82> mark @HALN_MARKS <anchor 460 -82> mark @BLWM_MARKS <anchor 528 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_ra_uukaar] <anchor 370 690> mark @REPH_MARKS <anchor 213 -200> mark @HALN_MARKS <anchor 358 -200> mark @BLWM_MARKS <anchor 370 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_d_ra] <anchor 365 690> mark @REPH_MARKS <anchor 404 -63> mark @HALN_MARKS <anchor 553 -64> mark @BLWM_MARKS <anchor 365 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_ra_ukaar] <anchor 471 690> mark @REPH_MARKS <anchor 354 -28> mark @HALN_MARKS <anchor 475 -29> mark @BLWM_MARKS <anchor 471 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ha] <anchor 233 690> mark @REPH_MARKS <anchor 174 -66> mark @NUKT_MARKS <anchor 108 0> mark @HALN_MARKS <anchor 252 39> mark @BLWM_MARKS <anchor 233 690> mark @CHANDRABINDU_MARKS;
+	position base [asa_ba] <anchor 377 690> mark @REPH_MARKS <anchor 250 0> mark @HALN_MARKS <anchor 358 0> mark @BLWM_MARKS <anchor 377 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sa] <anchor 426 690> mark @REPH_MARKS <anchor 221 0> mark @NUKT_MARKS <anchor 312 0> mark @HALN_MARKS <anchor 393 -3> mark @BLWM_MARKS <anchor 426 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_ra] <anchor 362 690> mark @REPH_MARKS <anchor 174 -31> mark @HALN_MARKS <anchor 298 -31> mark @BLWM_MARKS <anchor 362 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_ta] <anchor 416 690> mark @REPH_MARKS <anchor 304 -48> mark @HALN_MARKS <anchor 476 -53> mark @BLWM_MARKS <anchor 416 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_j_ra] <anchor 429 690> mark @REPH_MARKS <anchor 498 -207> mark @HALN_MARKS <anchor 638 -209> mark @BLWM_MARKS <anchor 429 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_p_ra] <anchor 973 690> mark @REPH_MARKS <anchor 805 -24> mark @HALN_MARKS <anchor 971 -27> mark @BLWM_MARKS <anchor 973 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ttha] <anchor 254 681> mark @REPH_MARKS <anchor 192 -120> mark @NUKT_MARKS <anchor 80 0> mark @HALN_MARKS <anchor 212 -3> mark @BLWM_MARKS <anchor 404 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ssa] <anchor 411 690> mark @REPH_MARKS <anchor 153 0> mark @NUKT_MARKS <anchor 303 0> mark @HALN_MARKS <anchor 380 -3> mark @BLWM_MARKS <anchor 411 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nga] <anchor 345 690> mark @REPH_MARKS <anchor 151 -120> mark @NUKT_MARKS <anchor 263 -7> mark @HALN_MARKS <anchor 331 -7> mark @BLWM_MARKS <anchor 345 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_t_ra] <anchor 573 749> mark @REPH_MARKS <anchor 296 -254> mark @HALN_MARKS <anchor 465 -255> mark @BLWM_MARKS <anchor 573 749> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_nna] <anchor 393 690> mark @REPH_MARKS <anchor 240 -122> mark @HALN_MARKS <anchor 374 -124> mark @BLWM_MARKS <anchor 393 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_da] <anchor 376 690> mark @REPH_MARKS <anchor 418 -42> mark @HALN_MARKS <anchor 551 -39> mark @BLWM_MARKS <anchor 376 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_kha] <anchor 572 690> mark @REPH_MARKS <anchor 382 -236> mark @HALN_MARKS <anchor 501 -240> mark @BLWM_MARKS <anchor 572 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_dh_ba] <anchor 330 690> mark @REPH_MARKS <anchor 291 -217> mark @HALN_MARKS <anchor 401 -216> mark @BLWM_MARKS <anchor 330 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ss_nna] <anchor 593 690> mark @REPH_MARKS <anchor 491 -224> mark @HALN_MARKS <anchor 635 -228> mark @BLWM_MARKS <anchor 593 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_jha] <anchor 416 690> mark @REPH_MARKS <anchor 286 -16> mark @HALN_MARKS <anchor 396 -16> mark @BLWM_MARKS <anchor 416 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_ma] <anchor 723 690> mark @REPH_MARKS <anchor 591 -202> mark @HALN_MARKS <anchor 764 -203> mark @BLWM_MARKS <anchor 723 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_ba] <anchor 285 690> mark @REPH_MARKS <anchor 235 -105> mark @HALN_MARKS <anchor 376 -106> mark @BLWM_MARKS <anchor 285 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_bh_ra] <anchor 446 690> mark @REPH_MARKS <anchor 216 -231> mark @HALN_MARKS <anchor 415 -233> mark @BLWM_MARKS <anchor 446 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_ma] <anchor 636 690> mark @REPH_MARKS <anchor 451 -81> mark @HALN_MARKS <anchor 665 -78> mark @BLWM_MARKS <anchor 636 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_ra] <anchor 413 690> mark @REPH_MARKS <anchor 325 -5> mark @HALN_MARKS <anchor 434 -6> mark @BLWM_MARKS <anchor 413 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_k_ta] <anchor 478 690> mark @REPH_MARKS <anchor 312 -250> mark @HALN_MARKS <anchor 469 -250> mark @BLWM_MARKS <anchor 478 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_ra_uukaar] <anchor 430 690> mark @REPH_MARKS <anchor 295 -67> mark @HALN_MARKS <anchor 414 -67> mark @BLWM_MARKS <anchor 430 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_tt_ra] <anchor 293 690> mark @REPH_MARKS <anchor 350 800> mark @CHANDRABINDU_MARKS <anchor 307 -250> mark @HALN_MARKS;
+	position base [bn_k_t_ra] <anchor 405 690> mark @REPH_MARKS <anchor 405 690> mark @CHANDRABINDU_MARKS <anchor 296 -220> mark @HALN_MARKS;
+	position base [bn_dh_na] <anchor 389 690> mark @REPH_MARKS <anchor 271 -108> mark @HALN_MARKS <anchor 392 -105> mark @BLWM_MARKS <anchor 389 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_dd_dda] <anchor 670 690> mark @REPH_MARKS <anchor 639 -3> mark @HALN_MARKS <anchor 800 -3> mark @BLWM_MARKS <anchor 670 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_ba] <anchor 319 690> mark @REPH_MARKS <anchor 275 -35> mark @HALN_MARKS <anchor 439 -41> mark @BLWM_MARKS <anchor 319 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_pa] <anchor 473 690> mark @REPH_MARKS <anchor 232 0> mark @NUKT_MARKS <anchor 339 0> mark @HALN_MARKS <anchor 444 -3> mark @BLWM_MARKS <anchor 473 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_da_ukaar] <anchor 263 690> mark @REPH_MARKS <anchor 263 690> mark @CHANDRABINDU_MARKS <anchor 154 -250> mark @HALN_MARKS;
+	position base [bn_g_ba] <anchor 493 690> mark @REPH_MARKS <anchor 326 -121> mark @HALN_MARKS <anchor 468 -125> mark @BLWM_MARKS <anchor 493 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_sa] <anchor 565 690> mark @REPH_MARKS <anchor 420 -2> mark @HALN_MARKS <anchor 582 -6> mark @BLWM_MARKS <anchor 565 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_tha] <anchor 527 690> mark @REPH_MARKS <anchor 315 -7> mark @HALN_MARKS <anchor 439 -3> mark @BLWM_MARKS <anchor 527 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ta] <anchor 407 690> mark @REPH_MARKS <anchor 278 0> mark @HALN_MARKS <anchor 392 0> mark @BLWM_MARKS <anchor 407 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_tta] <anchor 87 686> mark @REPH_MARKS <anchor 146 -65> mark @HALN_MARKS <anchor 241 -65> mark @BLWM_MARKS <anchor 138 799> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_ga] <anchor 348 690> mark @REPH_MARKS <anchor 389 -2> mark @HALN_MARKS <anchor 545 -3> mark @BLWM_MARKS <anchor 348 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ii] <anchor 274 804> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_pa] <anchor 856 690> mark @REPH_MARKS <anchor 737 -5> mark @HALN_MARKS <anchor 870 -8> mark @BLWM_MARKS <anchor 856 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_c_cha] <anchor 586 690> mark @REPH_MARKS <anchor 421 26> mark @HALN_MARKS <anchor 607 7> mark @BLWM_MARKS <anchor 586 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ga_ukaar] <anchor 452 690> mark @REPH_MARKS <anchor 452 690> mark @CHANDRABINDU_MARKS <anchor 315 -38> mark @HALN_MARKS;
+	position base [bn_m_bha] <anchor 359 690> mark @REPH_MARKS <anchor 232 -57> mark @HALN_MARKS <anchor 412 -57> mark @BLWM_MARKS <anchor 359 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ya] <anchor 399 690> mark @REPH_MARKS <anchor 147 0> mark @NUKT_MARKS <anchor 284 0> mark @HALN_MARKS <anchor 386 0> mark @BLWM_MARKS <anchor 399 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_ka] <anchor 350 690> mark @REPH_MARKS <anchor 279 -50> mark @HALN_MARKS <anchor 412 -51> mark @BLWM_MARKS <anchor 350 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_dda] <anchor 401 690> mark @REPH_MARKS <anchor 276 -12> mark @HALN_MARKS <anchor 418 -12> mark @BLWM_MARKS <anchor 401 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ddh_ra] <anchor 266 690> mark @REPH_MARKS <anchor 198 -223> mark @HALN_MARKS <anchor 302 -223> mark @BLWM_MARKS <anchor 266 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_tta] <anchor 489 718> mark @REPH_MARKS <anchor 379 -7> mark @HALN_MARKS <anchor 541 -7> mark @BLWM_MARKS <anchor 500 781> mark @CHANDRABINDU_MARKS;
+	position base [bn_c_ra] <anchor 294 690> mark @REPH_MARKS <anchor 210 -224> mark @HALN_MARKS <anchor 327 -221> mark @BLWM_MARKS <anchor 294 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_au] <anchor 540 804> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_pha] <anchor 477 690> mark @REPH_MARKS <anchor 448 -233> mark @HALN_MARKS <anchor 616 -234> mark @BLWM_MARKS <anchor 477 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_ba] <anchor 373 690> mark @REPH_MARKS <anchor 203 -112> mark @HALN_MARKS <anchor 311 -112> mark @BLWM_MARKS <anchor 373 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ai] <anchor 469 804> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ra] <anchor 428 690> mark @REPH_MARKS <anchor 312 -73> mark @HALN_MARKS <anchor 413 -73> mark @BLWM_MARKS <anchor 428 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_rra] <anchor 320 690> mark @REPH_MARKS <anchor 320 690> mark @CHANDRABINDU_MARKS <anchor 191 -145> mark @HALN_MARKS;
+	position base [bn_n_ma] <anchor 688 690> mark @REPH_MARKS <anchor 484 -203> mark @HALN_MARKS <anchor 752 -203> mark @BLWM_MARKS <anchor 688 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_o] <anchor 381 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_g_ra] <anchor 350 690> mark @REPH_MARKS <anchor 433 -231> mark @HALN_MARKS <anchor 570 -233> mark @BLWM_MARKS <anchor 350 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_aa] <anchor 474 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_rri] <anchor 596 690> mark @REPH_MARKS <anchor 468 1> mark @HALN_MARKS <anchor 618 4> mark @BLWM_MARKS <anchor 596 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_dd_ra] <anchor 422 690> mark @REPH_MARKS <anchor 310 -206> mark @HALN_MARKS <anchor 411 -205> mark @BLWM_MARKS <anchor 422 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_dd_ra] <anchor 341 690> mark @REPH_MARKS <anchor 272 -205> mark @HALN_MARKS <anchor 413 -209> mark @BLWM_MARKS <anchor 341 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_na] <anchor 486 690> mark @REPH_MARKS <anchor 356 -131> mark @HALN_MARKS <anchor 501 -134> mark @BLWM_MARKS <anchor 486 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_c_nya] <anchor 601 690> mark @REPH_MARKS <anchor 371 -233> mark @HALN_MARKS <anchor 476 -232> mark @BLWM_MARKS <anchor 602 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_bha] <anchor 308 690> mark @REPH_MARKS <anchor 370 -120> mark @NUKT_MARKS <anchor 250 0> mark @HALN_MARKS <anchor 379 -7> mark @BLWM_MARKS <anchor 308 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ba] <anchor 363 690> mark @REPH_MARKS <anchor 124 0> mark @NUKT_MARKS <anchor 265 0> mark @HALN_MARKS <anchor 357 -1> mark @BLWM_MARKS <anchor 363 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_pa] <anchor 845 690> mark @REPH_MARKS <anchor 754 -6> mark @HALN_MARKS <anchor 883 -10> mark @BLWM_MARKS <anchor 845 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_dha] <anchor 407 690> mark @REPH_MARKS <anchor 159 0> mark @NUKT_MARKS <anchor 262 0> mark @HALN_MARKS <anchor 373 0> mark @BLWM_MARKS <anchor 407 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_tta] <anchor 306 690> mark @REPH_MARKS <anchor 214 -92> mark @HALN_MARKS <anchor 327 -95> mark @BLWM_MARKS <anchor 362 806> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_bh_ra] <anchor 302 690> mark @REPH_MARKS <anchor 395 -242> mark @HALN_MARKS <anchor 542 -239> mark @BLWM_MARKS <anchor 302 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_c_ch_ba] <anchor 664 690> mark @REPH_MARKS <anchor 517 -229> mark @HALN_MARKS <anchor 626 -229> mark @BLWM_MARKS <anchor 664 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ny_ca] <anchor 363 690> mark @REPH_MARKS <anchor 191 -30> mark @HALN_MARKS <anchor 314 -29> mark @BLWM_MARKS <anchor 363 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_d_ba] <anchor 357 690> mark @REPH_MARKS <anchor 431 -230> mark @HALN_MARKS <anchor 568 -224> mark @BLWM_MARKS <anchor 357 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_j_jha] <anchor 1108 690> mark @REPH_MARKS <anchor 1018 -203> mark @HALN_MARKS <anchor 1142 -201> mark @BLWM_MARKS <anchor 1108 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_ra] <anchor 395 750> mark @REPH_MARKS <anchor 171 -1> mark @HALN_MARKS <anchor 366 -4> mark @BLWM_MARKS <anchor 395 750> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ss_ra] <anchor 617 690> mark @REPH_MARKS <anchor 459 -188> mark @HALN_MARKS <anchor 623 -196> mark @BLWM_MARKS <anchor 617 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_uu] <anchor 315 804> mark @CHANDRABINDU_MARKS;
+	position base [bn_kha] <anchor 459 690> mark @REPH_MARKS <anchor 171 0> mark @NUKT_MARKS <anchor 266 0> mark @HALN_MARKS <anchor 398 -3> mark @BLWM_MARKS <anchor 459 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_ga] <anchor 495 690> mark @REPH_MARKS <anchor 329 -139> mark @HALN_MARKS <anchor 474 -136> mark @BLWM_MARKS <anchor 495 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_la] <anchor 500 690> mark @REPH_MARKS <anchor 353 -124> mark @HALN_MARKS <anchor 473 -122> mark @BLWM_MARKS <anchor 500 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_t_ba] <anchor 396 690> mark @REPH_MARKS <anchor 314 -239> mark @HALN_MARKS <anchor 456 -237> mark @BLWM_MARKS <anchor 396 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_jha] <anchor 407 690> mark @REPH_MARKS <anchor 90 0> mark @NUKT_MARKS <anchor 234 0> mark @HALN_MARKS <anchor 330 -1> mark @BLWM_MARKS <anchor 407 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ja] <anchor 381 690> mark @REPH_MARKS <anchor 239 -120> mark @NUKT_MARKS <anchor 227 0> mark @HALN_MARKS <anchor 318 -3> mark @BLWM_MARKS <anchor 381 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_ba] <anchor 457 690> mark @REPH_MARKS <anchor 273 -60> mark @HALN_MARKS <anchor 421 -60> mark @BLWM_MARKS <anchor 457 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_ra] <anchor 388 690> mark @REPH_MARKS <anchor 271 -189> mark @HALN_MARKS <anchor 397 -189> mark @BLWM_MARKS <anchor 388 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ny_ra] <anchor 554 690> mark @REPH_MARKS <anchor 532 -241> mark @HALN_MARKS <anchor 672 -248> mark @BLWM_MARKS <anchor 554 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_dh_ra] <anchor 501 690> mark @REPH_MARKS <anchor 306 -233> mark @HALN_MARKS <anchor 479 -230> mark @BLWM_MARKS <anchor 501 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_la] <anchor 358 690> mark @REPH_MARKS <anchor 218 -207> mark @HALN_MARKS <anchor 363 -213> mark @BLWM_MARKS <anchor 358 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sha_ukaar] <anchor 477 690> mark @REPH_MARKS <anchor 467 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_ra] <anchor 450 690> mark @REPH_MARKS <anchor 291 -43> mark @HALN_MARKS <anchor 437 -46> mark @BLWM_MARKS <anchor 450 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_ba] <anchor 303 690> mark @REPH_MARKS <anchor 308 -223> mark @HALN_MARKS <anchor 425 -222> mark @BLWM_MARKS <anchor 303 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_tha] <anchor 443 690> mark @REPH_MARKS <anchor 159 0> mark @NUKT_MARKS <anchor 267 0> mark @HALN_MARKS <anchor 368 -3> mark @BLWM_MARKS <anchor 443 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_da] <anchor 365 690> mark @REPH_MARKS <anchor 442 -143> mark @HALN_MARKS <anchor 558 -141> mark @BLWM_MARKS <anchor 365 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_th_ra] <anchor 453 690> mark @REPH_MARKS <anchor 217 -83> mark @HALN_MARKS <anchor 365 -85> mark @BLWM_MARKS <anchor 453 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_ma] <anchor 523 690> mark @REPH_MARKS <anchor 535 -205> mark @HALN_MARKS <anchor 697 -200> mark @BLWM_MARKS <anchor 523 690> mark @CHANDRABINDU_MARKS;
+	position base [asa_ba_uukaar] <anchor 354 690> mark @REPH_MARKS <anchor 354 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_ra] <anchor 470 690> mark @REPH_MARKS <anchor 318 -27> mark @HALN_MARKS <anchor 481 -27> mark @BLWM_MARKS <anchor 470 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_pha] <anchor 620 690> mark @REPH_MARKS <anchor 478 -230> mark @HALN_MARKS <anchor 616 -234> mark @BLWM_MARKS <anchor 620 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_dh_ba] <anchor 479 690> mark @REPH_MARKS <anchor 335 -235> mark @HALN_MARKS <anchor 481 -232> mark @BLWM_MARKS <anchor 479 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_p_la] <anchor 859 690> mark @REPH_MARKS <anchor 739 -120> mark @HALN_MARKS <anchor 902 -123> mark @BLWM_MARKS <anchor 859 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_gh_ra] <anchor 942 690> mark @REPH_MARKS <anchor 788 -193> mark @HALN_MARKS <anchor 927 -188> mark @BLWM_MARKS <anchor 942 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_k_ra] <anchor 385 697> mark @REPH_MARKS <anchor 225 -190> mark @HALN_MARKS <anchor 321 -189> mark @BLWM_MARKS <anchor 385 697> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_da_uukaar] <anchor 365 690> mark @REPH_MARKS <anchor 365 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_la] <anchor 480 690> mark @REPH_MARKS <anchor 331 -143> mark @HALN_MARKS <anchor 485 -148> mark @BLWM_MARKS <anchor 480 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ra.alt01] <anchor 431 690> mark @REPH_MARKS <anchor 259 -197> mark @HALN_MARKS <anchor 395 -196> mark @BLWM_MARKS <anchor 431 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_da] <anchor 363 690> mark @REPH_MARKS <anchor 386 -43> mark @HALN_MARKS <anchor 551 -43> mark @BLWM_MARKS <anchor 363 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_cha] <anchor 244 690> mark @REPH_MARKS <anchor 118 -170> mark @NUKT_MARKS <anchor 100 0> mark @HALN_MARKS <anchor 300 0> mark @BLWM_MARKS <anchor 244 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_lli] <anchor 525 -204> mark @BLWM_MARKS;
+	position base [bn_ra_uukaar] <anchor 370 690> mark @REPH_MARKS <anchor 231 -5> mark @HALN_MARKS <anchor 360 -17> mark @BLWM_MARKS <anchor 370 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_kha] <anchor 798 690> mark @REPH_MARKS <anchor 552 -231> mark @HALN_MARKS <anchor 708 -234> mark @BLWM_MARKS <anchor 798 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_ma] <anchor 702 690> mark @REPH_MARKS <anchor 556 -77> mark @HALN_MARKS <anchor 727 -78> mark @BLWM_MARKS <anchor 702 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_t_ra] <anchor 320 690> mark @REPH_MARKS <anchor 267 -208> mark @HALN_MARKS <anchor 414 -208> mark @BLWM_MARKS <anchor 320 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_bh_ra_uukaar] <anchor 525 750> mark @REPH_MARKS <anchor 262 -70> mark @HALN_MARKS <anchor 414 -70> mark @BLWM_MARKS <anchor 525 750> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_ka] <anchor 476 690> mark @REPH_MARKS <anchor 314 -75> mark @HALN_MARKS <anchor 468 -75> mark @BLWM_MARKS <anchor 476 690> mark @CHANDRABINDU_MARKS;
+	position base [asa_ra] <anchor 262 690> mark @REPH_MARKS <anchor 135 0> mark @NUKT_MARKS <anchor 251 0> mark @HALN_MARKS <anchor 356 0> mark @BLWM_MARKS <anchor 262 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ca] <anchor 213 690> mark @REPH_MARKS <anchor 115 -120> mark @NUKT_MARKS <anchor 107 0> mark @HALN_MARKS <anchor 183 0> mark @BLWM_MARKS <anchor 213 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_th_ba] <anchor 441 690> mark @REPH_MARKS <anchor 217 -233> mark @HALN_MARKS <anchor 326 -237> mark @BLWM_MARKS <anchor 441 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_k_ss_ra] <anchor 1149 690> mark @REPH_MARKS <anchor 1031 -200> mark @HALN_MARKS <anchor 1146 -201> mark @BLWM_MARKS <anchor 1149 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_tta] <anchor 492 722> mark @REPH_MARKS <anchor 418 -7> mark @HALN_MARKS <anchor 542 -7> mark @BLWM_MARKS <anchor 506 781> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_ra_uukaar] <anchor 496 690> mark @REPH_MARKS <anchor 347 -25> mark @HALN_MARKS <anchor 469 -25> mark @BLWM_MARKS <anchor 496 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_dda] <anchor 388 690> mark @REPH_MARKS <anchor 322 -13> mark @HALN_MARKS <anchor 448 -13> mark @BLWM_MARKS <anchor 388 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_t_ba] <anchor 403 690> mark @REPH_MARKS <anchor 305 -234> mark @HALN_MARKS <anchor 449 -236> mark @BLWM_MARKS <anchor 403 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_yya] <anchor 286 690> mark @REPH_MARKS <anchor 272 0> mark @HALN_MARKS <anchor 388 -3> mark @BLWM_MARKS <anchor 286 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ra] <anchor 370 690> mark @REPH_MARKS <anchor 238 0> mark @HALN_MARKS <anchor 369 -3> mark @BLWM_MARKS;
+	position base [bn_k_ss_ma] <anchor 877 690> mark @REPH_MARKS <anchor 758 -197> mark @HALN_MARKS <anchor 893 -199> mark @BLWM_MARKS <anchor 877 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_dha] <anchor 488 690> mark @REPH_MARKS <anchor 347 -125> mark @HALN_MARKS <anchor 474 -121> mark @BLWM_MARKS <anchor 488 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_ra.alt01] <anchor 320 690> mark @REPH_MARKS <anchor 266 -175> mark @HALN_MARKS <anchor 390 -175> mark @BLWM_MARKS <anchor 320 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ri] <anchor 394 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ssa] <anchor 607 690> mark @REPH_MARKS <anchor 445 -53> mark @HALN_MARKS <anchor 591 -59> mark @BLWM_MARKS <anchor 607 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_tt_ra] <anchor 169 679> mark @REPH_MARKS <anchor 192 -219> mark @HALN_MARKS <anchor 302 -223> mark @BLWM_MARKS <anchor 282 803> mark @CHANDRABINDU_MARKS;
+	position base [bn_ka] <anchor 349 690> mark @REPH_MARKS <anchor 122 0> mark @NUKT_MARKS <anchor 251 -3> mark @HALN_MARKS <anchor 335 -5> mark @BLWM_MARKS <anchor 349 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_tha] <anchor 273 690> mark @REPH_MARKS <anchor 184 -121> mark @HALN_MARKS <anchor 347 -116> mark @BLWM_MARKS <anchor 273 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_dh_ra] <anchor 367 690> mark @REPH_MARKS <anchor 150 -234> mark @HALN_MARKS <anchor 276 -232> mark @BLWM_MARKS <anchor 367 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_ra] <anchor 313 690> mark @REPH_MARKS <anchor 358 -72> mark @HALN_MARKS <anchor 478 -70> mark @BLWM_MARKS <anchor 313 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_j_j_ba] <anchor 746 690> mark @REPH_MARKS <anchor 800 -237> mark @HALN_MARKS <anchor 932 -232> mark @BLWM_MARKS <anchor 746 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_gh_na] <anchor 405 690> mark @REPH_MARKS <anchor 273 -158> mark @HALN_MARKS <anchor 401 -161> mark @BLWM_MARKS <anchor 405 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_sa] <anchor 647 690> mark @REPH_MARKS <anchor 485 -3> mark @HALN_MARKS <anchor 641 -3> mark @BLWM_MARKS <anchor 647 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ny_cha] <anchor 352 690> mark @REPH_MARKS <anchor 139 -103> mark @HALN_MARKS <anchor 299 -121> mark @BLWM_MARKS <anchor 352 690> mark @CHANDRABINDU_MARKS;
+	position base [asa_ba_ukaar] <anchor 354 690> mark @REPH_MARKS <anchor 354 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_ma] <anchor 567 690> mark @REPH_MARKS <anchor 486 -202> mark @HALN_MARKS <anchor 625 -201> mark @BLWM_MARKS <anchor 567 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_pha] <anchor 360 690> mark @REPH_MARKS <anchor 157 0> mark @NUKT_MARKS <anchor 291 0> mark @HALN_MARKS <anchor 391 0> mark @BLWM_MARKS <anchor 360 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_ba] <anchor 451 690> mark @REPH_MARKS <anchor 290 -42> mark @HALN_MARKS <anchor 441 -44> mark @BLWM_MARKS <anchor 451 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_la] <anchor 478 690> mark @REPH_MARKS <anchor 344 -119> mark @HALN_MARKS <anchor 500 -123> mark @BLWM_MARKS <anchor 478 690> mark @CHANDRABINDU_MARKS;
+	position base [asa_ra_ukaar] <anchor 351 690> mark @REPH_MARKS <anchor 221 0> mark @HALN_MARKS <anchor 356 -3> mark @BLWM_MARKS <anchor 351 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ph_tta] <anchor 405 683> mark @REPH_MARKS <anchor 339 -233> mark @HALN_MARKS <anchor 518 -233> mark @BLWM_MARKS <anchor 454 789> mark @CHANDRABINDU_MARKS;
+	position base [bn_h_ra] <anchor 237 690> mark @REPH_MARKS <anchor 174 -221> mark @HALN_MARKS <anchor 341 -226> mark @BLWM_MARKS <anchor 237 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nna] <anchor 384 690> mark @REPH_MARKS <anchor 139 0> mark @NUKT_MARKS <anchor 193 0> mark @HALN_MARKS <anchor 313 -1> mark @BLWM_MARKS <anchor 387 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_ddha] <anchor 473 690> mark @REPH_MARKS <anchor 413 -4> mark @HALN_MARKS <anchor 499 -6> mark @BLWM_MARKS <anchor 473 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_p_ra] <anchor 837 750> mark @REPH_MARKS <anchor 688 -28> mark @HALN_MARKS <anchor 833 -31> mark @BLWM_MARKS <anchor 837 750> mark @CHANDRABINDU_MARKS;
+	position base [bn_nya] <anchor 414 690> mark @REPH_MARKS <anchor 291 -59> mark @NUKT_MARKS <anchor 377 0> mark @HALN_MARKS <anchor 459 -1> mark @BLWM_MARKS <anchor 491 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_ttha] <anchor 431 690> mark @REPH_MARKS <anchor 223 -5> mark @HALN_MARKS <anchor 332 -5> mark @BLWM_MARKS <anchor 503 692> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_ba] <anchor 700 690> mark @REPH_MARKS <anchor 582 -3> mark @HALN_MARKS <anchor 717 -6> mark @BLWM_MARKS <anchor 700 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ha_rikaar] <anchor 331 690> mark @REPH_MARKS <anchor 331 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_ma] <anchor 600 690> mark @REPH_MARKS <anchor 531 -203> mark @HALN_MARKS <anchor 678 -201> mark @BLWM_MARKS <anchor 599 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_pa] <anchor 443 690> mark @REPH_MARKS <anchor 301 -122> mark @HALN_MARKS <anchor 455 -129> mark @BLWM_MARKS <anchor 443 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_li] <anchor 258 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_ra] <anchor 465 690> mark @REPH_MARKS <anchor 294 -157> mark @HALN_MARKS <anchor 477 -161> mark @BLWM_MARKS <anchor 465 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_j_nya] <anchor 475 690> mark @REPH_MARKS <anchor 252 5> mark @HALN_MARKS <anchor 340 1> mark @BLWM_MARKS <anchor 475 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_ga] <anchor 471 690> mark @REPH_MARKS <anchor 359 -152> mark @HALN_MARKS <anchor 489 -151> mark @BLWM_MARKS <anchor 471 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_tta] <anchor 515 683> mark @REPH_MARKS <anchor 428 -7> mark @HALN_MARKS <anchor 569 -7> mark @BLWM_MARKS <anchor 526 780> mark @CHANDRABINDU_MARKS;
+	position base [bn_la] <anchor 484 690> mark @REPH_MARKS <anchor 281 0> mark @NUKT_MARKS <anchor 363 0> mark @HALN_MARKS <anchor 459 -3> mark @BLWM_MARKS <anchor 484 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_ka] <anchor 351 690> mark @REPH_MARKS <anchor 226 -75> mark @HALN_MARKS <anchor 339 -76> mark @BLWM_MARKS <anchor 351 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_tta] <anchor 233 686> mark @REPH_MARKS <anchor 256 -67> mark @HALN_MARKS <anchor 364 -67> mark @BLWM_MARKS <anchor 285 816> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_ca] <anchor 458 690> mark @REPH_MARKS <anchor 422 -6> mark @HALN_MARKS <anchor 544 -6> mark @BLWM_MARKS <anchor 458 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_dh_ra_uukaar] <anchor 404 690> mark @REPH_MARKS <anchor 278 -94> mark @HALN_MARKS <anchor 393 -94> mark @BLWM_MARKS <anchor 404 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_h_ma] <anchor 490 690> mark @REPH_MARKS <anchor 468 -200> mark @HALN_MARKS <anchor 680 -205> mark @BLWM_MARKS <anchor 490 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_gha] <anchor 291 690> mark @REPH_MARKS <anchor 134 0> mark @NUKT_MARKS <anchor 243 0> mark @HALN_MARKS <anchor 384 0> mark @BLWM_MARKS <anchor 291 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_ba] <anchor 409 690> mark @REPH_MARKS <anchor 253 -121> mark @HALN_MARKS <anchor 395 -121> mark @BLWM_MARKS <anchor 409 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_dh_ba] <anchor 361 690> mark @REPH_MARKS <anchor 266 -250> mark @HALN_MARKS <anchor 389 -250> mark @BLWM_MARKS <anchor 361 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_kh_ba] <anchor 486 690> mark @REPH_MARKS <anchor 204 -220> mark @HALN_MARKS <anchor 330 -221> mark @BLWM_MARKS <anchor 486 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_dda.alt01] <anchor 445 690> mark @REPH_MARKS <anchor 285 -8> mark @HALN_MARKS <anchor 408 -12> mark @BLWM_MARKS <anchor 445 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_ra] <anchor 400 700> mark @REPH_MARKS <anchor 242 -190> mark @HALN_MARKS <anchor 363 -193> mark @BLWM_MARKS <anchor 400 700> mark @CHANDRABINDU_MARKS;
+	position base [bn_th_ra_uukaar] <anchor 456 690> mark @REPH_MARKS <anchor 258 -88> mark @HALN_MARKS <anchor 365 -86> mark @BLWM_MARKS <anchor 456 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_ja] <anchor 326 690> mark @REPH_MARKS <anchor 438 0> mark @HALN_MARKS <anchor 605 0> mark @BLWM_MARKS <anchor 326 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_la] <anchor 442 690> mark @REPH_MARKS <anchor 286 -206> mark @HALN_MARKS <anchor 422 -202> mark @BLWM_MARKS <anchor 442 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_ba] <anchor 359 690> mark @REPH_MARKS <anchor 217 -104> mark @HALN_MARKS <anchor 314 -104> mark @BLWM_MARKS <anchor 359 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_da] <anchor 261 690> mark @REPH_MARKS <anchor 166 0> mark @NUKT_MARKS <anchor 237 0> mark @HALN_MARKS <anchor 385 0> mark @BLWM_MARKS <anchor 258 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_na] <anchor 308 690> mark @REPH_MARKS <anchor 368 -160> mark @HALN_MARKS <anchor 500 -160> mark @BLWM_MARKS <anchor 308 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_ga_ukaar] <anchor 418 690> mark @REPH_MARKS <anchor 418 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ch_ra] <anchor 311 690> mark @REPH_MARKS <anchor 212 -223> mark @HALN_MARKS <anchor 305 -225> mark @BLWM_MARKS <anchor 311 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_ra_ukaar] <anchor 393 690> mark @REPH_MARKS <anchor 377 -72> mark @HALN_MARKS <anchor 489 -73> mark @BLWM_MARKS <anchor 393 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_bha] <anchor 470 690> mark @REPH_MARKS <anchor 238 -240> mark @HALN_MARKS <anchor 434 -240> mark @BLWM_MARKS <anchor 470 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_ra_uukaar] <anchor 470 690> mark @REPH_MARKS <anchor 352 -28> mark @HALN_MARKS <anchor 474 -29> mark @BLWM_MARKS <anchor 470 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_gha] <anchor 944 690> mark @REPH_MARKS <anchor 779 0> mark @HALN_MARKS <anchor 910 0> mark @BLWM_MARKS <anchor 944 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sh_cha] <anchor 460 690> mark @REPH_MARKS <anchor 552 -88> mark @HALN_MARKS <anchor 712 -45> mark @BLWM_MARKS <anchor 460 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_j_ja] <anchor 712 690> mark @REPH_MARKS <anchor 790 -106> mark @HALN_MARKS <anchor 920 -106> mark @BLWM_MARKS <anchor 712 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_tt_ra] <anchor 237 686> mark @REPH_MARKS <anchor 327 -249> mark @HALN_MARKS <anchor 459 -251> mark @BLWM_MARKS <anchor 285 815> mark @CHANDRABINDU_MARKS;
+	position base [bn_tth_ra] <anchor 274 683> mark @REPH_MARKS <anchor 202 -220> mark @HALN_MARKS <anchor 298 -221> mark @BLWM_MARKS <anchor 414 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ta] <anchor 292 690> mark @REPH_MARKS <anchor 325 -120> mark @NUKT_MARKS <anchor 239 0> mark @HALN_MARKS <anchor 350 -3> mark @BLWM_MARKS <anchor 292 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_t_ra] <anchor 323 690> mark @REPH_MARKS <anchor 352 -204> mark @HALN_MARKS <anchor 452 -205> mark @BLWM_MARKS <anchor 323 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ch_ba] <anchor 310 690> mark @REPH_MARKS <anchor 200 -228> mark @HALN_MARKS <anchor 312 -228> mark @BLWM_MARKS <anchor 310 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_ba] <anchor 323 690> mark @REPH_MARKS <anchor 226 -75> mark @HALN_MARKS <anchor 339 -76> mark @BLWM_MARKS <anchor 323 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ma] <anchor 410 690> mark @REPH_MARKS <anchor 220 0> mark @NUKT_MARKS <anchor 304 0> mark @HALN_MARKS <anchor 402 3> mark @BLWM_MARKS <anchor 410 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_sa] <anchor 658 750> mark @REPH_MARKS <anchor 317 0> mark @HALN_MARKS <anchor 505 -1> mark @BLWM_MARKS <anchor 658 750> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_tta] <anchor 404 676> mark @REPH_MARKS <anchor 358 -8> mark @HALN_MARKS <anchor 457 -9> mark @BLWM_MARKS <anchor 482 802> mark @CHANDRABINDU_MARKS;
+	position base [bn_dh_ba] <anchor 756 690> mark @REPH_MARKS <anchor 625 0> mark @HALN_MARKS <anchor 746 -3> mark @BLWM_MARKS <anchor 756 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_tt_ba] <anchor 183 679> mark @REPH_MARKS <anchor 144 -215> mark @HALN_MARKS <anchor 274 -218> mark @BLWM_MARKS <anchor 277 806> mark @CHANDRABINDU_MARKS;
+	position base [bn_ny_ja] <anchor 436 690> mark @REPH_MARKS <anchor 229 -233> mark @HALN_MARKS <anchor 342 -235> mark @BLWM_MARKS <anchor 436 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_pha] <anchor 533 690> mark @REPH_MARKS <anchor 443 -233> mark @HALN_MARKS <anchor 616 -233> mark @BLWM_MARKS <anchor 533 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ny_jha] <anchor 538 690> mark @REPH_MARKS <anchor 349 -230> mark @HALN_MARKS <anchor 482 -234> mark @BLWM_MARKS <anchor 538 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_la] <anchor 467 690> mark @REPH_MARKS <anchor 315 -121> mark @HALN_MARKS <anchor 472 -122> mark @BLWM_MARKS <anchor 467 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_h_la] <anchor 255 690> mark @REPH_MARKS <anchor 216 -236> mark @HALN_MARKS <anchor 379 -239> mark @BLWM_MARKS <anchor 255 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_ra_uukaar] <anchor 408 690> mark @REPH_MARKS <anchor 351 -73> mark @HALN_MARKS <anchor 487 -75> mark @BLWM_MARKS <anchor 408 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_na] <anchor 471 690> mark @REPH_MARKS <anchor 332 -133> mark @HALN_MARKS <anchor 473 -136> mark @BLWM_MARKS <anchor 471 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_na] <anchor 332 690> mark @REPH_MARKS <anchor 320 -53> mark @HALN_MARKS <anchor 443 -54> mark @BLWM_MARKS <anchor 332 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_jh_ra] <anchor 532 690> mark @REPH_MARKS <anchor 222 -220> mark @HALN_MARKS <anchor 357 -219> mark @BLWM_MARKS <anchor 532 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ma] <anchor 575 690> mark @REPH_MARKS <anchor 500 -194> mark @HALN_MARKS <anchor 622 -194> mark @BLWM_MARKS <anchor 575 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_pha] <anchor 488 690> mark @REPH_MARKS <anchor 406 -233> mark @HALN_MARKS <anchor 616 -234> mark @BLWM_MARKS <anchor 488 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_tt_tta] <anchor 197 679> mark @REPH_MARKS <anchor 158 -179> mark @HALN_MARKS <anchor 273 -184> mark @BLWM_MARKS <anchor 268 801> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_ta] <anchor 389 690> mark @REPH_MARKS <anchor 354 -52> mark @HALN_MARKS <anchor 488 -53> mark @BLWM_MARKS <anchor 389 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_j_ba] <anchor 428 690> mark @REPH_MARKS <anchor 487 -127> mark @HALN_MARKS <anchor 635 -128> mark @BLWM_MARKS <anchor 428 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_b_ra] <anchor 455 690> mark @REPH_MARKS <anchor 282 -237> mark @HALN_MARKS <anchor 444 -225> mark @BLWM_MARKS <anchor 455 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ph_ra] <anchor 394 690> mark @REPH_MARKS <anchor 260 -188> mark @HALN_MARKS <anchor 412 -188> mark @BLWM_MARKS <anchor 394 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_na] <anchor 363 690> mark @REPH_MARKS <anchor 226 -146> mark @HALN_MARKS <anchor 353 -143> mark @BLWM_MARKS <anchor 363 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_kh_ra] <anchor 496 690> mark @REPH_MARKS <anchor 179 -221> mark @HALN_MARKS <anchor 321 -220> mark @BLWM_MARKS <anchor 496 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_ma] <anchor 708 690> mark @REPH_MARKS <anchor 573 -205> mark @HALN_MARKS <anchor 746 -205> mark @BLWM_MARKS <anchor 708 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_h_nna] <anchor 331 690> mark @REPH_MARKS <anchor 121 24> mark @HALN_MARKS <anchor 269 29> mark @BLWM_MARKS <anchor 331 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_na] <anchor 469 690> mark @REPH_MARKS <anchor 352 -135> mark @HALN_MARKS <anchor 471 -137> mark @BLWM_MARKS <anchor 469 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_c_ch_ra] <anchor 620 690> mark @REPH_MARKS <anchor 513 -222> mark @HALN_MARKS <anchor 622 -224> mark @BLWM_MARKS <anchor 620 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_ra_uukaar] <anchor 469 690> mark @REPH_MARKS <anchor 313 -26> mark @HALN_MARKS <anchor 469 -26> mark @BLWM_MARKS <anchor 469 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_la] <anchor 452 690> mark @REPH_MARKS <anchor 286 -40> mark @HALN_MARKS <anchor 445 -43> mark @BLWM_MARKS <anchor 452 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ss_ba] <anchor 605 690> mark @REPH_MARKS <anchor 447 -221> mark @HALN_MARKS <anchor 620 -217> mark @BLWM_MARKS <anchor 605 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_ra] <anchor 465 690> mark @REPH_MARKS <anchor 291 -25> mark @HALN_MARKS <anchor 470 -24> mark @BLWM_MARKS <anchor 465 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ba] <anchor 356 690> mark @REPH_MARKS <anchor 226 -74> mark @HALN_MARKS <anchor 339 -75> mark @BLWM_MARKS <anchor 356 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_rr_ga] <anchor 893 690> mark @REPH_MARKS <anchor 733 -8> mark @HALN_MARKS <anchor 869 -15> mark @BLWM_MARKS <anchor 893 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_k_ssa] <anchor 1132 690> mark @REPH_MARKS <anchor 1001 -64> mark @HALN_MARKS <anchor 1118 -60> mark @BLWM_MARKS <anchor 1132 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_gha] <anchor 810 690> mark @REPH_MARKS <anchor 677 0> mark @HALN_MARKS <anchor 799 -4> mark @BLWM_MARKS <anchor 810 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_tha] <anchor 328 690> mark @REPH_MARKS <anchor 176 -94> mark @HALN_MARKS <anchor 320 -105> mark @BLWM_MARKS <anchor 328 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_ra_ukaar] <anchor 425 690> mark @REPH_MARKS <anchor 304 -65> mark @HALN_MARKS <anchor 409 -66> mark @BLWM_MARKS <anchor 425 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_dha] <anchor 344 690> mark @REPH_MARKS <anchor 257 -108> mark @HALN_MARKS <anchor 353 -110> mark @BLWM_MARKS <anchor 344 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_da_ukaar] <anchor 369 690> mark @REPH_MARKS <anchor 369 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_nn_dda] <anchor 452 690> mark @REPH_MARKS <anchor 375 -48> mark @HALN_MARKS <anchor 476 -48> mark @BLWM_MARKS <anchor 452 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_ttha] <anchor 322 684> mark @REPH_MARKS <anchor 222 -42> mark @HALN_MARKS <anchor 310 -42> mark @BLWM_MARKS <anchor 474 659> mark @CHANDRABINDU_MARKS;
+	position base [bn_c_ca] <anchor 410 690> mark @REPH_MARKS <anchor 397 -4> mark @HALN_MARKS <anchor 525 -7> mark @BLWM_MARKS <anchor 410 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_ra] <anchor 496 690> mark @REPH_MARKS <anchor 346 -21> mark @HALN_MARKS <anchor 468 -24> mark @BLWM_MARKS <anchor 496 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_ma] <anchor 670 690> mark @REPH_MARKS <anchor 540 -77> mark @HALN_MARKS <anchor 726 -78> mark @BLWM_MARKS <anchor 670 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ha_ukaar] <anchor 239 690> mark @REPH_MARKS <anchor 239 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_pa] <anchor 467 690> mark @REPH_MARKS <anchor 348 -151> mark @HALN_MARKS <anchor 487 -158> mark @BLWM_MARKS <anchor 467 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_t_ba] <anchor 333 690> mark @REPH_MARKS <anchor 304 -239> mark @HALN_MARKS <anchor 448 -236> mark @BLWM_MARKS <anchor 333 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_h_na] <anchor 234 690> mark @REPH_MARKS <anchor 185 -240> mark @HALN_MARKS <anchor 328 -240> mark @BLWM_MARKS <anchor 234 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_bh_la] <anchor 444 690> mark @REPH_MARKS <anchor 271 -84> mark @HALN_MARKS <anchor 404 -89> mark @BLWM_MARKS <anchor 442 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_la] <anchor 410 690> mark @REPH_MARKS <anchor 273 -37> mark @HALN_MARKS <anchor 444 -43> mark @BLWM_MARKS <anchor 410 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_na] <anchor 305 690> mark @REPH_MARKS <anchor 297 -238> mark @HALN_MARKS <anchor 432 -242> mark @BLWM_MARKS <anchor 305 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_th_la] <anchor 456 690> mark @REPH_MARKS <anchor 235 -239> mark @HALN_MARKS <anchor 355 -238> mark @BLWM_MARKS <anchor 456 690> mark @CHANDRABINDU_MARKS;
+	position base [asa_ra_uukaar] <anchor 358 690> mark @REPH_MARKS <anchor 221 0> mark @HALN_MARKS <anchor 357 -4> mark @BLWM_MARKS <anchor 358 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ga] <anchor 390 690> mark @REPH_MARKS <anchor 158 0> mark @NUKT_MARKS <anchor 212 -3> mark @HALN_MARKS <anchor 337 -3> mark @BLWM_MARKS <anchor 390 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_ttha] <anchor 347 681> mark @REPH_MARKS <anchor 197 -36> mark @HALN_MARKS <anchor 320 -36> mark @BLWM_MARKS <anchor 465 691> mark @CHANDRABINDU_MARKS;
+	position base [bn_ng_ka] <anchor 415 697> mark @REPH_MARKS <anchor 227 -82> mark @HALN_MARKS <anchor 337 -82> mark @BLWM_MARKS <anchor 415 697> mark @CHANDRABINDU_MARKS;
+	position base [bn_rha] <anchor 245 690> mark @REPH_MARKS <anchor 245 690> mark @CHANDRABINDU_MARKS <anchor 112 -173> mark @HALN_MARKS;
+	position base [bn_s_k_ba] <anchor 392 690> mark @REPH_MARKS <anchor 275 -232> mark @HALN_MARKS <anchor 386 -234> mark @BLWM_MARKS <anchor 392 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_sa] <anchor 591 690> mark @REPH_MARKS <anchor 486 -180> mark @HALN_MARKS <anchor 622 -189> mark @BLWM_MARKS <anchor 591 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_a] <anchor 341 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_e] <anchor 378 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_ra_ukaar] <anchor 481 690> mark @REPH_MARKS <anchor 342 -26> mark @HALN_MARKS <anchor 482 -29> mark @BLWM_MARKS <anchor 481 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_i] <anchor 204 804> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_ra] <anchor 339 690> mark @REPH_MARKS <anchor 299 -67> mark @HALN_MARKS <anchor 411 -67> mark @BLWM_MARKS <anchor 339 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_dh_ra_ukaar] <anchor 399 690> mark @REPH_MARKS <anchor 276 -95> mark @HALN_MARKS <anchor 391 -96> mark @BLWM_MARKS <anchor 399 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_dha] <anchor 377 690> mark @REPH_MARKS <anchor 226 -105> mark @HALN_MARKS <anchor 313 -105> mark @BLWM_MARKS <anchor 377 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_th_ra_ukaar] <anchor 460 690> mark @REPH_MARKS <anchor 246 -84> mark @HALN_MARKS <anchor 364 -84> mark @BLWM_MARKS <anchor 460 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_gh_ra] <anchor 408 690> mark @REPH_MARKS <anchor 295 -189> mark @HALN_MARKS <anchor 402 -184> mark @BLWM_MARKS <anchor 408 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_ta] <anchor 331 690> mark @REPH_MARKS <anchor 298 -55> mark @HALN_MARKS <anchor 461 -55> mark @BLWM_MARKS <anchor 331 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_k_ra] <anchor 471 690> mark @REPH_MARKS <anchor 317 -204> mark @HALN_MARKS <anchor 456 -206> mark @BLWM_MARKS <anchor 471 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_h_yya] <anchor 359 690> mark @REPH_MARKS <anchor 179 -51> mark @HALN_MARKS <anchor 368 -41> mark @BLWM_MARKS <anchor 359 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_tta] <anchor 404 686> mark @REPH_MARKS <anchor 336 -7> mark @HALN_MARKS <anchor 470 -7> mark @BLWM_MARKS <anchor 459 800> mark @CHANDRABINDU_MARKS;
+	position base [bn_m_na] <anchor 456 690> mark @REPH_MARKS <anchor 333 -40> mark @HALN_MARKS <anchor 443 -48> mark @BLWM_MARKS <anchor 456 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_na] <anchor 383 690> mark @REPH_MARKS <anchor 186 -7> mark @NUKT_MARKS <anchor 279 0> mark @HALN_MARKS <anchor 365 -1> mark @BLWM_MARKS <anchor 383 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_dd_ra] <anchor 413 690> mark @REPH_MARKS <anchor 293 -205> mark @HALN_MARKS <anchor 416 -207> mark @BLWM_MARKS <anchor 413 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_na] <anchor 393 690> mark @REPH_MARKS <anchor 272 -159> mark @HALN_MARKS <anchor 377 -163> mark @BLWM_MARKS <anchor 393 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_dha] <anchor 375 750> mark @REPH_MARKS <anchor 204 -112> mark @HALN_MARKS <anchor 313 -113> mark @BLWM_MARKS <anchor 375 750> mark @CHANDRABINDU_MARKS;
+	position base [bn_tta] <anchor 181 683> mark @REPH_MARKS <anchor 202 -120> mark @NUKT_MARKS <anchor 104 0> mark @HALN_MARKS <anchor 212 -3> mark @BLWM_MARKS <anchor 220 811> mark @CHANDRABINDU_MARKS;
+	position base [bn_gh_ba] <anchor 410 690> mark @REPH_MARKS <anchor 275 -198> mark @HALN_MARKS <anchor 404 -200> mark @BLWM_MARKS <anchor 410 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_y_ra] <anchor 390 690> mark @REPH_MARKS <anchor 243 -186> mark @HALN_MARKS <anchor 399 -189> mark @BLWM_MARKS <anchor 390 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_ra_uukaar] <anchor 470 690> mark @REPH_MARKS <anchor 356 -27> mark @HALN_MARKS <anchor 480 -30> mark @BLWM_MARKS <anchor 470 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_dh_ra] <anchor 390 690> mark @REPH_MARKS <anchor 284 -98> mark @HALN_MARKS <anchor 391 -95> mark @BLWM_MARKS <anchor 390 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_d_ba] <anchor 364 690> mark @REPH_MARKS <anchor 440 -227> mark @HALN_MARKS <anchor 566 -224> mark @BLWM_MARKS <anchor 364 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_k_ra] <anchor 488 690> mark @REPH_MARKS <anchor 318 -205> mark @HALN_MARKS <anchor 455 -205> mark @BLWM_MARKS <anchor 488 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_u] <anchor 291 804> mark @CHANDRABINDU_MARKS;
+	position base [bn_p_ra_ukaar] <anchor 473 690> mark @REPH_MARKS <anchor 305 -28> mark @HALN_MARKS <anchor 463 -30> mark @BLWM_MARKS <anchor 473 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_g_da] <anchor 526 690> mark @REPH_MARKS <anchor 595 0> mark @HALN_MARKS <anchor 720 0> mark @BLWM_MARKS <anchor 526 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_t_ra] <anchor 326 690> mark @REPH_MARKS <anchor 349 -202> mark @HALN_MARKS <anchor 472 -204> mark @BLWM_MARKS <anchor 326 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_bh_ra_ukaar] <anchor 440 690> mark @REPH_MARKS <anchor 264 -71> mark @HALN_MARKS <anchor 412 -71> mark @BLWM_MARKS <anchor 440 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_bha] <anchor 320 690> mark @REPH_MARKS <anchor 259 -250> mark @HALN_MARKS <anchor 387 -250> mark @BLWM_MARKS <anchor 320 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ss_tt_ra] <anchor 120 683> mark @REPH_MARKS <anchor 251 -226> mark @HALN_MARKS <anchor 392 -228> mark @BLWM_MARKS <anchor 160 804> mark @CHANDRABINDU_MARKS;
+	position base [bn_da_uukaar] <anchor 263 690> mark @REPH_MARKS <anchor 263 690> mark @CHANDRABINDU_MARKS <anchor 168 -250> mark @HALN_MARKS;
+	position base [bn_ra_ukaar] <anchor 371 690> mark @REPH_MARKS <anchor 225 -23> mark @HALN_MARKS <anchor 361 -23> mark @BLWM_MARKS <anchor 371 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_bh_ra] <anchor 440 690> mark @REPH_MARKS <anchor 257 -70> mark @HALN_MARKS <anchor 415 -70> mark @BLWM_MARKS <anchor 440 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_ka] <anchor 364 690> mark @REPH_MARKS <anchor 220 -71> mark @HALN_MARKS <anchor 340 -71> mark @BLWM_MARKS <anchor 364 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_h_ba] <anchor 234 690> mark @REPH_MARKS <anchor 199 -230> mark @HALN_MARKS <anchor 329 -231> mark @BLWM_MARKS <anchor 234 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_n_tt_ra] <anchor 388 686> mark @REPH_MARKS <anchor 411 -239> mark @HALN_MARKS <anchor 544 -235> mark @BLWM_MARKS <anchor 451 802> mark @CHANDRABINDU_MARKS;
+	position base [bn_t_ma] <anchor 538 690> mark @REPH_MARKS <anchor 608 -204> mark @HALN_MARKS <anchor 753 -202> mark @BLWM_MARKS <anchor 538 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_d_ga] <anchor 825 690> mark @REPH_MARKS <anchor 634 -2> mark @HALN_MARKS <anchor 781 -7> mark @BLWM_MARKS <anchor 825 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_k_t_ba] <anchor 405 690> mark @REPH_MARKS <anchor 405 690> mark @CHANDRABINDU_MARKS <anchor 281 -250> mark @HALN_MARKS;
+	position base [bn_ss_nna] <anchor 393 690> mark @REPH_MARKS <anchor 272 -5> mark @HALN_MARKS <anchor 386 -8> mark @BLWM_MARKS <anchor 393 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_ra] <anchor 369 690> mark @REPH_MARKS <anchor 193 -197> mark @HALN_MARKS <anchor 361 -200> mark @BLWM_MARKS <anchor 369 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_ta_ukaar] <anchor 338 690> mark @REPH_MARKS <anchor 338 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_l_da] <anchor 406 690> mark @REPH_MARKS <anchor 479 -51> mark @HALN_MARKS <anchor 631 -41> mark @BLWM_MARKS <anchor 406 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_sha] <anchor 487 690> mark @REPH_MARKS <anchor 173 0> mark @NUKT_MARKS <anchor 282 0> mark @HALN_MARKS <anchor 400 0> mark @BLWM_MARKS <anchor 487 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_dda] <anchor 319 690> mark @REPH_MARKS <anchor 316 -120> mark @NUKT_MARKS <anchor 225 0> mark @HALN_MARKS <anchor 348 -3> mark @BLWM_MARKS <anchor 319 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_ph_la] <anchor 393 690> mark @REPH_MARKS <anchor 260 -198> mark @HALN_MARKS <anchor 414 -203> mark @BLWM_MARKS <anchor 393 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_s_p_ra] <anchor 866 690> mark @REPH_MARKS <anchor 791 -28> mark @HALN_MARKS <anchor 965 -29> mark @BLWM_MARKS <anchor 866 690> mark @CHANDRABINDU_MARKS;
+	position base [bn_b_ra_ukaar] <anchor 366 690> mark @REPH_MARKS <anchor 211 -199> mark @HALN_MARKS <anchor 359 -200> mark @BLWM_MARKS <anchor 366 690> mark @CHANDRABINDU_MARKS;
+} blwm;
