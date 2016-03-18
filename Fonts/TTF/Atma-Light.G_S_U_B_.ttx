@@ -1,0 +1,2937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont ttLibVersion="3.0">
+
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <!-- ScriptCount=3 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="DFLT"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=10 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="3"/>
+            <FeatureIndex index="2" value="6"/>
+            <FeatureIndex index="3" value="9"/>
+            <FeatureIndex index="4" value="12"/>
+            <FeatureIndex index="5" value="15"/>
+            <FeatureIndex index="6" value="18"/>
+            <FeatureIndex index="7" value="21"/>
+            <FeatureIndex index="8" value="24"/>
+            <FeatureIndex index="9" value="27"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="1">
+        <ScriptTag value="beng"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=10 -->
+            <FeatureIndex index="0" value="1"/>
+            <FeatureIndex index="1" value="4"/>
+            <FeatureIndex index="2" value="7"/>
+            <FeatureIndex index="3" value="10"/>
+            <FeatureIndex index="4" value="13"/>
+            <FeatureIndex index="5" value="16"/>
+            <FeatureIndex index="6" value="19"/>
+            <FeatureIndex index="7" value="22"/>
+            <FeatureIndex index="8" value="25"/>
+            <FeatureIndex index="9" value="28"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="2">
+        <ScriptTag value="bng2"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=10 -->
+            <FeatureIndex index="0" value="2"/>
+            <FeatureIndex index="1" value="5"/>
+            <FeatureIndex index="2" value="8"/>
+            <FeatureIndex index="3" value="11"/>
+            <FeatureIndex index="4" value="14"/>
+            <FeatureIndex index="5" value="17"/>
+            <FeatureIndex index="6" value="20"/>
+            <FeatureIndex index="7" value="23"/>
+            <FeatureIndex index="8" value="26"/>
+            <FeatureIndex index="9" value="29"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=30 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="akhn"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="10"/>
+          <LookupListIndex index="1" value="11"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="1">
+        <FeatureTag value="akhn"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="10"/>
+          <LookupListIndex index="1" value="11"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="2">
+        <FeatureTag value="akhn"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="10"/>
+          <LookupListIndex index="1" value="11"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="3">
+        <FeatureTag value="blwf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="4">
+        <FeatureTag value="blwf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="1"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="5">
+        <FeatureTag value="blwf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="6">
+        <FeatureTag value="half"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="14"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="7">
+        <FeatureTag value="half"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="14"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="8">
+        <FeatureTag value="half"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="14"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="9">
+        <FeatureTag value="init"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="10">
+        <FeatureTag value="init"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="11">
+        <FeatureTag value="init"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="12">
+        <FeatureTag value="nukt"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="13">
+        <FeatureTag value="nukt"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="14">
+        <FeatureTag value="nukt"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="15">
+        <FeatureTag value="pres"/>
+        <Feature>
+          <!-- LookupCount=7 -->
+          <LookupListIndex index="0" value="15"/>
+          <LookupListIndex index="1" value="16"/>
+          <LookupListIndex index="2" value="17"/>
+          <LookupListIndex index="3" value="18"/>
+          <LookupListIndex index="4" value="19"/>
+          <LookupListIndex index="5" value="20"/>
+          <LookupListIndex index="6" value="21"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="16">
+        <FeatureTag value="pres"/>
+        <Feature>
+          <!-- LookupCount=7 -->
+          <LookupListIndex index="0" value="15"/>
+          <LookupListIndex index="1" value="16"/>
+          <LookupListIndex index="2" value="17"/>
+          <LookupListIndex index="3" value="18"/>
+          <LookupListIndex index="4" value="19"/>
+          <LookupListIndex index="5" value="20"/>
+          <LookupListIndex index="6" value="21"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="17">
+        <FeatureTag value="pres"/>
+        <Feature>
+          <!-- LookupCount=7 -->
+          <LookupListIndex index="0" value="15"/>
+          <LookupListIndex index="1" value="16"/>
+          <LookupListIndex index="2" value="17"/>
+          <LookupListIndex index="3" value="18"/>
+          <LookupListIndex index="4" value="19"/>
+          <LookupListIndex index="5" value="20"/>
+          <LookupListIndex index="6" value="21"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="18">
+        <FeatureTag value="pstf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="2"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="19">
+        <FeatureTag value="pstf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="3"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="20">
+        <FeatureTag value="pstf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="2"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="21">
+        <FeatureTag value="psts"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="22"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="22">
+        <FeatureTag value="psts"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="22"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="23">
+        <FeatureTag value="psts"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="22"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="24">
+        <FeatureTag value="rphf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="12"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="25">
+        <FeatureTag value="rphf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="12"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="26">
+        <FeatureTag value="rphf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="12"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="27">
+        <FeatureTag value="ss01"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="23"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="28">
+        <FeatureTag value="ss01"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="23"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="29">
+        <FeatureTag value="ss01"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="23"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=35 -->
+      <Lookup index="0">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="bn_halanth">
+            <Ligature components="bn_ba" glyph="bn_ba_phala"/>
+            <Ligature components="bn_ra" glyph="bn_ra_phala"/>
+            <Ligature components="asa_ra" glyph="bn_ra_phala"/>
+            <Ligature components="asa_ba" glyph="bn_ba_phala"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="1">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="asa_ba">
+            <Ligature components="bn_halanth" glyph="bn_ba_phala"/>
+          </LigatureSet>
+          <LigatureSet glyph="asa_ra">
+            <Ligature components="bn_halanth" glyph="bn_ra_phala"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ba">
+            <Ligature components="bn_halanth" glyph="bn_ba_phala"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ra">
+            <Ligature components="bn_halanth" glyph="bn_ra_phala"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="2">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="bn_halanth">
+            <Ligature components="bn_ya" glyph="bn_ya_phala"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="3">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="bn_ya">
+            <Ligature components="bn_halanth" glyph="bn_ya_phala"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="4">
+        <!-- LookupType=6 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=2 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_ukaar"/>
+            <Glyph value="bn_uukaar"/>
+            <Glyph value="bn_rikaar"/>
+            <Glyph value="bn_rrikaar"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="bn_ba_phala"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="24"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_ukaar"/>
+            <Glyph value="bn_uukaar"/>
+            <Glyph value="bn_rikaar"/>
+            <Glyph value="bn_rrikaar"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="bn_ra_phala"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="25"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="5">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="bn_ba_phala" out="bn_ukaar"/>
+          <Substitution in="bn_ra_phala" out="bn_ukaar"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="6">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="bn_ba_phala" out="bn_uukaar"/>
+          <Substitution in="bn_ra_phala" out="bn_uukaar"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="7">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="bn_ba_phala" out="bn_rikaar"/>
+          <Substitution in="bn_ra_phala" out="bn_rikaar"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="8">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="bn_ba_phala" out="bn_rrikaar"/>
+          <Substitution in="bn_ra_phala" out="bn_rrikaar"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="9">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="bn_dda">
+            <Ligature components="bn_nukta" glyph="bn_rra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ddha">
+            <Ligature components="bn_nukta" glyph="bn_rha"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ya">
+            <Ligature components="bn_nukta" glyph="bn_yya"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="10">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="bn_ja">
+            <Ligature components="bn_halanth,bn_nya" glyph="bn_j_nya"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ka">
+            <Ligature components="bn_halanth,bn_ssa" glyph="bn_k_ssa"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="11">
+        <!-- LookupType=6 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=2 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_ta"/>
+          </InputCoverage>
+          <InputCoverage index="1">
+            <Glyph value="bn_halanth"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="uni200D"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="26"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="12">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="asa_ra">
+            <Ligature components="bn_halanth" glyph="bn_reph"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ra">
+            <Ligature components="bn_halanth" glyph="bn_reph"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="13">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="bn_aikaar" out="bn_aikaar.init"/>
+          <Substitution in="bn_ekaar" out="bn_ekaar.init"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="14">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="asa_ba">
+            <Ligature components="bn_halanth" glyph="asa_ba.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="asa_ra">
+            <Ligature components="bn_halanth" glyph="asa_ra.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ba">
+            <Ligature components="bn_halanth" glyph="bn_ba.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_bha">
+            <Ligature components="bn_halanth" glyph="bn_bha.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ca">
+            <Ligature components="bn_halanth" glyph="bn_ca.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_cha">
+            <Ligature components="bn_halanth" glyph="bn_cha.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_da">
+            <Ligature components="bn_halanth" glyph="bn_da.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_dda">
+            <Ligature components="bn_halanth" glyph="bn_dda.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ddha">
+            <Ligature components="bn_halanth" glyph="bn_ddha.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_dha">
+            <Ligature components="bn_halanth" glyph="bn_dha.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ga">
+            <Ligature components="bn_halanth" glyph="bn_ga.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_gha">
+            <Ligature components="bn_halanth" glyph="bn_gha.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ha">
+            <Ligature components="bn_halanth" glyph="bn_ha.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_j_nya">
+            <Ligature components="bn_halanth" glyph="bn_j_nya.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ja">
+            <Ligature components="bn_halanth" glyph="bn_ja.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_jha">
+            <Ligature components="bn_halanth" glyph="bn_jha.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_k_ssa">
+            <Ligature components="bn_halanth" glyph="bn_k_ssa.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ka">
+            <Ligature components="bn_halanth" glyph="bn_ka.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_kha">
+            <Ligature components="bn_halanth" glyph="bn_kha.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_la">
+            <Ligature components="bn_halanth" glyph="bn_la.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ma">
+            <Ligature components="bn_halanth" glyph="bn_ma.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_na">
+            <Ligature components="bn_halanth" glyph="bn_na.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_nga">
+            <Ligature components="bn_halanth" glyph="bn_nga.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_nna">
+            <Ligature components="bn_halanth" glyph="bn_nna.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_nya">
+            <Ligature components="bn_halanth" glyph="bn_nya.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_pa">
+            <Ligature components="bn_halanth" glyph="bn_pa.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_pha">
+            <Ligature components="bn_halanth" glyph="bn_pha.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ra">
+            <Ligature components="bn_halanth" glyph="bn_ra.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_rha">
+            <Ligature components="bn_halanth" glyph="bn_rha.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_rra">
+            <Ligature components="bn_halanth" glyph="bn_rra.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_sa">
+            <Ligature components="bn_halanth" glyph="bn_sa.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_sha">
+            <Ligature components="bn_halanth" glyph="bn_sha.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ssa">
+            <Ligature components="bn_halanth" glyph="bn_ssa.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ta">
+            <Ligature components="bn_halanth" glyph="bn_ta.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_tha">
+            <Ligature components="bn_halanth" glyph="bn_tha.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_tta">
+            <Ligature components="bn_halanth" glyph="bn_tta.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ttha">
+            <Ligature components="bn_halanth" glyph="bn_ttha.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ya">
+            <Ligature components="bn_halanth" glyph="bn_ya.half"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_yya">
+            <Ligature components="bn_halanth" glyph="bn_yya.half"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="15">
+        <!-- LookupType=6 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=4 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=2 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_ukaar"/>
+          </InputCoverage>
+          <InputCoverage index="1">
+            <Glyph value="bn_ba_phala"/>
+            <Glyph value="bn_ra_phala"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=2 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="4"/>
+          </SubstLookupRecord>
+          <SubstLookupRecord index="1">
+            <SequenceIndex value="1"/>
+            <LookupListIndex value="5"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=2 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_uukaar"/>
+          </InputCoverage>
+          <InputCoverage index="1">
+            <Glyph value="bn_ba_phala"/>
+            <Glyph value="bn_ra_phala"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=2 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="4"/>
+          </SubstLookupRecord>
+          <SubstLookupRecord index="1">
+            <SequenceIndex value="1"/>
+            <LookupListIndex value="6"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="2" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=2 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_rikaar"/>
+          </InputCoverage>
+          <InputCoverage index="1">
+            <Glyph value="bn_ba_phala"/>
+            <Glyph value="bn_ra_phala"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=2 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="4"/>
+          </SubstLookupRecord>
+          <SubstLookupRecord index="1">
+            <SequenceIndex value="1"/>
+            <LookupListIndex value="7"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="3" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=2 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_rrikaar"/>
+          </InputCoverage>
+          <InputCoverage index="1">
+            <Glyph value="bn_ba_phala"/>
+            <Glyph value="bn_ra_phala"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=2 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="4"/>
+          </SubstLookupRecord>
+          <SubstLookupRecord index="1">
+            <SequenceIndex value="1"/>
+            <LookupListIndex value="8"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="16">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="bn_k_ssa.half">
+            <Ligature components="bn_nna" glyph="bn_k_ss_nna"/>
+            <Ligature components="bn_ma" glyph="bn_k_ss_ma"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_na.half">
+            <Ligature components="bn_k_ta" glyph="bn_n_k_ta"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_nga.half">
+            <Ligature components="bn_k_ssa" glyph="bn_ng_k_ssa"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_sa.half">
+            <Ligature components="bn_p_la" glyph="bn_s_p_la"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="17">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="bn_ba.half">
+            <Ligature components="bn_ja" glyph="bn_b_ja"/>
+            <Ligature components="bn_da" glyph="bn_b_da"/>
+            <Ligature components="bn_dha" glyph="bn_b_dha"/>
+            <Ligature components="bn_ba" glyph="bn_b_ba"/>
+            <Ligature components="bn_bha" glyph="bn_b_bha"/>
+            <Ligature components="bn_la" glyph="bn_b_la"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_bha.half">
+            <Ligature components="bn_la" glyph="bn_b_la"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ca.half">
+            <Ligature components="bn_ca" glyph="bn_c_ca"/>
+            <Ligature components="bn_cha" glyph="bn_c_cha"/>
+            <Ligature components="bn_nya" glyph="bn_c_nya"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_da.half">
+            <Ligature components="bn_ga" glyph="bn_d_ga"/>
+            <Ligature components="bn_gha" glyph="bn_d_gha"/>
+            <Ligature components="bn_da" glyph="bn_d_da"/>
+            <Ligature components="bn_dha" glyph="bn_d_dha"/>
+            <Ligature components="bn_na" glyph="bn_d_na"/>
+            <Ligature components="bn_bha" glyph="bn_d_bha"/>
+            <Ligature components="bn_ma" glyph="bn_d_ma"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_dda.half">
+            <Ligature components="bn_dda" glyph="bn_dd_dda"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_dha.half">
+            <Ligature components="bn_na" glyph="bn_dh_na"/>
+            <Ligature components="bn_ba" glyph="bn_dh_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ga.half">
+            <Ligature components="bn_ga" glyph="bn_g_ga"/>
+            <Ligature components="bn_da" glyph="bn_g_da"/>
+            <Ligature components="bn_dha" glyph="bn_g_dha"/>
+            <Ligature components="bn_na" glyph="bn_g_na"/>
+            <Ligature components="bn_ma" glyph="bn_g_ma"/>
+            <Ligature components="bn_la" glyph="bn_g_la"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_gha.half">
+            <Ligature components="bn_na" glyph="bn_gh_na"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ha.half">
+            <Ligature components="bn_nna" glyph="bn_h_nna"/>
+            <Ligature components="bn_na" glyph="bn_h_na"/>
+            <Ligature components="bn_ma" glyph="bn_h_ma"/>
+            <Ligature components="bn_la" glyph="bn_h_la"/>
+            <Ligature components="bn_yya" glyph="bn_h_yya"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ja.half">
+            <Ligature components="bn_ja" glyph="bn_j_ja"/>
+            <Ligature components="bn_jha" glyph="bn_j_jha"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ka.half">
+            <Ligature components="bn_ka" glyph="bn_k_ka"/>
+            <Ligature components="bn_tta" glyph="bn_k_tta"/>
+            <Ligature components="bn_ta" glyph="bn_k_ta"/>
+            <Ligature components="bn_na" glyph="bn_k_na"/>
+            <Ligature components="bn_ma" glyph="bn_k_ma"/>
+            <Ligature components="bn_la" glyph="bn_k_la"/>
+            <Ligature components="bn_sa" glyph="bn_k_sa"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_la.half">
+            <Ligature components="bn_ka" glyph="bn_l_ka"/>
+            <Ligature components="bn_ga" glyph="bn_l_ga"/>
+            <Ligature components="bn_tta" glyph="bn_l_tta"/>
+            <Ligature components="bn_dda" glyph="bn_l_dda"/>
+            <Ligature components="bn_da" glyph="bn_l_da"/>
+            <Ligature components="bn_pa" glyph="bn_l_pa"/>
+            <Ligature components="bn_pha" glyph="bn_l_pha"/>
+            <Ligature components="bn_ba" glyph="bn_l_ba"/>
+            <Ligature components="bn_ma" glyph="bn_l_ma"/>
+            <Ligature components="bn_la" glyph="bn_l_la"/>
+            <Ligature components="bn_sa" glyph="bn_l_sa"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ma.half">
+            <Ligature components="bn_na" glyph="bn_m_na"/>
+            <Ligature components="bn_pa" glyph="bn_m_pa"/>
+            <Ligature components="bn_pha" glyph="bn_m_pha"/>
+            <Ligature components="bn_bha" glyph="bn_m_bha"/>
+            <Ligature components="bn_ma" glyph="bn_m_ma"/>
+            <Ligature components="bn_la" glyph="bn_m_la"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_na.half">
+            <Ligature components="bn_jha" glyph="bn_n_jha"/>
+            <Ligature components="bn_tta" glyph="bn_n_tta"/>
+            <Ligature components="bn_ttha" glyph="bn_n_ttha"/>
+            <Ligature components="bn_dda" glyph="bn_n_dda"/>
+            <Ligature components="bn_ta" glyph="bn_n_ta"/>
+            <Ligature components="bn_tha" glyph="bn_n_tha"/>
+            <Ligature components="bn_da" glyph="bn_n_da"/>
+            <Ligature components="bn_dha" glyph="bn_n_dha"/>
+            <Ligature components="bn_na" glyph="bn_n_na"/>
+            <Ligature components="bn_ma" glyph="bn_n_ma"/>
+            <Ligature components="bn_sa" glyph="bn_n_sa"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_nga.half">
+            <Ligature components="bn_ka" glyph="bn_ng_ka"/>
+            <Ligature components="bn_kha" glyph="bn_ng_kha"/>
+            <Ligature components="bn_ga" glyph="bn_ng_ga"/>
+            <Ligature components="bn_gha" glyph="bn_ng_gha"/>
+            <Ligature components="bn_ma" glyph="bn_ng_ma"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_nna.half">
+            <Ligature components="bn_tta" glyph="bn_nn_tta"/>
+            <Ligature components="bn_ttha" glyph="bn_nn_ttha"/>
+            <Ligature components="bn_dda" glyph="bn_nn_dda"/>
+            <Ligature components="bn_ddha" glyph="bn_nn_ddha"/>
+            <Ligature components="bn_nna" glyph="bn_nn_nna"/>
+            <Ligature components="bn_ba" glyph="bn_nn_ba"/>
+            <Ligature components="bn_ma" glyph="bn_nn_ma"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_nya.half">
+            <Ligature components="bn_ca" glyph="bn_ny_ca"/>
+            <Ligature components="bn_cha" glyph="bn_ny_cha"/>
+            <Ligature components="bn_ja" glyph="bn_ny_ja"/>
+            <Ligature components="bn_jha" glyph="bn_ny_jha"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_pa.half">
+            <Ligature components="bn_tta" glyph="bn_p_tta"/>
+            <Ligature components="bn_ta" glyph="bn_p_ta"/>
+            <Ligature components="bn_na" glyph="bn_p_na"/>
+            <Ligature components="bn_pa" glyph="bn_p_pa"/>
+            <Ligature components="bn_ra" glyph="bn_p_ra"/>
+            <Ligature components="bn_la" glyph="bn_p_la"/>
+            <Ligature components="bn_sa" glyph="bn_p_sa"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_pha.half">
+            <Ligature components="bn_tta" glyph="bn_ph_tta"/>
+            <Ligature components="bn_la" glyph="bn_ph_la"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_sa.half">
+            <Ligature components="bn_ka" glyph="bn_s_ka"/>
+            <Ligature components="bn_kha" glyph="bn_s_kha"/>
+            <Ligature components="bn_tta" glyph="bn_s_tta"/>
+            <Ligature components="bn_ta" glyph="bn_s_ta"/>
+            <Ligature components="bn_tha" glyph="bn_s_tha"/>
+            <Ligature components="bn_na" glyph="bn_s_na"/>
+            <Ligature components="bn_pa" glyph="bn_s_pa"/>
+            <Ligature components="bn_pha" glyph="bn_s_pha"/>
+            <Ligature components="bn_ba" glyph="bn_s_ba"/>
+            <Ligature components="bn_ma" glyph="bn_s_ma"/>
+            <Ligature components="bn_la" glyph="bn_s_la"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_sha.half">
+            <Ligature components="bn_ca" glyph="bn_sh_ca"/>
+            <Ligature components="bn_cha" glyph="bn_sh_cha"/>
+            <Ligature components="bn_tta" glyph="bn_sh_tta"/>
+            <Ligature components="bn_na" glyph="bn_sh_na"/>
+            <Ligature components="bn_ba" glyph="bn_sh_ba"/>
+            <Ligature components="bn_ma" glyph="bn_sh_ma"/>
+            <Ligature components="bn_ra" glyph="bn_sh_ra"/>
+            <Ligature components="bn_la" glyph="bn_sh_la"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ssa.half">
+            <Ligature components="bn_ka" glyph="bn_ss_ka"/>
+            <Ligature components="bn_tta" glyph="bn_ss_tta"/>
+            <Ligature components="bn_ttha" glyph="bn_ss_ttha"/>
+            <Ligature components="bn_nna" glyph="bn_ss_nna"/>
+            <Ligature components="bn_pa" glyph="bn_ss_pa"/>
+            <Ligature components="bn_pha" glyph="bn_ss_pha"/>
+            <Ligature components="bn_ma" glyph="bn_ss_ma"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ta.half">
+            <Ligature components="bn_ta" glyph="bn_t_ta"/>
+            <Ligature components="bn_tha" glyph="bn_t_tha"/>
+            <Ligature components="bn_na" glyph="bn_t_na"/>
+            <Ligature components="bn_ma" glyph="bn_t_ma"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_tha.half">
+            <Ligature components="bn_la" glyph="bn_th_la"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_tta.half">
+            <Ligature components="bn_tta" glyph="bn_tt_tta"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="18">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="bn_ba">
+            <Ligature components="bn_ba_phala" glyph="bn_b_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_c_cha">
+            <Ligature components="bn_ba_phala" glyph="bn_c_ch_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_cha">
+            <Ligature components="bn_ba_phala" glyph="bn_ch_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_d_da">
+            <Ligature components="bn_ba_phala" glyph="bn_d_d_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_d_dha">
+            <Ligature components="bn_ba_phala" glyph="bn_d_dh_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_da">
+            <Ligature components="bn_ba_phala" glyph="bn_d_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_dha">
+            <Ligature components="bn_ba_phala" glyph="bn_dh_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_g_dha">
+            <Ligature components="bn_ba_phala" glyph="bn_g_dh_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ga">
+            <Ligature components="bn_ba_phala" glyph="bn_g_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_gha">
+            <Ligature components="bn_ba_phala" glyph="bn_gh_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ha">
+            <Ligature components="bn_ba_phala" glyph="bn_h_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_j_ja">
+            <Ligature components="bn_ba_phala" glyph="bn_j_j_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ja">
+            <Ligature components="bn_ba_phala" glyph="bn_j_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_k_ssa">
+            <Ligature components="bn_ba_phala" glyph="bn_k_ss_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_k_ta">
+            <Ligature components="bn_ba_phala" glyph="bn_k_t_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ka">
+            <Ligature components="bn_ba_phala" glyph="bn_k_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_kha">
+            <Ligature components="bn_ba_phala" glyph="bn_kh_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_la">
+            <Ligature components="bn_ba_phala" glyph="bn_l_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ma">
+            <Ligature components="bn_ba_phala" glyph="bn_m_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_n_da">
+            <Ligature components="bn_ba_phala" glyph="bn_n_d_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_n_dha">
+            <Ligature components="bn_ba_phala" glyph="bn_n_dh_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_n_ta">
+            <Ligature components="bn_ba_phala" glyph="bn_n_t_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_na">
+            <Ligature components="bn_ba_phala" glyph="bn_n_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_nna">
+            <Ligature components="bn_ba_phala" glyph="bn_nn_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_s_ka">
+            <Ligature components="bn_ba_phala" glyph="bn_s_k_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_s_ta">
+            <Ligature components="bn_ba_phala" glyph="bn_s_t_ba"/>
+            <Ligature components="bn_ra_phala" glyph="bn_s_t_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_sa">
+            <Ligature components="bn_ba_phala" glyph="bn_s_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_sha">
+            <Ligature components="bn_ba_phala" glyph="bn_sh_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ssa">
+            <Ligature components="bn_ba_phala" glyph="bn_ss_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_t_ta">
+            <Ligature components="bn_ba_phala" glyph="bn_t_t_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ta">
+            <Ligature components="bn_ba_phala" glyph="bn_t_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_tha">
+            <Ligature components="bn_ba_phala" glyph="bn_th_ba"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_tta">
+            <Ligature components="bn_ba_phala" glyph="bn_tt_ba"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="19">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="bn_ba">
+            <Ligature components="bn_ra_phala" glyph="bn_b_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_bha">
+            <Ligature components="bn_ra_phala" glyph="bn_bh_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_c_cha">
+            <Ligature components="bn_ra_phala" glyph="bn_c_ch_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ca">
+            <Ligature components="bn_ra_phala" glyph="bn_c_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_cha">
+            <Ligature components="bn_ra_phala" glyph="bn_ch_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_d_bha">
+            <Ligature components="bn_ra_phala" glyph="bn_d_bh_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_da">
+            <Ligature components="bn_ra_phala" glyph="bn_d_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_dda">
+            <Ligature components="bn_ra_phala" glyph="bn_dd_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ddha">
+            <Ligature components="bn_ra_phala" glyph="bn_ddh_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_dha">
+            <Ligature components="bn_ra_phala" glyph="bn_dh_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_g_dha">
+            <Ligature components="bn_ra_phala" glyph="bn_g_dh_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ga">
+            <Ligature components="bn_ra_phala" glyph="bn_g_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_gha">
+            <Ligature components="bn_ra_phala" glyph="bn_gh_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ha">
+            <Ligature components="bn_ra_phala" glyph="bn_h_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ja">
+            <Ligature components="bn_ra_phala" glyph="bn_j_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_jha">
+            <Ligature components="bn_ra_phala" glyph="bn_jh_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_k_ssa">
+            <Ligature components="bn_ra_phala" glyph="bn_k_ss_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_k_ta">
+            <Ligature components="bn_ra_phala" glyph="bn_k_t_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_k_tta">
+            <Ligature components="bn_ra_phala" glyph="bn_k_tt_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ka">
+            <Ligature components="bn_ra_phala" glyph="bn_k_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_kha">
+            <Ligature components="bn_ra_phala" glyph="bn_kh_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_la">
+            <Ligature components="bn_ra_phala" glyph="bn_l_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_m_bha">
+            <Ligature components="bn_ra_phala" glyph="bn_m_bh_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_m_pa">
+            <Ligature components="bn_ra_phala" glyph="bn_m_p_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ma">
+            <Ligature components="bn_ra_phala" glyph="bn_m_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_n_da">
+            <Ligature components="bn_ra_phala" glyph="bn_n_d_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_n_dda">
+            <Ligature components="bn_ra_phala" glyph="bn_n_dd_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_n_dha">
+            <Ligature components="bn_ra_phala" glyph="bn_n_dh_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_n_ta">
+            <Ligature components="bn_ra_phala" glyph="bn_n_t_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_n_tta">
+            <Ligature components="bn_ra_phala" glyph="bn_n_tt_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_na">
+            <Ligature components="bn_ra_phala" glyph="bn_n_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ng_ga">
+            <Ligature components="bn_ra_phala" glyph="bn_ng_g_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ng_gha">
+            <Ligature components="bn_ra_phala" glyph="bn_ng_gh_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ng_k_ssa">
+            <Ligature components="bn_ra_phala" glyph="bn_ng_k_ss_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ng_ka">
+            <Ligature components="bn_ra_phala" glyph="bn_ng_k_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_nga">
+            <Ligature components="bn_ra_phala" glyph="bn_ng_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_nn_dda">
+            <Ligature components="bn_ra_phala" glyph="bn_nn_dd_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_nna">
+            <Ligature components="bn_ra_phala" glyph="bn_nn_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_nya">
+            <Ligature components="bn_ra_phala" glyph="bn_ny_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_p_ta">
+            <Ligature components="bn_ra_phala" glyph="bn_p_t_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_pa">
+            <Ligature components="bn_ra_phala" glyph="bn_p_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_pha">
+            <Ligature components="bn_ra_phala" glyph="bn_ph_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_s_ka">
+            <Ligature components="bn_ra_phala" glyph="bn_s_k_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_s_pa">
+            <Ligature components="bn_ra_phala" glyph="bn_s_p_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_s_tta">
+            <Ligature components="bn_ra_phala" glyph="bn_s_tt_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_sa">
+            <Ligature components="bn_ra_phala" glyph="bn_s_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_sha">
+            <Ligature components="bn_ra_phala" glyph="bn_sh_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ss_ka">
+            <Ligature components="bn_ra_phala" glyph="bn_ss_k_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ss_pa">
+            <Ligature components="bn_ra_phala" glyph="bn_ss_p_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ss_tta">
+            <Ligature components="bn_ra_phala" glyph="bn_ss_tt_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ssa">
+            <Ligature components="bn_ra_phala" glyph="bn_ss_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_t_ta">
+            <Ligature components="bn_ra_phala" glyph="bn_t_t_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ta">
+            <Ligature components="bn_ra_phala" glyph="bn_t_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_tha">
+            <Ligature components="bn_ra_phala" glyph="bn_th_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_tta">
+            <Ligature components="bn_ra_phala" glyph="bn_tt_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ttha">
+            <Ligature components="bn_ra_phala" glyph="bn_tth_ra"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ya">
+            <Ligature components="bn_ra_phala" glyph="bn_y_ra"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="20">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="bn_ba">
+            <Ligature components="bn_ukaar,bn_da" glyph="bn_b_da_ukaar"/>
+            <Ligature components="bn_ukaar,bn_ra_phala" glyph="bn_b_ra_ukaar"/>
+            <Ligature components="bn_uukaar,bn_da" glyph="bn_b_da_uukaar"/>
+            <Ligature components="bn_uukaar,bn_ra_phala" glyph="bn_b_ra_uukaar"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_bha">
+            <Ligature components="bn_ukaar,bn_ra_phala" glyph="bn_bh_ra_ukaar"/>
+            <Ligature components="bn_uukaar,bn_ra_phala" glyph="bn_bh_ra_uukaar"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_da">
+            <Ligature components="bn_ukaar,bn_ra_phala" glyph="bn_d_ra_ukaar"/>
+            <Ligature components="bn_uukaar,bn_ra_phala" glyph="bn_d_ra_uukaar"/>
+            <Ligature components="bn_ukaar" glyph="bn_da_ukaar"/>
+            <Ligature components="bn_uukaar" glyph="bn_da_uukaar"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_dha">
+            <Ligature components="bn_ukaar,bn_ra_phala" glyph="bn_dh_ra_ukaar"/>
+            <Ligature components="bn_uukaar,bn_ra_phala" glyph="bn_dh_ra_uukaar"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ga">
+            <Ligature components="bn_ukaar,bn_ra_phala" glyph="bn_g_ra_ukaar"/>
+            <Ligature components="bn_uukaar,bn_ra_phala" glyph="bn_g_ra_uukaar"/>
+            <Ligature components="bn_ukaar" glyph="bn_ga_ukaar"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ha">
+            <Ligature components="bn_rikaar" glyph="bn_ha_rikaar"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_la">
+            <Ligature components="bn_ukaar,bn_ga" glyph="bn_l_ga_ukaar"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_pa">
+            <Ligature components="bn_ukaar,bn_ra_phala" glyph="bn_p_ra_ukaar"/>
+            <Ligature components="bn_uukaar,bn_ra_phala" glyph="bn_p_ra_uukaar"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ra">
+            <Ligature components="bn_ukaar" glyph="bn_ra_ukaar"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_reph">
+            <Ligature components="bn_iikaar" glyph="bn_iikaar_reph"/>
+            <Ligature components="bn_aumark" glyph="bn_aumark_reph"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_sa">
+            <Ligature components="bn_ukaar,bn_ta" glyph="bn_s_ta_ukaar"/>
+            <Ligature components="bn_ukaar,bn_ra_phala" glyph="bn_s_ra_ukaar"/>
+            <Ligature components="bn_uukaar,bn_ra_phala" glyph="bn_s_ra_uukaar"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_sh_ra">
+            <Ligature components="bn_iikaar" glyph="bn_sh_ra_iikaar"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_sha">
+            <Ligature components="bn_ukaar,bn_ra_phala" glyph="bn_sh_ra_ukaar"/>
+            <Ligature components="bn_uukaar,bn_ra_phala" glyph="bn_sh_ra_uukaar"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_ta">
+            <Ligature components="bn_ukaar,bn_ra_phala" glyph="bn_t_ra_ukaar"/>
+            <Ligature components="bn_uukaar,bn_ra_phala" glyph="bn_t_ra_uukaar"/>
+          </LigatureSet>
+          <LigatureSet glyph="bn_tha">
+            <Ligature components="bn_ukaar,bn_ra_phala" glyph="bn_th_ra_ukaar"/>
+            <Ligature components="bn_uukaar,bn_ra_phala" glyph="bn_th_ra_uukaar"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="21">
+        <!-- LookupType=6 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=6 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0">
+            <Glyph value="bn_nga"/>
+            <Glyph value="bn_ca"/>
+            <Glyph value="bn_cha"/>
+            <Glyph value="bn_ja"/>
+            <Glyph value="bn_tta"/>
+            <Glyph value="bn_ttha"/>
+            <Glyph value="bn_dda"/>
+            <Glyph value="bn_ddha"/>
+            <Glyph value="bn_ta"/>
+            <Glyph value="bn_bha"/>
+            <Glyph value="bn_rra"/>
+            <Glyph value="bn_rha"/>
+            <Glyph value="bn_g_ga"/>
+            <Glyph value="bn_g_da"/>
+            <Glyph value="bn_ng_ga"/>
+            <Glyph value="bn_ng_g_ra"/>
+            <Glyph value="bn_c_ca"/>
+            <Glyph value="bn_c_cha"/>
+            <Glyph value="bn_c_ch_ba"/>
+            <Glyph value="bn_c_ra"/>
+            <Glyph value="bn_ch_ba"/>
+            <Glyph value="bn_ch_ra"/>
+            <Glyph value="bn_j_ja"/>
+            <Glyph value="bn_j_jha"/>
+            <Glyph value="bn_j_nya"/>
+            <Glyph value="bn_j_ba"/>
+            <Glyph value="bn_j_ra"/>
+            <Glyph value="bn_ny_cha"/>
+            <Glyph value="bn_ny_ja"/>
+            <Glyph value="bn_tt_tta"/>
+            <Glyph value="bn_tt_ba"/>
+            <Glyph value="bn_tt_ra"/>
+            <Glyph value="bn_tth_ra"/>
+            <Glyph value="bn_dd_dda"/>
+            <Glyph value="bn_dd_ra"/>
+            <Glyph value="bn_ddh_ra"/>
+            <Glyph value="bn_nn_tta"/>
+            <Glyph value="bn_nn_ttha"/>
+            <Glyph value="bn_nn_dda"/>
+            <Glyph value="bn_nn_dda.alt01"/>
+            <Glyph value="bn_nn_dd_ra"/>
+            <Glyph value="bn_nn_ddha"/>
+            <Glyph value="bn_t_ta"/>
+            <Glyph value="bn_t_t_ba"/>
+            <Glyph value="bn_t_na"/>
+            <Glyph value="bn_t_ba"/>
+            <Glyph value="bn_t_ra.alt01"/>
+            <Glyph value="bn_d_da"/>
+            <Glyph value="bn_d_d_ba"/>
+            <Glyph value="bn_d_dha"/>
+            <Glyph value="bn_d_dh_ba"/>
+            <Glyph value="bn_d_na"/>
+            <Glyph value="bn_d_ba"/>
+            <Glyph value="bn_d_bha"/>
+            <Glyph value="bn_d_bh_ra"/>
+            <Glyph value="bn_d_ra"/>
+            <Glyph value="bn_d_ra_ukaar"/>
+            <Glyph value="bn_d_ra_uukaar"/>
+            <Glyph value="bn_n_k_ta"/>
+            <Glyph value="bn_n_jha"/>
+            <Glyph value="bn_n_tta"/>
+            <Glyph value="bn_n_tt_ra"/>
+            <Glyph value="bn_n_ttha"/>
+            <Glyph value="bn_n_dda"/>
+            <Glyph value="bn_n_dd_ra"/>
+            <Glyph value="bn_n_ta"/>
+            <Glyph value="bn_n_t_ba"/>
+            <Glyph value="bn_n_tha"/>
+            <Glyph value="bn_n_da"/>
+            <Glyph value="bn_n_d_ba"/>
+            <Glyph value="bn_n_d_ra"/>
+            <Glyph value="bn_n_ra"/>
+            <Glyph value="bn_p_tta"/>
+            <Glyph value="bn_p_ta"/>
+            <Glyph value="bn_ph_tta"/>
+            <Glyph value="bn_b_ja"/>
+            <Glyph value="bn_b_da"/>
+            <Glyph value="bn_b_bha"/>
+            <Glyph value="bn_m_bha"/>
+            <Glyph value="bn_m_bh_ra"/>
+            <Glyph value="bn_l_dda"/>
+            <Glyph value="bn_l_da"/>
+            <Glyph value="bn_sh_ca"/>
+            <Glyph value="bn_sh_cha"/>
+            <Glyph value="bn_sh_tta"/>
+            <Glyph value="bn_ss_ka"/>
+            <Glyph value="bn_ss_tta"/>
+            <Glyph value="bn_ss_tt_ra"/>
+            <Glyph value="bn_s_ka"/>
+            <Glyph value="bn_s_k_ba"/>
+            <Glyph value="bn_s_tta"/>
+            <Glyph value="bn_s_tt_ra"/>
+            <Glyph value="bn_s_ta"/>
+            <Glyph value="bn_s_t_ba"/>
+            <Glyph value="bn_s_tha"/>
+            <Glyph value="bn_s_na"/>
+            <Glyph value="bn_h_ba"/>
+            <Glyph value="bn_h_ra"/>
+            <Glyph value="bn_h_la"/>
+            <Glyph value="bn_h_yya"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_ukaar"/>
+            <Glyph value="bn_uukaar"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="27"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0">
+            <Glyph value="bn_nga"/>
+            <Glyph value="bn_ca"/>
+            <Glyph value="bn_cha"/>
+            <Glyph value="bn_ja"/>
+            <Glyph value="bn_tta"/>
+            <Glyph value="bn_ttha"/>
+            <Glyph value="bn_dda"/>
+            <Glyph value="bn_ddha"/>
+            <Glyph value="bn_ta"/>
+            <Glyph value="bn_bha"/>
+            <Glyph value="bn_rra"/>
+            <Glyph value="bn_rha"/>
+            <Glyph value="bn_g_ga"/>
+            <Glyph value="bn_g_da"/>
+            <Glyph value="bn_ng_ga"/>
+            <Glyph value="bn_ng_g_ra"/>
+            <Glyph value="bn_c_ca"/>
+            <Glyph value="bn_c_cha"/>
+            <Glyph value="bn_c_ch_ba"/>
+            <Glyph value="bn_c_ra"/>
+            <Glyph value="bn_ch_ba"/>
+            <Glyph value="bn_ch_ra"/>
+            <Glyph value="bn_j_ja"/>
+            <Glyph value="bn_j_jha"/>
+            <Glyph value="bn_j_nya"/>
+            <Glyph value="bn_j_ba"/>
+            <Glyph value="bn_j_ra"/>
+            <Glyph value="bn_ny_cha"/>
+            <Glyph value="bn_ny_ja"/>
+            <Glyph value="bn_tt_tta"/>
+            <Glyph value="bn_tt_ba"/>
+            <Glyph value="bn_tt_ra"/>
+            <Glyph value="bn_tth_ra"/>
+            <Glyph value="bn_dd_dda"/>
+            <Glyph value="bn_dd_ra"/>
+            <Glyph value="bn_ddh_ra"/>
+            <Glyph value="bn_nn_tta"/>
+            <Glyph value="bn_nn_ttha"/>
+            <Glyph value="bn_nn_dda"/>
+            <Glyph value="bn_nn_dda.alt01"/>
+            <Glyph value="bn_nn_dd_ra"/>
+            <Glyph value="bn_nn_ddha"/>
+            <Glyph value="bn_t_ta"/>
+            <Glyph value="bn_t_t_ba"/>
+            <Glyph value="bn_t_na"/>
+            <Glyph value="bn_t_ba"/>
+            <Glyph value="bn_t_ra.alt01"/>
+            <Glyph value="bn_d_da"/>
+            <Glyph value="bn_d_d_ba"/>
+            <Glyph value="bn_d_dha"/>
+            <Glyph value="bn_d_dh_ba"/>
+            <Glyph value="bn_d_na"/>
+            <Glyph value="bn_d_ba"/>
+            <Glyph value="bn_d_bha"/>
+            <Glyph value="bn_d_bh_ra"/>
+            <Glyph value="bn_d_ra"/>
+            <Glyph value="bn_d_ra_ukaar"/>
+            <Glyph value="bn_d_ra_uukaar"/>
+            <Glyph value="bn_n_k_ta"/>
+            <Glyph value="bn_n_jha"/>
+            <Glyph value="bn_n_tta"/>
+            <Glyph value="bn_n_tt_ra"/>
+            <Glyph value="bn_n_ttha"/>
+            <Glyph value="bn_n_dda"/>
+            <Glyph value="bn_n_dd_ra"/>
+            <Glyph value="bn_n_ta"/>
+            <Glyph value="bn_n_t_ba"/>
+            <Glyph value="bn_n_tha"/>
+            <Glyph value="bn_n_da"/>
+            <Glyph value="bn_n_d_ba"/>
+            <Glyph value="bn_n_d_ra"/>
+            <Glyph value="bn_n_ra"/>
+            <Glyph value="bn_p_tta"/>
+            <Glyph value="bn_p_ta"/>
+            <Glyph value="bn_ph_tta"/>
+            <Glyph value="bn_b_ja"/>
+            <Glyph value="bn_b_da"/>
+            <Glyph value="bn_b_bha"/>
+            <Glyph value="bn_m_bha"/>
+            <Glyph value="bn_m_bh_ra"/>
+            <Glyph value="bn_l_dda"/>
+            <Glyph value="bn_l_da"/>
+            <Glyph value="bn_sh_ca"/>
+            <Glyph value="bn_sh_cha"/>
+            <Glyph value="bn_sh_tta"/>
+            <Glyph value="bn_ss_ka"/>
+            <Glyph value="bn_ss_tta"/>
+            <Glyph value="bn_ss_tt_ra"/>
+            <Glyph value="bn_s_ka"/>
+            <Glyph value="bn_s_k_ba"/>
+            <Glyph value="bn_s_tta"/>
+            <Glyph value="bn_s_tt_ra"/>
+            <Glyph value="bn_s_ta"/>
+            <Glyph value="bn_s_t_ba"/>
+            <Glyph value="bn_s_tha"/>
+            <Glyph value="bn_s_na"/>
+            <Glyph value="bn_h_ba"/>
+            <Glyph value="bn_h_ra"/>
+            <Glyph value="bn_h_la"/>
+            <Glyph value="bn_h_yya"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_rikaar"/>
+            <Glyph value="bn_rrikaar"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="27"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="2" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0">
+            <Glyph value="bn_kha"/>
+            <Glyph value="bn_ga"/>
+            <Glyph value="bn_jha"/>
+            <Glyph value="bn_nna"/>
+            <Glyph value="bn_tha"/>
+            <Glyph value="bn_dha"/>
+            <Glyph value="bn_pa"/>
+            <Glyph value="bn_sha"/>
+            <Glyph value="bn_aakaar"/>
+            <Glyph value="bn_ekaar"/>
+            <Glyph value="bn_ekaar.init"/>
+            <Glyph value="bn_aikaar"/>
+            <Glyph value="bn_aikaar.init"/>
+            <Glyph value="bn_aumark"/>
+            <Glyph value="bn_kh_ba"/>
+            <Glyph value="bn_kh_ra"/>
+            <Glyph value="bn_g_ga"/>
+            <Glyph value="bn_g_da"/>
+            <Glyph value="bn_g_dha"/>
+            <Glyph value="bn_g_dh_ba"/>
+            <Glyph value="bn_g_dh_ra"/>
+            <Glyph value="bn_g_na"/>
+            <Glyph value="bn_g_ba"/>
+            <Glyph value="bn_g_ra"/>
+            <Glyph value="bn_g_ra_ukaar"/>
+            <Glyph value="bn_g_ra_uukaar"/>
+            <Glyph value="bn_g_la"/>
+            <Glyph value="bn_ng_kha"/>
+            <Glyph value="bn_jh_ra"/>
+            <Glyph value="bn_nn_nna"/>
+            <Glyph value="bn_nn_ba"/>
+            <Glyph value="bn_nn_ra"/>
+            <Glyph value="bn_t_tha"/>
+            <Glyph value="bn_th_ba"/>
+            <Glyph value="bn_th_ra"/>
+            <Glyph value="bn_th_ra_ukaar"/>
+            <Glyph value="bn_th_ra_uukaar"/>
+            <Glyph value="bn_th_la"/>
+            <Glyph value="bn_d_ga"/>
+            <Glyph value="bn_dh_na"/>
+            <Glyph value="bn_dh_ra"/>
+            <Glyph value="bn_dh_ra_ukaar"/>
+            <Glyph value="bn_dh_ra_uukaar"/>
+            <Glyph value="bn_p_ta"/>
+            <Glyph value="bn_p_t_ra"/>
+            <Glyph value="bn_p_na"/>
+            <Glyph value="bn_p_pa"/>
+            <Glyph value="bn_p_ra"/>
+            <Glyph value="bn_p_ra_ukaar"/>
+            <Glyph value="bn_p_ra_uukaar"/>
+            <Glyph value="bn_p_la"/>
+            <Glyph value="bn_m_pa"/>
+            <Glyph value="bn_m_p_ra"/>
+            <Glyph value="bn_sh_na"/>
+            <Glyph value="bn_sh_ba"/>
+            <Glyph value="bn_sh_ra"/>
+            <Glyph value="bn_sh_ra_iikaar"/>
+            <Glyph value="bn_sh_ra_ukaar"/>
+            <Glyph value="bn_sh_ra_uukaar"/>
+            <Glyph value="bn_sh_la"/>
+            <Glyph value="bn_ss_tta"/>
+            <Glyph value="bn_ss_tt_ra"/>
+            <Glyph value="bn_ss_pa"/>
+            <Glyph value="bn_ss_p_ra"/>
+            <Glyph value="bn_s_kha"/>
+            <Glyph value="bn_s_pa"/>
+            <Glyph value="bn_s_p_ra"/>
+            <Glyph value="bn_s_p_la"/>
+            <Glyph value="bn_rr_ga"/>
+            <Glyph value="bn_aakaar.b"/>
+            <Glyph value="bn_ekaar.b"/>
+            <Glyph value="bn_kha.half"/>
+            <Glyph value="bn_ga.half"/>
+            <Glyph value="bn_jha.half"/>
+            <Glyph value="bn_nna.half"/>
+            <Glyph value="bn_tha.half"/>
+            <Glyph value="bn_dha.half"/>
+            <Glyph value="bn_pa.half"/>
+            <Glyph value="bn_sha.half"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_ikaar"/>
+            <Glyph value="bn_ikaar.wi2"/>
+            <Glyph value="bn_ikaar.wi1"/>
+            <Glyph value="bn_ikaar.fl"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="27"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="3" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0">
+            <Glyph value="bn_kha"/>
+            <Glyph value="bn_ga"/>
+            <Glyph value="bn_jha"/>
+            <Glyph value="bn_nna"/>
+            <Glyph value="bn_tha"/>
+            <Glyph value="bn_dha"/>
+            <Glyph value="bn_pa"/>
+            <Glyph value="bn_sha"/>
+            <Glyph value="bn_aakaar"/>
+            <Glyph value="bn_ekaar"/>
+            <Glyph value="bn_ekaar.init"/>
+            <Glyph value="bn_aikaar"/>
+            <Glyph value="bn_aikaar.init"/>
+            <Glyph value="bn_aumark"/>
+            <Glyph value="bn_kh_ba"/>
+            <Glyph value="bn_kh_ra"/>
+            <Glyph value="bn_g_ga"/>
+            <Glyph value="bn_g_da"/>
+            <Glyph value="bn_g_dha"/>
+            <Glyph value="bn_g_dh_ba"/>
+            <Glyph value="bn_g_dh_ra"/>
+            <Glyph value="bn_g_na"/>
+            <Glyph value="bn_g_ba"/>
+            <Glyph value="bn_g_ra"/>
+            <Glyph value="bn_g_ra_ukaar"/>
+            <Glyph value="bn_g_ra_uukaar"/>
+            <Glyph value="bn_g_la"/>
+            <Glyph value="bn_ng_kha"/>
+            <Glyph value="bn_jh_ra"/>
+            <Glyph value="bn_nn_nna"/>
+            <Glyph value="bn_nn_ba"/>
+            <Glyph value="bn_nn_ra"/>
+            <Glyph value="bn_t_tha"/>
+            <Glyph value="bn_th_ba"/>
+            <Glyph value="bn_th_ra"/>
+            <Glyph value="bn_th_ra_ukaar"/>
+            <Glyph value="bn_th_ra_uukaar"/>
+            <Glyph value="bn_th_la"/>
+            <Glyph value="bn_d_ga"/>
+            <Glyph value="bn_dh_na"/>
+            <Glyph value="bn_dh_ra"/>
+            <Glyph value="bn_dh_ra_ukaar"/>
+            <Glyph value="bn_dh_ra_uukaar"/>
+            <Glyph value="bn_p_ta"/>
+            <Glyph value="bn_p_t_ra"/>
+            <Glyph value="bn_p_na"/>
+            <Glyph value="bn_p_pa"/>
+            <Glyph value="bn_p_ra"/>
+            <Glyph value="bn_p_ra_ukaar"/>
+            <Glyph value="bn_p_ra_uukaar"/>
+            <Glyph value="bn_p_la"/>
+            <Glyph value="bn_m_pa"/>
+            <Glyph value="bn_m_p_ra"/>
+            <Glyph value="bn_sh_na"/>
+            <Glyph value="bn_sh_ba"/>
+            <Glyph value="bn_sh_ra"/>
+            <Glyph value="bn_sh_ra_iikaar"/>
+            <Glyph value="bn_sh_ra_ukaar"/>
+            <Glyph value="bn_sh_ra_uukaar"/>
+            <Glyph value="bn_sh_la"/>
+            <Glyph value="bn_ss_tta"/>
+            <Glyph value="bn_ss_tt_ra"/>
+            <Glyph value="bn_ss_pa"/>
+            <Glyph value="bn_ss_p_ra"/>
+            <Glyph value="bn_s_kha"/>
+            <Glyph value="bn_s_pa"/>
+            <Glyph value="bn_s_p_ra"/>
+            <Glyph value="bn_s_p_la"/>
+            <Glyph value="bn_rr_ga"/>
+            <Glyph value="bn_aakaar.b"/>
+            <Glyph value="bn_ekaar.b"/>
+            <Glyph value="bn_kha.half"/>
+            <Glyph value="bn_ga.half"/>
+            <Glyph value="bn_jha.half"/>
+            <Glyph value="bn_nna.half"/>
+            <Glyph value="bn_tha.half"/>
+            <Glyph value="bn_dha.half"/>
+            <Glyph value="bn_pa.half"/>
+            <Glyph value="bn_sha.half"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_iikaar"/>
+            <Glyph value="bn_iikaar.wi1"/>
+            <Glyph value="bn_iikaar.wi2"/>
+            <Glyph value="bn_iikaar.fl"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="27"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="4" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_aakaar"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="bn_kha"/>
+            <Glyph value="bn_ga"/>
+            <Glyph value="bn_jha"/>
+            <Glyph value="bn_nna"/>
+            <Glyph value="bn_tha"/>
+            <Glyph value="bn_dha"/>
+            <Glyph value="bn_pa"/>
+            <Glyph value="bn_sha"/>
+            <Glyph value="bn_aakaar"/>
+            <Glyph value="bn_ekaar"/>
+            <Glyph value="bn_ekaar.init"/>
+            <Glyph value="bn_aikaar"/>
+            <Glyph value="bn_aikaar.init"/>
+            <Glyph value="bn_aumark"/>
+            <Glyph value="bn_kh_ba"/>
+            <Glyph value="bn_kh_ra"/>
+            <Glyph value="bn_g_ga"/>
+            <Glyph value="bn_g_da"/>
+            <Glyph value="bn_g_dha"/>
+            <Glyph value="bn_g_dh_ba"/>
+            <Glyph value="bn_g_dh_ra"/>
+            <Glyph value="bn_g_na"/>
+            <Glyph value="bn_g_ba"/>
+            <Glyph value="bn_g_ra"/>
+            <Glyph value="bn_g_ra_ukaar"/>
+            <Glyph value="bn_g_ra_uukaar"/>
+            <Glyph value="bn_g_la"/>
+            <Glyph value="bn_ng_kha"/>
+            <Glyph value="bn_jh_ra"/>
+            <Glyph value="bn_nn_nna"/>
+            <Glyph value="bn_nn_ba"/>
+            <Glyph value="bn_nn_ra"/>
+            <Glyph value="bn_t_tha"/>
+            <Glyph value="bn_th_ba"/>
+            <Glyph value="bn_th_ra"/>
+            <Glyph value="bn_th_ra_ukaar"/>
+            <Glyph value="bn_th_ra_uukaar"/>
+            <Glyph value="bn_th_la"/>
+            <Glyph value="bn_d_ga"/>
+            <Glyph value="bn_dh_na"/>
+            <Glyph value="bn_dh_ra"/>
+            <Glyph value="bn_dh_ra_ukaar"/>
+            <Glyph value="bn_dh_ra_uukaar"/>
+            <Glyph value="bn_p_ta"/>
+            <Glyph value="bn_p_t_ra"/>
+            <Glyph value="bn_p_na"/>
+            <Glyph value="bn_p_pa"/>
+            <Glyph value="bn_p_ra"/>
+            <Glyph value="bn_p_ra_ukaar"/>
+            <Glyph value="bn_p_ra_uukaar"/>
+            <Glyph value="bn_p_la"/>
+            <Glyph value="bn_m_pa"/>
+            <Glyph value="bn_m_p_ra"/>
+            <Glyph value="bn_sh_na"/>
+            <Glyph value="bn_sh_ba"/>
+            <Glyph value="bn_sh_ra"/>
+            <Glyph value="bn_sh_ra_iikaar"/>
+            <Glyph value="bn_sh_ra_ukaar"/>
+            <Glyph value="bn_sh_ra_uukaar"/>
+            <Glyph value="bn_sh_la"/>
+            <Glyph value="bn_ss_tta"/>
+            <Glyph value="bn_ss_tt_ra"/>
+            <Glyph value="bn_ss_pa"/>
+            <Glyph value="bn_ss_p_ra"/>
+            <Glyph value="bn_s_kha"/>
+            <Glyph value="bn_s_pa"/>
+            <Glyph value="bn_s_p_ra"/>
+            <Glyph value="bn_s_p_la"/>
+            <Glyph value="bn_rr_ga"/>
+            <Glyph value="bn_aakaar.b"/>
+            <Glyph value="bn_ekaar.b"/>
+            <Glyph value="bn_kha.half"/>
+            <Glyph value="bn_ga.half"/>
+            <Glyph value="bn_jha.half"/>
+            <Glyph value="bn_nna.half"/>
+            <Glyph value="bn_tha.half"/>
+            <Glyph value="bn_dha.half"/>
+            <Glyph value="bn_pa.half"/>
+            <Glyph value="bn_sha.half"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="27"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="5" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0">
+            <Glyph value="bn_kha"/>
+            <Glyph value="bn_ga"/>
+            <Glyph value="bn_jha"/>
+            <Glyph value="bn_nna"/>
+            <Glyph value="bn_tha"/>
+            <Glyph value="bn_dha"/>
+            <Glyph value="bn_pa"/>
+            <Glyph value="bn_sha"/>
+            <Glyph value="bn_aakaar"/>
+            <Glyph value="bn_ekaar"/>
+            <Glyph value="bn_ekaar.init"/>
+            <Glyph value="bn_aikaar"/>
+            <Glyph value="bn_aikaar.init"/>
+            <Glyph value="bn_aumark"/>
+            <Glyph value="bn_kh_ba"/>
+            <Glyph value="bn_kh_ra"/>
+            <Glyph value="bn_g_ga"/>
+            <Glyph value="bn_g_da"/>
+            <Glyph value="bn_g_dha"/>
+            <Glyph value="bn_g_dh_ba"/>
+            <Glyph value="bn_g_dh_ra"/>
+            <Glyph value="bn_g_na"/>
+            <Glyph value="bn_g_ba"/>
+            <Glyph value="bn_g_ra"/>
+            <Glyph value="bn_g_ra_ukaar"/>
+            <Glyph value="bn_g_ra_uukaar"/>
+            <Glyph value="bn_g_la"/>
+            <Glyph value="bn_ng_kha"/>
+            <Glyph value="bn_jh_ra"/>
+            <Glyph value="bn_nn_nna"/>
+            <Glyph value="bn_nn_ba"/>
+            <Glyph value="bn_nn_ra"/>
+            <Glyph value="bn_t_tha"/>
+            <Glyph value="bn_th_ba"/>
+            <Glyph value="bn_th_ra"/>
+            <Glyph value="bn_th_ra_ukaar"/>
+            <Glyph value="bn_th_ra_uukaar"/>
+            <Glyph value="bn_th_la"/>
+            <Glyph value="bn_d_ga"/>
+            <Glyph value="bn_dh_na"/>
+            <Glyph value="bn_dh_ra"/>
+            <Glyph value="bn_dh_ra_ukaar"/>
+            <Glyph value="bn_dh_ra_uukaar"/>
+            <Glyph value="bn_p_ta"/>
+            <Glyph value="bn_p_t_ra"/>
+            <Glyph value="bn_p_na"/>
+            <Glyph value="bn_p_pa"/>
+            <Glyph value="bn_p_ra"/>
+            <Glyph value="bn_p_ra_ukaar"/>
+            <Glyph value="bn_p_ra_uukaar"/>
+            <Glyph value="bn_p_la"/>
+            <Glyph value="bn_m_pa"/>
+            <Glyph value="bn_m_p_ra"/>
+            <Glyph value="bn_sh_na"/>
+            <Glyph value="bn_sh_ba"/>
+            <Glyph value="bn_sh_ra"/>
+            <Glyph value="bn_sh_ra_iikaar"/>
+            <Glyph value="bn_sh_ra_ukaar"/>
+            <Glyph value="bn_sh_ra_uukaar"/>
+            <Glyph value="bn_sh_la"/>
+            <Glyph value="bn_ss_tta"/>
+            <Glyph value="bn_ss_tt_ra"/>
+            <Glyph value="bn_ss_pa"/>
+            <Glyph value="bn_ss_p_ra"/>
+            <Glyph value="bn_s_kha"/>
+            <Glyph value="bn_s_pa"/>
+            <Glyph value="bn_s_p_ra"/>
+            <Glyph value="bn_s_p_la"/>
+            <Glyph value="bn_rr_ga"/>
+            <Glyph value="bn_aakaar.b"/>
+            <Glyph value="bn_ekaar.b"/>
+            <Glyph value="bn_kha.half"/>
+            <Glyph value="bn_ga.half"/>
+            <Glyph value="bn_jha.half"/>
+            <Glyph value="bn_nna.half"/>
+            <Glyph value="bn_tha.half"/>
+            <Glyph value="bn_dha.half"/>
+            <Glyph value="bn_pa.half"/>
+            <Glyph value="bn_sha.half"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_ekaar"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="27"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="22">
+        <!-- LookupType=6 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=12 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_ikaar"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="bn_ja"/>
+            <Glyph value="bn_nya"/>
+            <Glyph value="bn_pha"/>
+            <Glyph value="bn_la"/>
+            <Glyph value="bn_rra"/>
+            <Glyph value="bn_rri"/>
+            <Glyph value="bn_lli"/>
+            <Glyph value="bn_k_ta"/>
+            <Glyph value="bn_k_t_ba"/>
+            <Glyph value="bn_k_t_ra"/>
+            <Glyph value="bn_k_ra"/>
+            <Glyph value="bn_k_ra.alt01"/>
+            <Glyph value="bn_k_la"/>
+            <Glyph value="bn_kh_ba"/>
+            <Glyph value="bn_kh_ra"/>
+            <Glyph value="bn_ga_ukaar"/>
+            <Glyph value="bn_g_ga"/>
+            <Glyph value="bn_g_da"/>
+            <Glyph value="bn_g_dha"/>
+            <Glyph value="bn_g_dh_ba"/>
+            <Glyph value="bn_g_dh_ra"/>
+            <Glyph value="bn_g_ra_ukaar"/>
+            <Glyph value="bn_g_ra_uukaar"/>
+            <Glyph value="bn_ng_kha"/>
+            <Glyph value="bn_ng_ga"/>
+            <Glyph value="bn_ng_g_ra"/>
+            <Glyph value="bn_c_ca"/>
+            <Glyph value="bn_ny_ca"/>
+            <Glyph value="bn_ny_jha"/>
+            <Glyph value="bn_ny_ra"/>
+            <Glyph value="bn_nn_dda"/>
+            <Glyph value="bn_nn_dda.alt01"/>
+            <Glyph value="bn_nn_dd_ra"/>
+            <Glyph value="bn_nn_ddha"/>
+            <Glyph value="bn_t_ta"/>
+            <Glyph value="bn_t_t_ba"/>
+            <Glyph value="bn_th_ra_ukaar"/>
+            <Glyph value="bn_th_ra_uukaar"/>
+            <Glyph value="bn_d_da"/>
+            <Glyph value="bn_d_d_ba"/>
+            <Glyph value="bn_d_dha"/>
+            <Glyph value="bn_d_dh_ba"/>
+            <Glyph value="bn_d_bha"/>
+            <Glyph value="bn_d_bh_ra"/>
+            <Glyph value="bn_d_ma"/>
+            <Glyph value="bn_d_ra_ukaar"/>
+            <Glyph value="bn_d_ra_uukaar"/>
+            <Glyph value="bn_n_ta"/>
+            <Glyph value="bn_n_t_ba"/>
+            <Glyph value="bn_n_sa"/>
+            <Glyph value="bn_p_ta"/>
+            <Glyph value="bn_p_ra_ukaar"/>
+            <Glyph value="bn_p_ra_uukaar"/>
+            <Glyph value="bn_b_da"/>
+            <Glyph value="bn_b_bha"/>
+            <Glyph value="bn_m_bha"/>
+            <Glyph value="bn_l_ka"/>
+            <Glyph value="bn_l_dda"/>
+            <Glyph value="bn_l_da"/>
+            <Glyph value="bn_sha_ukaar"/>
+            <Glyph value="bn_sh_ra_ukaar"/>
+            <Glyph value="bn_sh_ra_uukaar"/>
+            <Glyph value="bn_ss_k_ra"/>
+            <Glyph value="bn_ss_nna"/>
+            <Glyph value="bn_s_k_ra"/>
+            <Glyph value="bn_s_kha"/>
+            <Glyph value="bn_s_ta"/>
+            <Glyph value="bn_s_ta_ukaar"/>
+            <Glyph value="bn_s_t_ba"/>
+            <Glyph value="bn_s_na"/>
+            <Glyph value="bn_s_ra_ukaar"/>
+            <Glyph value="bn_s_ra_uukaar"/>
+            <Glyph value="bn_ha_rikaar"/>
+            <Glyph value="bn_h_nna"/>
+            <Glyph value="bn_h_yya"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="28"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_ikaar"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="bn_k_ma"/>
+            <Glyph value="bn_k_ssa"/>
+            <Glyph value="bn_k_ss_nna"/>
+            <Glyph value="bn_k_ss_ba"/>
+            <Glyph value="bn_k_ss_ma"/>
+            <Glyph value="bn_k_ss_ra"/>
+            <Glyph value="bn_k_sa"/>
+            <Glyph value="bn_g_ma"/>
+            <Glyph value="bn_ng_k_ssa"/>
+            <Glyph value="bn_ng_k_ss_ra"/>
+            <Glyph value="bn_ng_gha"/>
+            <Glyph value="bn_ng_gh_ra"/>
+            <Glyph value="bn_ng_ma"/>
+            <Glyph value="bn_c_cha"/>
+            <Glyph value="bn_c_ch_ba"/>
+            <Glyph value="bn_c_ch_ra"/>
+            <Glyph value="bn_c_nya"/>
+            <Glyph value="bn_j_ja"/>
+            <Glyph value="bn_j_j_ba"/>
+            <Glyph value="bn_j_jha"/>
+            <Glyph value="bn_j_nya"/>
+            <Glyph value="bn_j_ba"/>
+            <Glyph value="bn_j_ra"/>
+            <Glyph value="bn_dd_dda"/>
+            <Glyph value="bn_nn_ma"/>
+            <Glyph value="bn_t_ma"/>
+            <Glyph value="bn_d_ga"/>
+            <Glyph value="bn_d_gha"/>
+            <Glyph value="bn_dh_ba"/>
+            <Glyph value="bn_n_k_ta"/>
+            <Glyph value="bn_n_jha"/>
+            <Glyph value="bn_n_ma"/>
+            <Glyph value="bn_p_sa"/>
+            <Glyph value="bn_b_ja"/>
+            <Glyph value="bn_b_ba"/>
+            <Glyph value="bn_m_pa"/>
+            <Glyph value="bn_m_p_ra"/>
+            <Glyph value="bn_m_pha"/>
+            <Glyph value="bn_m_ma"/>
+            <Glyph value="bn_l_pha"/>
+            <Glyph value="bn_l_ma"/>
+            <Glyph value="bn_l_sa"/>
+            <Glyph value="bn_sh_ca"/>
+            <Glyph value="bn_sh_cha"/>
+            <Glyph value="bn_sh_ma"/>
+            <Glyph value="bn_ss_pa"/>
+            <Glyph value="bn_ss_p_ra"/>
+            <Glyph value="bn_ss_pha"/>
+            <Glyph value="bn_ss_ma"/>
+            <Glyph value="bn_s_pa"/>
+            <Glyph value="bn_s_p_ra"/>
+            <Glyph value="bn_s_p_la"/>
+            <Glyph value="bn_s_pha"/>
+            <Glyph value="bn_s_ma"/>
+            <Glyph value="bn_h_ma"/>
+            <Glyph value="bn_rr_ga"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="29"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="2" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_ikaar.b"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="bn_ja"/>
+            <Glyph value="bn_nya"/>
+            <Glyph value="bn_pha"/>
+            <Glyph value="bn_la"/>
+            <Glyph value="bn_rra"/>
+            <Glyph value="bn_rri"/>
+            <Glyph value="bn_lli"/>
+            <Glyph value="bn_k_ta"/>
+            <Glyph value="bn_k_t_ba"/>
+            <Glyph value="bn_k_t_ra"/>
+            <Glyph value="bn_k_ra"/>
+            <Glyph value="bn_k_ra.alt01"/>
+            <Glyph value="bn_k_la"/>
+            <Glyph value="bn_kh_ba"/>
+            <Glyph value="bn_kh_ra"/>
+            <Glyph value="bn_ga_ukaar"/>
+            <Glyph value="bn_g_ga"/>
+            <Glyph value="bn_g_da"/>
+            <Glyph value="bn_g_dha"/>
+            <Glyph value="bn_g_dh_ba"/>
+            <Glyph value="bn_g_dh_ra"/>
+            <Glyph value="bn_g_ra_ukaar"/>
+            <Glyph value="bn_g_ra_uukaar"/>
+            <Glyph value="bn_ng_kha"/>
+            <Glyph value="bn_ng_ga"/>
+            <Glyph value="bn_ng_g_ra"/>
+            <Glyph value="bn_c_ca"/>
+            <Glyph value="bn_ny_ca"/>
+            <Glyph value="bn_ny_jha"/>
+            <Glyph value="bn_ny_ra"/>
+            <Glyph value="bn_nn_dda"/>
+            <Glyph value="bn_nn_dda.alt01"/>
+            <Glyph value="bn_nn_dd_ra"/>
+            <Glyph value="bn_nn_ddha"/>
+            <Glyph value="bn_t_ta"/>
+            <Glyph value="bn_t_t_ba"/>
+            <Glyph value="bn_th_ra_ukaar"/>
+            <Glyph value="bn_th_ra_uukaar"/>
+            <Glyph value="bn_d_da"/>
+            <Glyph value="bn_d_d_ba"/>
+            <Glyph value="bn_d_dha"/>
+            <Glyph value="bn_d_dh_ba"/>
+            <Glyph value="bn_d_bha"/>
+            <Glyph value="bn_d_bh_ra"/>
+            <Glyph value="bn_d_ma"/>
+            <Glyph value="bn_d_ra_ukaar"/>
+            <Glyph value="bn_d_ra_uukaar"/>
+            <Glyph value="bn_n_ta"/>
+            <Glyph value="bn_n_t_ba"/>
+            <Glyph value="bn_n_sa"/>
+            <Glyph value="bn_p_ta"/>
+            <Glyph value="bn_p_ra_ukaar"/>
+            <Glyph value="bn_p_ra_uukaar"/>
+            <Glyph value="bn_b_da"/>
+            <Glyph value="bn_b_bha"/>
+            <Glyph value="bn_m_bha"/>
+            <Glyph value="bn_l_ka"/>
+            <Glyph value="bn_l_dda"/>
+            <Glyph value="bn_l_da"/>
+            <Glyph value="bn_sha_ukaar"/>
+            <Glyph value="bn_sh_ra_ukaar"/>
+            <Glyph value="bn_sh_ra_uukaar"/>
+            <Glyph value="bn_ss_k_ra"/>
+            <Glyph value="bn_ss_nna"/>
+            <Glyph value="bn_s_k_ra"/>
+            <Glyph value="bn_s_kha"/>
+            <Glyph value="bn_s_ta"/>
+            <Glyph value="bn_s_ta_ukaar"/>
+            <Glyph value="bn_s_t_ba"/>
+            <Glyph value="bn_s_na"/>
+            <Glyph value="bn_s_ra_ukaar"/>
+            <Glyph value="bn_s_ra_uukaar"/>
+            <Glyph value="bn_ha_rikaar"/>
+            <Glyph value="bn_h_nna"/>
+            <Glyph value="bn_h_yya"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="29"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="3" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_ikaar.b"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="bn_k_ma"/>
+            <Glyph value="bn_k_ssa"/>
+            <Glyph value="bn_k_ss_nna"/>
+            <Glyph value="bn_k_ss_ba"/>
+            <Glyph value="bn_k_ss_ma"/>
+            <Glyph value="bn_k_ss_ra"/>
+            <Glyph value="bn_k_sa"/>
+            <Glyph value="bn_g_ma"/>
+            <Glyph value="bn_ng_k_ssa"/>
+            <Glyph value="bn_ng_k_ss_ra"/>
+            <Glyph value="bn_ng_gha"/>
+            <Glyph value="bn_ng_gh_ra"/>
+            <Glyph value="bn_ng_ma"/>
+            <Glyph value="bn_c_cha"/>
+            <Glyph value="bn_c_ch_ba"/>
+            <Glyph value="bn_c_ch_ra"/>
+            <Glyph value="bn_c_nya"/>
+            <Glyph value="bn_j_ja"/>
+            <Glyph value="bn_j_j_ba"/>
+            <Glyph value="bn_j_jha"/>
+            <Glyph value="bn_j_nya"/>
+            <Glyph value="bn_j_ba"/>
+            <Glyph value="bn_j_ra"/>
+            <Glyph value="bn_dd_dda"/>
+            <Glyph value="bn_nn_ma"/>
+            <Glyph value="bn_t_ma"/>
+            <Glyph value="bn_d_ga"/>
+            <Glyph value="bn_d_gha"/>
+            <Glyph value="bn_dh_ba"/>
+            <Glyph value="bn_n_k_ta"/>
+            <Glyph value="bn_n_jha"/>
+            <Glyph value="bn_n_ma"/>
+            <Glyph value="bn_p_sa"/>
+            <Glyph value="bn_b_ja"/>
+            <Glyph value="bn_b_ba"/>
+            <Glyph value="bn_m_pa"/>
+            <Glyph value="bn_m_p_ra"/>
+            <Glyph value="bn_m_pha"/>
+            <Glyph value="bn_m_ma"/>
+            <Glyph value="bn_l_pha"/>
+            <Glyph value="bn_l_ma"/>
+            <Glyph value="bn_l_sa"/>
+            <Glyph value="bn_sh_ca"/>
+            <Glyph value="bn_sh_cha"/>
+            <Glyph value="bn_sh_ma"/>
+            <Glyph value="bn_ss_pa"/>
+            <Glyph value="bn_ss_p_ra"/>
+            <Glyph value="bn_ss_pha"/>
+            <Glyph value="bn_ss_ma"/>
+            <Glyph value="bn_s_pa"/>
+            <Glyph value="bn_s_p_ra"/>
+            <Glyph value="bn_s_p_la"/>
+            <Glyph value="bn_s_pha"/>
+            <Glyph value="bn_s_ma"/>
+            <Glyph value="bn_h_ma"/>
+            <Glyph value="bn_rr_ga"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="30"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="4" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_ikaar"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="bn_tta"/>
+            <Glyph value="bn_ttha"/>
+            <Glyph value="bn_k_tta"/>
+            <Glyph value="bn_k_tt_ra"/>
+            <Glyph value="bn_tt_tta"/>
+            <Glyph value="bn_tt_ba"/>
+            <Glyph value="bn_tt_ra"/>
+            <Glyph value="bn_tth_ra"/>
+            <Glyph value="bn_nn_tta"/>
+            <Glyph value="bn_nn_ttha"/>
+            <Glyph value="bn_n_tta"/>
+            <Glyph value="bn_n_tt_ra"/>
+            <Glyph value="bn_n_ttha"/>
+            <Glyph value="bn_p_tta"/>
+            <Glyph value="bn_ph_tta"/>
+            <Glyph value="bn_l_tta"/>
+            <Glyph value="bn_sh_tta"/>
+            <Glyph value="bn_ss_tta"/>
+            <Glyph value="bn_ss_tt_ra"/>
+            <Glyph value="bn_ss_ttha"/>
+            <Glyph value="bn_s_tta"/>
+            <Glyph value="bn_s_tt_ra"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="30"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="5" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_ikaar.b"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="bn_tta"/>
+            <Glyph value="bn_ttha"/>
+            <Glyph value="bn_k_tta"/>
+            <Glyph value="bn_k_tt_ra"/>
+            <Glyph value="bn_tt_tta"/>
+            <Glyph value="bn_tt_ba"/>
+            <Glyph value="bn_tt_ra"/>
+            <Glyph value="bn_tth_ra"/>
+            <Glyph value="bn_nn_tta"/>
+            <Glyph value="bn_nn_ttha"/>
+            <Glyph value="bn_n_tta"/>
+            <Glyph value="bn_n_tt_ra"/>
+            <Glyph value="bn_n_ttha"/>
+            <Glyph value="bn_p_tta"/>
+            <Glyph value="bn_ph_tta"/>
+            <Glyph value="bn_l_tta"/>
+            <Glyph value="bn_sh_tta"/>
+            <Glyph value="bn_ss_tta"/>
+            <Glyph value="bn_ss_tt_ra"/>
+            <Glyph value="bn_ss_ttha"/>
+            <Glyph value="bn_s_tta"/>
+            <Glyph value="bn_s_tt_ra"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="31"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="6" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0">
+            <Glyph value="bn_ka"/>
+            <Glyph value="bn_ja"/>
+            <Glyph value="bn_jha"/>
+            <Glyph value="bn_dda"/>
+            <Glyph value="bn_ta"/>
+            <Glyph value="bn_bha"/>
+            <Glyph value="bn_la"/>
+            <Glyph value="bn_rra"/>
+            <Glyph value="bn_lli"/>
+            <Glyph value="bn_k_ka"/>
+            <Glyph value="bn_k_na"/>
+            <Glyph value="bn_k_ba"/>
+            <Glyph value="bn_k_ra"/>
+            <Glyph value="bn_k_ra.alt01"/>
+            <Glyph value="bn_k_la"/>
+            <Glyph value="bn_ga_ukaar"/>
+            <Glyph value="bn_g_dha"/>
+            <Glyph value="bn_g_dh_ba"/>
+            <Glyph value="bn_g_dh_ra"/>
+            <Glyph value="bn_g_ra_ukaar"/>
+            <Glyph value="bn_g_ra_uukaar"/>
+            <Glyph value="bn_ng_ka"/>
+            <Glyph value="bn_ng_k_ra"/>
+            <Glyph value="bn_ng_ga"/>
+            <Glyph value="bn_ng_g_ra"/>
+            <Glyph value="bn_j_ba"/>
+            <Glyph value="bn_j_ra"/>
+            <Glyph value="bn_ny_ca"/>
+            <Glyph value="bn_ny_cha"/>
+            <Glyph value="bn_ny_ja"/>
+            <Glyph value="bn_dd_ra"/>
+            <Glyph value="bn_nn_dda"/>
+            <Glyph value="bn_nn_ddha"/>
+            <Glyph value="bn_t_ta"/>
+            <Glyph value="bn_t_t_ba"/>
+            <Glyph value="bn_t_t_ra"/>
+            <Glyph value="bn_t_tha"/>
+            <Glyph value="bn_t_na"/>
+            <Glyph value="bn_t_ba"/>
+            <Glyph value="bn_t_ra.alt01"/>
+            <Glyph value="bn_d_da"/>
+            <Glyph value="bn_d_d_ba"/>
+            <Glyph value="bn_d_dha"/>
+            <Glyph value="bn_d_dh_ba"/>
+            <Glyph value="bn_dh_ra_ukaar"/>
+            <Glyph value="bn_dh_ra_uukaar"/>
+            <Glyph value="bn_n_ttha"/>
+            <Glyph value="bn_n_dda"/>
+            <Glyph value="bn_n_dd_ra"/>
+            <Glyph value="bn_n_ta"/>
+            <Glyph value="bn_n_t_ba"/>
+            <Glyph value="bn_n_da"/>
+            <Glyph value="bn_n_d_ba"/>
+            <Glyph value="bn_n_d_ra"/>
+            <Glyph value="bn_n_dha"/>
+            <Glyph value="bn_n_dh_ba"/>
+            <Glyph value="bn_n_dh_ra"/>
+            <Glyph value="bn_n_ba"/>
+            <Glyph value="bn_n_sa"/>
+            <Glyph value="bn_p_ta"/>
+            <Glyph value="bn_p_t_ra"/>
+            <Glyph value="bn_b_da"/>
+            <Glyph value="bn_b_dha"/>
+            <Glyph value="bn_b_bha"/>
+            <Glyph value="bn_m_na"/>
+            <Glyph value="bn_m_ba"/>
+            <Glyph value="bn_m_bha"/>
+            <Glyph value="bn_m_ra"/>
+            <Glyph value="bn_m_la"/>
+            <Glyph value="bn_l_ga"/>
+            <Glyph value="bn_l_pa"/>
+            <Glyph value="bn_l_ra"/>
+            <Glyph value="bn_l_la"/>
+            <Glyph value="bn_ss_ka"/>
+            <Glyph value="bn_ss_ttha"/>
+            <Glyph value="bn_ss_ba"/>
+            <Glyph value="bn_s_ta"/>
+            <Glyph value="bn_s_t_ba"/>
+            <Glyph value="bn_s_ra"/>
+            <Glyph value="bn_ha_rikaar"/>
+            <Glyph value="bn_h_nna"/>
+            <Glyph value="bn_h_yya"/>
+            <Glyph value="asa_ra_ukaar"/>
+            <Glyph value="asa_ra_uukaar"/>
+            <Glyph value="asa_ba_ukaar"/>
+            <Glyph value="asa_ba_uukaar"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_iikaar"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="31"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="7" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0">
+            <Glyph value="bn_pha"/>
+            <Glyph value="bn_rri"/>
+            <Glyph value="bn_k_ta"/>
+            <Glyph value="bn_k_t_ba"/>
+            <Glyph value="bn_k_t_ra"/>
+            <Glyph value="bn_k_ma"/>
+            <Glyph value="bn_k_ssa"/>
+            <Glyph value="bn_k_ss_nna"/>
+            <Glyph value="bn_k_ss_ba"/>
+            <Glyph value="bn_k_ss_ma"/>
+            <Glyph value="bn_k_ss_ra"/>
+            <Glyph value="bn_k_sa"/>
+            <Glyph value="bn_g_da"/>
+            <Glyph value="bn_g_ma"/>
+            <Glyph value="bn_ng_k_ssa"/>
+            <Glyph value="bn_ng_k_ss_ra"/>
+            <Glyph value="bn_ng_kha"/>
+            <Glyph value="bn_ng_gha"/>
+            <Glyph value="bn_ng_gh_ra"/>
+            <Glyph value="bn_ng_ma"/>
+            <Glyph value="bn_c_ca"/>
+            <Glyph value="bn_c_cha"/>
+            <Glyph value="bn_c_ch_ba"/>
+            <Glyph value="bn_c_ch_ra"/>
+            <Glyph value="bn_c_nya"/>
+            <Glyph value="bn_j_ja"/>
+            <Glyph value="bn_j_j_ba"/>
+            <Glyph value="bn_j_jha"/>
+            <Glyph value="bn_j_nya"/>
+            <Glyph value="bn_ny_jha"/>
+            <Glyph value="bn_ny_ra"/>
+            <Glyph value="bn_dd_dda"/>
+            <Glyph value="bn_nn_dda.alt01"/>
+            <Glyph value="bn_nn_dd_ra"/>
+            <Glyph value="bn_nn_ma"/>
+            <Glyph value="bn_t_ma"/>
+            <Glyph value="bn_t_ra_ukaar"/>
+            <Glyph value="bn_t_ra_uukaar"/>
+            <Glyph value="bn_th_ra_ukaar"/>
+            <Glyph value="bn_th_ra_uukaar"/>
+            <Glyph value="bn_d_ga"/>
+            <Glyph value="bn_d_gha"/>
+            <Glyph value="bn_d_ma"/>
+            <Glyph value="bn_d_ra_ukaar"/>
+            <Glyph value="bn_d_ra_uukaar"/>
+            <Glyph value="bn_dh_ba"/>
+            <Glyph value="bn_n_k_ta"/>
+            <Glyph value="bn_n_jha"/>
+            <Glyph value="bn_n_ma"/>
+            <Glyph value="bn_p_ra_ukaar"/>
+            <Glyph value="bn_p_ra_uukaar"/>
+            <Glyph value="bn_p_sa"/>
+            <Glyph value="bn_ph_ra"/>
+            <Glyph value="bn_ph_la"/>
+            <Glyph value="bn_b_ja"/>
+            <Glyph value="bn_b_ba"/>
+            <Glyph value="bn_b_ra_ukaar"/>
+            <Glyph value="bn_b_ra_uukaar"/>
+            <Glyph value="bn_b_da_ukaar"/>
+            <Glyph value="bn_b_da_uukaar"/>
+            <Glyph value="bn_bh_ra_ukaar"/>
+            <Glyph value="bn_bh_ra_uukaar"/>
+            <Glyph value="bn_m_pa"/>
+            <Glyph value="bn_m_p_ra"/>
+            <Glyph value="bn_m_pha"/>
+            <Glyph value="bn_m_ma"/>
+            <Glyph value="bn_ra_ukaar"/>
+            <Glyph value="bn_ra_uukaar"/>
+            <Glyph value="bn_l_ka"/>
+            <Glyph value="bn_l_dda"/>
+            <Glyph value="bn_l_da"/>
+            <Glyph value="bn_l_pha"/>
+            <Glyph value="bn_l_ma"/>
+            <Glyph value="bn_l_sa"/>
+            <Glyph value="bn_sha_ukaar"/>
+            <Glyph value="bn_sh_ca"/>
+            <Glyph value="bn_sh_cha"/>
+            <Glyph value="bn_sh_ma"/>
+            <Glyph value="bn_sh_ra_ukaar"/>
+            <Glyph value="bn_sh_ra_uukaar"/>
+            <Glyph value="bn_ss_k_ra"/>
+            <Glyph value="bn_ss_nna"/>
+            <Glyph value="bn_ss_pa"/>
+            <Glyph value="bn_ss_p_ra"/>
+            <Glyph value="bn_ss_pha"/>
+            <Glyph value="bn_ss_ma"/>
+            <Glyph value="bn_s_ka"/>
+            <Glyph value="bn_s_k_ba"/>
+            <Glyph value="bn_s_k_ra"/>
+            <Glyph value="bn_s_kha"/>
+            <Glyph value="bn_s_ta_ukaar"/>
+            <Glyph value="bn_s_t_ra"/>
+            <Glyph value="bn_s_na"/>
+            <Glyph value="bn_s_pa"/>
+            <Glyph value="bn_s_p_ra"/>
+            <Glyph value="bn_s_p_la"/>
+            <Glyph value="bn_s_pha"/>
+            <Glyph value="bn_s_ma"/>
+            <Glyph value="bn_s_ra_ukaar"/>
+            <Glyph value="bn_s_ra_uukaar"/>
+            <Glyph value="bn_h_ma"/>
+            <Glyph value="bn_rr_ga"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_iikaar"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="32"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="8" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0">
+            <Glyph value="bn_ka"/>
+            <Glyph value="bn_ja"/>
+            <Glyph value="bn_jha"/>
+            <Glyph value="bn_dda"/>
+            <Glyph value="bn_ta"/>
+            <Glyph value="bn_bha"/>
+            <Glyph value="bn_la"/>
+            <Glyph value="bn_rra"/>
+            <Glyph value="bn_lli"/>
+            <Glyph value="bn_k_ka"/>
+            <Glyph value="bn_k_na"/>
+            <Glyph value="bn_k_ba"/>
+            <Glyph value="bn_k_ra"/>
+            <Glyph value="bn_k_ra.alt01"/>
+            <Glyph value="bn_k_la"/>
+            <Glyph value="bn_ga_ukaar"/>
+            <Glyph value="bn_g_dha"/>
+            <Glyph value="bn_g_dh_ba"/>
+            <Glyph value="bn_g_dh_ra"/>
+            <Glyph value="bn_g_ra_ukaar"/>
+            <Glyph value="bn_g_ra_uukaar"/>
+            <Glyph value="bn_ng_ka"/>
+            <Glyph value="bn_ng_k_ra"/>
+            <Glyph value="bn_ng_ga"/>
+            <Glyph value="bn_ng_g_ra"/>
+            <Glyph value="bn_j_ba"/>
+            <Glyph value="bn_j_ra"/>
+            <Glyph value="bn_ny_ca"/>
+            <Glyph value="bn_ny_cha"/>
+            <Glyph value="bn_ny_ja"/>
+            <Glyph value="bn_dd_ra"/>
+            <Glyph value="bn_nn_dda"/>
+            <Glyph value="bn_nn_ddha"/>
+            <Glyph value="bn_t_ta"/>
+            <Glyph value="bn_t_t_ba"/>
+            <Glyph value="bn_t_t_ra"/>
+            <Glyph value="bn_t_tha"/>
+            <Glyph value="bn_t_na"/>
+            <Glyph value="bn_t_ba"/>
+            <Glyph value="bn_t_ra.alt01"/>
+            <Glyph value="bn_d_da"/>
+            <Glyph value="bn_d_d_ba"/>
+            <Glyph value="bn_d_dha"/>
+            <Glyph value="bn_d_dh_ba"/>
+            <Glyph value="bn_dh_ra_ukaar"/>
+            <Glyph value="bn_dh_ra_uukaar"/>
+            <Glyph value="bn_n_ttha"/>
+            <Glyph value="bn_n_dda"/>
+            <Glyph value="bn_n_dd_ra"/>
+            <Glyph value="bn_n_ta"/>
+            <Glyph value="bn_n_t_ba"/>
+            <Glyph value="bn_n_da"/>
+            <Glyph value="bn_n_d_ba"/>
+            <Glyph value="bn_n_d_ra"/>
+            <Glyph value="bn_n_dha"/>
+            <Glyph value="bn_n_dh_ba"/>
+            <Glyph value="bn_n_dh_ra"/>
+            <Glyph value="bn_n_ba"/>
+            <Glyph value="bn_n_sa"/>
+            <Glyph value="bn_p_ta"/>
+            <Glyph value="bn_p_t_ra"/>
+            <Glyph value="bn_b_da"/>
+            <Glyph value="bn_b_dha"/>
+            <Glyph value="bn_b_bha"/>
+            <Glyph value="bn_m_na"/>
+            <Glyph value="bn_m_ba"/>
+            <Glyph value="bn_m_bha"/>
+            <Glyph value="bn_m_ra"/>
+            <Glyph value="bn_m_la"/>
+            <Glyph value="bn_l_ga"/>
+            <Glyph value="bn_l_pa"/>
+            <Glyph value="bn_l_ra"/>
+            <Glyph value="bn_l_la"/>
+            <Glyph value="bn_ss_ka"/>
+            <Glyph value="bn_ss_ttha"/>
+            <Glyph value="bn_ss_ba"/>
+            <Glyph value="bn_s_ta"/>
+            <Glyph value="bn_s_t_ba"/>
+            <Glyph value="bn_s_ra"/>
+            <Glyph value="bn_ha_rikaar"/>
+            <Glyph value="bn_h_nna"/>
+            <Glyph value="bn_h_yya"/>
+            <Glyph value="asa_ra_ukaar"/>
+            <Glyph value="asa_ra_uukaar"/>
+            <Glyph value="asa_ba_ukaar"/>
+            <Glyph value="asa_ba_uukaar"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_iikaar.b"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="32"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="9" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0">
+            <Glyph value="bn_pha"/>
+            <Glyph value="bn_rri"/>
+            <Glyph value="bn_k_ta"/>
+            <Glyph value="bn_k_t_ba"/>
+            <Glyph value="bn_k_t_ra"/>
+            <Glyph value="bn_k_ma"/>
+            <Glyph value="bn_k_ssa"/>
+            <Glyph value="bn_k_ss_nna"/>
+            <Glyph value="bn_k_ss_ba"/>
+            <Glyph value="bn_k_ss_ma"/>
+            <Glyph value="bn_k_ss_ra"/>
+            <Glyph value="bn_k_sa"/>
+            <Glyph value="bn_g_da"/>
+            <Glyph value="bn_g_ma"/>
+            <Glyph value="bn_ng_k_ssa"/>
+            <Glyph value="bn_ng_k_ss_ra"/>
+            <Glyph value="bn_ng_kha"/>
+            <Glyph value="bn_ng_gha"/>
+            <Glyph value="bn_ng_gh_ra"/>
+            <Glyph value="bn_ng_ma"/>
+            <Glyph value="bn_c_ca"/>
+            <Glyph value="bn_c_cha"/>
+            <Glyph value="bn_c_ch_ba"/>
+            <Glyph value="bn_c_ch_ra"/>
+            <Glyph value="bn_c_nya"/>
+            <Glyph value="bn_j_ja"/>
+            <Glyph value="bn_j_j_ba"/>
+            <Glyph value="bn_j_jha"/>
+            <Glyph value="bn_j_nya"/>
+            <Glyph value="bn_ny_jha"/>
+            <Glyph value="bn_ny_ra"/>
+            <Glyph value="bn_dd_dda"/>
+            <Glyph value="bn_nn_dda.alt01"/>
+            <Glyph value="bn_nn_dd_ra"/>
+            <Glyph value="bn_nn_ma"/>
+            <Glyph value="bn_t_ma"/>
+            <Glyph value="bn_t_ra_ukaar"/>
+            <Glyph value="bn_t_ra_uukaar"/>
+            <Glyph value="bn_th_ra_ukaar"/>
+            <Glyph value="bn_th_ra_uukaar"/>
+            <Glyph value="bn_d_ga"/>
+            <Glyph value="bn_d_gha"/>
+            <Glyph value="bn_d_ma"/>
+            <Glyph value="bn_d_ra_ukaar"/>
+            <Glyph value="bn_d_ra_uukaar"/>
+            <Glyph value="bn_dh_ba"/>
+            <Glyph value="bn_n_k_ta"/>
+            <Glyph value="bn_n_jha"/>
+            <Glyph value="bn_n_ma"/>
+            <Glyph value="bn_p_ra_ukaar"/>
+            <Glyph value="bn_p_ra_uukaar"/>
+            <Glyph value="bn_p_sa"/>
+            <Glyph value="bn_ph_ra"/>
+            <Glyph value="bn_ph_la"/>
+            <Glyph value="bn_b_ja"/>
+            <Glyph value="bn_b_ba"/>
+            <Glyph value="bn_b_ra_ukaar"/>
+            <Glyph value="bn_b_ra_uukaar"/>
+            <Glyph value="bn_b_da_ukaar"/>
+            <Glyph value="bn_b_da_uukaar"/>
+            <Glyph value="bn_bh_ra_ukaar"/>
+            <Glyph value="bn_bh_ra_uukaar"/>
+            <Glyph value="bn_m_pa"/>
+            <Glyph value="bn_m_p_ra"/>
+            <Glyph value="bn_m_pha"/>
+            <Glyph value="bn_m_ma"/>
+            <Glyph value="bn_ra_ukaar"/>
+            <Glyph value="bn_ra_uukaar"/>
+            <Glyph value="bn_l_ka"/>
+            <Glyph value="bn_l_dda"/>
+            <Glyph value="bn_l_da"/>
+            <Glyph value="bn_l_pha"/>
+            <Glyph value="bn_l_ma"/>
+            <Glyph value="bn_l_sa"/>
+            <Glyph value="bn_sha_ukaar"/>
+            <Glyph value="bn_sh_ca"/>
+            <Glyph value="bn_sh_cha"/>
+            <Glyph value="bn_sh_ma"/>
+            <Glyph value="bn_sh_ra_ukaar"/>
+            <Glyph value="bn_sh_ra_uukaar"/>
+            <Glyph value="bn_ss_k_ra"/>
+            <Glyph value="bn_ss_nna"/>
+            <Glyph value="bn_ss_pa"/>
+            <Glyph value="bn_ss_p_ra"/>
+            <Glyph value="bn_ss_pha"/>
+            <Glyph value="bn_ss_ma"/>
+            <Glyph value="bn_s_ka"/>
+            <Glyph value="bn_s_k_ba"/>
+            <Glyph value="bn_s_k_ra"/>
+            <Glyph value="bn_s_kha"/>
+            <Glyph value="bn_s_ta_ukaar"/>
+            <Glyph value="bn_s_t_ra"/>
+            <Glyph value="bn_s_na"/>
+            <Glyph value="bn_s_pa"/>
+            <Glyph value="bn_s_p_ra"/>
+            <Glyph value="bn_s_p_la"/>
+            <Glyph value="bn_s_pha"/>
+            <Glyph value="bn_s_ma"/>
+            <Glyph value="bn_s_ra_ukaar"/>
+            <Glyph value="bn_s_ra_uukaar"/>
+            <Glyph value="bn_h_ma"/>
+            <Glyph value="bn_rr_ga"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_iikaar.b"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="33"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="10" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0">
+            <Glyph value="bn_tta"/>
+            <Glyph value="bn_ttha"/>
+            <Glyph value="bn_k_tta"/>
+            <Glyph value="bn_k_tt_ra"/>
+            <Glyph value="bn_tt_tta"/>
+            <Glyph value="bn_tt_ba"/>
+            <Glyph value="bn_tt_ra"/>
+            <Glyph value="bn_tth_ra"/>
+            <Glyph value="bn_nn_tta"/>
+            <Glyph value="bn_nn_ttha"/>
+            <Glyph value="bn_n_tta"/>
+            <Glyph value="bn_n_tt_ra"/>
+            <Glyph value="bn_n_ttha"/>
+            <Glyph value="bn_p_tta"/>
+            <Glyph value="bn_ph_tta"/>
+            <Glyph value="bn_l_tta"/>
+            <Glyph value="bn_sh_tta"/>
+            <Glyph value="bn_ss_tta"/>
+            <Glyph value="bn_ss_tt_ra"/>
+            <Glyph value="bn_ss_ttha"/>
+            <Glyph value="bn_s_tta"/>
+            <Glyph value="bn_s_tt_ra"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_iikaar"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="33"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="11" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0">
+            <Glyph value="bn_tta"/>
+            <Glyph value="bn_ttha"/>
+            <Glyph value="bn_k_tta"/>
+            <Glyph value="bn_k_tt_ra"/>
+            <Glyph value="bn_tt_tta"/>
+            <Glyph value="bn_tt_ba"/>
+            <Glyph value="bn_tt_ra"/>
+            <Glyph value="bn_tth_ra"/>
+            <Glyph value="bn_nn_tta"/>
+            <Glyph value="bn_nn_ttha"/>
+            <Glyph value="bn_n_tta"/>
+            <Glyph value="bn_n_tt_ra"/>
+            <Glyph value="bn_n_ttha"/>
+            <Glyph value="bn_p_tta"/>
+            <Glyph value="bn_ph_tta"/>
+            <Glyph value="bn_l_tta"/>
+            <Glyph value="bn_sh_tta"/>
+            <Glyph value="bn_ss_tta"/>
+            <Glyph value="bn_ss_tt_ra"/>
+            <Glyph value="bn_ss_ttha"/>
+            <Glyph value="bn_s_tta"/>
+            <Glyph value="bn_s_tt_ra"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="bn_iikaar.b"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="34"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="23">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="bn_nn_dda" out="bn_nn_dda.alt01"/>
+          <Substitution in="bn_t_ra" out="bn_t_ra.alt01"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="24">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="bn_rikaar" out="bn_ba_phala"/>
+          <Substitution in="bn_rrikaar" out="bn_ba_phala"/>
+          <Substitution in="bn_ukaar" out="bn_ba_phala"/>
+          <Substitution in="bn_uukaar" out="bn_ba_phala"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="25">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="bn_rikaar" out="bn_ra_phala"/>
+          <Substitution in="bn_rrikaar" out="bn_ra_phala"/>
+          <Substitution in="bn_ukaar" out="bn_ra_phala"/>
+          <Substitution in="bn_uukaar" out="bn_ra_phala"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="26">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="bn_ta">
+            <Ligature components="bn_halanth" glyph="bn_khanda_ta"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="27">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="bn_aakaar" out="bn_aakaar.b"/>
+          <Substitution in="bn_ekaar" out="bn_ekaar.b"/>
+          <Substitution in="bn_iikaar" out="bn_iikaar.b"/>
+          <Substitution in="bn_iikaar.fl" out="bn_iikaar.fl.b"/>
+          <Substitution in="bn_iikaar.wi1" out="bn_iikaar.wi1.b"/>
+          <Substitution in="bn_iikaar.wi2" out="bn_iikaar.wi2.b"/>
+          <Substitution in="bn_ikaar" out="bn_ikaar.b"/>
+          <Substitution in="bn_ikaar.fl" out="bn_ikaar.fl.b"/>
+          <Substitution in="bn_ikaar.wi1" out="bn_ikaar.wi1.b"/>
+          <Substitution in="bn_ikaar.wi2" out="bn_ikaar.wi2.b"/>
+          <Substitution in="bn_rikaar" out="bn_rikaar.alt"/>
+          <Substitution in="bn_rrikaar" out="bn_rrikaar.alt"/>
+          <Substitution in="bn_ukaar" out="bn_ukaar.alt"/>
+          <Substitution in="bn_uukaar" out="bn_uukaar.alt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="28">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="bn_ikaar" out="bn_ikaar.wi1"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="29">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="bn_ikaar" out="bn_ikaar.wi2"/>
+          <Substitution in="bn_ikaar.b" out="bn_ikaar.wi1.b"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="30">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="bn_ikaar" out="bn_ikaar.fl"/>
+          <Substitution in="bn_ikaar.b" out="bn_ikaar.wi2.b"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="31">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="bn_iikaar" out="bn_iikaar.wi1"/>
+          <Substitution in="bn_ikaar.b" out="bn_ikaar.fl.b"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="32">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="bn_iikaar" out="bn_iikaar.wi2"/>
+          <Substitution in="bn_iikaar.b" out="bn_iikaar.wi1.b"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="33">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="bn_iikaar" out="bn_iikaar.fl"/>
+          <Substitution in="bn_iikaar.b" out="bn_iikaar.wi2.b"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="34">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="bn_iikaar.b" out="bn_iikaar.fl.b"/>
+        </SingleSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+
+</ttFont>
