@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="product" format="1">
+  <advance width="562"/>
+  <unicode hex="220F"/>
+  <outline>
+    <contour>
+      <point x="127" y="700" type="curve"/>
+      <point x="60" y="699" type="line"/>
+      <point x="60.0" y="472.215406562"/>
+      <point x="63.0910557368" y="231.360996738"/>
+      <point x="78" y="-37" type="curve"/>
+      <point x="95" y="-39"/>
+      <point x="115" y="-37"/>
+      <point x="130" y="-33" type="curve"/>
+      <point x="116.153359829" y="176.829854892"/>
+      <point x="112.303416246" y="536.238066738"/>
+    </contour>
+    <contour>
+      <point x="502" y="-55" type="curve"/>
+      <point x="502.0" y="150.373737374"/>
+      <point x="492.848852766" y="486.073327082"/>
+      <point x="481" y="727" type="curve"/>
+      <point x="422" y="721" type="line"/>
+      <point x="437.897387675" y="549.109495769"/>
+      <point x="446.0" y="140.340996169"/>
+      <point x="446" y="-47" type="curve"/>
+      <point x="458" y="-50"/>
+      <point x="483" y="-55"/>
+    </contour>
+    <contour>
+      <point x="477" y="679" type="curve"/>
+      <point x="481" y="727" type="line"/>
+      <point x="331.645238095" y="727.0"/>
+      <point x="192" y="718"/>
+      <point x="60" y="699" type="curve"/>
+      <point x="62" y="652" type="line"/>
+      <point x="194" y="671"/>
+      <point x="339.669082126" y="679.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>product</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>562</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

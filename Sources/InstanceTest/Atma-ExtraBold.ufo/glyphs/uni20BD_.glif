@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni20BD" format="1">
+  <advance width="634"/>
+  <unicode hex="20BD"/>
+  <outline>
+    <contour>
+      <point x="300" y="-48" type="curve"/>
+      <point x="295" y="27"/>
+      <point x="291" y="103"/>
+      <point x="291" y="181" type="curve" smooth="yes"/>
+      <point x="291" y="336"/>
+      <point x="298" y="489"/>
+      <point x="313" y="635" type="curve"/>
+      <point x="98" y="639" type="line"/>
+      <point x="94" y="590"/>
+      <point x="91" y="546"/>
+      <point x="91" y="498" type="curve" smooth="yes"/>
+      <point x="91" y="351"/>
+      <point x="104" y="173"/>
+      <point x="128" y="-35" type="curve"/>
+      <point x="179" y="-44"/>
+      <point x="247" y="-48"/>
+    </contour>
+    <contour>
+      <point x="620" y="517" type="curve" smooth="yes"/>
+      <point x="620" y="624"/>
+      <point x="531" y="702"/>
+      <point x="361" y="702" type="curve" smooth="yes"/>
+      <point x="269" y="702"/>
+      <point x="183" y="678"/>
+      <point x="98" y="639" type="curve"/>
+      <point x="235" y="531" type="line"/>
+      <point x="276" y="572"/>
+      <point x="302" y="592"/>
+      <point x="339" y="592" type="curve" smooth="yes"/>
+      <point x="377" y="592"/>
+      <point x="400" y="565"/>
+      <point x="400" y="510" type="curve" smooth="yes"/>
+      <point x="400" y="388"/>
+      <point x="289" y="320"/>
+      <point x="8" y="352" type="curve"/>
+      <point x="4" y="317"/>
+      <point x="6" y="281"/>
+      <point x="14" y="238" type="curve"/>
+      <point x="367" y="195"/>
+      <point x="620" y="296"/>
+    </contour>
+    <contour>
+      <point x="400" y="97" type="curve"/>
+      <point x="411" y="123"/>
+      <point x="409" y="182"/>
+      <point x="404" y="206" type="curve"/>
+      <point x="251" y="182"/>
+      <point x="146" y="186"/>
+      <point x="12" y="199" type="curve"/>
+      <point x="6" y="165"/>
+      <point x="13" y="100"/>
+      <point x="18" y="76" type="curve"/>
+      <point x="112" y="60"/>
+      <point x="223" y="63"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>uni20BD</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>634</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fraction" format="1">
+  <advance width="285"/>
+  <unicode hex="2044"/>
+  <outline>
+    <contour>
+      <point x="131" y="263"/>
+      <point x="232" y="472"/>
+      <point x="345" y="757" type="curve"/>
+      <point x="328" y="769"/>
+      <point x="315" y="775"/>
+      <point x="300" y="781" type="curve"/>
+      <point x="175" y="477"/>
+      <point x="89" y="286"/>
+      <point x="-60" y="-1" type="curve"/>
+      <point x="-48" y="-10"/>
+      <point x="-39" y="-20"/>
+      <point x="-20" y="-26" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>fraction</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>285</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflex" format="1">
+  <advance width="260"/>
+  <unicode hex="02C6"/>
+  <outline>
+    <contour>
+      <point x="255" y="607" type="curve"/>
+      <point x="244.330253686" y="597.300230624"/>
+      <point x="236.257408179" y="590.675116078"/>
+      <point x="221" y="584" type="curve"/>
+      <point x="161" y="625"/>
+      <point x="138.100595329" y="653.128987941"/>
+      <point x="107" y="706" type="curve"/>
+      <point x="152" y="709" type="line"/>
+      <point x="126.080141655" y="658.197077644"/>
+      <point x="99.7276816574" y="625.50937716"/>
+      <point x="39" y="583" type="curve"/>
+      <point x="23.706977303" y="590.646511348"/>
+      <point x="13.7242231153" y="598.245135009"/>
+      <point x="5" y="606" type="curve"/>
+      <point x="61.6275748916" y="657.571541419"/>
+      <point x="83" y="686"/>
+      <point x="105" y="736" type="curve"/>
+      <point x="111.539069809" y="737.86830566"/>
+      <point x="123.571428571" y="739.0"/>
+      <point x="131" y="739" type="curve" smooth="yes"/>
+      <point x="136.52" y="739.0"/>
+      <point x="148.466479543" y="737.92225341"/>
+      <point x="154" y="737" type="curve"/>
+      <point x="177.074260222" y="683.828878619"/>
+      <point x="204.450429265" y="653.505605077"/>
+    </contour>
+    <contour>
+      <point x="131.0" y="560.0" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>circumflex</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>260</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
