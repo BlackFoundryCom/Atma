@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greater" format="1">
+  <advance width="501"/>
+  <unicode hex="003E"/>
+  <outline>
+    <contour>
+      <point x="405" y="413" type="line"/>
+      <point x="294" y="329"/>
+      <point x="167" y="259"/>
+      <point x="29" y="200" type="curve"/>
+      <point x="38" y="156"/>
+      <point x="47" y="127"/>
+      <point x="66" y="90" type="curve"/>
+      <point x="190" y="136"/>
+      <point x="380" y="239"/>
+      <point x="472" y="312" type="curve"/>
+      <point x="472" y="376" type="line"/>
+      <point x="380" y="449"/>
+      <point x="190" y="552"/>
+      <point x="66" y="598" type="curve"/>
+      <point x="47" y="561"/>
+      <point x="38" y="532"/>
+      <point x="29" y="488" type="curve"/>
+      <point x="167" y="429"/>
+      <point x="294" y="359"/>
+      <point x="405" y="275" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>greater</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>501</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

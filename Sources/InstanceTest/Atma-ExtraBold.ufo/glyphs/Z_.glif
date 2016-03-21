@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Z" format="1">
+  <advance width="590"/>
+  <unicode hex="005A"/>
+  <outline>
+    <contour>
+      <point x="523" y="-36" type="curve"/>
+      <point x="544" y="16"/>
+      <point x="553" y="83"/>
+      <point x="553" y="154" type="curve"/>
+      <point x="438" y="142"/>
+      <point x="335" y="133"/>
+      <point x="207" y="129" type="curve"/>
+      <point x="328" y="250"/>
+      <point x="458" y="386"/>
+      <point x="552" y="516" type="curve"/>
+      <point x="571" y="557"/>
+      <point x="574" y="614"/>
+      <point x="580" y="660" type="curve"/>
+      <point x="428" y="682"/>
+      <point x="251" y="714"/>
+      <point x="87" y="744" type="curve"/>
+      <point x="56" y="687"/>
+      <point x="48" y="636"/>
+      <point x="48" y="570" type="curve"/>
+      <point x="145" y="557"/>
+      <point x="263" y="543"/>
+      <point x="380" y="543" type="curve"/>
+      <point x="361" y="578" type="line"/>
+      <point x="267" y="427"/>
+      <point x="171" y="306"/>
+      <point x="28" y="164" type="curve"/>
+      <point x="14" y="121"/>
+      <point x="10" y="56"/>
+      <point x="10" y="7" type="curve"/>
+      <point x="141" y="-14"/>
+      <point x="360" y="-35"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>589</integer>
+          <key>y</key>
+          <integer>809</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Z</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>590</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
