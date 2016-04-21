@@ -5,3 +5,5 @@ The Bengali and Latin were developed in parallel as a studio collaboration by Je
 
 The Atma project is led by Black Foundry, a type design foundry based in Paris, France. 
 To contribute, see <a href="https://github.com/TypefactoryNet/Atma">github.com/TypefactoryNet/Atma</a>
+
+<img src="https://github.com/TypefactoryNet/Atma/blob/master/AtmaRegularSample.png?raw=true" />
